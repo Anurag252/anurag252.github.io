@@ -5,8 +5,7 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
-
+---
 
             ## [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
@@ -15,8 +14,6 @@ You are given a **0-indexed** integer array arr, and an m x n integer **matrix**
 Go through each index i in arr starting from index 0 and paint the cell in mat containing the integer arr[i].
 
 Return _the smallest index_ i _at which either a row or a column will be completely painted in_ mat.
-
-
 
 Example 1:
 
@@ -34,13 +31,13 @@ Example 2:
 
 ![image](https://assets.leetcode.com/uploads/2023/01/18/grid2.jpg)
 
-```
+````
 
 **Input:** arr = [2,8,7,4,1,3,5,6,9], mat = [[3,2,5],[1,4,6],[8,7,9]]
 **Output:** 3
 **Explanation:** The second column becomes fully painted at arr[3].
 
-```
+
 
 
 
@@ -100,4 +97,6 @@ Example 2:
     return -1
 
 }
+````
+
 {% endraw %}
