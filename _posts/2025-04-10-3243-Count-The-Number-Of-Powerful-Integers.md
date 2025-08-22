@@ -1,13 +1,13 @@
 ---
-title: "3243 Count The Number Of Powerful Integers"
-date: "2025-04-10T22:09:13+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3243 Count The Number Of Powerful Integers"
+            date: "2025-04-10T22:09:13+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Count the Number of Powerful Integers](https://leetcode.com/problems/count-the-number-of-powerful-integers) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given three integers start, finish, and limit. You are also given a **0-indexed** string s representing a **positive** integer.
 
@@ -61,9 +61,9 @@ Example 3:
 	s only consists of numeric digits which are at most limit.
 	s does not have leading zeros.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def numberOfPowerfulInt(
         self, start: int, finish: int, limit: int, s: str
     ) -> int:
@@ -98,5 +98,5 @@ Example 3:
             return res
 
         return dfs(0, True, True)
-                            {% endraw %}
-                            
+            {% endraw %}
+            

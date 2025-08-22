@@ -1,13 +1,13 @@
 ---
-title: "1170 Shortest Common Supersequence"
-date: "2025-02-28T09:36:07+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1170 Shortest Common Supersequence"
+            date: "2025-02-28T09:36:07+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Shortest Common Supersequence ](https://leetcode.com/problems/shortest-common-supersequence) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Given two strings str1 and str2, return *the shortest string that has both *str1* and *str2* as **subsequences***. If there are multiple valid strings, return **any** of them.
 
@@ -44,9 +44,9 @@ Example 2:
 	1 <= str1.length, str2.length <= 1000
 	str1 and str2 consist of lowercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def shortestCommonSupersequence(self, str1: str, str2: str) -> str:
         # it is possible that s1 is sub sequence of s2 
         # then s2 is ans
@@ -108,5 +108,5 @@ Example 2:
         return ''.join(scs)
 
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "2551 Apply Operations To An Array"
-date: "2025-03-01T05:15:43+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2551 Apply Operations To An Array"
+            date: "2025-03-01T05:15:43+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a **0-indexed** array nums of size n consisting of **non-negative** integers.
 
@@ -58,9 +58,9 @@ Example 2:
 	2 <= nums.length <= 2000
 	0 <= nums[i] <= 1000
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
         arr = []
 
@@ -81,5 +81,5 @@ Example 2:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

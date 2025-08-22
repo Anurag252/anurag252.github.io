@@ -1,13 +1,13 @@
 ---
-title: "1138 Grumpy Bookstore Owner"
-date: "2024-06-21T10:27:40+02:00"
-categories: ["leetcode"]
-tags: [c]
-layout: post
----
+            title: "1138 Grumpy Bookstore Owner"
+            date: "2024-06-21T10:27:40+02:00"
+            categories: ["leetcode"]
+            tags: [c]
+            layout: post
+            ---
+            
 
-
-                            ## [Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is a bookstore owner that has a store open for n minutes. Every minute, some number of customers enter the store. You are given an integer array customers of length n where customers[i] is the number of the customer that enters the store at the start of the ith minute and all those customers leave after the end of that minute.
 
@@ -50,9 +50,9 @@ Example 2:
 	0 <= customers[i] <= 1000
 	grumpy[i] is either 0 or 1.
 
-                            {% raw %}
-                            ```c
-                            int maxSatisfied(int* customers, int customersSize, int* grumpy, int grumpySize, int minutes) {
+            {% raw %}
+            ```c
+            int maxSatisfied(int* customers, int customersSize, int* grumpy, int grumpySize, int minutes) {
     if (customersSize == 0) {
         return 0;
     }
@@ -91,5 +91,5 @@ Example 2:
     return maxAdditionalSatisfied;
 }
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

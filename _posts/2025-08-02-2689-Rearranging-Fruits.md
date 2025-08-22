@@ -1,13 +1,13 @@
 ---
-title: "2689 Rearranging Fruits"
-date: "2025-08-02T22:32:47+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2689 Rearranging Fruits"
+            date: "2025-08-02T22:32:47+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You have two fruit baskets containing n fruits each. You are given two **0-indexed** integer arrays basket1 and basket2 representing the cost of fruit in each basket. You want to make both baskets **equal**. To do so, you can use the following operation as many times as you want:
 
@@ -48,9 +48,9 @@ Example 2:
 	1 <= basket1.length <= 105
 	1 <= basket1[i],basket2[i] <= 109
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def minCost(self, basket1: List[int], basket2: List[int]) -> int:
         freq = Counter()
         m = float("inf")
@@ -71,5 +71,5 @@ Example 2:
             return 0
         merge.sort()
         return sum(min(2 * m, x) for x in merge[: len(merge) // 2])
-                            {% endraw %}
-                            
+            {% endraw %}
+            

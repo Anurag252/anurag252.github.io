@@ -1,13 +1,13 @@
 ---
-title: "1917 Maximum Average Pass Ratio"
-date: "2024-12-15T11:01:46+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1917 Maximum Average Pass Ratio"
+            date: "2024-12-15T11:01:46+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is a school that has classes of students and each class will be having a final exam. You are given a 2D integer array classes, where classes[i] = [passi, totali]. You know beforehand that in the ith class, there are totali total students, but only passi number of students will pass the exam.
 
@@ -47,9 +47,9 @@ Example 2:
 	1 <= passi <= totali <= 105
 	1 <= extraStudents <= 105
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:
         if len(classes) == 0:
             return 0
@@ -88,5 +88,5 @@ Example 2:
         0.66 0.6 1
         0.5 0.66
         """
-                            {% endraw %}
-                            
+            {% endraw %}
+            

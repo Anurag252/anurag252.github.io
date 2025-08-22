@@ -1,13 +1,13 @@
 ---
-title: "2800 Minimum String Length After Removing Substrings"
-date: "2024-10-07T11:40:00+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2800 Minimum String Length After Removing Substrings"
+            date: "2024-10-07T11:40:00+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Minimum String Length After Removing Substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a string s consisting only of **uppercase** English letters.
 
@@ -50,9 +50,9 @@ Example 2:
 	1 <= s.length <= 100
 	s consists only of uppercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def minLength(self, s: str) -> int:
         @cache
         def test(s):
@@ -66,5 +66,5 @@ Example 2:
         return test(s)
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

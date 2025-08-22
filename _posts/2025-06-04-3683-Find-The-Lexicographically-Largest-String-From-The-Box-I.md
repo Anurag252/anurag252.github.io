@@ -1,13 +1,13 @@
 ---
-title: "3683 Find The Lexicographically Largest String From The Box I"
-date: "2025-06-04T22:35:29+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3683 Find The Lexicographically Largest String From The Box I"
+            date: "2025-06-04T22:35:29+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string word, and an integer numFriends.
 
@@ -52,9 +52,9 @@ The only possible split is: "g", "g", "g", and "g".
 	word consists only of lowercase English letters.
 	1 <= numFriends <= word.length
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def answerString(self, words: str, numFriends: int) -> str:
         """
         use higher letter, 
@@ -94,5 +94,5 @@ The only possible split is: "g", "g", "g", and "g".
 
 
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

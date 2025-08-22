@@ -1,13 +1,13 @@
 ---
-title: "2456 Construct Smallest Number From Di String"
-date: "2025-02-18T08:21:13+01:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "2456 Construct Smallest Number From Di String"
+            date: "2025-02-18T08:21:13+01:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** string pattern of length n consisting of the characters 'I' meaning **increasing** and 'D' meaning **decreasing**.
 
@@ -54,9 +54,9 @@ It can be proven that "4321" is the smallest possible num that meets the conditi
 	1 <= pattern.length <= 8
 	pattern consists of only the letters 'I' and 'D'.
 
-                            {% raw %}
-                            ```go
-                            func smallestNumber(pattern string) string {
+            {% raw %}
+            ```go
+            func smallestNumber(pattern string) string {
     // we could try all and backtrack
     // if we find total num of maximas and all need to be unique 
     // lexicographically we need to allocate smaller first 
@@ -121,5 +121,5 @@ func allocate(arr []int, res []int, pattern string, i int) bool {
     }
     return false
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

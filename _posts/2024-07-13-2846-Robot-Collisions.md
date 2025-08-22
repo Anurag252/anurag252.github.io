@@ -1,13 +1,13 @@
 ---
-title: "2846 Robot Collisions"
-date: "2024-07-13T06:47:14+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2846 Robot Collisions"
+            date: "2024-07-13T06:47:14+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Robot Collisions](https://leetcode.com/problems/robot-collisions) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Robot Collisions](https://leetcode.com/problems/robot-collisions) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 There are n **1-indexed** robots, each having a position on a line, health, and movement direction.
 
@@ -71,9 +71,9 @@ Example 3:
 	directions[i] == 'L' or directions[i] == 'R'
 	All values in positions are distinct
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
         stack = []
         arr = []
@@ -108,5 +108,5 @@ Example 3:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

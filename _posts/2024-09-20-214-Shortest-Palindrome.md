@@ -1,13 +1,13 @@
 ---
-title: "214 Shortest Palindrome"
-date: "2024-09-20T22:57:03+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "214 Shortest Palindrome"
+            date: "2024-09-20T22:57:03+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a string s. You can convert s to a palindrome by adding characters in front of it.
 
@@ -38,9 +38,9 @@ Example 2:
 	0 <= s.length <= 5 * 104
 	s consists of lowercase English letters only.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def shortestPalindrome(self, s: str) -> str:
         hash_base = 29
         mod_value = int(1e9 + 7)
@@ -74,5 +74,5 @@ Example 2:
 
         # Prepend the reversed suffix to the original string and return the result
         return reversed_suffix + s
-                            {% endraw %}
-                            
+            {% endraw %}
+            

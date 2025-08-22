@@ -1,13 +1,13 @@
 ---
-title: "2463 Minimum Recolors To Get K Consecutive Black Blocks"
-date: "2025-03-08T05:15:16+01:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "2463 Minimum Recolors To Get K Consecutive Black Blocks"
+            date: "2025-03-08T05:15:16+01:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a **0-indexed** string blocks of length n, where blocks[i] is either 'W' or 'B', representing the color of the ith block. The characters 'W' and 'B' denote the colors white and black, respectively.
 
@@ -54,9 +54,9 @@ Therefore, we return 0.
 	blocks[i] is either 'W' or 'B'.
 	1 <= k <= n
 
-                            {% raw %}
-                            ```go
-                            func minimumRecolors(blocks string, k int) int {
+            {% raw %}
+            ```go
+            func minimumRecolors(blocks string, k int) int {
     black := 0
     white := 0
     left := 0
@@ -96,5 +96,5 @@ Therefore, we return 0.
     count = min(count, white)
     return count
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "2552 Maximum Sum Of Distinct Subarrays With Length K"
-date: "2024-11-19T09:03:25+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2552 Maximum Sum Of Distinct Subarrays With Length K"
+            date: "2024-11-19T09:03:25+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums and an integer k. Find the maximum subarray sum of all the subarrays of nums that meet the following conditions:
 
@@ -55,9 +55,9 @@ We return 0 because no subarrays meet the conditions.
 	1 <= k <= nums.length <= 105
 	1 <= nums[i] <= 105
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:
         s = sum(nums[:k])
         dic = {}
@@ -93,5 +93,5 @@ We return 0 because no subarrays meet the conditions.
         return ans
 
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

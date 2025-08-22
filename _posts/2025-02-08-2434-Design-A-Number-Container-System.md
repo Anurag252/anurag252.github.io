@@ -1,13 +1,13 @@
 ---
-title: "2434 Design A Number Container System"
-date: "2025-02-08T10:08:12+01:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "2434 Design A Number Container System"
+            date: "2025-02-08T10:08:12+01:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Design a number container system that can do the following:
 
@@ -52,9 +52,9 @@ nc.find(10); // Number 10 is at the indices 2, 3, and 5. The smallest index that
 	1 <= index, number <= 109
 	At most 105 calls will be made **in total** to change and find.
 
-                            {% raw %}
-                            ```go
-                            import (
+            {% raw %}
+            ```go
+            import (
 	"fmt"
 	"github.com/emirpasic/gods/trees/redblacktree"
 )
@@ -121,5 +121,5 @@ func (this *NumberContainers) Find(number int) int {
 	}
 	return minNode.Key.(int)
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

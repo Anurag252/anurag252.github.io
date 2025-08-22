@@ -1,13 +1,13 @@
 ---
-title: "3522 Find The Power Of K Size Subarrays I"
-date: "2024-11-16T10:59:48+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3522 Find The Power Of K Size Subarrays I"
+            date: "2024-11-16T10:59:48+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Find the Power of K-Size Subarrays I](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an array of integers nums of length n and a *positive* integer k.
 
@@ -58,9 +58,9 @@ Example 3:
 	1 <= nums[i] <= 105
 	1 <= k <= n
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def resultsArray(self, nums: List[int], k: int) -> List[int]:
 
         left = 0
@@ -98,5 +98,5 @@ Example 3:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

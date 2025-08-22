@@ -1,13 +1,13 @@
 ---
-title: "3266 Find Longest Special Substring That Occurs Thrice Ii"
-date: "2024-12-11T16:37:48+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3266 Find Longest Special Substring That Occurs Thrice Ii"
+            date: "2024-12-11T16:37:48+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s that consists of lowercase English letters.
 
@@ -58,9 +58,9 @@ It can be shown that the maximum length achievable is 1.
 	3 <= s.length <= 5 * 105
 	s consists of only lowercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maximumLength(self, s: str) -> int:
         f = {}
         i = 0
@@ -124,5 +124,5 @@ It can be shown that the maximum length achievable is 1.
         aa 
         4,3,2
         """
-                            {% endraw %}
-                            
+            {% endraw %}
+            

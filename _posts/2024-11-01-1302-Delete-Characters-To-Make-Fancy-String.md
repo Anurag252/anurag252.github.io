@@ -1,13 +1,13 @@
 ---
-title: "1302 Delete Characters To Make Fancy String"
-date: "2024-11-01T19:23:18+05:30"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1302 Delete Characters To Make Fancy String"
+            date: "2024-11-01T19:23:18+05:30"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 A **fancy string** is a string where no **three** **consecutive** characters are equal.
 
@@ -59,9 +59,9 @@ Example 3:
 	1 <= s.length <= 105
 	s consists only of lowercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def makeFancyString(self, s: str) -> str:
 
         curr = ""
@@ -80,5 +80,5 @@ Example 3:
         return "".join(res)
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

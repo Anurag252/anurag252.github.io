@@ -1,13 +1,13 @@
 ---
-title: "1915 Check If One String Swap Can Make Strings Equal"
-date: "2025-02-05T06:22:39+01:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "1915 Check If One String Swap Can Make Strings Equal"
+            date: "2025-02-05T06:22:39+01:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given two strings s1 and s2 of equal length. A **string swap** is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices.
 
@@ -53,9 +53,9 @@ Example 3:
 	s1.length == s2.length
 	s1 and s2 consist of only lowercase English letters.
 
-                            {% raw %}
-                            ```go
-                            func areAlmostEqual(s1 string, s2 string) bool {
+            {% raw %}
+            ```go
+            func areAlmostEqual(s1 string, s2 string) bool {
     
     diff1 := make([]rune, 0)
     diff2 := make([]rune, 0)
@@ -79,5 +79,5 @@ Example 3:
     }
     return false
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

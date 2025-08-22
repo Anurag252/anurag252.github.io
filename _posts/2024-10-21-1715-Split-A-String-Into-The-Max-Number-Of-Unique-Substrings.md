@@ -1,13 +1,13 @@
 ---
-title: "1715 Split A String Into The Max Number Of Unique Substrings"
-date: "2024-10-21T07:37:41+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1715 Split A String Into The Max Number Of Unique Substrings"
+            date: "2024-10-21T07:37:41+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a string s, return *the maximum number of unique substrings that the given string can be split into*.
 
@@ -55,9 +55,9 @@ Example 3:
 
 s contains only lower case English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxUniqueSplit(self, s: str) -> int:
 
         k = set()
@@ -78,5 +78,5 @@ s contains only lower case English letters.
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

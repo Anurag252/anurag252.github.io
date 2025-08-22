@@ -1,13 +1,13 @@
 ---
-title: "3360 Minimum Deletions To Make String K Special"
-date: "2025-06-21T15:04:34+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3360 Minimum Deletions To Make String K Special"
+            date: "2025-06-21T15:04:34+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Minimum Deletions to Make String K-Special](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string word and an integer k.
 
@@ -51,9 +51,9 @@ Example 3:
 	0 <= k <= 105
 	word consists only of lowercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def minimumDeletions(self, word: str, k: int) -> int:
         mp = {}
 
@@ -120,5 +120,5 @@ Example 3:
 
         return res
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "2095 Minimum Number Of Swaps To Make The String Balanced"
-date: "2024-10-08T08:49:36+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2095 Minimum Number Of Swaps To Make The String Balanced"
+            date: "2024-10-08T08:49:36+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** string s of **even** length n. The string consists of **exactly** n / 2 opening brackets '[' and n / 2 closing brackets ']'.
 
@@ -67,9 +67,9 @@ Example 3:
 	s[i] is either '[' or ']'.
 	The number of opening brackets '[' equals n / 2, and the number of closing brackets ']' equals n / 2.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def minSwaps(self, s: str) -> int:
         imbalance = 0
         balance = 0
@@ -93,5 +93,5 @@ Example 3:
 #T[0,n] = T[0,n-2] + 1   if s[n-1] + s[n] does not make a bracket else T[0, n-2] of inf
 
       
-                            {% endraw %}
-                            
+            {% endraw %}
+            

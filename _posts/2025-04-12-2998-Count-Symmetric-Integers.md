@@ -1,13 +1,13 @@
 ---
-title: "2998 Count Symmetric Integers"
-date: "2025-04-12T04:15:23+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2998 Count Symmetric Integers"
+            date: "2025-04-12T04:15:23+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [  Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given two positive integers low and high.
 
@@ -43,9 +43,9 @@ Example 2:
 
 	1 <= low <= high <= 104
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def countSymmetricIntegers(self, low: int, high: int) -> int:
         res = 0
         for k in range(low, high + 1):
@@ -64,5 +64,5 @@ Example 2:
 
         return res
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

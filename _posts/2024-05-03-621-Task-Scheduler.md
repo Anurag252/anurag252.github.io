@@ -1,13 +1,13 @@
 ---
-title: "621 Task Scheduler"
-date: "2024-05-03T23:35:32+02:00"
-categories: ["leetcode"]
-tags: [csharp]
-layout: post
----
+            title: "621 Task Scheduler"
+            date: "2024-05-03T23:35:32+02:00"
+            categories: ["leetcode"]
+            tags: [csharp]
+            layout: post
+            ---
+            
 
-
-                            ## [Task Scheduler](https://leetcode.com/problems/task-scheduler) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Task Scheduler](https://leetcode.com/problems/task-scheduler) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an array of CPU tasks, each represented by letters A to Z, and a cooling time, n. Each cycle or interval allows the completion of one task. Tasks can be completed in any order, but there's a constraint: **identical** tasks must be separated by at least n intervals due to cooling time.
 
@@ -104,9 +104,9 @@ There are only two types of tasks, A and B, which need to be separated by 3 inte
 	tasks[i] is an uppercase English letter.
 	0 <= n <= 100
 
-                            {% raw %}
-                            ```csharp
-                            public class Solution {
+            {% raw %}
+            ```csharp
+            public class Solution {
     public int LeastInterval(char[] tasks, int n) {
         SortedList<char , int> dict = new SortedList<char , int>();
         
@@ -144,5 +144,5 @@ There are only two types of tasks, A and B, which need to be separated by 3 inte
         
     }
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

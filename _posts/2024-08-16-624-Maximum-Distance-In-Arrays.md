@@ -1,17 +1,17 @@
 ---
-title: "624 Maximum Distance In Arrays"
-date: "2024-08-16T07:29:23+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "624 Maximum Distance In Arrays"
+            date: "2024-08-16T07:29:23+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
+            ## [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)null
 
-                            ## [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)null
-
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxDistance(self, arrays: List[List[int]]) -> int:
         start_elem = []
         end_elem = []
@@ -43,5 +43,5 @@ layout: post
         return 0
             
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

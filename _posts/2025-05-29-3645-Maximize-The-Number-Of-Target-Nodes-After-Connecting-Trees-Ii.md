@@ -1,13 +1,13 @@
 ---
-title: "3645 Maximize The Number Of Target Nodes After Connecting Trees Ii"
-date: "2025-05-29T20:12:42+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3645 Maximize The Number Of Target Nodes After Connecting Trees Ii"
+            date: "2025-05-29T20:12:42+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximize the Number of Target Nodes After Connecting Trees II](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Maximize the Number of Target Nodes After Connecting Trees II](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 There exist two **undirected **trees with n and m nodes, labeled from [0, n - 1] and [0, m - 1], respectively.
 
@@ -63,9 +63,9 @@ For every i, connect node i of the first tree with any node of the second tree.
 	0 <= ui, vi < m
 	The input is generated such that edges1 and edges2 represent valid trees.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxTargetNodes(
         self, edges1: List[List[int]], edges2: List[List[int]]
     ) -> List[int]:
@@ -97,5 +97,5 @@ For every i, connect node i of the first tree with any node of the second tree.
         for i in range(n):
             res[i] = count1[color1[i]] + max(count2[0], count2[1])
         return res
-                            {% endraw %}
-                            
+            {% endraw %}
+            

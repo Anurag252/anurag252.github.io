@@ -1,13 +1,13 @@
 ---
-title: "2090 Number Of Ways To Arrive At Destination"
-date: "2025-03-23T17:06:12+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2090 Number Of Ways To Arrive At Destination"
+            date: "2025-03-23T17:06:12+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are in a city that consists of n intersections numbered from 0 to n - 1 with **bi-directional** roads between some intersections. The inputs are generated such that you can reach any intersection from any other intersection and that there is at most one road between any two intersections.
 
@@ -56,9 +56,9 @@ Example 2:
 	There is at most one road connecting any two intersections.
 	You can reach any intersection from any other intersection.
 
-                            {% raw %}
-                            ```python
-                            import heapq
+            {% raw %}
+            ```python
+            import heapq
 from collections import defaultdict
 
 class Solution:
@@ -92,5 +92,5 @@ class Solution:
 
         return ways[n - 1]
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

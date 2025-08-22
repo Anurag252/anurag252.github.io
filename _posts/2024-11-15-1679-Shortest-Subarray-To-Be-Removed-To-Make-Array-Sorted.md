@@ -1,13 +1,13 @@
 ---
-title: "1679 Shortest Subarray To Be Removed To Make Array Sorted"
-date: "2024-11-15T09:56:10+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1679 Shortest Subarray To Be Removed To Make Array Sorted"
+            date: "2024-11-15T09:56:10+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an integer array arr, remove a subarray (can be empty) from arr such that the remaining elements in arr are **non-decreasing**.
 
@@ -55,9 +55,9 @@ Example 3:
 	1 <= arr.length <= 105
 	0 <= arr[i] <= 109
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def findLengthOfShortestSubarray(self, arr: List[int]) -> int:
         right = len(arr) - 1
         while right > 0 and arr[right] >= arr[right - 1]:
@@ -73,5 +73,5 @@ Example 3:
             ans = min(ans, right - left - 1)
             left += 1
         return ans
-                            {% endraw %}
-                            
+            {% endraw %}
+            

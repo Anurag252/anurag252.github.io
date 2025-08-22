@@ -1,13 +1,13 @@
 ---
-title: "73 Set Matrix Zeroes"
-date: "2025-05-21T09:01:35+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "73 Set Matrix Zeroes"
+            date: "2025-05-21T09:01:35+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
 
@@ -52,9 +52,9 @@ Example 2:
 	A simple improvement uses O(m + n) space, but still not the best solution.
 	Could you devise a constant space solution?
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.
@@ -113,5 +113,5 @@ Example 2:
         
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

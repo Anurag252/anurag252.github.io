@@ -1,13 +1,13 @@
 ---
-title: "3491 Find The Maximum Length Of Valid Subsequence Ii"
-date: "2025-07-17T14:56:59+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3491 Find The Maximum Length Of Valid Subsequence Ii"
+            date: "2025-07-17T14:56:59+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)You are given an integer array nums and a **positive** integer k.
+            ## [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)You are given an integer array nums and a **positive** integer k.
 
 A subsequence sub of nums with length x is called **valid** if it satisfies:
 
@@ -45,9 +45,9 @@ The longest valid subsequence is [1, 4, 1, 4].
 	1 <= nums[i] <= 107
 	1 <= k <= 103
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maximumLength(self, nums: List[int], k: int) -> int:
         """
         T[n] = max(T[n-i] + 1)  if (a[i] + a[n-i]) % k == v[n-i]
@@ -129,5 +129,5 @@ The longest valid subsequence is [1, 4, 1, 4].
 
 
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

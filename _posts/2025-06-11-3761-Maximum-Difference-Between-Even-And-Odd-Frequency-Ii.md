@@ -1,13 +1,13 @@
 ---
-title: "3761 Maximum Difference Between Even And Odd Frequency Ii"
-date: "2025-06-11T09:59:59+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3761 Maximum Difference Between Even And Odd Frequency Ii"
+            date: "2025-06-11T09:59:59+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Difference Between Even and Odd Frequency II](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Maximum Difference Between Even and Odd Frequency II](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a string s and an integer k. Your task is to find the **maximum** difference between the frequency of **two** characters, freq[a] - freq[b], in a substring subs of s, such that:
 
@@ -56,9 +56,9 @@ Example 3:
 	The input is generated that at least one substring has a character with an even frequency and a character with an odd frequency.
 	1 <= k <= s.length
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxDifference(self, s: str, k: int) -> int:
         def getStatus(cnt_a: int, cnt_b: int) -> int:
             return ((cnt_a & 1) << 1) | (cnt_b & 1)
@@ -93,5 +93,5 @@ Example 3:
                         )
 
         return ans
-                            {% endraw %}
-                            
+            {% endraw %}
+            

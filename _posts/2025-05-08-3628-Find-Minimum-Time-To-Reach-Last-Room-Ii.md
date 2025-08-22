@@ -1,13 +1,13 @@
 ---
-title: "3628 Find Minimum Time To Reach Last Room Ii"
-date: "2025-05-08T23:10:37+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3628 Find Minimum Time To Reach Last Room Ii"
+            date: "2025-05-08T23:10:37+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Find Minimum Time to Reach Last Room II](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is a dungeon with n x m rooms arranged as a grid.
 
@@ -61,9 +61,9 @@ Example 3:
 	2 <= m == moveTime[i].length <= 750
 	0 <= moveTime[i][j] <= 109
 
-                            {% raw %}
-                            ```python
-                            class State:
+            {% raw %}
+            ```python
+            class State:
     def __init__(self, x, y, dis):
         self.x = x
         self.y = y
@@ -143,5 +143,5 @@ class Solution:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

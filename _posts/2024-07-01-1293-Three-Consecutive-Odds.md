@@ -1,13 +1,13 @@
 ---
-title: "1293 Three Consecutive Odds"
-date: "2024-07-01T12:41:26+02:00"
-categories: ["leetcode"]
-tags: [c]
-layout: post
----
+            title: "1293 Three Consecutive Odds"
+            date: "2024-07-01T12:41:26+02:00"
+            categories: ["leetcode"]
+            tags: [c]
+            layout: post
+            ---
+            
 
-
-                            ## [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
+            ## [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
 
  
 
@@ -38,9 +38,9 @@ Example 2:
 	1 <= arr.length <= 1000
 	1 <= arr[i] <= 1000
 
-                            {% raw %}
-                            ```c
-                            
+            {% raw %}
+            ```c
+            
 bool threeConsecutiveOdds(int* arr, int arrSize) {
     //qsort(arr, arrSize, sizeof(int), compare);
     int a = 0;
@@ -58,5 +58,5 @@ bool threeConsecutiveOdds(int* arr, int arrSize) {
     }
     return false;
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

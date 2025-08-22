@@ -1,13 +1,13 @@
 ---
-title: "2727 Number Of Senior Citizens"
-date: "2024-08-01T10:09:25+02:00"
-categories: ["leetcode"]
-tags: [c]
-layout: post
----
+            title: "2727 Number Of Senior Citizens"
+            date: "2024-08-01T10:09:25+02:00"
+            categories: ["leetcode"]
+            tags: [c]
+            layout: post
+            ---
+            
 
-
-                            ## [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a **0-indexed** array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
 
@@ -50,9 +50,9 @@ Example 2:
 	details[i][10] is either 'M' or 'F' or 'O'.
 	The phone numbers and seat numbers of the passengers are distinct.
 
-                            {% raw %}
-                            ```c
-                            int countSeniors(char ** details, int detailsSize){
+            {% raw %}
+            ```c
+            int countSeniors(char ** details, int detailsSize){
     int result = 0;
 
     for (int i = 0 ; i < detailsSize ; i ++) {
@@ -64,5 +64,5 @@ Example 2:
     return result;
 
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

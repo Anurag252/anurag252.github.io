@@ -1,13 +1,13 @@
 ---
-title: "2503 Longest Subarray With Maximum Bitwise And"
-date: "2024-09-15T00:23:43+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2503 Longest Subarray With Maximum Bitwise And"
+            date: "2024-09-15T00:23:43+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums of size n.
 
@@ -54,9 +54,9 @@ The longest subarray with that value is [4], so we return 1.
 	1 <= nums.length <= 105
 	1 <= nums[i] <= 106
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
         max_val = ans = current_streak = 0
         for num in nums:
@@ -71,5 +71,5 @@ The longest subarray with that value is [4], so we return 1.
 
             ans = max(ans, current_streak)
         return ans   
-                            {% endraw %}
-                            
+            {% endraw %}
+            

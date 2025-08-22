@@ -1,13 +1,13 @@
 ---
-title: "2395 Longest Binary Subsequence Less Than Or Equal To K"
-date: "2025-06-26T09:46:11+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2395 Longest Binary Subsequence Less Than Or Equal To K"
+            date: "2025-06-26T09:46:11+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a binary string s and a positive integer k.
 
@@ -52,9 +52,9 @@ The length of this subsequence is 6, so 6 is returned.
 	s[i] is either '0' or '1'.
 	1 <= k <= 109
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def longestSubsequence(self, s: str, k: int) -> int:
         """
         we find the number and attach leading zeros
@@ -103,5 +103,5 @@ The length of this subsequence is 6, so 6 is returned.
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "2356 Largest Combination With Bitwise And Greater Than Zero"
-date: "2024-11-07T22:20:50+05:30"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2356 Largest Combination With Bitwise And Greater Than Zero"
+            date: "2024-11-07T22:20:50+05:30"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 The **bitwise AND** of an array nums is the bitwise AND of all integers in nums.
 
@@ -52,9 +52,9 @@ The size of the combination is 2, so we return 2.
 	1 <= candidates.length <= 105
 	1 <= candidates[i] <= 107
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def largestCombination(self, candidates: List[int]) -> int:
         res = [0] * 24
         t = 1
@@ -68,5 +68,5 @@ The size of the combination is 2, so we return 2.
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

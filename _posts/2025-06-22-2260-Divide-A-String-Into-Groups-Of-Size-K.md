@@ -1,13 +1,13 @@
 ---
-title: "2260 Divide A String Into Groups Of Size K"
-date: "2025-06-22T08:21:49+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2260 Divide A String Into Groups Of Size K"
+            date: "2025-06-22T08:21:49+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 A string s can be partitioned into groups of size k using the following procedure:
 
@@ -57,9 +57,9 @@ Thus, the 4 groups formed are "abc", "def", "ghi", and "jxx".
 	1 <= k <= 100
 	fill is a lowercase English letter.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def divideString(self, s: str, k: int, fill: str) -> List[str]:
         l = 0
         res = []
@@ -74,5 +74,5 @@ Thus, the 4 groups formed are "abc", "def", "ghi", and "jxx".
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

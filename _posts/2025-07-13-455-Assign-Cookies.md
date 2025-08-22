@@ -1,13 +1,13 @@
 ---
-title: "455 Assign Cookies"
-date: "2025-07-13T07:01:58+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "455 Assign Cookies"
+            date: "2025-07-13T07:01:58+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Assign Cookies](https://leetcode.com/problems/assign-cookies) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Assign Cookies](https://leetcode.com/problems/assign-cookies) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie.
 
@@ -51,9 +51,9 @@ You need to output 2.
 
 **Note:** This question is the same as [ 2410: Maximum Matching of Players With Trainers.](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def findContentChildren(self, players: List[int], trainers: List[int]) -> int:
         """
         there can be multiple possibilities to match, one of these will lead to max
@@ -85,5 +85,5 @@ You need to output 2.
                 st.append(arr[i])
                 i += 1
         return count
-                            {% endraw %}
-                            
+            {% endraw %}
+            

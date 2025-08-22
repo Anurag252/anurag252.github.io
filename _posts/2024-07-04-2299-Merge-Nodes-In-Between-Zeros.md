@@ -1,13 +1,13 @@
 ---
-title: "2299 Merge Nodes In Between Zeros"
-date: "2024-07-04T10:10:20+02:00"
-categories: ["leetcode"]
-tags: [c]
-layout: post
----
+            title: "2299 Merge Nodes In Between Zeros"
+            date: "2024-07-04T10:10:20+02:00"
+            categories: ["leetcode"]
+            tags: [c]
+            layout: post
+            ---
+            
 
-
-                            ## [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given the head of a linked list, which contains a series of integers **separated** by 0's. The **beginning** and **end** of the linked list will have Node.val == 0.
 
@@ -55,9 +55,9 @@ The above figure represents the given linked list. The modified list contains
 	There are **no** two consecutive nodes with Node.val == 0.
 	The **beginning** and **end** of the linked list have Node.val == 0.
 
-                            {% raw %}
-                            ```c
-                            /**
+            {% raw %}
+            ```c
+            /**
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -130,5 +130,5 @@ struct ListNode* mergeNodes(struct ListNode* head) {
 
     return result;
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

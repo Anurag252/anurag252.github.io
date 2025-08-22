@@ -1,13 +1,13 @@
 ---
-title: "386 Lexicographical Numbers"
-date: "2025-06-08T18:06:30+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "386 Lexicographical Numbers"
+            date: "2025-06-08T18:06:30+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an integer n, return all the numbers in the range [1, n] sorted in lexicographical order.
 
@@ -37,9 +37,9 @@ Example 2:
 
 	1 <= n <= 5 * 104
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
 
         def recurse(m):
@@ -58,5 +58,5 @@ Example 2:
                 a += l
         return a
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

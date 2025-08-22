@@ -1,13 +1,13 @@
 ---
-title: "768 Partition Labels"
-date: "2025-03-30T10:38:12+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "768 Partition Labels"
+            date: "2025-03-30T10:38:12+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Partition Labels](https://leetcode.com/problems/partition-labels) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Partition Labels](https://leetcode.com/problems/partition-labels) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s. We want to partition the string into as many parts as possible so that each letter appears in at most one part. For example, the string "ababcc" can be partitioned into ["abab", "cc"], but partitions such as ["aba", "bcc"] or ["ab", "ab", "cc"] are invalid.
 
@@ -46,9 +46,9 @@ Example 2:
 	1 <= s.length <= 500
 	s consists of lowercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def partitionLabels(self, s: str) -> List[int]:
         # create a map of char and last index
         # take a start elem
@@ -80,5 +80,5 @@ Example 2:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

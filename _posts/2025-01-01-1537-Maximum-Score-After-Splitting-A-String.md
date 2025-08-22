@@ -1,13 +1,13 @@
 ---
-title: "1537 Maximum Score After Splitting A String"
-date: "2025-01-01T08:36:58+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1537 Maximum Score After Splitting A String"
+            date: "2025-01-01T08:36:58+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given a string s of zeros and ones, *return the maximum score after splitting the string into two **non-empty** substrings* (i.e. **left** substring and **right** substring).
 
@@ -57,9 +57,9 @@ Example 3:
 	2 <= s.length <= 500
 	The string s consists of characters '0' and '1' only.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxScore(self, s: str) -> int:
         res = 0
         left = []
@@ -84,5 +84,5 @@ Example 3:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

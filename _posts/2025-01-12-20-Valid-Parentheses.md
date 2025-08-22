@@ -1,13 +1,13 @@
 ---
-title: "20 Valid Parentheses"
-date: "2025-01-12T11:35:12+01:00"
-categories: ["leetcode"]
-tags: [javascript]
-layout: post
----
+            title: "20 Valid Parentheses"
+            date: "2025-01-12T11:35:12+01:00"
+            categories: ["leetcode"]
+            tags: [javascript]
+            layout: post
+            ---
+            
 
-
-                            ## [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -50,9 +50,9 @@ Example 4:
 	1 <= s.length <= 104
 	s consists of parentheses only '()[]{}'.
 
-                            {% raw %}
-                            ```javascript
-                            /**
+            {% raw %}
+            ```javascript
+            /**
  * @param {string} s
  * @return {boolean}
  */
@@ -77,5 +77,5 @@ let isValid = (testString) => {
 
     return paran.length == 0
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "776 N Ary Tree Postorder Traversal"
-date: "2024-08-26T07:29:06+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "776 N Ary Tree Postorder Traversal"
+            date: "2024-08-26T07:29:06+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given the root of an n-ary tree, return *the postorder traversal of its nodes' values*.
 
@@ -47,9 +47,9 @@ Example 2:
 
 **Follow up:** Recursive solution is trivial, could you do it iteratively?
 
-                            {% raw %}
-                            ```python
-                            """
+            {% raw %}
+            ```python
+            """
 # Definition for a Node.
 class Node:
     def __init__(self, val=None, children=None):
@@ -68,5 +68,5 @@ class Solution:
         self.cache.append(root.val)
         return self.cache
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

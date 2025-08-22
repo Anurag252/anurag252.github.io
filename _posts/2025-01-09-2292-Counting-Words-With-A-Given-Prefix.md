@@ -1,13 +1,13 @@
 ---
-title: "2292 Counting Words With A Given Prefix"
-date: "2025-01-09T06:45:13+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2292 Counting Words With A Given Prefix"
+            date: "2025-01-09T06:45:13+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an array of strings words and a string pref.
 
@@ -45,9 +45,9 @@ Example 2:
 	1 <= words[i].length, pref.length <= 100
 	words[i] and pref consist of lowercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Trie:
+            {% raw %}
+            ```python
+            class Trie:
     def __init__(self):
         self.dict = {}
 
@@ -87,5 +87,5 @@ class Solution:
         return t.find(pref)
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

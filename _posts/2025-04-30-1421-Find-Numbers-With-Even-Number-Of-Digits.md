@@ -1,13 +1,13 @@
 ---
-title: "1421 Find Numbers With Even Number Of Digits"
-date: "2025-04-30T10:56:35+02:00"
-categories: ["leetcode"]
-tags: [rust]
-layout: post
----
+            title: "1421 Find Numbers With Even Number Of Digits"
+            date: "2025-04-30T10:56:35+02:00"
+            categories: ["leetcode"]
+            tags: [rust]
+            layout: post
+            ---
+            
 
-
-                            ## [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array nums of integers, return how many of them contain an **even number** of digits.
 
@@ -47,9 +47,9 @@ Only 1771 contains an even number of digits.
 	1 <= nums.length <= 500
 	1 <= nums[i] <= 105
 
-                            {% raw %}
-                            ```rust
-                            impl Solution {
+            {% raw %}
+            ```rust
+            impl Solution {
     pub fn find_numbers(nums: Vec<i32>) -> i32 {
         let mut res = 0;
         for num in nums {
@@ -63,5 +63,5 @@ Only 1771 contains an even number of digits.
 
     }
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

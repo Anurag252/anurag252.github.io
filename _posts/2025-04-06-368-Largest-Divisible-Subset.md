@@ -1,13 +1,13 @@
 ---
-title: "368 Largest Divisible Subset"
-date: "2025-04-06T07:01:53+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "368 Largest Divisible Subset"
+            date: "2025-04-06T07:01:53+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a set of **distinct** positive integers nums, return the largest subset answer such that every pair (answer[i], answer[j]) of elements in this subset satisfies:
 
@@ -45,9 +45,9 @@ Example 2:
 	1 <= nums[i] <= 2 * 109
 	All the integers in nums are **unique**.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         nums.sort()
         if len(nums) == 1:
@@ -96,5 +96,5 @@ Example 2:
         # 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

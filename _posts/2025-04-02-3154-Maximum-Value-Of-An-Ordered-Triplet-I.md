@@ -1,13 +1,13 @@
 ---
-title: "3154 Maximum Value Of An Ordered Triplet I"
-date: "2025-04-02T08:01:26+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3154 Maximum Value Of An Ordered Triplet I"
+            date: "2025-04-02T08:01:26+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Maximum Value of an Ordered Triplet I](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a **0-indexed** integer array nums.
 
@@ -56,9 +56,9 @@ Example 3:
 	3 <= nums.length <= 100
 	1 <= nums[i] <= 106
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maximumTripletValue(self, nums: List[int]) -> int:
         pos = [0] * len(nums)
         pos1 = [0] * len(nums)
@@ -91,5 +91,5 @@ Example 3:
         return mx
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "2794 Maximum Number Of Moves In A Grid"
-date: "2024-10-29T09:42:00+05:30"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2794 Maximum Number Of Moves In A Grid"
+            date: "2024-10-29T09:42:00+05:30"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** m x n matrix grid consisting of **positive** integers.
 
@@ -54,9 +54,9 @@ Example 2:
 	4 <= m * n <= 105
 	1 <= grid[i][j] <= 106
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxMoves(self, grid: List[List[int]]) -> int:
         
         row = len(grid)
@@ -82,5 +82,5 @@ Example 2:
         for k in range(row):
             res = max(res, maxmv(k,0))
         return res
-                            {% endraw %}
-                            
+            {% endraw %}
+            

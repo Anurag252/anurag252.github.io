@@ -1,13 +1,13 @@
 ---
-title: "3171 Minimum Equal Sum Of Two Arrays After Replacing Zeros"
-date: "2025-05-10T22:20:08+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3171 Minimum Equal Sum Of Two Arrays After Replacing Zeros"
+            date: "2025-05-10T22:20:08+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Minimum Equal Sum of Two Arrays After Replacing Zeros](https://leetcode.com/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two arrays nums1 and nums2 consisting of positive integers.
 
@@ -47,9 +47,9 @@ Example 2:
 	1 <= nums1.length, nums2.length <= 105
 	0 <= nums1[i], nums2[i] <= 106
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def minSum(self, nums1: List[int], nums2: List[int]) -> int:
         
         num_of_zeros_a = 0
@@ -80,5 +80,5 @@ Example 2:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

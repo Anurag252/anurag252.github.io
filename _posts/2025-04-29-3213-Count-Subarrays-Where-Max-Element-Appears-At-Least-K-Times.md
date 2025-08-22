@@ -1,13 +1,13 @@
 ---
-title: "3213 Count Subarrays Where Max Element Appears At Least K Times"
-date: "2025-04-29T09:53:25+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3213 Count Subarrays Where Max Element Appears At Least K Times"
+            date: "2025-04-29T09:53:25+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums and a **positive** integer k.
 
@@ -45,9 +45,9 @@ Example 2:
 	1 <= nums[i] <= 106
 	1 <= k <= 105
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
         max_element = max(nums)
         indexes_of_max_elements = []
@@ -63,5 +63,5 @@ Example 2:
                 ans += indexes_of_max_elements[-k] + 1
 
         return ans
-                            {% endraw %}
-                            
+            {% endraw %}
+            

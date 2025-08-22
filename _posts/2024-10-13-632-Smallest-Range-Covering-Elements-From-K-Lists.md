@@ -1,13 +1,13 @@
 ---
-title: "632 Smallest Range Covering Elements From K Lists"
-date: "2024-10-13T08:42:23+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "632 Smallest Range Covering Elements From K Lists"
+            date: "2024-10-13T08:42:23+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You have k lists of sorted integers in **non-decreasing order**. Find the **smallest** range that includes at least one number from each of the k lists.
 
@@ -47,9 +47,9 @@ Example 2:
 	-105 <= nums[i][j] <= 105
 	nums[i] is sorted in **non-decreasing** order.
 
-                            {% raw %}
-                            ```python
-                            from typing import List
+            {% raw %}
+            ```python
+            from typing import List
 import collections
 
 class Solution:
@@ -85,5 +85,5 @@ class Solution:
 
         return result
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

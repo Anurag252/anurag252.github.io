@@ -1,13 +1,13 @@
 ---
-title: "1876 Map Of Highest Peak"
-date: "2025-01-22T08:46:14+01:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "1876 Map Of Highest Peak"
+            date: "2025-01-22T08:46:14+01:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer matrix isWater of size m x n that represents a map of **land** and **water** cells.
 
@@ -66,9 +66,9 @@ Any height assignment that has a maximum height of 2 while still meeting the rul
 
 **Note:** This question is the same as 542: [https://leetcode.com/problems/01-matrix/](https://leetcode.com/problems/01-matrix/description/)
 
-                            {% raw %}
-                            ```go
-                            func highestPeak(isWater [][]int) [][]int {
+            {% raw %}
+            ```go
+            func highestPeak(isWater [][]int) [][]int {
     m, n := len(isWater), len(isWater[0])
     res := make([][]int, m)
     queue := [][]int{}
@@ -103,5 +103,5 @@ Any height assignment that has a maximum height of 2 while still meeting the rul
 
     return res
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

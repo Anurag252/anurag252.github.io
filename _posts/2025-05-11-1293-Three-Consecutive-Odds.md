@@ -1,13 +1,13 @@
 ---
-title: "1293 Three Consecutive Odds"
-date: "2025-05-11T06:46:28+02:00"
-categories: ["leetcode"]
-tags: [rust]
-layout: post
----
+            title: "1293 Three Consecutive Odds"
+            date: "2025-05-11T06:46:28+02:00"
+            categories: ["leetcode"]
+            tags: [rust]
+            layout: post
+            ---
+            
 
-
-                            ## [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
+            ## [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
 
  
 
@@ -38,9 +38,9 @@ Example 2:
 	1 <= arr.length <= 1000
 	1 <= arr[i] <= 1000
 
-                            {% raw %}
-                            ```rust
-                            impl Solution {
+            {% raw %}
+            ```rust
+            impl Solution {
     pub fn three_consecutive_odds(arr: Vec<i32>) -> bool {
         let mut count = 0;
         for k in arr {
@@ -58,5 +58,5 @@ Example 2:
         return false;
     }
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

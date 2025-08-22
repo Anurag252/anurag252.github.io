@@ -1,13 +1,13 @@
 ---
-title: "2414 Move Pieces To Obtain A String"
-date: "2024-12-05T10:13:33+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2414 Move Pieces To Obtain A String"
+            date: "2024-12-05T10:13:33+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two strings start and target, both of length n. Each string consists **only** of the characters 'L', 'R', and '_' where:
 
@@ -60,9 +60,9 @@ Example 3:
 	1 <= n <= 105
 	start and target consist of the characters 'L', 'R', and '_'.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def canChange(self, start: str, target: str) -> bool:
         start_length = len(start)
         # pointers for start string and target string
@@ -96,5 +96,5 @@ Example 3:
 
         # if all conditions satisfied, return true
         return True
-                            {% endraw %}
-                            
+            {% endraw %}
+            

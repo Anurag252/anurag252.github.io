@@ -1,13 +1,13 @@
 ---
-title: "2394 Count Subarrays With Score Less Than K"
-date: "2025-04-29T08:28:40+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2394 Count Subarrays With Score Less Than K"
+            date: "2025-04-29T08:28:40+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 The **score** of an array is defined as the **product** of its sum and its length.
 
@@ -57,9 +57,9 @@ Thus, there are 5 subarrays having scores less than 5.
 	1 <= nums[i] <= 105
 	1 <= k <= 1015
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
 
         left = 0
@@ -108,5 +108,5 @@ Thus, there are 5 subarrays having scores less than 5.
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "2411 Spiral Matrix Iv"
-date: "2024-09-09T10:17:58+02:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "2411 Spiral Matrix Iv"
+            date: "2024-09-09T10:17:58+02:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two integers m and n, which represent the dimensions of a matrix.
 
@@ -51,9 +51,9 @@ The last space in the matrix is set to -1.
 	The number of nodes in the list is in the range [1, m * n].
 	0 <= Node.val <= 1000
 
-                            {% raw %}
-                            ```go
-                            /**
+            {% raw %}
+            ```go
+            /**
  * Definition for singly-linked list.
  * type ListNode struct {
  *     Val int
@@ -122,5 +122,5 @@ func spiralMatrix(m int, n int, head *ListNode) [][]int {
     return matrix
 }
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "3601 Find The K Th Character In String Game Ii"
-date: "2025-07-05T14:50:28+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3601 Find The K Th Character In String Game Ii"
+            date: "2025-07-05T14:50:28+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Find the K-th Character in String Game II](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Alice and Bob are playing a game. Initially, Alice has a string word = "a".
 
@@ -62,9 +62,9 @@ Initially, word == "a". Alice performs the four operations as follows:
 	operations[i] is either 0 or 1.
 	The input is generated such that word has **at least** k characters after all operations.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def kthCharacter(self, k: int, operations: List[int]) -> str:
         ans = 0
         while k != 1:
@@ -75,5 +75,5 @@ Initially, word == "a". Alice performs the four operations as follows:
             if operations[t]:
                 ans += 1
         return chr(ord("a") + (ans % 26))
-                            {% endraw %}
-                            
+            {% endraw %}
+            

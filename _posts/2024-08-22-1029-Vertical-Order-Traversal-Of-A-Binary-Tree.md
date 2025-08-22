@@ -1,13 +1,13 @@
 ---
-title: "1029 Vertical Order Traversal Of A Binary Tree"
-date: "2024-08-22T07:50:29+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1029 Vertical Order Traversal Of A Binary Tree"
+            date: "2024-08-22T07:50:29+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Given the root of a binary tree, calculate the **vertical order traversal** of the binary tree.
 
@@ -71,9 +71,9 @@ Note that the solution remains the same since 5 and 6 are in the same location a
 	The number of nodes in the tree is in the range [1, 1000].
 	0 <= Node.val <= 1000
 
-                            {% raw %}
-                            ```python
-                            # Definition for a binary tree node.
+            {% raw %}
+            ```python
+            # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -126,5 +126,5 @@ class Solution:
         return final
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

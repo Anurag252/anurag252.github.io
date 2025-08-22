@@ -1,13 +1,13 @@
 ---
-title: "2249 Count The Hidden Sequences"
-date: "2025-04-21T06:34:12+02:00"
-categories: ["leetcode"]
-tags: [rust]
-layout: post
----
+            title: "2249 Count The Hidden Sequences"
+            date: "2025-04-21T06:34:12+02:00"
+            categories: ["leetcode"]
+            tags: [rust]
+            layout: post
+            ---
+            
 
-
-                            ## [Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** array of n integers differences, which describes the **differences **between each pair of **consecutive **integers of a **hidden** sequence of length (n + 1). More formally, call the hidden sequence hidden, then we have that differences[i] = hidden[i + 1] - hidden[i].
 
@@ -70,9 +70,9 @@ Example 3:
 	-105 <= differences[i] <= 105
 	-105 <= lower <= upper <= 105
 
-                            {% raw %}
-                            ```rust
-                            impl Solution {
+            {% raw %}
+            ```rust
+            impl Solution {
     pub fn number_of_arrays(differences: Vec<i32>, lower: i32, upper: i32) -> i32 {
         // Use prefix sum to track running total
         let mut prefix_sum = 0i64;
@@ -99,5 +99,5 @@ Example 3:
     }
 }
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

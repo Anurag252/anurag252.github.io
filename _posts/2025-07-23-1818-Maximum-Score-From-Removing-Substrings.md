@@ -1,13 +1,13 @@
 ---
-title: "1818 Maximum Score From Removing Substrings"
-date: "2025-07-23T09:49:40+02:00"
-categories: ["leetcode"]
-tags: [rust]
-layout: post
----
+            title: "1818 Maximum Score From Removing Substrings"
+            date: "2025-07-23T09:49:40+02:00"
+            categories: ["leetcode"]
+            tags: [rust]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s and two integers x and y. You can perform two types of operations any number of times.
 
@@ -54,9 +54,9 @@ Example 2:
 	1 <= x, y <= 104
 	s consists of lowercase English letters.
 
-                            {% raw %}
-                            ```rust
-                            impl Solution {
+            {% raw %}
+            ```rust
+            impl Solution {
     pub fn maximum_gain(s: String, x: i32, y: i32) -> i32 {
         let mut points = 0;
         let mut chars: Vec<char> = s.chars().collect();
@@ -94,5 +94,5 @@ Example 2:
     }
 }
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

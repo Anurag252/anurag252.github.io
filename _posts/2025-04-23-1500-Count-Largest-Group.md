@@ -1,13 +1,13 @@
 ---
-title: "1500 Count Largest Group"
-date: "2025-04-23T06:49:00+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1500 Count Largest Group"
+            date: "2025-04-23T06:49:00+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Count Largest Group](https://leetcode.com/problems/count-largest-group) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Count Largest Group](https://leetcode.com/problems/count-largest-group) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer n.
 
@@ -45,9 +45,9 @@ Example 2:
 
 	1 <= n <= 104
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def countLargestGroup(self, n: int) -> int:
         mp = {}
 
@@ -77,5 +77,5 @@ Example 2:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

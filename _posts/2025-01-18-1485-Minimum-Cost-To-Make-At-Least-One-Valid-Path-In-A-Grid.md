@@ -1,13 +1,13 @@
 ---
-title: "1485 Minimum Cost To Make At Least One Valid Path In A Grid"
-date: "2025-01-18T09:35:25+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1485 Minimum Cost To Make At Least One Valid Path In A Grid"
+            date: "2025-01-18T09:35:25+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Given an m x n grid. Each cell of the grid has a sign pointing to the next cell you should visit if you are currently in this cell. The sign of grid[i][j] can be:
 
@@ -69,9 +69,9 @@ Example 3:
 	1 <= m, n <= 100
 	1 <= grid[i][j] <= 4
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         num_rows, num_cols = len(grid), len(grid[0])
 
@@ -123,5 +123,5 @@ Example 3:
                 break
 
         return min_changes[num_rows - 1][num_cols - 1]
-                            {% endraw %}
-                            
+            {% endraw %}
+            

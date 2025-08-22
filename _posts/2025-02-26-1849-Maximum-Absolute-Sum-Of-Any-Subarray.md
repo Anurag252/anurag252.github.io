@@ -1,13 +1,13 @@
 ---
-title: "1849 Maximum Absolute Sum Of Any Subarray"
-date: "2025-02-26T07:13:44+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1849 Maximum Absolute Sum Of Any Subarray"
+            date: "2025-02-26T07:13:44+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums. The **absolute sum** of a subarray [numsl, numsl+1, ..., numsr-1, numsr] is abs(numsl + numsl+1 + ... + numsr-1 + numsr).
 
@@ -47,9 +47,9 @@ Example 2:
 	1 <= nums.length <= 105
 	-104 <= nums[i] <= 104
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def maxAbsoluteSum(self, nums: List[int]) -> int:
         # idea is that every time a +ve appears
         # i include it in sum 
@@ -82,5 +82,5 @@ Example 2:
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

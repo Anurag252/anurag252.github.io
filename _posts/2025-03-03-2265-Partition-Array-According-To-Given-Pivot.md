@@ -1,13 +1,13 @@
 ---
-title: "2265 Partition Array According To Given Pivot"
-date: "2025-03-03T05:42:29+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2265 Partition Array According To Given Pivot"
+            date: "2025-03-03T05:42:29+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array nums and an integer pivot. Rearrange nums such that the following conditions are satisfied:
 
@@ -55,9 +55,9 @@ The relative ordering of the elements less than and greater than pivot is also m
 	-106 <= nums[i] <= 106
 	pivot equals to an element of nums.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
         less = []
         grt =[]
@@ -88,5 +88,5 @@ The relative ordering of the elements less than and greater than pivot is also m
         
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

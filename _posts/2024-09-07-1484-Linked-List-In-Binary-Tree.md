@@ -1,13 +1,13 @@
 ---
-title: "1484 Linked List In Binary Tree"
-date: "2024-09-07T21:58:45+02:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "1484 Linked List In Binary Tree"
+            date: "2024-09-07T21:58:45+02:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a binary tree root and a linked list with head as the first node. 
 
@@ -58,9 +58,9 @@ Example 3:
 	The number of nodes in the list will be in the range [1, 100].
 	1 <= Node.val <= 100 for each node in the linked list and binary tree.
 
-                            {% raw %}
-                            ```go
-                            /**
+            {% raw %}
+            ```go
+            /**
  * Definition for singly-linked list.
  * type ListNode struct {
  *     Val int
@@ -111,5 +111,5 @@ func check(head *ListNode, root *TreeNode) bool {
     }
     return false
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

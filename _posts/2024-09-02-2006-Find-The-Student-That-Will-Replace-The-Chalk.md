@@ -1,13 +1,13 @@
 ---
-title: "2006 Find The Student That Will Replace The Chalk"
-date: "2024-09-02T17:31:17+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2006 Find The Student That Will Replace The Chalk"
+            date: "2024-09-02T17:31:17+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Find the Student that Will Replace the Chalk](https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There are n students in a class numbered from 0 to n - 1. The teacher will give each student a problem starting with the student number 0, then the student number 1, and so on until the teacher reaches the student number n - 1. After that, the teacher will restart the process, starting with the student number 0 again.
 
@@ -62,9 +62,9 @@ Student number 1 does not have enough chalk, so they will have to replace it.
 	1 <= chalk[i] <= 105
 	1 <= k <= 109
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def chalkReplacer(self, chalk: List[int], k: int) -> int:
         if k >= sum(chalk):
             k = k % sum(chalk)
@@ -93,5 +93,5 @@ Student number 1 does not have enough chalk, so they will have to replace it.
         
         
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

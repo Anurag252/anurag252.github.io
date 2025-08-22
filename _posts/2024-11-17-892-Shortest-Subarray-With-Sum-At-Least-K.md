@@ -1,13 +1,13 @@
 ---
-title: "892 Shortest Subarray With Sum At Least K"
-date: "2024-11-17T22:13:19+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "892 Shortest Subarray With Sum At Least K"
+            date: "2024-11-17T22:13:19+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+            ## [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Given an integer array nums and an integer k, return *the length of the shortest non-empty **subarray** of *nums* with a sum of at least *k. If there is no such **subarray**, return -1.
 
@@ -47,9 +47,9 @@ Example 3:
 	-105 <= nums[i] <= 105
 	1 <= k <= 109
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def shortestSubarray(self, nums: List[int], k1: int) -> int:
         print(len(nums))
 
@@ -100,5 +100,5 @@ Example 3:
 
         
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

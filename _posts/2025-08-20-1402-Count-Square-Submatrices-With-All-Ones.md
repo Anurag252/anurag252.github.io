@@ -1,13 +1,13 @@
 ---
-title: "1402 Count Square Submatrices With All Ones"
-date: "2025-08-20T11:04:43+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1402 Count Square Submatrices With All Ones"
+            date: "2025-08-20T11:04:43+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a m * n matrix of ones and zeros, return how many **square** submatrices have all ones.
 
@@ -58,9 +58,9 @@ Total number of squares = 6 + 1 = **7**.
 	1 <= arr[0].length <= 300
 	0 <= arr[i][j] <= 1
 
-                            {% raw %}
-                            ```python
-                            from typing import List
+            {% raw %}
+            ```python
+            from typing import List
 
 class Solution:
     def countSquares(self, matrix: List[List[int]]) -> int:
@@ -86,5 +86,5 @@ class Solution:
                 # if it's 0, leave as 0 and add nothing
         return total
 
-                            {% endraw %}
-                            
+            {% endraw %}
+            

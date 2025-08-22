@@ -1,13 +1,13 @@
 ---
-title: "2379 Maximum Total Importance Of Roads"
-date: "2024-06-28T11:50:08+02:00"
-categories: ["leetcode"]
-tags: [c]
-layout: post
----
+            title: "2379 Maximum Total Importance Of Roads"
+            date: "2024-06-28T11:50:08+02:00"
+            categories: ["leetcode"]
+            tags: [c]
+            layout: post
+            ---
+            
 
-
-                            ## [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer n denoting the number of cities in a country. The cities are numbered from 0 to n - 1.
 
@@ -65,9 +65,9 @@ It can be shown that we cannot obtain a greater total importance than 20.
 	ai != bi
 	There are no duplicate roads.
 
-                            {% raw %}
-                            ```c
-                            struct couple {
+            {% raw %}
+            ```c
+            struct couple {
     int key;
     int value;
 };
@@ -118,5 +118,5 @@ long long maximumImportance(int n, int** roads, int roadsSize, int* roadsColSize
 
     return result;
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            

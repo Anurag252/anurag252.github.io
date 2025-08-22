@@ -1,13 +1,13 @@
 ---
-title: "3621 Minimum Operations To Make Array Values Equal To K"
-date: "2025-04-09T14:02:58+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3621 Minimum Operations To Make Array Values Equal To K"
+            date: "2025-04-09T14:02:58+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Minimum Operations to Make Array Values Equal to K](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer array nums and an integer k.
 
@@ -62,9 +62,9 @@ The operations can be performed using valid integers in the order 7, 5, 3, and 1
 	1 <= nums[i] <= 100
 	1 <= k <= 100
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:
         # keep fetching the largest elements and keep changing them to 
         # h
@@ -90,5 +90,5 @@ The operations can be performed using valid integers in the order 7, 5, 3, and 1
         return count if count > 0 else -1
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

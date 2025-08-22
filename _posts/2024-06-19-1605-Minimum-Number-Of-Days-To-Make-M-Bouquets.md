@@ -1,13 +1,13 @@
 ---
-title: "1605 Minimum Number Of Days To Make M Bouquets"
-date: "2024-06-19T12:53:43+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "1605 Minimum Number Of Days To Make M Bouquets"
+            date: "2024-06-19T12:53:43+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array bloomDay, an integer m and an integer k.
 
@@ -68,9 +68,9 @@ It is obvious that we can make two bouquets in different ways.
 	1 <= m <= 106
 	1 <= k <= n
 
-                            {% raw %}
-                            ```python
-                            class Solution(object):
+            {% raw %}
+            ```python
+            class Solution(object):
     def minDays(self, A, m, k):
         if m * k > len(A): return -1
         left, right = 1, max(A)
@@ -89,5 +89,5 @@ It is obvious that we can make two bouquets in different ways.
                 left = mid + 1
         return left
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

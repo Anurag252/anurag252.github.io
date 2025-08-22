@@ -1,13 +1,13 @@
 ---
-title: "3309 Count Prefix And Suffix Pairs I"
-date: "2025-01-08T07:55:47+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "3309 Count Prefix And Suffix Pairs I"
+            date: "2025-01-08T07:55:47+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+            ## [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a **0-indexed** string array words.
 
@@ -65,9 +65,9 @@ Therefore, the answer is 0.
 	1 <= words[i].length <= 10
 	words[i] consists only of lowercase English letters.
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def countPrefixSuffixPairs(self, words: List[str]) -> int:
 
         res = 0
@@ -100,5 +100,5 @@ Therefore, the answer is 0.
 
 
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

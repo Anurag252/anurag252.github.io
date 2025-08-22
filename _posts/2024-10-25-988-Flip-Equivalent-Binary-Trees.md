@@ -1,13 +1,13 @@
 ---
-title: "988 Flip Equivalent Binary Trees"
-date: "2024-10-25T13:03:22+02:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "988 Flip Equivalent Binary Trees"
+            date: "2024-10-25T13:03:22+02:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 For a binary tree **T**, we can define a **flip operation** as follows: choose any node, and swap the left and right child subtrees.
 
@@ -53,9 +53,9 @@ Example 3:
 	The number of nodes in each tree is in the range [0, 100].
 	Each tree will have **unique node values** in the range [0, 99].
 
-                            {% raw %}
-                            ```python
-                            # Definition for a binary tree node.
+            {% raw %}
+            ```python
+            # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -81,5 +81,5 @@ class Solution:
         return abc(root1, root2)
         
         
-                            {% endraw %}
-                            
+            {% endraw %}
+            

@@ -1,13 +1,13 @@
 ---
-title: "2564 Most Profitable Path In A Tree"
-date: "2025-02-24T08:23:21+01:00"
-categories: ["leetcode"]
-tags: [python]
-layout: post
----
+            title: "2564 Most Profitable Path In A Tree"
+            date: "2025-02-24T08:23:21+01:00"
+            categories: ["leetcode"]
+            tags: [python]
+            layout: post
+            ---
+            
 
-
-                            ## [Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is an undirected tree with n nodes labeled from 0 to n - 1, rooted at node 0. You are given a 2D integer array edges of length n - 1 where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
 
@@ -80,9 +80,9 @@ Thus, Alice opens the gate at node 0 only. Hence, her net income is -7280.
 	amount.length == n
 	amount[i] is an **even** integer in the range [-104, 104].
 
-                            {% raw %}
-                            ```python
-                            class Solution:
+            {% raw %}
+            ```python
+            class Solution:
     def __init__(self):
         self.bob_path = {}
         self.visited = []
@@ -152,5 +152,5 @@ Thus, Alice opens the gate at node 0 only. Hence, her net income is -7280.
         # If node 0 isn't reached, remove current node from path
         self.bob_path.pop(source_node, None)
         return False
-                            {% endraw %}
-                            
+            {% endraw %}
+            

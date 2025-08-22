@@ -1,13 +1,13 @@
 ---
-title: "2766 Find The Prefix Common Array Of Two Arrays"
-date: "2025-01-14T06:48:03+01:00"
-categories: ["leetcode"]
-tags: [go]
-layout: post
----
+            title: "2766 Find The Prefix Common Array Of Two Arrays"
+            date: "2025-01-14T06:48:03+01:00"
+            categories: ["leetcode"]
+            tags: [go]
+            layout: post
+            ---
+            
 
-
-                            ## [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+            ## [Find the Prefix Common Array of Two Arrays](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two **0-indexed **integer** **permutations A and B of length n.
 
@@ -52,9 +52,9 @@ At i = 2: 1, 2, and 3 are common in A and B, so C[2] = 3.
 	1 <= A[i], B[i] <= n
 	It is guaranteed that A and B are both a permutation of n integers.
 
-                            {% raw %}
-                            ```go
-                            func findThePrefixCommonArray(A []int, B []int) []int {
+            {% raw %}
+            ```go
+            func findThePrefixCommonArray(A []int, B []int) []int {
     mp := make([]int, len(A))
 
     res := make([]int, len(A))
@@ -78,5 +78,5 @@ At i = 2: 1, 2, and 3 are common in A and B, so C[2] = 3.
     }
     return res
 }
-                            {% endraw %}
-                            
+            {% endraw %}
+            
