@@ -56,7 +56,7 @@ There are a total of 4 unguarded cells, so we return 4.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

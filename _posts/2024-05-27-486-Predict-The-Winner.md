@@ -50,7 +50,7 @@ Finally, player 1 has more score (234) than player 2 (12), so you need to return
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

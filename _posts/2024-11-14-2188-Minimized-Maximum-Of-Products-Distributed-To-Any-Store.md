@@ -69,7 +69,7 @@ The maximum number of products given to any store is max(100000) = 100000.
 {% raw %}
 
 
-```python
+````python
 
 
 from typing import List

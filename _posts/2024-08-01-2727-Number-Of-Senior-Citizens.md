@@ -52,7 +52,7 @@ Example 2:
 {% raw %}
 
 
-```c
+````c
 
 
 int countSeniors(char ** details, int detailsSize){

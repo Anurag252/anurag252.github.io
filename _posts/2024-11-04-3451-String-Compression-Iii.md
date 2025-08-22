@@ -55,7 +55,7 @@ Initially, comp = "". Apply the operation 3 times, choosing "aaaaaaaaa", "aaaaa"
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

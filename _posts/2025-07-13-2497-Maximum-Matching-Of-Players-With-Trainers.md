@@ -56,7 +56,7 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

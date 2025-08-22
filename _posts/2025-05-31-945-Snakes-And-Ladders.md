@@ -67,7 +67,7 @@ Example 2:
 {% raw %}
 
 
-```go
+````go
 
 
 func snakesAndLadders(board [][]int) int {

@@ -57,7 +57,7 @@ The subarray [1] has OR value of 1. Hence, we return 1.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

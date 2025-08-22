@@ -51,7 +51,7 @@ Example 2:
 {% raw %}
 
 
-```rust
+````rust
 
 
 use std::collections::HashMap;

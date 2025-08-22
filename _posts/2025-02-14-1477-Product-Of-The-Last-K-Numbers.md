@@ -62,7 +62,7 @@ productOfNumbers.getProduct(2); // return 32. The product of the last 2 numbers 
 {% raw %}
 
 
-```go
+````go
 
 
 import "math/big"

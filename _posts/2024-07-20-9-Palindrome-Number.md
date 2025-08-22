@@ -55,7 +55,7 @@ Example 3:
 {% raw %}
 
 
-```c
+````c
 
 
 bool isPalindrome(int x) {

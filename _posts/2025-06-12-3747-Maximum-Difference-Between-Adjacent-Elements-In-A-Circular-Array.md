@@ -44,7 +44,7 @@ The adjacent elements nums[0] and nums[1] have the maximum absolute difference o
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

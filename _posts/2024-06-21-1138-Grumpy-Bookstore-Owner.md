@@ -52,7 +52,7 @@ Example 2:
 {% raw %}
 
 
-```c
+````c
 
 
 int maxSatisfied(int* customers, int customersSize, int* grumpy, int grumpySize, int minutes) {

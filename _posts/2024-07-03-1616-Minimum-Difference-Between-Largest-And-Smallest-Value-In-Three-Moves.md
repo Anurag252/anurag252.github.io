@@ -68,7 +68,7 @@ After performing 3 moves, the difference between the minimum and maximum is 7 - 
 {% raw %}
 
 
-```c
+````c
 
 
 int compare(void* a, void* b){

@@ -68,7 +68,7 @@ Any height assignment that has a maximum height of 2 while still meeting the rul
 {% raw %}
 
 
-```go
+````go
 
 
 func highestPeak(isWater [][]int) [][]int {

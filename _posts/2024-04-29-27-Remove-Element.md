@@ -74,7 +74,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 {% raw %}
 
 
-```c
+````c
 
 
 int removeElement(int* nums, int numsSize, int val) {

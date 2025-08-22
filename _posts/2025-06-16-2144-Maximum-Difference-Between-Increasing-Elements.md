@@ -59,7 +59,7 @@ The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 =
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

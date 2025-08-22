@@ -61,7 +61,7 @@ Therefore, we return [2,1].
 {% raw %}
 
 
-```rust
+````rust
 
 
 impl Solution {

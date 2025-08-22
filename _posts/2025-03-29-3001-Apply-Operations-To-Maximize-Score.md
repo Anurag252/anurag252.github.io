@@ -63,7 +63,7 @@ It can be proven that 4788 is the highest score one can obtain.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

@@ -66,7 +66,7 @@ The 3rd smallest product is -6.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

@@ -52,7 +52,7 @@ Example 3:
 {% raw %}
 
 
-```go
+````go
 
 
 func numTilePossibilities(tiles string) int {

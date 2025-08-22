@@ -82,7 +82,7 @@ Thus, Alice opens the gate at node 0 only. Hence, her net income is -7280.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

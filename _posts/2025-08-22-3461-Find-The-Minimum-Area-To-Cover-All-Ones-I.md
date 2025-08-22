@@ -49,7 +49,7 @@ The smallest rectangle has both height and width 1, so its area is 1 * 1 = 1.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

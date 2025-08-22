@@ -59,7 +59,7 @@ The substrings with every vowel and one consonant are:
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

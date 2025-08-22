@@ -14,8 +14,6 @@ Go through each index i in arr starting from index 0 and paint the cell in mat c
 
 Return _the smallest index_ i _at which either a row or a column will be completely painted in_ mat.
 
-
-
 Example 1:
 
 ![image](https://assets.leetcode.com/uploads/2023/01/18/grid1.jpg)
@@ -39,8 +37,6 @@ Example 2:
 **Explanation:** The second column becomes fully painted at arr[3].
 
 ```
-
-
 
 **Constraints:**
 

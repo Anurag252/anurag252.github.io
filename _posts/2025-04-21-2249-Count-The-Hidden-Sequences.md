@@ -72,7 +72,7 @@ Example 3:
 {% raw %}
 
 
-```rust
+````rust
 
 
 impl Solution {

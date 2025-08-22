@@ -49,7 +49,7 @@ Example 2:
 {% raw %}
 
 
-```go
+````go
 
 
 func countBadPairs(nums []int) int64 {

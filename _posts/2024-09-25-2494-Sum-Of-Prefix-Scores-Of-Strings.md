@@ -65,7 +65,7 @@ Each prefix has a score of one, so the total is answer[0] = 1 + 1 + 1 + 1 = 4.
 {% raw %}
 
 
-```python
+````python
 
 
 class TrieNode:

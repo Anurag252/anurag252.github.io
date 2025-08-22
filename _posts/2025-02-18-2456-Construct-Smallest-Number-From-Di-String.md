@@ -56,7 +56,7 @@ It can be proven that "4321" is the smallest possible num that meets the conditi
 {% raw %}
 
 
-```go
+````go
 
 
 func smallestNumber(pattern string) string {

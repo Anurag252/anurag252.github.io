@@ -48,7 +48,7 @@ After two seconds, the 3rd person is holding the pillow.
 {% raw %}
 
 
-```c
+````c
 
 
 int passThePillow(int n, int time) {

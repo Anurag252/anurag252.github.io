@@ -69,7 +69,7 @@ Example 3:
 {% raw %}
 
 
-```c
+````c
 
 
 int minOperations(char** logs, int logsSize) {

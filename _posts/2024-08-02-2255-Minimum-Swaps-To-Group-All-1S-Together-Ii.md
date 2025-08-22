@@ -66,7 +66,7 @@ Thus, the minimum number of swaps required is 0.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

@@ -54,7 +54,7 @@ At i = 2: 1, 2, and 3 are common in A and B, so C[2] = 3.
 {% raw %}
 
 
-```go
+````go
 
 
 func findThePrefixCommonArray(A []int, B []int) []int {

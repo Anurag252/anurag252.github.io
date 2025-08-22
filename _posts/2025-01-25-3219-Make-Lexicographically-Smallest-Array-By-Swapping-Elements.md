@@ -67,7 +67,7 @@ Example 3:
 {% raw %}
 
 
-```go
+````go
 
 
 import "slices"

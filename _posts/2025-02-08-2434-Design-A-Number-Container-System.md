@@ -54,7 +54,7 @@ nc.find(10); // Number 10 is at the indices 2, 3, and 5. The smallest index that
 {% raw %}
 
 
-```go
+````go
 
 
 import (

@@ -66,7 +66,7 @@ The total number of candies will be 6.
 {% raw %}
 
 
-```python
+````python
 
 
 from typing import List

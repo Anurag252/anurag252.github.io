@@ -47,7 +47,7 @@ Example 2:
 {% raw %}
 
 
-```rust
+````rust
 
 
 // Definition for singly-linked list.

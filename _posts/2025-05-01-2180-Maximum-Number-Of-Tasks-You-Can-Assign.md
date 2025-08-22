@@ -72,7 +72,7 @@ The last pill is not given because it will not make any worker strong enough for
 {% raw %}
 
 
-```rust
+````rust
 
 
 use std::collections::BTreeMap;

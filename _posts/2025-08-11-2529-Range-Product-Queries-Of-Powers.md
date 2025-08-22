@@ -54,7 +54,7 @@ The answer to the only query is powers[0] = 2. The answer modulo 109 + 7 is the 
 {% raw %}
 
 
-```rust
+````rust
 
 
 impl Solution {

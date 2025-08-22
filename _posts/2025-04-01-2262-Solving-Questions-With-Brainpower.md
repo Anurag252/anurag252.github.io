@@ -61,7 +61,7 @@ Total points earned: 2 + 5 = 7. There is no other way to earn 7 or more points.
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

@@ -65,7 +65,7 @@ So the total probability of A becoming empty first plus half the probability tha
 {% raw %}
 
 
-```python
+````python
 
 
 class Solution:

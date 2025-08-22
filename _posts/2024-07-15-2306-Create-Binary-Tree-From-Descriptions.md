@@ -56,7 +56,7 @@ The resulting binary tree is shown in the diagram.
 {% raw %}
 
 
-```python
+````python
 
 
 # Definition for a binary tree node.
