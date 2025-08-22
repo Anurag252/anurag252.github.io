@@ -58,7 +58,11 @@ Example 3:
 	1 <= valuei <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxTwoEvents(self, events: List[List[int]]) -> int:
         events.sort(key= lambda x : (x[0],x[1]) )
@@ -114,5 +118,7 @@ class Solution:
         # loop over every n and do bin search in log n inside to see if this overlaps 
         # if it doesn't overlap move to left 
         # if it overlaps move right
+
+
 
 {% endraw %}

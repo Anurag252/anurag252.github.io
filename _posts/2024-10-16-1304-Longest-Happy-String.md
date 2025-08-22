@@ -50,7 +50,11 @@ Example 2:
 	a + b + c > 0
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def longestDiverseString(self, a: int, b: int, c: int) -> str:
 
@@ -100,4 +104,6 @@ class Solution:
         aabaccbcb
         '''
         
+
+
 {% endraw %}

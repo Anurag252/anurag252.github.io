@@ -59,7 +59,11 @@ Example 3:
 	s consists only of lowercase English letters.
 
 {% raw %}
+
+
 ```rust
+
+
 use std::collections::HashMap;
 impl Solution {
     pub fn make_fancy_string(s: String) -> String {
@@ -95,4 +99,6 @@ impl Solution {
 
     }
 }
+
+
 {% endraw %}

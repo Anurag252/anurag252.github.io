@@ -38,7 +38,11 @@ Example 2:
 	s consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     import heapq as hq
     
@@ -89,6 +93,8 @@ class Solution:
             v = v - 1
             i = i + 2
         return (i, v)
+
+
 
 
 {% endraw %}

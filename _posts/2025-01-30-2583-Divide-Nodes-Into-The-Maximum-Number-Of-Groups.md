@@ -61,7 +61,11 @@ It can be shown that no grouping is possible.
 	There is at most one edge between any pair of vertices.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
 
     # Main function to calculate the maximum number of magnificent sets
@@ -165,4 +169,6 @@ class Solution:
                 ),
             )
         return max_number_of_groups
+
+
 {% endraw %}

@@ -48,7 +48,11 @@ Example 2:
 	0 <= queries[i][0] <= queries[i][1] <= nums.length - 1
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def isArraySpecial(self, nums: List[int], queries: List[List[int]]) -> List[bool]:
         arr = []
@@ -83,4 +87,6 @@ class Solution:
         1,0,1,0,0,1,0,1,0
           1,1,1,0,1,1,1,1
           """
+
+
 {% endraw %}

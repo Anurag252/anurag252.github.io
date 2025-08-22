@@ -53,7 +53,11 @@ Example 3:
 	All the strings of nums are **unique**.
 
 {% raw %}
+
+
 ```go
+
+
 func findDifferentBinaryString(nums []string) string {
     arr := []string{"0","1"}
 
@@ -96,4 +100,6 @@ func calc(arr []string, n int, prev []string, mp map[string]bool) string {
     return calc(arr, n-1 , t, mp)
 
 }
+
+
 {% endraw %}

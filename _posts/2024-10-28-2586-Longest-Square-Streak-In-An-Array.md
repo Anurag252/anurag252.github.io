@@ -51,7 +51,11 @@ Example 2:
 	2 <= nums[i] <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def longestSquareStreak(self, nums: List[int]) -> int:
         nums.sort()
@@ -68,6 +72,8 @@ class Solution:
                 mp[k] = 0
         #print(res, mp)
         return max(res) +  1 if len(res) > 0 else -1
+
+
 
 
 {% endraw %}

@@ -38,7 +38,11 @@ Example 2:
 	s consists of lowercase English letters only.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
         hash_base = 29
@@ -73,4 +77,6 @@ class Solution:
 
         # Prepend the reversed suffix to the original string and return the result
         return reversed_suffix + s
+
+
 {% endraw %}

@@ -47,7 +47,11 @@ Example 3:
 	1 <= k <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def shortestSubarray(self, nums: List[int], k1: int) -> int:
         print(len(nums))
@@ -99,4 +103,6 @@ class Solution:
 
         
         
+
+
 {% endraw %}

@@ -50,7 +50,11 @@ Example 4:
 	s consists of parentheses only '()[]{}'.
 
 {% raw %}
+
+
 ```javascript
+
+
 /**
  * @param {string} s
  * @return {boolean}
@@ -76,4 +80,6 @@ let isValid = (testString) => {
 
     return paran.length == 0
 }
+
+
 {% endraw %}

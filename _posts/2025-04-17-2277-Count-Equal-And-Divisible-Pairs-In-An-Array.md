@@ -43,7 +43,11 @@ Example 2:
 	1 <= nums[i], k <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countPairs(self, nums: List[int], k: int) -> int:
         n = len(nums)
@@ -53,4 +57,6 @@ class Solution:
                 if (i * j) % k == 0 and nums[i] == nums[j]:
                     res += 1
         return res
+
+
 {% endraw %}

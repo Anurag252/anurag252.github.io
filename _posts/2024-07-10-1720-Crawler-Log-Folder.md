@@ -67,7 +67,11 @@ Example 3:
 	Folder names consist of lowercase English letters and digits.
 
 {% raw %}
+
+
 ```c
+
+
 int minOperations(char** logs, int logsSize) {
 
     int level = 0;
@@ -89,4 +93,6 @@ int minOperations(char** logs, int logsSize) {
     }
     return level ;
 }
+
+
 {% endraw %}

@@ -54,7 +54,11 @@ The longest subarray with that value is [4], so we return 1.
 	1 <= nums[i] <= 106
 
 {% raw %}
+
+
 ```rust
+
+
 
  use std::cmp::max;
  impl Solution {
@@ -89,4 +93,6 @@ The longest subarray with that value is [4], so we return 1.
 
     }
 }
+
+
 {% endraw %}

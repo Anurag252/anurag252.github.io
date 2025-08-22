@@ -47,7 +47,11 @@ Example 2:
 	0 <= k <= s.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def takeCharacters(self, s: str, k: int) -> int:
         count = [0] * 3
@@ -81,4 +85,6 @@ class Solution:
             max_window = max(max_window, right - left + 1)
 
         return n - max_window
+
+
 {% endraw %}

@@ -57,7 +57,11 @@ Delete the elements nums[2] == -1 and nums[3] == -2, and select the subarray [2,
 	-100 <= nums[i] <= 100
 
 {% raw %}
+
+
 ```rust
+
+
 use std::collections::HashSet;
 use libc::abs;
 
@@ -91,4 +95,6 @@ impl Solution {
        res
     }
 }
+
+
 {% endraw %}

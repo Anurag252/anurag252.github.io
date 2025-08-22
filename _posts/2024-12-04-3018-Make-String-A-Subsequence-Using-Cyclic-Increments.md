@@ -60,7 +60,11 @@ Therefore, false is returned.
 	str1 and str2 consist of only lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def canMakeSubsequence(self, s1: str, s2: str) -> bool:
         arr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a']
@@ -97,6 +101,8 @@ class Solution:
 
 
                 
+
+
 
 
 

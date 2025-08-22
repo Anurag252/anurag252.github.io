@@ -60,7 +60,11 @@ Example 3:
 	1 <= k <= 9
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countGoodIntegers(self, n: int, k: int) -> int:
         dictionary = set()
@@ -89,4 +93,6 @@ class Solution:
             ans += tot
 
         return ans
+
+
 {% endraw %}

@@ -50,7 +50,11 @@ However, splitting into [1, 0], [2], [3], [4] is the highest number of chunks po
 	All the elements of arr are **unique**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
 
@@ -79,4 +83,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -42,7 +42,11 @@ Example 2:
 	1 <= limit <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:
 
@@ -101,4 +105,6 @@ class Solution:
             
 
         
+
+
 {% endraw %}

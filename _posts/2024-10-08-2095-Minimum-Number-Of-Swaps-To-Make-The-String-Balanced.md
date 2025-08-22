@@ -67,7 +67,11 @@ Example 3:
 	The number of opening brackets '[' equals n / 2, and the number of closing brackets ']' equals n / 2.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minSwaps(self, s: str) -> int:
         imbalance = 0
@@ -92,4 +96,6 @@ class Solution:
 #T[0,n] = T[0,n-2] + 1   if s[n-1] + s[n] does not make a bracket else T[0, n-2] of inf
 
       
+
+
 {% endraw %}

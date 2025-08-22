@@ -48,7 +48,11 @@ Thus, one possible nums3 array is [2,5,1,6].
 	0 <= nums1[i], nums2[j] <= 109
 
 {% raw %}
+
+
 ```go
+
+
 func xorAllNums(nums1 []int, nums2 []int) int {
     
     // if num2 is even times and num 1 is odd times then num2 is answer
@@ -81,4 +85,6 @@ func xorAllNums(nums1 []int, nums2 []int) int {
     }
     return temp1 ^ temp2
 }
+
+
 {% endraw %}

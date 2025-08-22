@@ -63,7 +63,11 @@ So the total probability of A becoming empty first plus half the probability tha
 	0 <= n <= 109
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn soup_servings(n: i32) -> f64 {
         if n > 4800 {
@@ -118,5 +122,7 @@ impl Solution {
         a / c + 0.5 * (b / c)
     }
 }
+
+
 
 {% endraw %}

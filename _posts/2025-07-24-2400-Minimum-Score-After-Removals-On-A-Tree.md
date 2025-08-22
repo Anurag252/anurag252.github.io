@@ -69,7 +69,11 @@ We cannot obtain a smaller score than 0.
 	edges represents a valid tree.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def calc(self, part1: int, part2: int, part3: int) -> int:
         return max(part1, part2, part3) - min(part1, part2, part3)
@@ -112,4 +116,6 @@ class Solution:
 
         dfs(0, -1)
         return res
+
+
 {% endraw %}

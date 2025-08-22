@@ -41,7 +41,11 @@ Example 2:
 	1 <= dominoes[i][j] <= 9
 
 {% raw %}
+
+
 ```rust
+
+
 use std::collections::HashMap ;
 use std::cmp::max;
 
@@ -68,4 +72,6 @@ impl Solution {
         return res 
     }
 }
+
+
 {% endraw %}

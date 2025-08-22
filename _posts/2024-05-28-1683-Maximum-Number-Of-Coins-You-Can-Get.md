@@ -62,7 +62,11 @@ Example 3:
 	1 <= piles[i] <= 104
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     import heapq 
     def maxCoins(self, piles: List[int]) -> int:
@@ -83,4 +87,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

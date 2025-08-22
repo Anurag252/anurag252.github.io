@@ -57,7 +57,11 @@ Example 3:
 	1 <= k <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def canArrange(self, arr: List[int], k: int) -> bool:
         dic = {}
@@ -80,4 +84,6 @@ class Solution:
             
 
         
+
+
 {% endraw %}

@@ -56,7 +56,11 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 	1 <= nums[i] <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def check(self, nums: List[int]) -> bool:
         inflextion = False
@@ -77,4 +81,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -54,7 +54,11 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 **Note:** This question is the same as [ 445: Assign Cookies.](https://leetcode.com/problems/assign-cookies/description/)
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
         """
@@ -88,6 +92,8 @@ class Solution:
                 i += 1
         return count
             
+
+
 
 
 {% endraw %}

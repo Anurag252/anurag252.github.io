@@ -47,7 +47,11 @@ Example 2:
 	-109 <= lower <= upper <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def lower_bound(self, nums, low, high, element):
         while low <= high:
@@ -77,4 +81,6 @@ class Solution:
             ans += high - low
 
         return ans
+
+
 {% endraw %}

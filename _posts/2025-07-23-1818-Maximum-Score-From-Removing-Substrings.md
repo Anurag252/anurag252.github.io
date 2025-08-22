@@ -54,7 +54,11 @@ Example 2:
 	s consists of lowercase English letters.
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn maximum_gain(s: String, x: i32, y: i32) -> i32 {
         let mut points = 0;
@@ -92,5 +96,7 @@ impl Solution {
         points
     }
 }
+
+
 
 {% endraw %}

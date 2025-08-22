@@ -54,7 +54,11 @@ Example 2:
 	s consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumGain(self, s: str, x: int, y: int) -> int:
         i = 0
@@ -102,4 +106,6 @@ class Solution:
 
         
         
+
+
 {% endraw %}

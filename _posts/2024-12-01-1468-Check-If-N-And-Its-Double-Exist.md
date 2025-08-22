@@ -44,7 +44,11 @@ Example 2:
 	-103 <= arr[i] <= 103
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
         dic = set()
@@ -66,4 +70,6 @@ class Solution:
             
 
         
+
+
 {% endraw %}

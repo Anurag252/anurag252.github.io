@@ -66,7 +66,11 @@ After performing 3 moves, the difference between the minimum and maximum is 7 - 
 	-109 <= nums[i] <= 109
 
 {% raw %}
+
+
 ```c
+
+
 int compare(void* a, void* b){
    int k1 =  *((int*)(a));
    int k2 = *((int*)(b));
@@ -94,4 +98,6 @@ int minDifference(int* nums, int numsSize) {
     
 }
 //95,82,81,75,20
+
+
 {% endraw %}

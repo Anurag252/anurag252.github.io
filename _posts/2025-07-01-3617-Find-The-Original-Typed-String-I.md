@@ -52,7 +52,11 @@ Example 3:
 	word consists only of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def possibleStringCount(self, word: str) -> int:
         possibility = 1
@@ -63,4 +67,6 @@ class Solution:
         return possibility
 
         
+
+
 {% endraw %}

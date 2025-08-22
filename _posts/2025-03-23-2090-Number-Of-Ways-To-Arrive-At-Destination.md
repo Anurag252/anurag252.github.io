@@ -56,7 +56,11 @@ Example 2:
 	You can reach any intersection from any other intersection.
 
 {% raw %}
+
+
 ```python
+
+
 import heapq
 from collections import defaultdict
 
@@ -90,5 +94,7 @@ class Solution:
                     ways[nei] = (ways[nei] + ways[node]) % MOD
 
         return ways[n - 1]
+
+
 
 {% endraw %}

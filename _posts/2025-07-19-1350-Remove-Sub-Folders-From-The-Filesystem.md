@@ -58,7 +58,11 @@ Example 3:
 	Each folder name is **unique**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
         folder.sort(key=lambda x : len(x))
@@ -83,4 +87,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

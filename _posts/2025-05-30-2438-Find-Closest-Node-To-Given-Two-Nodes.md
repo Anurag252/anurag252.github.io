@@ -55,7 +55,11 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 	0 <= node1, node2 < n
 
 {% raw %}
+
+
 ```python
+
+
 from typing import List
 
 class Solution:
@@ -86,5 +90,7 @@ class Solution:
                     min_dist = max_dist
                     result = i
         return result
+
+
 
 {% endraw %}

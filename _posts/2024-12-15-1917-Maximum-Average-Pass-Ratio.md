@@ -47,7 +47,11 @@ Example 2:
 	1 <= extraStudents <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:
         if len(classes) == 0:
@@ -87,4 +91,6 @@ class Solution:
         0.66 0.6 1
         0.5 0.66
         """
+
+
 {% endraw %}

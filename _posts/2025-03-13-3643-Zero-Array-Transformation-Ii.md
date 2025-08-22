@@ -69,7 +69,11 @@ Example 2:
 	1 <= vali <= 5
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minZeroArray(self, nums: List[int], queries: List[List[int]]) -> int:
         n = len(nums)
@@ -111,4 +115,6 @@ class Solution:
             if total_sum < nums[num_index]:
                 return False
         return True
+
+
 {% endraw %}

@@ -64,7 +64,11 @@ There is no way to make them compete in any other round.
 	1 <= firstPlayer < secondPlayer <= n
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def earliestAndLatest(
         self, n: int, firstPlayer: int, secondPlayer: int
@@ -108,4 +112,6 @@ class Solution:
         earliest, latest = dp(n, firstPlayer, secondPlayer)
         dp.cache_clear()
         return [earliest, latest]
+
+
 {% endraw %}

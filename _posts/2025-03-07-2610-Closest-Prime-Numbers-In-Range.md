@@ -49,7 +49,11 @@ Example 2:
  
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def closestPrimes(self, left: int, right: int) -> List[int]:
         
@@ -102,4 +106,6 @@ class Solution:
         
         
         
+
+
 {% endraw %}

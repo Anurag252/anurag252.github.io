@@ -54,7 +54,11 @@ Example 3:
 	It is guaranteed that all parentheses are balanced.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def reverseParentheses(self, s: str) -> str:
         stack = deque()
@@ -75,6 +79,8 @@ class Solution:
             else:
                 stack.append(k)
         return ''.join(stack)
+
+
 
 
 {% endraw %}

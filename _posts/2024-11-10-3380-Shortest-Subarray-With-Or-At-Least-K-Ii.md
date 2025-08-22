@@ -55,7 +55,11 @@ The subarray [1] has OR value of 1. Hence, we return 1.
 	0 <= k <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumSubarrayLength(self, nums: List[int], k: int) -> int:
         min_length = float("inf")
@@ -98,4 +102,6 @@ class Solution:
             if bit_counts[pos]:
                 result |= 1 << pos
         return result
+
+
 {% endraw %}

@@ -49,7 +49,11 @@ Example 2:
 	It is guaranteed that you can make a mountain array out of nums.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumMountainRemovals(self, nums: List[int]) -> int:
         N = len(nums)
@@ -77,4 +81,6 @@ class Solution:
                 )
 
         return min_removals
+
+
 {% endraw %}

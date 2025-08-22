@@ -48,7 +48,11 @@ Example 2:
 	1 <= nums[i], k <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countGood(self, nums: List[int], k: int) -> int:
         n = len(nums)
@@ -65,4 +69,6 @@ class Solution:
             cnt[nums[left]] -= 1
             same -= cnt[nums[left]]
         return ans
+
+
 {% endraw %}

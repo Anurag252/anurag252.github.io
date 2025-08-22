@@ -41,7 +41,11 @@ Example 2:
 	The list is guaranteed to be **sorted** in ascending order.
 
 {% raw %}
+
+
 ```c
+
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -73,4 +77,6 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
 
     return head;
 }
+
+
 {% endraw %}

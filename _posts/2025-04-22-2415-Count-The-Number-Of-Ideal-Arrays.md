@@ -60,7 +60,11 @@ There are a total of 9 + 1 + 1 = 11 distinct ideal arrays.
 	1 <= maxValue <= 104
 
 {% raw %}
+
+
 ```python
+
+
 MOD = 10**9 + 7
 MAX_N = 10**4 + 10
 MAX_P = 15  # At most 15 prime factors
@@ -102,4 +106,6 @@ class Solution:
                 mul = mul * c[n + p - 1][p] % MOD
             ans = (ans + mul) % MOD
         return ans
+
+
 {% endraw %}

@@ -64,7 +64,11 @@ Example 3:
 	s[i] is either '0' or '1'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minChanges(self, s: str) -> int:
 
@@ -76,6 +80,8 @@ class Solution:
                 count += 1
             id += 2
         return count
+
+
 
 
 {% endraw %}

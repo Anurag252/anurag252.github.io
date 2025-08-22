@@ -53,7 +53,11 @@ Example 2:
 	1 <= target <= 30
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
         visited = [0] * len(candidates)
@@ -82,4 +86,6 @@ class Solution:
 
         Traverse(visited, 0, target)
         return result
+
+
 {% endraw %}

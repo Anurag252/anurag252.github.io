@@ -50,7 +50,11 @@ Example 2:
 	grumpy[i] is either 0 or 1.
 
 {% raw %}
+
+
 ```c
+
+
 int maxSatisfied(int* customers, int customersSize, int* grumpy, int grumpySize, int minutes) {
     if (customersSize == 0) {
         return 0;
@@ -89,5 +93,7 @@ int maxSatisfied(int* customers, int customersSize, int* grumpy, int grumpySize,
 
     return maxAdditionalSatisfied;
 }
+
+
 
 {% endraw %}

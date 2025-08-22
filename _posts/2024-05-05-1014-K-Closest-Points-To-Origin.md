@@ -49,7 +49,11 @@ Example 2:
 	-104 <= xi, yi <= 104
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     import heapq
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
@@ -66,4 +70,6 @@ class Solution:
         
         return result
         
+
+
 {% endraw %}

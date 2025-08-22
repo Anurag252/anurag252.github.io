@@ -40,7 +40,11 @@ Example 2:
 	-100 <= nums[i] <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countSubarrays(self, nums: List[int]) -> int:
         left = 0
@@ -55,4 +59,6 @@ class Solution:
         return res
 
         
+
+
 {% endraw %}

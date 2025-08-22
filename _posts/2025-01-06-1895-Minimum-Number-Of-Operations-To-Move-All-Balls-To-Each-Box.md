@@ -48,7 +48,11 @@ Example 2:
 	boxes[i] is either '0' or '1'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minOperations(self, boxes: str) -> List[int]:
         """
@@ -99,4 +103,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

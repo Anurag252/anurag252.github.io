@@ -53,7 +53,11 @@ Example 2:
 	0 <= li <= ri < words.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:
         pref = []
@@ -73,4 +77,6 @@ class Solution:
                 t = pref[q[1]] - pref[q[0]] + 1 if pref[q[0]] == 1 else pref[q[1]]
                 res.append(t)
         return res
+
+
 {% endraw %}

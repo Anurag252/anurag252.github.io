@@ -51,7 +51,11 @@ Example 2:
 	conflictingPairs[i][0] != conflictingPairs[i][1]
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxSubarrays(self, n: int, conflictingPairs: List[List[int]]) -> int:
         bMin1 = [2**31 - 1] * (n + 1)
@@ -79,4 +83,6 @@ class Solution:
                 bMin1[ib1], n + 1
             )
         return res + max(delCount)
+
+
 {% endraw %}

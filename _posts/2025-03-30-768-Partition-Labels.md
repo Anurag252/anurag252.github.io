@@ -46,7 +46,11 @@ Example 2:
 	s consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def partitionLabels(self, s: str) -> List[int]:
         # create a map of char and last index
@@ -79,4 +83,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

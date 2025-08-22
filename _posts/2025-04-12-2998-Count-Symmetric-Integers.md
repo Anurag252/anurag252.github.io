@@ -43,7 +43,11 @@ Example 2:
 	1 <= low <= high <= 104
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countSymmetricIntegers(self, low: int, high: int) -> int:
         res = 0
@@ -63,4 +67,6 @@ class Solution:
 
         return res
         
+
+
 {% endraw %}

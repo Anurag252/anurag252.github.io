@@ -54,7 +54,11 @@ Example 3:
 	-109 <= arr[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
         arr_cpy = arr.copy()
@@ -81,4 +85,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

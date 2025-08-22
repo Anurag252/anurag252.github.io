@@ -59,7 +59,11 @@ Example 3:
 	s consists only of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def makeFancyString(self, s: str) -> str:
 
@@ -79,4 +83,6 @@ class Solution:
         return "".join(res)
 
         
+
+
 {% endraw %}

@@ -65,7 +65,11 @@ It can be shown that we cannot obtain a greater total importance than 20.
 	There are no duplicate roads.
 
 {% raw %}
+
+
 ```c
+
+
 struct couple {
     int key;
     int value;
@@ -117,4 +121,6 @@ long long maximumImportance(int n, int** roads, int roadsSize, int* roadsColSize
 
     return result;
 }
+
+
 {% endraw %}

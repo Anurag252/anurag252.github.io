@@ -55,7 +55,11 @@ We can obtain a tree of diameter 5 by connecting node 0 from the first tree with
 	The input is generated such that edges1 and edges2 represent valid trees.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumDiameterAfterMerge(self, edges1, edges2):
         # Calculate the number of nodes for each tree
@@ -113,4 +117,6 @@ class Solution:
                 maximum_distance += 1
 
         return farthest_node, maximum_distance
+
+
 {% endraw %}

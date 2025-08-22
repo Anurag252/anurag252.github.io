@@ -60,7 +60,11 @@ Note that "ll" is another longest palindrome that can be created, and so is "xx"
 	words[i] consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 from collections import Counter
 
 class Solution:
@@ -84,5 +88,7 @@ class Solution:
                     center = 2  # One symmetric word can be in the center
                     
         return res + center
+
+
 
 {% endraw %}

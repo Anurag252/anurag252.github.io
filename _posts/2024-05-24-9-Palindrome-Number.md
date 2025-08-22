@@ -53,7 +53,11 @@ Example 3:
 **Follow up:** Could you solve it without converting the integer to a string?
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0 or x != ceil(x):
@@ -77,4 +81,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -63,7 +63,11 @@ So the total probability of A becoming empty first plus half the probability tha
 	0 <= n <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def soupServings(self, n: int) -> float:
         m = ceil(n / 25)
@@ -84,4 +88,6 @@ class Solution:
             if dp[k][k] > 1 - 1e-5:
                 return 1
         return dp[m][m]
+
+
 {% endraw %}

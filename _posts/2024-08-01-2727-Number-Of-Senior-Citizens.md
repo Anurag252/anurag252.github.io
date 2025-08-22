@@ -50,7 +50,11 @@ Example 2:
 	The phone numbers and seat numbers of the passengers are distinct.
 
 {% raw %}
+
+
 ```c
+
+
 int countSeniors(char ** details, int detailsSize){
     int result = 0;
 
@@ -63,4 +67,6 @@ int countSeniors(char ** details, int detailsSize){
     return result;
 
 }
+
+
 {% endraw %}

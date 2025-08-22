@@ -53,7 +53,11 @@ Example 2:
 	1 <= heighti <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def __init__(self):
         self.a = {}
@@ -83,4 +87,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

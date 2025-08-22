@@ -46,7 +46,11 @@ After two seconds, the 3rd person is holding the pillow.
 	1 <= time <= 1000
 
 {% raw %}
+
+
 ```c
+
+
 int passThePillow(int n, int time) {
 
 
@@ -61,4 +65,6 @@ int passThePillow(int n, int time) {
 }
 
 // 2
+
+
 {% endraw %}

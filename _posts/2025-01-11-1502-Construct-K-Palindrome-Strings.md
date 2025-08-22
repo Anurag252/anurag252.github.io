@@ -52,7 +52,11 @@ Example 3:
 	1 <= k <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def canConstruct(self, s: str, k: int) -> bool:
 
@@ -72,4 +76,6 @@ class Solution:
         return True
 
         
+
+
 {% endraw %}

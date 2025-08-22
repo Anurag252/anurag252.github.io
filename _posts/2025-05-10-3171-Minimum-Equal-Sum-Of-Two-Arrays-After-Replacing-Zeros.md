@@ -47,7 +47,11 @@ Example 2:
 	0 <= nums1[i], nums2[i] <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minSum(self, nums1: List[int], nums2: List[int]) -> int:
         
@@ -79,4 +83,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

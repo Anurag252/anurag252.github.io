@@ -51,7 +51,11 @@ Example 2:
 	1 <= difficulty[i], profit[i], worker[i] <= 105
 
 {% raw %}
+
+
 ```c
+
+
 
 struct CombinedValues {
     int diff;
@@ -117,4 +121,6 @@ int maxProfitAssignment(int* difficulty, int difficultySize, int* profit, int pr
 }
 
  
+
+
 {% endraw %}

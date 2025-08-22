@@ -69,7 +69,11 @@ Example 3:
 	1 <= grid[i][j] <= 4
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         num_rows, num_cols = len(grid), len(grid[0])
@@ -122,4 +126,6 @@ class Solution:
                 break
 
         return min_changes[num_rows - 1][num_cols - 1]
+
+
 {% endraw %}

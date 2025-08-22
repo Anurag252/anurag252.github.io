@@ -59,7 +59,11 @@ Example 3:
 	1 <= k <= 100
 
 {% raw %}
+
+
 ```go
+
+
 //import "sort"
 func getHappyString(n int, k int) string {
     str := []string{"a", "b", "c"}
@@ -89,4 +93,6 @@ func calc(str []string, n int) []string {
     }
     return newRes
 }
+
+
 {% endraw %}

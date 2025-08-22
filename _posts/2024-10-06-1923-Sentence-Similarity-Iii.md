@@ -60,7 +60,11 @@ sentence2 can be turned to sentence1 by inserting "right now" at the end of the 
 	The words in sentence1 and sentence2 are separated by a single space.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def areSentencesSimilar(self, sentence1: str, sentence2: str) -> bool:
         s1 = sentence1.split(' ')
@@ -88,4 +92,6 @@ class Solution:
             
 
         
+
+
 {% endraw %}

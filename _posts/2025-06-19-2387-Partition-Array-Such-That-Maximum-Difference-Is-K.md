@@ -68,7 +68,11 @@ Since three subsequences were created, we return 3. It can be shown that 3 is th
 	0 <= k <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def partitionArray(self, nums: List[int], k: int) -> int:
         """
@@ -106,4 +110,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -60,7 +60,11 @@ Example 2:
 	0 <= nums[i] < 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def sortJumbled(self, mapping: List[int], nums: List[int]) -> List[int]:
 
@@ -80,4 +84,6 @@ class Solution:
             
 
         
+
+
 {% endraw %}

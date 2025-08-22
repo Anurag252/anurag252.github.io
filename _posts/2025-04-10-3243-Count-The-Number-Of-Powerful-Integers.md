@@ -61,7 +61,11 @@ Example 3:
 	s does not have leading zeros.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numberOfPowerfulInt(
         self, start: int, finish: int, limit: int, s: str
@@ -97,4 +101,6 @@ class Solution:
             return res
 
         return dfs(0, True, True)
+
+
 {% endraw %}

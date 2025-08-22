@@ -71,7 +71,11 @@ Note that the last node is not considered a local maxima because it does not hav
 	1 <= Node.val <= 105
 
 {% raw %}
+
+
 ```c
+
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -124,4 +128,6 @@ int* nodesBetweenCriticalPoints(struct ListNode* head, int* returnSize) {
     return arr1;
 
 }
+
+
 {% endraw %}

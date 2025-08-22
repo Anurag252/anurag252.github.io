@@ -51,7 +51,11 @@ As all the sides are of different lengths, it will form a scalene triangle.
 	1 <= nums[i] <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def triangleType(self, nums: List[int]) -> str:
         nums.sort()
@@ -66,4 +70,6 @@ class Solution:
 
         return "scalene"
         
+
+
 {% endraw %}

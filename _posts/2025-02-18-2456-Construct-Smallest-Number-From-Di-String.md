@@ -54,7 +54,11 @@ It can be proven that "4321" is the smallest possible num that meets the conditi
 	pattern consists of only the letters 'I' and 'D'.
 
 {% raw %}
+
+
 ```go
+
+
 func smallestNumber(pattern string) string {
     // we could try all and backtrack
     // if we find total num of maximas and all need to be unique 
@@ -120,4 +124,6 @@ func allocate(arr []int, res []int, pattern string, i int) bool {
     }
     return false
 }
+
+
 {% endraw %}

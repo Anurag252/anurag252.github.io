@@ -61,7 +61,11 @@ Example 3:
 	1 <= nums[i] <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:
         # Calculate the maximum possible OR value
@@ -86,4 +90,6 @@ class Solution:
                 subsets_with_max_or += 1
 
         return subsets_with_max_or
+
+
 {% endraw %}

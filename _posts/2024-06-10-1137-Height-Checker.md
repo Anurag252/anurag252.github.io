@@ -63,7 +63,11 @@ All indices match.
 	1 <= heights[i] <= 100
 
 {% raw %}
+
+
 ```c
+
+
 
 int comp (const void * elem1, const void * elem2) ;
 int heightChecker(int* heights, int heightsSize) {
@@ -94,4 +98,6 @@ int comp (const void * elem1, const void * elem2)
     if (f < s) return -1;
     return 0;
 }
+
+
 {% endraw %}

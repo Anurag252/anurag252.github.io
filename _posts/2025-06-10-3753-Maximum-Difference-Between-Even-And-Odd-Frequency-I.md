@@ -50,7 +50,11 @@ Example 2:
 	s contains at least one character with an odd frequency and one with an even frequency.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxDifference(self, s: str) -> int:
         mp = {}
@@ -69,4 +73,6 @@ class Solution:
         return odd - even
 
         
+
+
 {% endraw %}

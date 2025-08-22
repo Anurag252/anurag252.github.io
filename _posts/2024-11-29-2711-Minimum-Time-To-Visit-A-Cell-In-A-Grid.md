@@ -63,7 +63,11 @@ Example 2:
  
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumTime(self, grid: List[List[int]]) -> int:
         # If both initial moves require more than 1 second, impossible to proceed
@@ -110,4 +114,6 @@ class Solution:
     # Checks if given cell coordinates are valid and unvisited
     def _is_valid(self, visited, row, col, rows, cols):
         return 0 <= row < rows and 0 <= col < cols and (row, col) not in visited
+
+
 {% endraw %}

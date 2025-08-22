@@ -74,7 +74,11 @@ In total, 1 + 3 + 0 + 0 = 4 moves were used.
 	1 <= seats[i], students[j] <= 100
 
 {% raw %}
+
+
 ```c
+
+
 int cmpfunc (const void * a, const void * b) {
    return ( *(int*)a - *(int*)b );
 }
@@ -93,4 +97,6 @@ int minMovesToSeat(int* seats, int seatsSize, int* students, int studentsSize) {
      }
      return result;
 }
+
+
 {% endraw %}

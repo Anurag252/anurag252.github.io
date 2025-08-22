@@ -60,7 +60,11 @@ Example 3:
 	chars[i] is a lowercase English letter, uppercase English letter, digit, or symbol.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def compress(self, chars: List[str]) -> int:
         curr = 0
@@ -96,4 +100,6 @@ class Solution:
         curr = curr + 1
         chars[curr] = str(t)
         return chars, curr
+
+
 {% endraw %}

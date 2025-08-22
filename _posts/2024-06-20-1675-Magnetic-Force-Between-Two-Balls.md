@@ -48,7 +48,11 @@ Example 2:
 	2 <= m <= position.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxDistance(self, position: List[int], m: int) -> int:
         n = len(position)
@@ -70,4 +74,6 @@ class Solution:
             else:
                 r = mid - 1
         return l
+
+
 {% endraw %}

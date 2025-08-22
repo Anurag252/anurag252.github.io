@@ -58,7 +58,11 @@ Example 3:
 	1 <= arr[i] <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
         #print(target, arr)
@@ -72,4 +76,6 @@ class Solution:
                     return True
         return False
         
+
+
 {% endraw %}

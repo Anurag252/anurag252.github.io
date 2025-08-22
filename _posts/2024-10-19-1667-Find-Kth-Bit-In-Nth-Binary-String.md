@@ -56,7 +56,11 @@ The 11th bit is "1".
 	1 <= k <= 2n - 1
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findKthBit(self, n: int, k: int) -> str:
 
@@ -87,4 +91,6 @@ class Solution:
         
 
         
+
+
 {% endraw %}

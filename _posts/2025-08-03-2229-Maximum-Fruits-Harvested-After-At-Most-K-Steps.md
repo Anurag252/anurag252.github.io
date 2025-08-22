@@ -73,7 +73,11 @@ You can move at most k = 2 steps and cannot reach any position with fruits.
 	0 <= k <= 2 * 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxTotalFruits(
         self, fruits: List[List[int]], startPos: int, k: int
@@ -105,4 +109,6 @@ class Solution:
             ans = max(ans, sum_[end] - sum_[start])
 
         return ans
+
+
 {% endraw %}

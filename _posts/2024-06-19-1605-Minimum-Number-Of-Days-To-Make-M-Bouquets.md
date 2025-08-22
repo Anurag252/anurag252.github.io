@@ -68,7 +68,11 @@ It is obvious that we can make two bouquets in different ways.
 	1 <= k <= n
 
 {% raw %}
+
+
 ```python
+
+
 class Solution(object):
     def minDays(self, A, m, k):
         if m * k > len(A): return -1
@@ -88,4 +92,6 @@ class Solution(object):
                 left = mid + 1
         return left
         
+
+
 {% endraw %}

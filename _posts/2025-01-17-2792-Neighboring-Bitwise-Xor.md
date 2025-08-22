@@ -67,7 +67,11 @@ Example 3:
 	The values in derived are either **0's** or **1's**
 
 {% raw %}
+
+
 ```go
+
+
 func doesValidArrayExist(derived []int) bool {
     // a ^ b = 1 diff
     // b ^ c = 1 diff
@@ -127,4 +131,6 @@ func doesValidArrayExist(derived []int) bool {
     }
     return false
 }
+
+
 {% endraw %}

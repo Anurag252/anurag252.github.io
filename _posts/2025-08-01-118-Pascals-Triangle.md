@@ -39,7 +39,11 @@ Example 2:
 	1 <= numRows <= 30
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn generate(num_rows: i32) -> Vec<Vec<i32>> {
         let mut res : Vec<Vec<i32>> = Vec::new();
@@ -63,4 +67,6 @@ impl Solution {
         res
     }
 }
+
+
 {% endraw %}

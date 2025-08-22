@@ -52,7 +52,11 @@ Example 2:
 	0 <= a, b, c <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countGoodTriplets(self, arr: List[int], a: int, b: int, c: int) -> int:
         res = []
@@ -73,4 +77,6 @@ class Solution:
         print(res)
 
         
+
+
 {% endraw %}

@@ -59,7 +59,11 @@ Example 3:
 	1 <= space <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def destroyTargets(self, nums: List[int], space: int) -> int:
         remainder_count = {}
@@ -81,4 +85,6 @@ class Solution:
                 min_seed = min(min_seed, min_number[r])
         
         return min_seed
+
+
 {% endraw %}

@@ -51,7 +51,11 @@ Example 2:
 	1 <= k <= 500
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn kth_character(k: i32) -> char {
         let mut arr : [char; 5001]= ['a'; 5001];
@@ -75,4 +79,6 @@ impl Solution {
 
     }
 }
+
+
 {% endraw %}

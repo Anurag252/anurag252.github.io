@@ -38,7 +38,11 @@ Example 2:
 	0 <= c <= 231 - 1
 
 {% raw %}
+
+
 ```c
+
+
 bool judgeSquareSum(int c) {
     if (c == 0) {
         return true;
@@ -53,4 +57,6 @@ bool judgeSquareSum(int c) {
     return false;
     
 }
+
+
 {% endraw %}

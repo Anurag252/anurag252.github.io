@@ -58,7 +58,11 @@ Example 3:
 	1 <= k <= n
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def resultsArray(self, nums: List[int], k: int) -> List[int]:
 
@@ -97,4 +101,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

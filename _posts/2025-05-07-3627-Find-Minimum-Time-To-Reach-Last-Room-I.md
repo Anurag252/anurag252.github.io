@@ -60,7 +60,11 @@ Example 3:
 	0 <= moveTime[i][j] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minTimeToReach(self, moveTime: List[List[int]]) -> int:
         # idea is that start at end
@@ -140,4 +144,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

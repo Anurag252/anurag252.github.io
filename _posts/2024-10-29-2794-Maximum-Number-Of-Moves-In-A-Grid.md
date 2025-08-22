@@ -54,7 +54,11 @@ Example 2:
 	1 <= grid[i][j] <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxMoves(self, grid: List[List[int]]) -> int:
         
@@ -81,4 +85,6 @@ class Solution:
         for k in range(row):
             res = max(res, maxmv(k,0))
         return res
+
+
 {% endraw %}

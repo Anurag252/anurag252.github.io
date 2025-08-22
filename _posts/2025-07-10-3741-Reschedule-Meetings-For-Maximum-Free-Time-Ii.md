@@ -79,7 +79,11 @@ There is no time during the event not occupied by meetings.
 	endTime[i] <= startTime[i + 1] where i lies in the range [0, n - 2].
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxFreeTime(
         self, eventTime: int, startTime: list[int], endTime: list[int]
@@ -110,4 +114,6 @@ class Solution:
             else:
                 res = max(res, right - left - (endTime[i] - startTime[i]))
         return res
+
+
 {% endraw %}

@@ -65,7 +65,11 @@ Example 3:
 	nums​​​ is sorted in **ascending** order.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def getMaximumXor(self, nums: List[int], maximumBit: int) -> List[int]:
         largestnum = 2 ** maximumBit - 1
@@ -84,6 +88,8 @@ class Solution:
             res.append(largestnum - l)
         res.reverse()
         return res
+
+
 
 
 {% endraw %}

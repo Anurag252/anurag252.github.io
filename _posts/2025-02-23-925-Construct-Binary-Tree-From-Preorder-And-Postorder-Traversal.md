@@ -46,7 +46,11 @@ Example 2:
 	It is guaranteed that preorder and postorder are the preorder traversal and postorder traversal of the same binary tree.
 
 {% raw %}
+
+
 ```go
+
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -99,4 +103,6 @@ func recurse(root **TreeNode, preorder []int, postorder []int) {
         }
     }
 }
+
+
 {% endraw %}

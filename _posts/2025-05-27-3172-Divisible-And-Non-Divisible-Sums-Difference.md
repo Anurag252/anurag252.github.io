@@ -65,7 +65,11 @@ We return 0 - 15 = -15 as the answer.
 	1 <= n, m <= 1000
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn difference_of_sums(n: i32, m: i32) -> i32 {
         let mut sum1 = 0;
@@ -79,4 +83,6 @@ impl Solution {
         return sum2 - 2*sum1;
     }
 }
+
+
 {% endraw %}

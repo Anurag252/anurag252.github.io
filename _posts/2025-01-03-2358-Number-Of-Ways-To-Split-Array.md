@@ -55,7 +55,11 @@ There are two valid splits in nums:
 	-105 <= nums[i] <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def waysToSplitArray(self, nums: List[int]) -> int:
         s = sum(nums)
@@ -67,4 +71,6 @@ class Solution:
                 res += 1
         return res
         
+
+
 {% endraw %}

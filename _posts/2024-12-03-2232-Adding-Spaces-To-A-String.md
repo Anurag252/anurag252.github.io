@@ -62,7 +62,11 @@ We are also able to place spaces before the first character of the string.
 	All the values of spaces are **strictly increasing**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def addSpaces(self, s: str, spaces: List[int]) -> str:
         res = [""] * (len(s) + len(spaces))
@@ -77,4 +81,6 @@ class Solution:
             res[idx + added_spaces] = k
         return "".join(res)
         
+
+
 {% endraw %}

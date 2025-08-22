@@ -66,7 +66,11 @@ After the addition of the road from 0 to 2, the length of the shortest path rema
 	There are no repeated roads among the queries.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def shortestDistanceAfterQueries(self, n: int, queries: List[List[int]]) -> List[int]:
         #O(q * n)
@@ -107,4 +111,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

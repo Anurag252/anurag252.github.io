@@ -53,7 +53,11 @@ Example 3:
 	Each tree will have **unique node values** in the range [0, 99].
 
 {% raw %}
+
+
 ```cpp
+
+
 class Solution {
 public:
     bool flipEquiv(TreeNode* root1, TreeNode* root2) {
@@ -80,4 +84,6 @@ public:
         return swap || noSwap;
     }
 };
+
+
 {% endraw %}

@@ -57,7 +57,11 @@ So the average waiting time = (2 + 6 + 4 + 1) / 4 = 3.25.
 	arrivali <= arrivali+1
 
 {% raw %}
+
+
 ```c
+
+
 double averageWaitingTime(int** customers, int customersSize, int* customersColSize) {
 
     if (customersSize == 0){
@@ -80,4 +84,6 @@ double averageWaitingTime(int** customers, int customersSize, int* customersColS
 
     return (wait)/customersSize;
 }
+
+
 {% endraw %}

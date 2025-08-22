@@ -45,7 +45,11 @@ The longest valid subsequence is [1, 4, 1, 4].
 	1 <= k <= 103
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumLength(self, nums: List[int], k: int) -> int:
         """
@@ -124,6 +128,8 @@ class Solution:
 
         
                 
+
+
 
 
 

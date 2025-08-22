@@ -52,7 +52,11 @@ Only node 4 is a terminal node, and every path starting at node 4 leads to node 
 	The number of edges in the graph will be in the range [1, 4 * 104].
 
 {% raw %}
+
+
 ```go
+
+
 func eventualSafeNodes(graph [][]int) []int {
     // we could do a dfs from each node and find if it is safe n2
     // terminal nodes have no outgoing edges
@@ -156,4 +160,6 @@ func dfs(source int , graph [][]int, safe map[int]bool, visited map[int]bool, un
     delete(visited, source)
     return true
 }
+
+
 {% endraw %}

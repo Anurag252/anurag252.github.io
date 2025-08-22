@@ -41,7 +41,11 @@ Example 2:
 	The input tree is **guaranteed** to be a binary search tree.
 
 {% raw %}
+
+
 ```python
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -134,4 +138,6 @@ class Codec:
 # tree = ser.serialize(root)
 # ans = deser.deserialize(tree)
 # return ans
+
+
 {% endraw %}

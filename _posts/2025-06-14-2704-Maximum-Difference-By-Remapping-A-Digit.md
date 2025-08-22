@@ -52,7 +52,11 @@ Thus, we return 99.
 	1 <= num <= 108
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minMaxDifference(self, num: int) -> int:
         first = 0
@@ -84,4 +88,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

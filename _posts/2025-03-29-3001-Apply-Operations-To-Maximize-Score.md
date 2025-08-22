@@ -61,7 +61,11 @@ It can be proven that 4788 is the highest score one can obtain.
 	1 <= k <= min(n * (n + 1) / 2, 109)
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     MOD = 10**9 + 7
 
@@ -162,4 +166,6 @@ class Solution:
             k -= operations
 
         return score
+
+
 {% endraw %}

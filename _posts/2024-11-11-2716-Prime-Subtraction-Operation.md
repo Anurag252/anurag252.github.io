@@ -58,7 +58,11 @@ Example 3:
 	nums.length == n
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def primeSubOperation(self, nums: List[int]) -> bool:
         prime = []
@@ -88,6 +92,8 @@ class Solution:
         #print(a)
 
         return True
+
+
 
 
 

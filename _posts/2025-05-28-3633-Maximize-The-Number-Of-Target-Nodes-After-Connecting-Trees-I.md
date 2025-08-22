@@ -64,7 +64,11 @@ For every i, connect node i of the first tree with any node of the second tree.
 	0 <= k <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxTargetNodes(
         self, edges1: List[List[int]], edges2: List[List[int]], k: int
@@ -98,4 +102,6 @@ class Solution:
         maxCount2 = max(count2)
         res = [count1[i] + maxCount2 for i in range(n)]
         return res
+
+
 {% endraw %}

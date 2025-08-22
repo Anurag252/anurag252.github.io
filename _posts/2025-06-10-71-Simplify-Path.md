@@ -87,7 +87,11 @@ Example 5:
 	path is a valid absolute Unix path.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def simplifyPath(self, path: str) -> str:
         arr = path.split('/')
@@ -110,4 +114,6 @@ class Solution:
         return "/".join(st) if len(st) > 0  else "/"
             
         
+
+
 {% endraw %}

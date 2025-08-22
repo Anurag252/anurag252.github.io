@@ -53,7 +53,11 @@ Example 3:
 **Follow up:** Could you solve it without converting the integer to a string?
 
 {% raw %}
+
+
 ```c
+
+
 bool isPalindrome(int x) {
     int k = 1;
     while(x/k >= 10){
@@ -77,4 +81,6 @@ bool isPalindrome(int x) {
     return false;
 
 }
+
+
 {% endraw %}

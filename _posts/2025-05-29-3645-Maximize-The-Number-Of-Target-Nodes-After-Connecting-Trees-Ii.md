@@ -63,7 +63,11 @@ For every i, connect node i of the first tree with any node of the second tree.
 	The input is generated such that edges1 and edges2 represent valid trees.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxTargetNodes(
         self, edges1: List[List[int]], edges2: List[List[int]]
@@ -96,4 +100,6 @@ class Solution:
         for i in range(n):
             res[i] = count1[color1[i]] + max(count2[0], count2[1])
         return res
+
+
 {% endraw %}

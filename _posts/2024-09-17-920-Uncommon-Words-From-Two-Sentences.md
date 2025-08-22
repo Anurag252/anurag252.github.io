@@ -42,7 +42,11 @@ Example 2:
 	All the words in s1 and s2 are separated by a single space.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:
         dic = {}
@@ -64,6 +68,8 @@ class Solution:
                 result.append(k)
         
         return result
+
+
 
 
 {% endraw %}

@@ -62,7 +62,11 @@ In total, you spent $17 and covered all the days of your travel.
 	1 <= costs[i] <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         """
@@ -104,4 +108,6 @@ class Solution:
         return recurse(0, days[0])
 
         
+
+
 {% endraw %}

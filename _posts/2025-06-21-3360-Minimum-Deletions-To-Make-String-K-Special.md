@@ -51,7 +51,11 @@ Example 3:
 	word consists only of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumDeletions(self, word: str, k: int) -> int:
         mp = {}
@@ -118,5 +122,7 @@ class Solution:
             res = min(res,  a + b - (num_of_elements_grt*(m+k)))
 
         return res
+
+
 
 {% endraw %}

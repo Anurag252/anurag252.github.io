@@ -61,7 +61,11 @@ Example 3:
 	1 <= nums[i] <= 105
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn count_max_or_subsets(nums: Vec<i32>) -> i32 {
         // bitwise or is max if done for all elements ?
@@ -102,4 +106,6 @@ impl Solution {
         return result;
     }
 }
+
+
 {% endraw %}

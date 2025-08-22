@@ -81,7 +81,11 @@ Example 2:
 	words[i] consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def getLongestSubsequence(self, words: List[str], groups: List[int]) -> List[str]:
         """
@@ -112,4 +116,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -80,7 +80,11 @@ Thus, Alice opens the gate at node 0 only. Hence, her net income is -7280.
 	amount[i] is an **even** integer in the range [-104, 104].
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def __init__(self):
         self.bob_path = {}
@@ -151,4 +155,6 @@ class Solution:
         # If node 0 isn't reached, remove current node from path
         self.bob_path.pop(source_node, None)
         return False
+
+
 {% endraw %}

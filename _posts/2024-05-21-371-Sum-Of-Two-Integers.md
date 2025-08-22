@@ -35,7 +35,11 @@ Example 2:
 	-1000 <= a, b <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def getSum(self, a: int, b: int) -> int:
         if a < 0 or b < 0:
@@ -86,4 +90,6 @@ class Solution:
         carry_bit = ((a & b) | (a & c_in) | (b & c_in))
 
         return sum_bit, carry_bit
+
+
 {% endraw %}

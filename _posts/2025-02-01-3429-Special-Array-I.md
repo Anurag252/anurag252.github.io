@@ -52,7 +52,11 @@ nums[1] and nums[2] are both odd. So the answer is false.
 	1 <= nums[i] <= 100
 
 {% raw %}
+
+
 ```go
+
+
 func isArraySpecial(nums []int) bool {
     t := nums[0]
     isEven := false // odd
@@ -78,4 +82,6 @@ func isArraySpecial(nums []int) bool {
     }
     return true
 }
+
+
 {% endraw %}

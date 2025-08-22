@@ -63,7 +63,11 @@ Each prefix has a score of one, so the total is answer[0] = 1 + 1 + 1 + 1 = 4.
 	words[i] consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class TrieNode:
     def __init__(self):
         self.umc = {}
@@ -121,4 +125,6 @@ class Solution:
 
         
         
+
+
 {% endraw %}

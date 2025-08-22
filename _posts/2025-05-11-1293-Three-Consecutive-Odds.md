@@ -38,7 +38,11 @@ Example 2:
 	1 <= arr[i] <= 1000
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn three_consecutive_odds(arr: Vec<i32>) -> bool {
         let mut count = 0;
@@ -57,4 +61,6 @@ impl Solution {
         return false;
     }
 }
+
+
 {% endraw %}

@@ -51,7 +51,11 @@ You need to output 2.
 **Note:** This question is the same as [ 2410: Maximum Matching of Players With Trainers.](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/description/)
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findContentChildren(self, players: List[int], trainers: List[int]) -> int:
         """
@@ -84,4 +88,6 @@ class Solution:
                 st.append(arr[i])
                 i += 1
         return count
+
+
 {% endraw %}

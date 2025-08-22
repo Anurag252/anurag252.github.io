@@ -74,7 +74,11 @@ Example 3:
 	1 <= n <= 30
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def kMirror(self, k: int, n: int) -> int:
 
@@ -115,4 +119,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

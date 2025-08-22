@@ -61,7 +61,11 @@ Example 3:
 	1 <= nums[i] <= 28
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def canSortArray(self, nums: List[int]) -> bool:
         num = copy.deepcopy(nums)
@@ -103,4 +107,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

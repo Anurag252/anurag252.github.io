@@ -45,7 +45,11 @@ Example 2:
 	to_delete contains distinct values between 1 and 1000.
 
 {% raw %}
+
+
 ```python
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -79,4 +83,6 @@ class Solution:
         return result
         
         
+
+
 {% endraw %}

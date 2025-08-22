@@ -51,7 +51,11 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 	1 <= tops[i], bottoms[i] <= 6
 
 {% raw %}
+
+
 ```rust
+
+
 use std::collections::HashMap;
 use std::cmp::max;
 use std::cmp::min;
@@ -103,5 +107,7 @@ impl Solution {
 
     }
 }
+
+
 
 {% endraw %}

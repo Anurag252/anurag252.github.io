@@ -56,7 +56,11 @@ Example 3:
 	1 <= Node.val <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def __init__(self):
         self.index = 0
@@ -95,4 +99,6 @@ class Solution:
         node.right = self.helper(traversal, depth + 1)
 
         return node
+
+
 {% endraw %}

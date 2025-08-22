@@ -70,7 +70,11 @@ Room 0 held 1 meeting while rooms 1 and 2 each held 2 meetings, so we return 1.
 	All the values of starti are **unique**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
         room_availability_time = [0] * n
@@ -93,4 +97,6 @@ class Solution:
                 meeting_count[min_available_time_room] += 1
 
         return meeting_count.index(max(meeting_count))
+
+
 {% endraw %}

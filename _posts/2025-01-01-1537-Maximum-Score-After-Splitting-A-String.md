@@ -57,7 +57,11 @@ Example 3:
 	The string s consists of characters '0' and '1' only.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxScore(self, s: str) -> int:
         res = 0
@@ -83,4 +87,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

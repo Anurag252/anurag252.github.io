@@ -58,7 +58,11 @@ Example 2:
 	0 <= nums[i] <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
         arr = []
@@ -80,4 +84,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

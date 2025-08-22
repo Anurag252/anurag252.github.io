@@ -67,7 +67,11 @@ The maximum number of products given to any store is max(100000) = 100000.
 	1 <= quantities[i] <= 105
 
 {% raw %}
+
+
 ```python
+
+
 from typing import List
 from math import ceil
 
@@ -89,5 +93,7 @@ class Solution:
                 left = mid + 1  # Increase the maximum quantity
         
         return left
+
+
 
 {% endraw %}

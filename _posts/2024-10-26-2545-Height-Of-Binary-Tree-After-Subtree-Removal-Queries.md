@@ -64,7 +64,11 @@ Example 2:
 	queries[i] != root.val
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def treeQueries(
         self, root: Optional[TreeNode], queries: List[int]
@@ -112,4 +116,6 @@ class Solution:
 
         # Process queries and build the result list
         return [max_height_after_removal[q] for q in queries]
+
+
 {% endraw %}

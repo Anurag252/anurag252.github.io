@@ -72,7 +72,11 @@ The maximum number of employees that can be invited to the meeting is 4.
 	favorite[i] != i
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumInvitations(self, favorite: List[int]) -> int:
         # Calculate the maximum distance from a given start node
@@ -142,4 +146,6 @@ class Solution:
                     current_person = next_person
 
         return max(longest_cycle, two_cycle_invitations)
+
+
 {% endraw %}

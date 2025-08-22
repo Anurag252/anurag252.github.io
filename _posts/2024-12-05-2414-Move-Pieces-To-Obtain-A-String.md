@@ -60,7 +60,11 @@ Example 3:
 	start and target consist of the characters 'L', 'R', and '_'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def canChange(self, start: str, target: str) -> bool:
         start_length = len(start)
@@ -95,4 +99,6 @@ class Solution:
 
         # if all conditions satisfied, return true
         return True
+
+
 {% endraw %}

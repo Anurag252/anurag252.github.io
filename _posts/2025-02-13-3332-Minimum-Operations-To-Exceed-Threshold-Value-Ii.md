@@ -59,7 +59,11 @@ It can be shown that 4 is the minimum number of operations needed so that all el
 	The input is generated such that an answer always exists. That is, there exists some sequence of operations after which all elements of the array are greater than or equal to k.
 
 {% raw %}
+
+
 ```go
+
+
 import pq "github.com/emirpasic/gods/queues/priorityqueue"
 
 
@@ -111,4 +115,6 @@ func minOperations(nums []int, k int) int {
     //fmt.Println(q.Values())
     return res
 }
+
+
 {% endraw %}

@@ -60,7 +60,11 @@ If we had started at the first tree, we would only pick from trees [1,2].
 	0 <= fruits[i] < fruits.length
 
 {% raw %}
+
+
 ```python
+
+
 from collections import defaultdict
 
 class Solution:
@@ -81,4 +85,6 @@ class Solution:
             max_len = max(max_len, end - start + 1)
 
         return max_len
+
+
 {% endraw %}

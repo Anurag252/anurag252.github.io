@@ -47,7 +47,11 @@ Example 2:
 	1 <= nums[i] <= 109
 
 {% raw %}
+
+
 ```go
+
+
 func countBadPairs(nums []int) int64 {
 
     // consecutive numbers must lie at indexes
@@ -81,4 +85,6 @@ func countBadPairs(nums []int) int64 {
     return totalPairs - goodPairs
 
 }
+
+
 {% endraw %}

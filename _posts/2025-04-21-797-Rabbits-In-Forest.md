@@ -46,7 +46,11 @@ Example 2:
 	0 <= answers[i] < 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         # if all different then just sum all plus one each
@@ -72,4 +76,6 @@ class Solution:
         return res
 
         
+
+
 {% endraw %}

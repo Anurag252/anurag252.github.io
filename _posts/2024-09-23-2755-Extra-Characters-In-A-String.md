@@ -45,7 +45,11 @@ Example 2:
 	dictionary contains distinct words
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minExtraChar(self, s: str, dictionary: List[str]) -> int:
         n, dictionary_set = len(s), set(dictionary)
@@ -63,4 +67,6 @@ class Solution:
             return ans
             
         return dp(0)
+
+
 {% endraw %}

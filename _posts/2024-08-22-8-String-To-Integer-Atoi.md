@@ -116,7 +116,11 @@ Reading stops at the first non-digit character 'w'.
 	s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def myAtoi(self, s: str) -> int:
         leading_whitespace_check = True
@@ -164,6 +168,8 @@ class Solution:
         if result > 2147483647:
             return 2147483647
         return result
+
+
 
 
 

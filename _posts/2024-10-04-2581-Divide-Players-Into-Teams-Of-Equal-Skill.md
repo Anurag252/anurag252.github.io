@@ -60,7 +60,11 @@ There is no way to divide the players into teams such that the total skill of ea
 	1 <= skill[i] <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
         s = sum(skill)
@@ -98,4 +102,6 @@ class Solution:
 
         return result
         
+
+
 {% endraw %}

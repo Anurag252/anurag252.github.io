@@ -41,7 +41,11 @@ Example 2:
 	1 <= n <= 1690
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         s = set()
@@ -73,4 +77,6 @@ class Solution:
         
 
         
+
+
 {% endraw %}

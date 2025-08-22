@@ -59,7 +59,11 @@ Therefore, we return [2,1].
 	0 <= nums[i] <= 109
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn smallest_subarrays(nums: Vec<i32>) -> Vec<i32> {
         let n = nums.len();
@@ -83,5 +87,7 @@ impl Solution {
         result
     }
 }
+
+
 
 {% endraw %}

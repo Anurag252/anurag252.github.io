@@ -60,7 +60,11 @@ The array already contains distinct elements. Therefore, the answer is 0.
 	1 <= nums[i] <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
         arr = [0] * 101
@@ -86,4 +90,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

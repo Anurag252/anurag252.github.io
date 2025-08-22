@@ -65,7 +65,11 @@ nums cannot be converted to a zero array even after using all the queries.
 	0 <= li <= ri < nums.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxRemoval(self, nums: List[int], queries: List[List[int]]) -> int:
         queries.sort(key=lambda x: x[0])
@@ -84,4 +88,6 @@ class Solution:
             if operations < num:
                 return -1
         return len(heap)
+
+
 {% endraw %}

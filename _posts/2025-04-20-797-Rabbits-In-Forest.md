@@ -46,7 +46,11 @@ Example 2:
 	0 <= answers[i] < 1000
 
 {% raw %}
+
+
 ```cpp
+
+
 class Solution {
 public:
     int numRabbits(vector<int>& nums, int total = 0) {
@@ -58,4 +62,6 @@ public:
         return total;
     }
 };
+
+
 {% endraw %}

@@ -50,7 +50,11 @@ Example 3:
 	s contains only lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findTheLongestSubstring(self, s: str) -> int:
         prefixXOR = 0
@@ -72,5 +76,7 @@ class Solution:
 
 
                     
+
+
 
 {% endraw %}

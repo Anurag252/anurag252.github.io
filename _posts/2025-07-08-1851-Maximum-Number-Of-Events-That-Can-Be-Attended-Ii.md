@@ -60,7 +60,11 @@ Example 3:
 	1 <= valuei <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxValue(self, events: List[List[int]], k: int) -> int:        
         events.sort()
@@ -81,4 +85,6 @@ class Solution:
             return dp[count][cur_index]
         
         return dfs(0, k)
+
+
 {% endraw %}

@@ -45,7 +45,11 @@ Example 2:
 	1 <= k <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
         max_element = max(nums)
@@ -62,4 +66,6 @@ class Solution:
                 ans += indexes_of_max_elements[-k] + 1
 
         return ans
+
+
 {% endraw %}

@@ -49,7 +49,11 @@ Finally, shift the characters from index 1 to index 1 forward. Now s = "catz".
 	s consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
         arr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
@@ -92,4 +96,6 @@ class Solution:
             
 
         
+
+
 {% endraw %}

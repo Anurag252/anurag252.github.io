@@ -72,7 +72,11 @@ The total distance is |2 - 1| + |(-2) - (-1)| = 2. It can be shown that we canno
 	The input will be generated such that it is always possible to repair every robot.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumTotalDistance(
         self, robot: List[int], factory: List[List[int]]
@@ -107,4 +111,6 @@ class Solution:
             return dp[robot_idx][factory_idx]
 
         return _calculate_min_distance(0, 0)
+
+
 {% endraw %}

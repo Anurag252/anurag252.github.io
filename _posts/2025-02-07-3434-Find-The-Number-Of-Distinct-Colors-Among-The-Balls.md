@@ -60,7 +60,11 @@ Example 2:
 	1 <= queries[i][1] <= 109
 
 {% raw %}
+
+
 ```go
+
+
 func queryResults(limit int, queries [][]int) []int {
     balls := make(map[int]int)
     colors := make(map[int]int)
@@ -97,4 +101,6 @@ func queryResults(limit int, queries [][]int) []int {
     
     return res
 }
+
+
 {% endraw %}

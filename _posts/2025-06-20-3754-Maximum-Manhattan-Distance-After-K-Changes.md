@@ -81,7 +81,11 @@ The maximum Manhattan distance from the origin that can be achieved is 6. Hence,
 	s consists of only 'N', 'S', 'E', and 'W'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxDistance(self, s: str, k: int) -> int:
         ans = 0
@@ -110,4 +114,6 @@ class Solution:
         return (
             abs(drt1 - drt2) + times * 2
         )  # Calculate modified Manhattan distance
+
+
 {% endraw %}

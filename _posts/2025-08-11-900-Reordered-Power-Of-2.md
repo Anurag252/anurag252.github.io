@@ -39,7 +39,11 @@ Example 2:
 	1 <= n <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def reorderedPowerOf2(self, n: int) -> bool:
         l = list(str(n))
@@ -93,4 +97,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

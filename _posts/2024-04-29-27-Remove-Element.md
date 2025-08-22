@@ -72,7 +72,11 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 	0 <= val <= 100
 
 {% raw %}
+
+
 ```c
+
+
 int removeElement(int* nums, int numsSize, int val) {
 
     int result = 0;
@@ -110,4 +114,6 @@ int removeElement(int* nums, int numsSize, int val) {
 
 
 }
+
+
 {% endraw %}

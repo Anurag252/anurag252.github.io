@@ -62,7 +62,11 @@ Student number 1 does not have enough chalk, so they will have to replace it.
 	1 <= k <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def chalkReplacer(self, chalk: List[int], k: int) -> int:
         if k >= sum(chalk):
@@ -92,4 +96,6 @@ class Solution:
         
         
         
+
+
 {% endraw %}

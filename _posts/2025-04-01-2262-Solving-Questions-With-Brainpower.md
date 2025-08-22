@@ -59,7 +59,11 @@ Total points earned: 2 + 5 = 7. There is no other way to earn 7 or more points.
 	1 <= pointsi, brainpoweri <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def mostPoints(self, questions: List[List[int]]) -> int:
         n = len(questions)
@@ -72,5 +76,7 @@ class Solution:
             dp[i] = max(take, skip)
 
         return dp[0]
+
+
 
 {% endraw %}

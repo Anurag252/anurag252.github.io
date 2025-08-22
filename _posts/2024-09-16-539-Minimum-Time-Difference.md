@@ -34,7 +34,11 @@ Example 2:
 	timePoints[i] is in the format **"HH:MM"**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
         result = []
@@ -56,4 +60,6 @@ class Solution:
         return diff
 
         
+
+
 {% endraw %}

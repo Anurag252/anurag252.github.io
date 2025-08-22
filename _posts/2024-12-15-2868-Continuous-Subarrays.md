@@ -58,7 +58,11 @@ Total continuous subarrays = 3 + 2 + 1 = 6.
 	1 <= nums[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 
 class Solution:
     def continuousSubarrays(self, nums: List[int]) -> int:
@@ -99,4 +103,6 @@ class Solution:
         #print(arr, left, right)
         #result += add(right - left)
         return result
+
+
 {% endraw %}

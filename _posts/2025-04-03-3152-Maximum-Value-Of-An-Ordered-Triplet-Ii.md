@@ -56,7 +56,11 @@ Example 3:
 	1 <= nums[i] <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumTripletValue(self, nums: List[int]) -> int:
         mx , diff , prod = 0, 0, 0
@@ -69,4 +73,6 @@ class Solution:
         return prod
 
         
+
+
 {% endraw %}

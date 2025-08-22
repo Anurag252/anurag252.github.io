@@ -71,7 +71,11 @@ Example 3:
 	All values in positions are distinct
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
         stack = []
@@ -107,4 +111,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

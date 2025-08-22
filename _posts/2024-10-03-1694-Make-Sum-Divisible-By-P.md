@@ -55,7 +55,11 @@ Example 3:
 	1 <= p <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:
         prefix_sum = []
@@ -98,4 +102,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -38,7 +38,11 @@ Example 2:
 	1 <= k <= n <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findKthNumber(self, n: int, k: int) -> int:
         # Function to count the numbers under the prefix `m`
@@ -70,5 +74,7 @@ class Solution:
                 k -= 1  # Account for moving into the next level
 
         return current
+
+
 
 {% endraw %}

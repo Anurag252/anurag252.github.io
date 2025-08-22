@@ -51,7 +51,11 @@ Example 3:
 	s only consists of *a*, *b* or *c *characters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
         # at least one occurence 
@@ -107,4 +111,6 @@ class Solution:
 
         
         
+
+
 {% endraw %}

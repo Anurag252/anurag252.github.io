@@ -54,7 +54,11 @@ The longest subarray with that value is [4], so we return 1.
 	1 <= nums[i] <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
         max_val = ans = current_streak = 0
@@ -70,4 +74,6 @@ class Solution:
 
             ans = max(ans, current_streak)
         return ans   
+
+
 {% endraw %}

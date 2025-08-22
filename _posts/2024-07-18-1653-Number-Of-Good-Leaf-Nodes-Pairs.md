@@ -55,7 +55,11 @@ Example 3:
 	1 <= distance <= 10
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def _traverse_tree(self, curr_node, prev_node, graph, leaf_nodes):
         if curr_node is None:
@@ -101,4 +105,6 @@ class Solution:
                                 bfs_queue.append(neighbor)
                                 seen.add(neighbor)
         return ans // 2
+
+
 {% endraw %}

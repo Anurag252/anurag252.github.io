@@ -46,7 +46,11 @@ Example 2:
 	s[i] is 'a' or 'b'​​.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumDeletions(self, s: str) -> int:
         la = [0] * len(s)
@@ -83,4 +87,6 @@ class Solution:
         #0,0,b,1,b,b,3,0
         #a,a,2,a,1,1,a,0
         
+
+
 {% endraw %}

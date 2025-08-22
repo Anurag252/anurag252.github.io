@@ -37,7 +37,11 @@ Example 2:
 	1 <= n <= 5 * 104
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
 
@@ -57,4 +61,6 @@ class Solution:
                 a += l
         return a
         
+
+
 {% endraw %}

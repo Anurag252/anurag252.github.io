@@ -53,7 +53,11 @@ Initially, comp = "". Apply the operation 3 times, choosing "aaaaaaaaa", "aaaaa"
 	word consists only of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def compressedString(self, word: str) -> str:
         
@@ -82,5 +86,7 @@ class Solution:
         
 
                 
+
+
 
 {% endraw %}

@@ -60,7 +60,11 @@ Example 3:
 	num consists of digits '0' to '9' only.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countBalancedPermutations(self, num: str) -> int:
         MOD = 10**9 + 7
@@ -155,4 +159,6 @@ class Solution:
 
 
 """  
+
+
 {% endraw %}

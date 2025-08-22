@@ -64,7 +64,11 @@ Your final score is 12 - 1 = 11.
 	0 <= points[r][c] <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def __init__(self):
         self.cache = {}
@@ -105,5 +109,7 @@ class Solution:
 
         # Compute result by taking the maximum of the first row
         return max(dp(0))
+
+
 
 {% endraw %}

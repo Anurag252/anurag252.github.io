@@ -47,7 +47,11 @@ Example 2:
 **Note:** This question is the same as 1009: [https://leetcode.com/problems/complement-of-base-10-integer/](https://leetcode.com/problems/complement-of-base-10-integer/)
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findComplement(self, num: int) -> int:
         result = 0
@@ -64,4 +68,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

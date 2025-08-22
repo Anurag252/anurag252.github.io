@@ -67,7 +67,11 @@ We cannot make two horizontal or two vertical cuts that satisfy the conditions. 
 	No two rectangles overlap.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def checkValidCuts(self, n: int, rectangles: List[List[int]]) -> bool:
         # find at least 3 non overlapping rectangles
@@ -110,4 +114,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

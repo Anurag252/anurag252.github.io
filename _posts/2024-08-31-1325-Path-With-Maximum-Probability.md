@@ -65,7 +65,11 @@ Example 3:
 	There is at most one edge between every two nodes.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], start_node: int, end_node: int) -> float:
         matrix = {}
@@ -119,6 +123,8 @@ class Solution:
         
         # Call the helper function and return its result
         return test()   
+
+
 
 
 {% endraw %}

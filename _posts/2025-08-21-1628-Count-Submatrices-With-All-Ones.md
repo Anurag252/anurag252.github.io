@@ -56,7 +56,11 @@ Total number of rectangles = 8 + 5 + 2 + 4 + 2 + 2 + 1 = 24.
 	mat[i][j] is either 0 or 1.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numSubmat(self, mat: List[List[int]]) -> int:
         """
@@ -121,4 +125,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

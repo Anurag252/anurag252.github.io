@@ -63,7 +63,11 @@ Example 2:
 	0 <= li <= ri < nums.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def isZeroArray(self, nums: List[int], queries: List[List[int]]) -> bool:
         """
@@ -94,5 +98,7 @@ class Solution:
                 return False
         return True
             
+
+
 
 {% endraw %}

@@ -54,7 +54,11 @@ Since both the maximal and minimal score are the same, we return 0.
 	1 <= weights[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def putMarbles(self, weights: List[int], k: int) -> int:
         # We collect and sort the value of all n - 1 pairs.
@@ -70,4 +74,6 @@ class Solution:
             answer += pairWeights[n - 2 - i] - pairWeights[i]
 
         return answer
+
+
 {% endraw %}

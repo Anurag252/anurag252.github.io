@@ -66,7 +66,11 @@ The above diagram represents the input graph.
 	The graph is **directed** and **acyclic**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def getAncestors(self, n: int, edges: List[List[int]]) -> List[List[int]]:
         graph = [[] for _ in range(n)]
@@ -97,4 +101,6 @@ class Solution:
             ans[i] = sorted(list(ancestors[i]))
         
         return ans
+
+
 {% endraw %}

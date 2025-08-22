@@ -45,7 +45,11 @@ Example 2:
 	0 <= heightMap[i][j] <= 2 * 104
 
 {% raw %}
+
+
 ```go
+
+
 type Cell struct {
 	height int
 	row    int
@@ -143,4 +147,6 @@ func trapRainWater(heightMap [][]int) int {
 
 	return totalWater
 }
+
+
 {% endraw %}

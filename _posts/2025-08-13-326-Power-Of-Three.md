@@ -55,7 +55,11 @@ Example 3:
 **Follow up:** Could you solve it without loops/recursion?
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn is_power_of_three(n: i32) -> bool {
 
@@ -71,4 +75,6 @@ impl Solution {
         return Self::is_power_of_three(n / 3)
     }
 }
+
+
 {% endraw %}

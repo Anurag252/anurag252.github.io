@@ -62,7 +62,11 @@ Example 3:
 	-(n - 1) <= k <= n - 1
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def decrypt(self, code: List[int], k: int) -> List[int]:
         q = []
@@ -99,6 +103,8 @@ class Solution:
                 q.pop(0)
                 q.append(code[idx])
             return res
+
+
 
 
 

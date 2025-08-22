@@ -52,7 +52,11 @@ The length of this subsequence is 6, so 6 is returned.
 	1 <= k <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def longestSubsequence(self, s: str, k: int) -> int:
         """
@@ -102,4 +106,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

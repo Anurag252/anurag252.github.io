@@ -51,7 +51,11 @@ We cannot perform any operations, so we return the length of the original string
 	s consists only of lowercase English letters.
 
 {% raw %}
+
+
 ```go
+
+
 func minimumLength(s string) int {
     // if there are 3 chars then 2 can be removed 1 is left 
     // if there are 4 - then also 2 can be removed 2 is left 
@@ -82,4 +86,6 @@ func minimumLength(s string) int {
     return len(s) - reduced
     
 }
+
+
 {% endraw %}

@@ -38,7 +38,11 @@ Example 2:
 	1 <= arr[i] <= 1000
 
 {% raw %}
+
+
 ```c
+
+
 
 bool threeConsecutiveOdds(int* arr, int arrSize) {
     //qsort(arr, arrSize, sizeof(int), compare);
@@ -57,4 +61,6 @@ bool threeConsecutiveOdds(int* arr, int arrSize) {
     }
     return false;
 }
+
+
 {% endraw %}

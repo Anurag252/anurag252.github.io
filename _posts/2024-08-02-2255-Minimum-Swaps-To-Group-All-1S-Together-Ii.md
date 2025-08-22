@@ -64,7 +64,11 @@ Thus, the minimum number of swaps required is 0.
 	nums[i] is either 0 or 1.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minSwaps(self, nums: List[int]) -> int:
         op1 = self.min_swaps_helper(nums, 0)  # Grouping all 0s together
@@ -101,4 +105,6 @@ class Solution:
             )
             minimum_swaps = min(minimum_swaps, required_swaps)
         return minimum_swaps
+
+
 {% endraw %}

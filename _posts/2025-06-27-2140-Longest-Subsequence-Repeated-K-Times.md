@@ -62,7 +62,11 @@ Example 3:
 	s consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def longestSubsequenceRepeatedK(self, s: str, k: int) -> str:
         ans = ""
@@ -81,4 +85,6 @@ class Solution:
                 if all(ch in it for ch in nxt * k):
                     q.append(nxt)
         return ans
+
+
 {% endraw %}

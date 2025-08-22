@@ -53,7 +53,11 @@ We have now a = 9 and b = 1 and max difference = 8
 	1 <= num <= 108
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxDiff(self, num: int) -> int:
         l = list(str(num))
@@ -86,4 +90,6 @@ class Solution:
         return int("".join(high)) - int("".join(low))
         
         
+
+
 {% endraw %}

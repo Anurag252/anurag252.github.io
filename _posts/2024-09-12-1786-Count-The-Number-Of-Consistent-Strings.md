@@ -55,7 +55,11 @@ Example 3:
 	words[i] and allowed contain only lowercase English letters.
 
 {% raw %}
+
+
 ```c
+
+
 
 
 int countConsistentStrings(char * allowed, char ** words, int wordsSize){
@@ -88,4 +92,6 @@ int countConsistentStrings(char * allowed, char ** words, int wordsSize){
     }
     return result;
 }
+
+
 {% endraw %}

@@ -56,7 +56,11 @@ Example 3:
 	matrix[i][j] is either 0 or 1.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
         # let's say there is a row that is good, flipping it will make it bad
@@ -90,4 +94,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

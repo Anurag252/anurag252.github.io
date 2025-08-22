@@ -70,7 +70,11 @@ Example 3:
 	-105 <= lower <= upper <= 105
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn number_of_arrays(differences: Vec<i32>, lower: i32, upper: i32) -> i32 {
         // Use prefix sum to track running total
@@ -97,5 +101,7 @@ impl Solution {
         valid_starts as i32
     }
 }
+
+
 
 {% endraw %}

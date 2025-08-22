@@ -71,7 +71,11 @@ The sentence is **not** circular.
 	There are no leading or trailing spaces.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def isCircularSentence(self, s: str) -> bool:
 
@@ -87,4 +91,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

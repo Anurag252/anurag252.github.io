@@ -65,7 +65,11 @@ Changing s[0] to either '(' or ')' will not make s valid.
 	locked[i] is either '0' or '1'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def canBeValid(self, s: str, locked: str) -> bool:
         length = len(s)
@@ -108,4 +112,6 @@ class Solution:
             return False
 
         return True
+
+
 {% endraw %}

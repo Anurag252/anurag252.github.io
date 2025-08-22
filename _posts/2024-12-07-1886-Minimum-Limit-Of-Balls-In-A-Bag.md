@@ -58,7 +58,11 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
 	1 <= maxOperations, nums[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumSize(self, nums, max_operations):
         # Binary search bounds
@@ -96,4 +100,6 @@ class Solution:
 
         # We can split the balls within the allowed operations, return True
         return True
+
+
 {% endraw %}

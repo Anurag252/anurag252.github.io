@@ -55,7 +55,11 @@ The relative ordering of the elements less than and greater than pivot is also m
 	pivot equals to an element of nums.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
         less = []
@@ -87,4 +91,6 @@ class Solution:
         
 
         
+
+
 {% endraw %}

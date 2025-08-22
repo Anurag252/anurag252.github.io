@@ -62,7 +62,11 @@ Hence, we return 3.
 	1 <= nums[i] <= 50
 
 {% raw %}
+
+
 ```go
+
+
 func longestMonotonicSubarray(nums []int) int {
     l := 0
     prev := -1
@@ -95,4 +99,6 @@ func longestMonotonicSubarray(nums []int) int {
     res = max(res, l)
     return res
 }
+
+
 {% endraw %}

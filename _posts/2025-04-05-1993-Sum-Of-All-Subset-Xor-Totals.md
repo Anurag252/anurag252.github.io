@@ -72,7 +72,11 @@ Example 3:
 	1 <= nums[i] <= 20
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
         # xor -> 0 if same else 1
@@ -99,4 +103,6 @@ class Solution:
         return m
 
         
+
+
 {% endraw %}

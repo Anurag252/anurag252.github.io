@@ -52,7 +52,11 @@ The only possible split is: "g", "g", "g", and "g".
 	1 <= numFriends <= word.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def answerString(self, words: str, numFriends: int) -> str:
         """
@@ -90,6 +94,8 @@ class Solution:
                 res.append(words[idx:])
         res.sort()
         return res[-1]
+
+
 
 
 

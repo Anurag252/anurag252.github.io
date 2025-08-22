@@ -57,7 +57,11 @@ Example 2:
 	1 <= Node.val <= 104
 
 {% raw %}
+
+
 ```cpp
+
+
 class Solution {
 public:
     TreeNode* replaceValueInTree(TreeNode* root) {
@@ -111,4 +115,6 @@ public:
         return root;
     }
 };
+
+
 {% endraw %}

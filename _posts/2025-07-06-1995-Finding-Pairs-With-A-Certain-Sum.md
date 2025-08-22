@@ -57,7 +57,11 @@ findSumPairs.count(7);  // return 11; pairs (2,1), (2,2), (2,4), (3,1), (3,2), (
 	At most 1000 calls are made to add and count **each**.
 
 {% raw %}
+
+
 ```python
+
+
 class FindSumPairs:
 
     def __init__(self, nums1: List[int], nums2: List[int]):
@@ -102,4 +106,6 @@ class FindSumPairs:
 # obj = FindSumPairs(nums1, nums2)
 # obj.add(index,val)
 # param_2 = obj.count(tot)
+
+
 {% endraw %}

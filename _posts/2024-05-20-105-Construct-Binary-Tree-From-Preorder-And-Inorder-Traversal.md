@@ -44,7 +44,11 @@ Example 2:
 	inorder is **guaranteed** to be the inorder traversal of the tree.
 
 {% raw %}
+
+
 ```python
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -72,4 +76,6 @@ class Solution:
         root.right = self.buildTree(right_preorder, right_inorder)
         return root
         
+
+
 {% endraw %}

@@ -49,7 +49,11 @@ Example 2:
 	1 <= startDayi <= endDayi <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:
         n = len(events)
@@ -68,4 +72,6 @@ class Solution:
                 ans += 1
 
         return ans
+
+
 {% endraw %}

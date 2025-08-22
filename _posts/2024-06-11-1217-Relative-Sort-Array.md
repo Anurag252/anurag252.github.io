@@ -42,7 +42,11 @@ Example 2:
 	Each arr2[i] is in arr1.
 
 {% raw %}
+
+
 ```c
+
+
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -117,5 +121,7 @@ int compar (const void* p1, const void* p2) {
     }
     return 0;
 }
+
+
 
 {% endraw %}

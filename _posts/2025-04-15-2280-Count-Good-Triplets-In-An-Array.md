@@ -48,7 +48,11 @@ Example 2:
 	nums1 and nums2 are permutations of [0, 1, ..., n - 1].
 
 {% raw %}
+
+
 ```python
+
+
 class FenwickTree:
     def __init__(self, size):
         self.tree = [0] * (size + 1)
@@ -85,4 +89,6 @@ class Solution:
             right = (n - 1 - pos) - (value - left)
             res += left * right
         return res
+
+
 {% endraw %}

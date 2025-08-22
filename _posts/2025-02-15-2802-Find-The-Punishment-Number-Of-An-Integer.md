@@ -53,7 +53,11 @@ Hence, the punishment number of 37 is 1 + 81 + 100 + 1296 = 1478
 	1 <= n <= 1000
 
 {% raw %}
+
+
 ```go
+
+
 func punishmentNumber(n int) int {
     // we can do n + T(n-1)
     // for each n -> square it, then split it and see if thi sums up. This can be done in 
@@ -101,4 +105,6 @@ func recurse(n int, init int, sum int) bool {
     return false
 
 }
+
+
 {% endraw %}

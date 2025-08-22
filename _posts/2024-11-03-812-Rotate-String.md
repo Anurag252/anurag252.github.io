@@ -40,7 +40,11 @@ Example 2:
 	s and goal consist of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
         
@@ -49,4 +53,6 @@ class Solution:
             if (s[idx:] + s[:idx]) == goal:
                 return True
         return False
+
+
 {% endraw %}

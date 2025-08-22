@@ -56,7 +56,11 @@ Meetings are scheduled for all working days.
 	1 <= meetings[i][0] <= meetings[i][1] <= days
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countDays(self, days: int, meetings: List[List[int]]) -> int:
 
@@ -78,4 +82,6 @@ class Solution:
         count += (end - start + 1)
         return days - count
         
+
+
 {% endraw %}

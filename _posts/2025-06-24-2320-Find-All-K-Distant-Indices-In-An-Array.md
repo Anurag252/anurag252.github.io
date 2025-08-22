@@ -53,7 +53,11 @@ Hence, we return [0,1,2,3,4].
 	1 <= k <= nums.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findKDistantIndices(self, nums: List[int], key: int, k: int) -> List[int]:
         arr =[]
@@ -70,4 +74,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

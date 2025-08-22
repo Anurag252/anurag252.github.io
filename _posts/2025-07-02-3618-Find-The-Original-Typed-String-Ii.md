@@ -53,7 +53,11 @@ Example 3:
 	1 <= k <= 2000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def possibleStringCount(self, word: str, k: int) -> int:
         mod = 10**9 + 7
@@ -87,4 +91,6 @@ class Solution:
                 g_new[j] = (g_new[j - 1] + f_new[j]) % mod
             f, g = f_new, g_new
         return (ans - g[k - 1]) % mod
+
+
 {% endraw %}

@@ -64,7 +64,11 @@ Example 2:
 	words[i] and target contain only lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numWays(self, words: List[str], target: str) -> int:
         
@@ -117,4 +121,6 @@ class Solution:
                 i += 1
             return result
         return recurse(0,target, 1) % (10 ** 9 + 7)
+
+
 {% endraw %}

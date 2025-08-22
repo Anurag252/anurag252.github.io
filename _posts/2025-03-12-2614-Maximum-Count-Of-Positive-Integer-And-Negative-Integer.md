@@ -59,7 +59,11 @@ Example 3:
 **Follow up:** Can you solve the problem in O(log(n)) time complexity?
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumCount(self, nums: List[int]) -> int:
 
@@ -97,4 +101,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

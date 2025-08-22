@@ -67,7 +67,11 @@ It can be shown that there are no other interesting subarrays. So, the answer is
 	0 <= k < modulo
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countInterestingSubarrays(self, nums: List[int], modulo: int, k: int) -> int:
         # in a subarr, find all indexes where % is k
@@ -116,4 +120,6 @@ class Solution:
         
 
         
+
+
 {% endraw %}

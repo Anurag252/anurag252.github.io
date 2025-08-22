@@ -57,7 +57,11 @@ Since all fruits are successfully placed, we return 0.
 	1 <= fruits[i], baskets[i] <= 1000
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn num_of_unplaced_fruits(fruits: Vec<i32>, baskets: Vec<i32>) -> i32 {
         // START BY PLACING THE largest fruit 
@@ -86,4 +90,6 @@ impl Solution {
 
     }
 }
+
+
 {% endraw %}

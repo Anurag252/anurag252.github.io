@@ -62,7 +62,11 @@ The operations can be performed using valid integers in the order 7, 5, 3, and 1
 	1 <= k <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:
         # keep fetching the largest elements and keep changing them to 
@@ -89,4 +93,6 @@ class Solution:
         return count if count > 0 else -1
 
         
+
+
 {% endraw %}

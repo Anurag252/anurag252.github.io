@@ -55,7 +55,11 @@ Example 2:
 	1 <= grid[i][j], queries[i] <= 106
 
 {% raw %}
+
+
 ```python
+
+
 from queue import PriorityQueue
 
 
@@ -111,4 +115,6 @@ class Solution:
             result[query_index] = total_points
 
         return result
+
+
 {% endraw %}

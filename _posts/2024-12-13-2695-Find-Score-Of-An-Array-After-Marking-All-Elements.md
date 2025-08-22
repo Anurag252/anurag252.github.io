@@ -57,7 +57,11 @@ Our score is 1 + 2 + 2 = 5.
 	1 <= nums[i] <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findScore(self, nums: List[int]) -> int:
         s = set()
@@ -77,4 +81,6 @@ class Solution:
         return score
 
         
+
+
 {% endraw %}

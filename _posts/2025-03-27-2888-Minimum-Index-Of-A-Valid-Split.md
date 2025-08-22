@@ -68,7 +68,11 @@ Example 3:
 	nums has exactly one dominant element.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumIndex(self, nums: List[int]) -> int:
         dominant = -1
@@ -94,4 +98,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

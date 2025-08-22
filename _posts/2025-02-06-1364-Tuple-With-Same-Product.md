@@ -47,7 +47,11 @@ Example 2:
 	All elements in nums are **distinct**.
 
 {% raw %}
+
+
 ```go
+
+
 func tupleSameProduct(nums []int) int {
     mp := make(map[int]int)
 
@@ -82,4 +86,6 @@ func tupleSameProduct(nums []int) int {
     return res
 
 }
+
+
 {% endraw %}

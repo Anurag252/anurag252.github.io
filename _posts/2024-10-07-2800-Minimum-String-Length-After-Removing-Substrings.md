@@ -50,7 +50,11 @@ Example 2:
 	s consists only of uppercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minLength(self, s: str) -> int:
         @cache
@@ -65,4 +69,6 @@ class Solution:
         return test(s)
 
         
+
+
 {% endraw %}

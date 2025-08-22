@@ -57,7 +57,11 @@ The substrings with every vowel and one consonant are:
 	0 <= k <= word.length - 5
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def _isVowel(self, c: str) -> bool:
         return c == "a" or c == "e" or c == "i" or c == "o" or c == "u"
@@ -114,4 +118,6 @@ class Solution:
             end += 1
 
         return num_valid_substrings
+
+
 {% endraw %}

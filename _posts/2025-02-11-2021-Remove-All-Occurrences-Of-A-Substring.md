@@ -56,7 +56,11 @@ Now s has no occurrences of "xy".
 	s​​​​​​ and part consists of lowercase English letters.
 
 {% raw %}
+
+
 ```go
+
+
 import (
     "strings"
     "fmt"
@@ -105,4 +109,6 @@ func removeOccurrences(s string, part string) string {
 
 
 }
+
+
 {% endraw %}

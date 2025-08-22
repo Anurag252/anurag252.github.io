@@ -57,7 +57,11 @@ myCircularDeque.getFront();     // return 4
 	At most 2000 calls will be made to insertFront, insertLast, deleteFront, deleteLast, getFront, getRear, isEmpty, isFull.
 
 {% raw %}
+
+
 ```python
+
+
 class MyCircularDeque:
 
     def __init__(self, k: int):
@@ -127,4 +131,6 @@ class MyCircularDeque:
 # param_6 = obj.getRear()
 # param_7 = obj.isEmpty()
 # param_8 = obj.isFull()
+
+
 {% endraw %}

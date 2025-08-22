@@ -48,7 +48,11 @@ Example 2:
 	1 <= basket1[i],basket2[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minCost(self, basket1: List[int], basket2: List[int]) -> int:
         freq = Counter()
@@ -70,4 +74,6 @@ class Solution:
             return 0
         merge.sort()
         return sum(min(2 * m, x) for x in merge[: len(merge) // 2])
+
+
 {% endraw %}

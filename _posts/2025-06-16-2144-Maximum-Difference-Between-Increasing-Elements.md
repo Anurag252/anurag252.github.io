@@ -57,7 +57,11 @@ The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 =
 	1 <= nums[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumDifference(self, nums: List[int]) -> int:
         min_arr =[]
@@ -79,6 +83,8 @@ class Solution:
             if k2 > k1:
                 ans = max(ans, k2-k1)
         return ans
+
+
 
 
 {% endraw %}

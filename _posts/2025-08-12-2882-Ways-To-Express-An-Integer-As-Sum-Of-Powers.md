@@ -49,7 +49,11 @@ Example 2:
 	1 <= x <= 5
 
 {% raw %}
+
+
 ```rust
+
+
 use std::collections::HashMap;
 
 
@@ -105,5 +109,7 @@ impl Solution {
         recurse(n, 0, modulo, &powers, &mut hash)
     }
 }
+
+
 
 {% endraw %}

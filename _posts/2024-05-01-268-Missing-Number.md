@@ -56,7 +56,11 @@ Example 3:
 **Follow up:** Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
 
 {% raw %}
+
+
 ```c
+
+
 int missingNumber(int* nums, int numsSize) {
     int all_xor = 0 ;
     printf("%d", 1 ^ 1);
@@ -67,4 +71,6 @@ int missingNumber(int* nums, int numsSize) {
     // 3^0  ^ 0^1 ^ 1^2 ^ 3
     return all_xor ^ numsSize;
 }
+
+
 {% endraw %}

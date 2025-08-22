@@ -65,7 +65,11 @@ Then, evaluate !(f) --> NOT false --> true. We return true.
 	expression[i] is one following characters: '(', ')', '&', '|', '!', 't', 'f', and ','.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def parseBoolExpr(self, expression: str) -> bool:
         if len(expression) == 1:
@@ -122,4 +126,6 @@ class Solution:
             return result
 
         
+
+
 {% endraw %}

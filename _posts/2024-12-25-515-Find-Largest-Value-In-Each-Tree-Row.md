@@ -39,7 +39,11 @@ Example 2:
 	-231 <= Node.val <= 231 - 1
 
 {% raw %}
+
+
 ```python
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -70,4 +74,6 @@ class Solution:
         if root != None:
             recurse([root], res)
         return res
+
+
 {% endraw %}

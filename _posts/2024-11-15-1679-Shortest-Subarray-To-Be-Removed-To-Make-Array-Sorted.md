@@ -55,7 +55,11 @@ Example 3:
 	0 <= arr[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findLengthOfShortestSubarray(self, arr: List[int]) -> int:
         right = len(arr) - 1
@@ -72,4 +76,6 @@ class Solution:
             ans = min(ans, right - left - 1)
             left += 1
         return ans
+
+
 {% endraw %}

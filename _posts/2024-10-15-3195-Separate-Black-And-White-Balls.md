@@ -60,7 +60,11 @@ Example 3:
 	s[i] is either '0' or '1'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumSteps(self, s: str) -> int:
 
@@ -113,4 +117,6 @@ class Solution:
         110 -> 101, 011
         '''
         
+
+
 {% endraw %}

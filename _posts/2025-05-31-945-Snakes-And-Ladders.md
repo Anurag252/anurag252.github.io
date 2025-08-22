@@ -65,7 +65,11 @@ Example 2:
 	The squares labeled 1 and n2 are not the starting points of any snake or ladder.
 
 {% raw %}
+
+
 ```go
+
+
 func snakesAndLadders(board [][]int) int {
     m := len(board)
     dict := make(map[int][2]int)
@@ -119,4 +123,6 @@ func snakesAndLadders(board [][]int) int {
     }
     return -1
 }
+
+
 {% endraw %}

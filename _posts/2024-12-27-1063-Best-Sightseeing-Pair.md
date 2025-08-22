@@ -43,7 +43,11 @@ Example 2:
 	1 <= values[i] <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxScoreSightseeingPair(self, values: List[int]) -> int:
         # maximize the value and minimize the gap
@@ -86,6 +90,8 @@ class Solution:
 
         [8, ]
         """
+
+
 
 
 

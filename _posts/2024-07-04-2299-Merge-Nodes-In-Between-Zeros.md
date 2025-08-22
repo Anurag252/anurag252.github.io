@@ -55,7 +55,11 @@ The above figure represents the given linked list. The modified list contains
 	The **beginning** and **end** of the linked list have Node.val == 0.
 
 {% raw %}
+
+
 ```c
+
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -129,4 +133,6 @@ struct ListNode* mergeNodes(struct ListNode* head) {
 
     return result;
 }
+
+
 {% endraw %}

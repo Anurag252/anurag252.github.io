@@ -57,7 +57,11 @@ Example 3:
 	0 <= k <= 104
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def smallestRangeI(self, nums: List[int], k: int) -> int:
         min_num = min(nums)
@@ -67,6 +71,8 @@ class Solution:
             return 0
         else:
             return max_num - k - min_num - k
+
+
 
 
 

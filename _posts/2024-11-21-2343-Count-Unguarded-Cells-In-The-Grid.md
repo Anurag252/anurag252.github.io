@@ -54,7 +54,11 @@ There are a total of 4 unguarded cells, so we return 4.
 	All the positions in guards and walls are **unique**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countUnguarded(self, m: int, n: int, guards: List[List[int]], walls: List[List[int]]) -> int:
         grid = [[0] * n for _ in range(m)]
@@ -78,5 +82,7 @@ class Solution:
         
         # Count unguarded cells
         return sum(cell == 0 for row in grid for cell in row)
+
+
 
 {% endraw %}

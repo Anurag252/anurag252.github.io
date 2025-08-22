@@ -54,7 +54,11 @@ Therefore, we return 0.
 	1 <= k <= n
 
 {% raw %}
+
+
 ```go
+
+
 func minimumRecolors(blocks string, k int) int {
     black := 0
     white := 0
@@ -95,4 +99,6 @@ func minimumRecolors(blocks string, k int) int {
     count = min(count, white)
     return count
 }
+
+
 {% endraw %}

@@ -56,7 +56,11 @@ So, the total gifts remaining are 4.
 	1 <= k <= 103
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def pickGifts(self, gifts: List[int], k: int) -> int:
         q = []
@@ -70,4 +74,6 @@ class Solution:
         return -sum(q)
 
         
+
+
 {% endraw %}

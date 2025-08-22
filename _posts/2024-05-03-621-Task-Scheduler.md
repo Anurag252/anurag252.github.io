@@ -104,7 +104,11 @@ There are only two types of tasks, A and B, which need to be separated by 3 inte
 	0 <= n <= 100
 
 {% raw %}
+
+
 ```csharp
+
+
 public class Solution {
     public int LeastInterval(char[] tasks, int n) {
         SortedList<char , int> dict = new SortedList<char , int>();
@@ -143,4 +147,6 @@ public class Solution {
         
     }
 }
+
+
 {% endraw %}

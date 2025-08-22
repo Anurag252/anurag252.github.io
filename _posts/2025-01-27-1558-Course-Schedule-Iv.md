@@ -68,7 +68,11 @@ Example 3:
 	ui != vi
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     # Performs DFS and returns true if there's a path between src and target and false otherwise.
     def isPrerequisite(
@@ -106,4 +110,6 @@ class Solution:
             )
 
         return result
+
+
 {% endraw %}

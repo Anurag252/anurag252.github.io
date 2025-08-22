@@ -49,7 +49,11 @@ kthLargest.add(4);   // return 8
 	It is guaranteed that there will be at least k elements in the array when you search for the kth element.
 
 {% raw %}
+
+
 ```python
+
+
 class KthLargest:
 
     def __init__(self, k: int, nums: List[int]):
@@ -73,4 +77,6 @@ class KthLargest:
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
 # param_1 = obj.add(val)
+
+
 {% endraw %}

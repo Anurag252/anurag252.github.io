@@ -78,7 +78,11 @@ The worst case is that you pay $1.
 	1 <= n <= 200
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def __init__(self):
         self.cache = {}
@@ -115,4 +119,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

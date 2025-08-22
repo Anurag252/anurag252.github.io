@@ -47,7 +47,11 @@ Only 1771 contains an even number of digits.
 	1 <= nums[i] <= 105
 
 {% raw %}
+
+
 ```rust
+
+
 impl Solution {
     pub fn find_numbers(nums: Vec<i32>) -> i32 {
         let mut res = 0;
@@ -62,4 +66,6 @@ impl Solution {
 
     }
 }
+
+
 {% endraw %}

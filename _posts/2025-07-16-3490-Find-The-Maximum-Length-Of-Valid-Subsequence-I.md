@@ -56,7 +56,11 @@ The longest valid subsequence is [1, 3].
 	1 <= nums[i] <= 107
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
         """
@@ -101,4 +105,6 @@ class Solution:
                 curr_odd += 1
         even_sum = max(curr_even, curr_odd)
         return max(odd_sum, even_sum)
+
+
 {% endraw %}

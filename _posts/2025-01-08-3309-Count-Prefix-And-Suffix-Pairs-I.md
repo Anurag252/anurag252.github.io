@@ -65,7 +65,11 @@ Therefore, the answer is 0.
 	words[i] consists only of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countPrefixSuffixPairs(self, words: List[str]) -> int:
 
@@ -99,4 +103,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -62,7 +62,11 @@ Initially, word == "a". Alice performs the four operations as follows:
 	The input is generated such that word has **at least** k characters after all operations.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def kthCharacter(self, k: int, operations: List[int]) -> str:
         ans = 0
@@ -74,4 +78,6 @@ class Solution:
             if operations[t]:
                 ans += 1
         return chr(ord("a") + (ans % 26))
+
+
 {% endraw %}

@@ -58,7 +58,11 @@ Example 3:
 	All the integers in rating are **unique**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
         n = len(rating)
@@ -143,4 +147,6 @@ class Solution:
         # Cache and return the result
         decreasing_cache[current_index][team_size] = valid_teams
         return valid_teams
+
+
 {% endraw %}

@@ -65,7 +65,11 @@ Example 3:
 	s consists of only lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
         arr = [(-1,-1)] * 26
@@ -89,4 +93,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

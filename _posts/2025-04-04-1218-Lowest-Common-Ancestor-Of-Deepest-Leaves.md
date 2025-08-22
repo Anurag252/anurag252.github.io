@@ -63,7 +63,11 @@ Example 3:
 **Note:** This question is the same as 865: [https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)
 
 {% raw %}
+
+
 ```python
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -111,5 +115,7 @@ class Solution:
 
         dfs(root)
         return res
+
+
 
 {% endraw %}

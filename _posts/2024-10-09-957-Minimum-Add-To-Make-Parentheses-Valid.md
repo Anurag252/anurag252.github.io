@@ -48,7 +48,11 @@ Example 2:
 	s[i] is either '(' or ')'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
         arr = []
@@ -61,5 +65,7 @@ class Solution:
                 
 
     #"()))(("
+
+
 
 {% endraw %}

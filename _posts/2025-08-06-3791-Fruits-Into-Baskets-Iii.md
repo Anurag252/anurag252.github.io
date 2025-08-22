@@ -57,7 +57,11 @@ Since all fruits are successfully placed, we return 0.
 	1 <= fruits[i], baskets[i] <= 109
 
 {% raw %}
+
+
 ```rust
+
+
 use std::cmp::max;
 
 impl Solution {
@@ -101,4 +105,6 @@ impl Solution {
         count
     }
 }
+
+
 {% endraw %}

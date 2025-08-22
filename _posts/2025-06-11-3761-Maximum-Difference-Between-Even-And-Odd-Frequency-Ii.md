@@ -56,7 +56,11 @@ Example 3:
 	1 <= k <= s.length
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxDifference(self, s: str, k: int) -> int:
         def getStatus(cnt_a: int, cnt_b: int) -> int:
@@ -92,4 +96,6 @@ class Solution:
                         )
 
         return ans
+
+
 {% endraw %}

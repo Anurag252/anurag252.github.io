@@ -50,7 +50,11 @@ Example 3:
 	1 <= n <= 107
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def checkPowersOfThree(self, n: int) -> bool:
         
@@ -84,4 +88,6 @@ class Solution:
         return res
 
         
+
+
 {% endraw %}

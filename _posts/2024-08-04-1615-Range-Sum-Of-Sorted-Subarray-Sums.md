@@ -53,7 +53,11 @@ Example 3:
 	1 <= left <= right <= n * (n + 1) / 2
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def rangeSum(self, nums: List[int], n: int, left: int, right: int) -> int:
         i = 0
@@ -77,4 +81,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -66,7 +66,11 @@ Hence, the answer to the query is 0.
 	1 <= pricei, beautyi, queries[j] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 from typing import List
 
 class Solution:
@@ -98,5 +102,7 @@ class Solution:
             ans.append(find_max_beauty(query))
         
         return ans
+
+
 
 {% endraw %}

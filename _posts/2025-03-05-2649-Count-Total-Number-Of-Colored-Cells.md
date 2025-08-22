@@ -48,7 +48,11 @@ Example 2:
 	1 <= n <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def coloredCells(self, n: int) -> int:
         """
@@ -65,4 +69,6 @@ class Solution:
             return 1
 
         return 4*(n-1) + self.coloredCells(n-1)
+
+
 {% endraw %}

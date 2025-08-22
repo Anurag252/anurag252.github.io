@@ -45,7 +45,11 @@ Any arguments could be passed to the function but it should still always return 
 	0 <= args.length <= 10
 
 {% raw %}
+
+
 ```javascript
+
+
 /**
  * @return {Function}
  */
@@ -60,4 +64,6 @@ var createHelloWorld = function() {
  * const f = createHelloWorld();
  * f(); // "Hello World"
  */
+
+
 {% endraw %}

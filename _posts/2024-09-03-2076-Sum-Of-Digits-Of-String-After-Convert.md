@@ -67,7 +67,11 @@ Example 3:
 	s consists of lowercase English letters.
 
 {% raw %}
+
+
 ```go
+
+
 func getLucky(s string, k int) int {
     result := ""
     for _,m := range s{
@@ -91,4 +95,6 @@ func getLucky(s string, k int) int {
     return ans
     
 }
+
+
 {% endraw %}

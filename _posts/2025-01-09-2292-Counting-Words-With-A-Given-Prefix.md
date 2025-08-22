@@ -45,7 +45,11 @@ Example 2:
 	words[i] and pref consist of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Trie:
     def __init__(self):
         self.dict = {}
@@ -86,4 +90,6 @@ class Solution:
         return t.find(pref)
 
         
+
+
 {% endraw %}

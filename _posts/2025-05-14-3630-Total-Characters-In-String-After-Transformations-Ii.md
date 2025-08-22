@@ -76,7 +76,11 @@ Example 2:
 	1 <= nums[i] <= 25
 
 {% raw %}
+
+
 ```python
+
+
 MOD = 10**9 + 7
 L = 26
 
@@ -141,4 +145,6 @@ class Solution:
                 ans = (ans + res.a[i][j] * f[j]) % MOD
 
         return ans
+
+
 {% endraw %}

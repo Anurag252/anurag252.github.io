@@ -61,7 +61,11 @@ Example 3:
 	1 <= nums[i] <= 107
 
 {% raw %}
+
+
 ```c
+
+
 
 struct Node;
 typedef struct Node *PtrToNode;
@@ -208,6 +212,8 @@ Stack CreateStack(void)
         Pop(S);
     return S;
 }
+
+
 
 
 {% endraw %}

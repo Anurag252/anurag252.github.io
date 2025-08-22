@@ -53,7 +53,11 @@ Example 3:
 	s1 and s2 consist of only lowercase English letters.
 
 {% raw %}
+
+
 ```go
+
+
 func areAlmostEqual(s1 string, s2 string) bool {
     
     diff1 := make([]rune, 0)
@@ -78,4 +82,6 @@ func areAlmostEqual(s1 string, s2 string) bool {
     }
     return false
 }
+
+
 {% endraw %}

@@ -46,7 +46,11 @@ Example 2:
 	-106 <= nums1[i], nums2[i] <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         i = 0
@@ -81,6 +85,8 @@ class Solution:
             b = floor((len(newarr)-1)/2)
             return (newarr[a] + newarr[b])/2
         return 0.0
+
+
 
 
 

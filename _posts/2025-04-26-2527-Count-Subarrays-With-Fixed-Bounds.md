@@ -49,7 +49,11 @@ Example 2:
 	1 <= nums[i], minK, maxK <= 106
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countSubarrays(self, nums: List[int], minK: int, maxK: int) -> int:
         # consider the elements mark min and max
@@ -90,4 +94,6 @@ class Solution:
             
 
         
+
+
 {% endraw %}

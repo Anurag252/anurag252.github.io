@@ -52,7 +52,11 @@ Since not every customer received the correct change, the answer is false.
 	bills[i] is either 5, 10, or 20.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
         intake = [0,0,0]
@@ -94,4 +98,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

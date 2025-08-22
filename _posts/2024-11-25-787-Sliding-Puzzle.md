@@ -66,7 +66,11 @@ After move 5: [[1,2,3],[4,5,0]]
 	Each value board[i][j] is **unique**.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def slidingPuzzle(self, board: List[List[int]]) -> int:
         s = {}
@@ -118,4 +122,6 @@ class Solution:
             
 
             
+
+
 {% endraw %}

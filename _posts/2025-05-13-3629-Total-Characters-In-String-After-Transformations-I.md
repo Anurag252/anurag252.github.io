@@ -74,7 +74,11 @@ Example 2:
 	1 <= t <= 105
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def lengthAfterTransformations(self, s: str, t: int) -> int:
         mod = 10**9 + 7
@@ -90,4 +94,6 @@ class Solution:
             cnt = nxt
         ans = sum(cnt) % mod
         return ans
+
+
 {% endraw %}

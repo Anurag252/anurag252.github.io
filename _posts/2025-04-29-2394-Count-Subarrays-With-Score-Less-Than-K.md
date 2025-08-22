@@ -57,7 +57,11 @@ Thus, there are 5 subarrays having scores less than 5.
 	1 <= k <= 1015
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countSubarrays(self, nums: List[int], k: int) -> int:
 
@@ -107,4 +111,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

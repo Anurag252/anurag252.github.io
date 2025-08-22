@@ -47,7 +47,11 @@ Example 2:
 	nums[i] is sorted in **non-decreasing** order.
 
 {% raw %}
+
+
 ```python
+
+
 from typing import List
 import collections
 
@@ -83,5 +87,7 @@ class Solution:
                 left += 1
 
         return result
+
+
 
 {% endraw %}

@@ -78,7 +78,11 @@ Example 3:
 	box[i][j] is either '#', '*', or '.'.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def rotateTheBox(self, box: List[List[str]]) -> List[List[str]]:
         ans = []
@@ -140,4 +144,6 @@ class Solution:
                 
 
         
+
+
 {% endraw %}

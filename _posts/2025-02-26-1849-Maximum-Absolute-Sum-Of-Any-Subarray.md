@@ -47,7 +47,11 @@ Example 2:
 	-104 <= nums[i] <= 104
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxAbsoluteSum(self, nums: List[int]) -> int:
         # idea is that every time a +ve appears
@@ -81,4 +85,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

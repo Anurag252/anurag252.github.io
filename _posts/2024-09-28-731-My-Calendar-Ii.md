@@ -50,7 +50,11 @@ myCalendarTwo.book(25, 55); // return True, The event can be booked, as the time
 	At most 1000 calls will be made to book.
 
 {% raw %}
+
+
 ```python
+
+
 class MyCalendarTwo:
 
     def __init__(self):
@@ -111,4 +115,6 @@ class MyCalendarTwo:
 # Your MyCalendarTwo object will be instantiated and called as such:
 # obj = MyCalendarTwo()
 # param_1 = obj.book(start,end)
+
+
 {% endraw %}

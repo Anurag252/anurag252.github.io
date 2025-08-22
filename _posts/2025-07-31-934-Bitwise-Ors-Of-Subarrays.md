@@ -56,7 +56,11 @@ Example 3:
 	0 <= arr[i] <= 109
 
 {% raw %}
+
+
 ```python
+
+
 class Solution(object):
     def subarrayBitwiseORs(self, A):
         ans = set()
@@ -65,4 +69,6 @@ class Solution(object):
             cur = {x | y for y in cur} | {x}
             ans |= cur
         return len(ans)
+
+
 {% endraw %}

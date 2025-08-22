@@ -43,7 +43,11 @@ Example 2:
 	2 <= k <= 104
 
 {% raw %}
+
+
 ```c
+
+
 int subarraysDivByK(int* nums, int numsSize, int k) {
     if (numsSize == 0) {
         return 0;
@@ -79,6 +83,8 @@ int subarraysDivByK(int* nums, int numsSize, int k) {
     return result;
 
 }
+
+
 
 
 {% endraw %}

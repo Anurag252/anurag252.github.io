@@ -58,7 +58,11 @@ It can be shown that the maximum length achievable is 1.
 	s consists of only lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumLength(self, s: str) -> int:
         freq = [0] * 26
@@ -115,4 +119,6 @@ class Solution:
         return ans 
 
     #aaaa
+
+
 {% endraw %}

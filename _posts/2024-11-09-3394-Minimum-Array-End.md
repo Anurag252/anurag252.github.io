@@ -41,7 +41,11 @@ nums can be [7,15] and its last element is 15.
 	1 <= n, x <= 108
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minEnd(self, n: int, x: int) -> int:
         # Identify positions of zero bits in `x`
@@ -64,5 +68,7 @@ class Solution:
                 result |= (1 << zero_positions[i])
 
         return result
+
+
 
 {% endraw %}

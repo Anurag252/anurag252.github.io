@@ -42,13 +42,19 @@ The adjacent elements nums[0] and nums[1] have the maximum absolute difference o
 	-100 <= nums[i] <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxAdjacentDistance(self, nums: List[int]) -> int:
         diff = 0
         for i, k in enumerate(nums):
             diff = max(diff, abs(nums[i-1] - nums[i]))
         return diff
+
+
 
 
 {% endraw %}

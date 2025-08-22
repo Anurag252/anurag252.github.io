@@ -55,7 +55,11 @@ Example 3:
 	1 <= arr[i] <= 100
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numOfSubarrays(self, arr: List[int]) -> int:
         # odd sum is odd + even, but odd + odd is even
@@ -98,4 +102,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

@@ -47,7 +47,11 @@ There is no '*' in the string.
 	The input is generated such that it is possible to delete all '*' characters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def clearStars(self, s: str) -> str:
         arr = [0] * 26
@@ -86,4 +90,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

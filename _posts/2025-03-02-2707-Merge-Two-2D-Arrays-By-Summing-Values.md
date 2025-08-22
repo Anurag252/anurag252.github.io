@@ -59,7 +59,11 @@ Example 2:
 	Both arrays are in strictly ascending order by id.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
         mp = {}
@@ -83,6 +87,8 @@ class Solution:
             if k in mp:
                 res.append([k, mp[k]])
         return res
+
+
 
 
 {% endraw %}

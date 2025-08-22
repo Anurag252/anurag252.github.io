@@ -66,7 +66,11 @@ In total they collect 1 + 1 + 1 + 1 = 4 fruits.
 	0 <= fruits[i][j] <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maxCollectedFruits(self, fruits):
         n = len(fruits)
@@ -95,4 +99,6 @@ class Solution:
 
         ans += dp()
         return ans
+
+
 {% endraw %}

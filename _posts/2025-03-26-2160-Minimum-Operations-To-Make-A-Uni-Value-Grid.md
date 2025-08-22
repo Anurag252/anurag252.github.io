@@ -64,7 +64,11 @@ Example 3:
 	1 <= x, grid[i][j] <= 104
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minOperations(self, grid: List[List[int]], x: int) -> int:
         # brute force one can easly apply change on one element and recurse on others
@@ -108,4 +112,6 @@ class Solution:
 
         return result
         
+
+
 {% endraw %}

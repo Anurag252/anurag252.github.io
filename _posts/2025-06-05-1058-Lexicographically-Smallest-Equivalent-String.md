@@ -68,7 +68,11 @@ Example 3:
 	s1, s2, and baseStr consist of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def smallestEquivalentString(self, s1: str, s2: str, baseStr: str) -> str:
         mp = {}
@@ -113,4 +117,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

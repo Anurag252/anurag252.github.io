@@ -45,7 +45,11 @@ Example 2:
 	1 <= k <= 1012
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def maximumCandies(self, candies: List[int], k: int) -> int:
         # say total number of candies is x
@@ -97,4 +101,6 @@ class Solution:
             res = left
         return res
         
+
+
 {% endraw %}

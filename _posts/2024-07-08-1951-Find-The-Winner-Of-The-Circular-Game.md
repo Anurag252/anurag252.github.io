@@ -64,7 +64,11 @@ Example 2:
 Could you solve this problem in linear time with constant space?
 
 {% raw %}
+
+
 ```c
+
+
 int findTheWinner(int n, int k) {
     
     int ans = 0;
@@ -77,4 +81,6 @@ int findTheWinner(int n, int k) {
     // k % n , 2k % (n) , 3k % (n-1), nk % (n-k)
    //n - (1 + ... + n)k % n
 }
+
+
 {% endraw %}

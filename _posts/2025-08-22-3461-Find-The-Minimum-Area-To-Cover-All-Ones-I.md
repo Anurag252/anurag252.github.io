@@ -47,7 +47,11 @@ The smallest rectangle has both height and width 1, so its area is 1 * 1 = 1.
 	The input is generated such that there is at least one 1 in grid.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumArea(self, grid: List[List[int]]) -> int:
         """
@@ -73,4 +77,6 @@ class Solution:
         return (last_row- first_row + 1) * (last_col - first_col + 1)
 
         
+
+
 {% endraw %}

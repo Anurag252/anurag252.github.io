@@ -58,7 +58,11 @@ Total number of squares = 6 + 1 = **7**.
 	0 <= arr[i][j] <= 1
 
 {% raw %}
+
+
 ```python
+
+
 from typing import List
 
 class Solution:
@@ -84,5 +88,7 @@ class Solution:
                     total += matrix[i][j]
                 # if it's 0, leave as 0 and add nothing
         return total
+
+
 
 {% endraw %}

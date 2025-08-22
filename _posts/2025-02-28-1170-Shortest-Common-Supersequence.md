@@ -44,7 +44,11 @@ Example 2:
 	str1 and str2 consist of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def shortestCommonSupersequence(self, str1: str, str2: str) -> str:
         # it is possible that s1 is sub sequence of s2 
@@ -105,6 +109,8 @@ class Solution:
         scs.append(str2[j:])
 
         return ''.join(scs)
+
+
 
 
 {% endraw %}

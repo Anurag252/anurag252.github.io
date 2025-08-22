@@ -48,7 +48,11 @@ Example 2:
 	1 <= nums[i] <= 2000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def countCompleteSubarrays(self, nums: List[int]) -> int:
         s = set(nums)
@@ -67,4 +71,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

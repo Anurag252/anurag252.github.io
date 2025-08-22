@@ -64,7 +64,11 @@ The 3rd smallest product is -6.
 	nums1 and nums2 are sorted.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def kthSmallestProduct(
         self, nums1: List[int], nums2: List[int], k: int
@@ -112,4 +116,6 @@ class Solution:
             else:
                 right = mid - 1
         return left
+
+
 {% endraw %}

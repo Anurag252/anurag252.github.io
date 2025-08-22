@@ -63,7 +63,11 @@ Example 2:
 	The input is generated such that if team a is stronger than team b and team b is stronger than team c, then team a is stronger than team c.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def findChampion(self, n: int, edges: List[List[int]]) -> int:
         teams = [0] * n
@@ -83,4 +87,6 @@ class Solution:
 
 
         
+
+
 {% endraw %}

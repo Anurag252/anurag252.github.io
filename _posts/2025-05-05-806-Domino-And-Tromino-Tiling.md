@@ -45,7 +45,11 @@ Example 2:
 	1 <= n <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def numTilings(self, n: int) -> int:
         MOD = 10**9 + 7
@@ -60,5 +64,7 @@ class Solution:
             dp[i] = (2 * dp[i - 1] + dp[i - 3]) % MOD
 
         return dp[n]
+
+
 
 {% endraw %}

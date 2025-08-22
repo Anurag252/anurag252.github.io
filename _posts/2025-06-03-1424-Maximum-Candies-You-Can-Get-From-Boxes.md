@@ -64,7 +64,11 @@ The total number of candies will be 6.
 	0 <= initialBoxes[i] < n
 
 {% raw %}
+
+
 ```python
+
+
 from typing import List
 
 class Solution:
@@ -113,5 +117,7 @@ class Solution:
 
         try_open_boxes()
         return total_candies
+
+
 
 {% endraw %}

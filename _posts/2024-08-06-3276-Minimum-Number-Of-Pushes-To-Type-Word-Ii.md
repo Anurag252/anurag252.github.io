@@ -87,7 +87,11 @@ It can be shown that no other mapping can provide a lower cost.
 	word consists of lowercase English letters.
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def minimumPushes(self, word: str) -> int:
         d = {}
@@ -108,4 +112,6 @@ class Solution:
         return result
         
         
+
+
 {% endraw %}

@@ -57,7 +57,11 @@ Example 3:
 	1 <= prices[i] <= 1000
 
 {% raw %}
+
+
 ```python
+
+
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
         #find next smaller element to the right
@@ -76,6 +80,8 @@ class Solution:
                 result[t] -= k
             stack.append(idx)
         return result
+
+
 
 
 

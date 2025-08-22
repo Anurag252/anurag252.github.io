@@ -46,7 +46,11 @@ Example 2:
 	0 <= p <= (nums.length)/2
 
 {% raw %}
+
+
 ```python
+
+
 from typing import List
 from functools import cache
 
@@ -69,4 +73,6 @@ class Solution:
                 else:
                     left = mid + 1
             return left
+
+
 {% endraw %}
