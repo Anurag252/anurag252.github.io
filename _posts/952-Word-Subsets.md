@@ -1,45 +1,50 @@
 ---
-title: "./952 Word Subsets"
+title: "952 Word Subsets"
 date: "2025-01-10T17:10:12+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/word-subsets">Word Subsets</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given two string arrays <code>words1</code> and <code>words2</code>.</p>
-
-<p>A string <code>b</code> is a <strong>subset</strong> of string <code>a</code> if every letter in <code>b</code> occurs in <code>a</code> including multiplicity.</p>
-
-<ul>
-	<li>For example, <code>&quot;wrr&quot;</code> is a subset of <code>&quot;warrior&quot;</code> but is not a subset of <code>&quot;world&quot;</code>.</li>
-</ul>
-
-<p>A string <code>a</code> from <code>words1</code> is <strong>universal</strong> if for every string <code>b</code> in <code>words2</code>, <code>b</code> is a subset of <code>a</code>.</p>
-
-<p>Return an array of all the <strong>universal</strong> strings in <code>words1</code>. You may return the answer in <strong>any order</strong>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> words1 = [&quot;amazon&quot;,&quot;apple&quot;,&quot;facebook&quot;,&quot;google&quot;,&quot;leetcode&quot;], words2 = [&quot;e&quot;,&quot;o&quot;]
-<strong>Output:</strong> [&quot;facebook&quot;,&quot;google&quot;,&quot;leetcode&quot;]
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> words1 = [&quot;amazon&quot;,&quot;apple&quot;,&quot;facebook&quot;,&quot;google&quot;,&quot;leetcode&quot;], words2 = [&quot;l&quot;,&quot;e&quot;]
-<strong>Output:</strong> [&quot;apple&quot;,&quot;google&quot;,&quot;leetcode&quot;]
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= words1.length, words2.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>1 &lt;= words1[i].length, words2[i].length &lt;= 10</code></li>
-	<li><code>words1[i]</code> and <code>words2[i]</code> consist only of lowercase English letters.</li>
-	<li>All the strings of <code>words1</code> are <strong>unique</strong>.</li>
-</ul>"
+problem_statement: |
+  ## [Word Subsets](https://leetcode.com/problems/word-subsets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given two string arrays words1 and words2.
+  
+  A string b is a **subset** of string a if every letter in b occurs in a including multiplicity.
+  
+  	For example, &quot;wrr&quot; is a subset of &quot;warrior&quot; but is not a subset of &quot;world&quot;.
+  
+  A string a from words1 is **universal** if for every string b in words2, b is a subset of a.
+  
+  Return an array of all the **universal** strings in words1. You may return the answer in **any order**.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** words1 = [\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"], words2 = [\"e\",\"o\"]
+  **Output:** [\"facebook\",\"google\",\"leetcode\"]
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** words1 = [\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"], words2 = [\"l\",\"e\"]
+  **Output:** [\"apple\",\"google\",\"leetcode\"]
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= words1.length, words2.length &lt;= 104
+  	1 &lt;= words1[i].length, words2[i].length &lt;= 10
+  	words1[i] and words2[i] consist only of lowercase English letters.
+  	All the strings of words1 are **unique**.
 ---
 
 ```python

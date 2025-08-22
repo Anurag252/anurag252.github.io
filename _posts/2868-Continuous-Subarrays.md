@@ -1,55 +1,60 @@
 ---
-title: "./2868 Continuous Subarrays"
+title: "2868 Continuous Subarrays"
 date: "2024-12-15T10:18:30+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/continuous-subarrays">Continuous Subarrays</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code>. A subarray of <code>nums</code> is called <strong>continuous</strong> if:</p>
-
-<ul>
-	<li>Let <code>i</code>, <code>i + 1</code>, ..., <code>j</code><sub> </sub>be the indices in the subarray. Then, for each pair of indices <code>i &lt;= i<sub>1</sub>, i<sub>2</sub> &lt;= j</code>, <code><font face="monospace">0 &lt;=</font> |nums[i<sub>1</sub>] - nums[i<sub>2</sub>]| &lt;= 2</code>.</li>
-</ul>
-
-<p>Return <em>the total number of <strong>continuous</strong> subarrays.</em></p>
-
-<p>A subarray is a contiguous <strong>non-empty</strong> sequence of elements within an array.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [5,4,2,4]
-<strong>Output:</strong> 8
-<strong>Explanation:</strong> 
-Continuous subarray of size 1: [5], [4], [2], [4].
-Continuous subarray of size 2: [5,4], [4,2], [2,4].
-Continuous subarray of size 3: [4,2,4].
-Thereare no subarrys of size 4.
-Total continuous subarrays = 4 + 3 + 1 = 8.
-It can be shown that there are no more continuous subarrays.
-</pre>
-
-<p>&nbsp;</p>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,2,3]
-<strong>Output:</strong> 6
-<strong>Explanation:</strong> 
-Continuous subarray of size 1: [1], [2], [3].
-Continuous subarray of size 2: [1,2], [2,3].
-Continuous subarray of size 3: [1,2,3].
-Total continuous subarrays = 3 + 2 + 1 = 6.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a **0-indexed** integer array nums. A subarray of nums is called **continuous** if:
+  
+  	Let i, i + 1, ..., j be the indices in the subarray. Then, for each pair of indices i &lt;= i1, i2 &lt;= j, 0 &lt;= |nums[i1] - nums[i2]| &lt;= 2.
+  
+  Return *the total number of **continuous** subarrays.*
+  
+  A subarray is a contiguous **non-empty** sequence of elements within an array.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [5,4,2,4]
+  **Output:** 8
+  **Explanation:** 
+  Continuous subarray of size 1: [5], [4], [2], [4].
+  Continuous subarray of size 2: [5,4], [4,2], [2,4].
+  Continuous subarray of size 3: [4,2,4].
+  Thereare no subarrys of size 4.
+  Total continuous subarrays = 4 + 3 + 1 = 8.
+  It can be shown that there are no more continuous subarrays.
+  
+  ```
+  
+  &nbsp;
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [1,2,3]
+  **Output:** 6
+  **Explanation:** 
+  Continuous subarray of size 1: [1], [2], [3].
+  Continuous subarray of size 2: [1,2], [2,3].
+  Continuous subarray of size 3: [1,2,3].
+  Total continuous subarrays = 3 + 2 + 1 = 6.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	1 &lt;= nums[i] &lt;= 109
 ---
 
 ```python

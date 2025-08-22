@@ -1,47 +1,52 @@
 ---
-title: "./1304 Longest Happy String"
+title: "1304 Longest Happy String"
 date: "2024-10-16T08:34:31+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/longest-happy-string">Longest Happy String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>A string <code>s</code> is called <strong>happy</strong> if it satisfies the following conditions:</p>
-
-<ul>
-	<li><code>s</code> only contains the letters <code>&#39;a&#39;</code>, <code>&#39;b&#39;</code>, and <code>&#39;c&#39;</code>.</li>
-	<li><code>s</code> does not contain any of <code>&quot;aaa&quot;</code>, <code>&quot;bbb&quot;</code>, or <code>&quot;ccc&quot;</code> as a substring.</li>
-	<li><code>s</code> contains <strong>at most</strong> <code>a</code> occurrences of the letter <code>&#39;a&#39;</code>.</li>
-	<li><code>s</code> contains <strong>at most</strong> <code>b</code> occurrences of the letter <code>&#39;b&#39;</code>.</li>
-	<li><code>s</code> contains <strong>at most</strong> <code>c</code> occurrences of the letter <code>&#39;c&#39;</code>.</li>
-</ul>
-
-<p>Given three integers <code>a</code>, <code>b</code>, and <code>c</code>, return <em>the <strong>longest possible happy </strong>string</em>. If there are multiple longest happy strings, return <em>any of them</em>. If there is no such string, return <em>the empty string </em><code>&quot;&quot;</code>.</p>
-
-<p>A <strong>substring</strong> is a contiguous sequence of characters within a string.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> a = 1, b = 1, c = 7
-<strong>Output:</strong> &quot;ccaccbcc&quot;
-<strong>Explanation:</strong> &quot;ccbccacc&quot; would also be a correct answer.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> a = 7, b = 1, c = 0
-<strong>Output:</strong> &quot;aabaa&quot;
-<strong>Explanation:</strong> It is the only correct answer in this case.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>0 &lt;= a, b, c &lt;= 100</code></li>
-	<li><code>a + b + c &gt; 0</code></li>
-</ul>"
+problem_statement: |
+  ## [Longest Happy String](https://leetcode.com/problems/longest-happy-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  A string s is called **happy** if it satisfies the following conditions:
+  
+  	s only contains the letters &#39;a&#39;, &#39;b&#39;, and &#39;c&#39;.
+  	s does not contain any of &quot;aaa&quot;, &quot;bbb&quot;, or &quot;ccc&quot; as a substring.
+  	s contains **at most** a occurrences of the letter &#39;a&#39;.
+  	s contains **at most** b occurrences of the letter &#39;b&#39;.
+  	s contains **at most** c occurrences of the letter &#39;c&#39;.
+  
+  Given three integers a, b, and c, return *the **longest possible happy **string*. If there are multiple longest happy strings, return *any of them*. If there is no such string, return *the empty string *&quot;&quot;.
+  
+  A **substring** is a contiguous sequence of characters within a string.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** a = 1, b = 1, c = 7
+  **Output:** \"ccaccbcc\"
+  **Explanation:** \"ccbccacc\" would also be a correct answer.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** a = 7, b = 1, c = 0
+  **Output:** \"aabaa\"
+  **Explanation:** It is the only correct answer in this case.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	0 &lt;= a, b, c &lt;= 100
+  	a + b + c &gt; 0
 ---
 
 ```python

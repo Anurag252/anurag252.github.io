@@ -1,57 +1,54 @@
 ---
-title: "./3617 Find The Original Typed String I"
+title: "3617 Find The Original Typed String I"
 date: "2025-07-01T09:33:16+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-the-original-typed-string-i">Find the Original Typed String I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Alice is attempting to type a specific string on her computer. However, she tends to be clumsy and <strong>may</strong> press a key for too long, resulting in a character being typed <strong>multiple</strong> times.</p>
-
-<p>Although Alice tried to focus on her typing, she is aware that she may still have done this <strong>at most</strong> <em>once</em>.</p>
-
-<p>You are given a string <code>word</code>, which represents the <strong>final</strong> output displayed on Alice&#39;s screen.</p>
-
-<p>Return the total number of <em>possible</em> original strings that Alice <em>might</em> have intended to type.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;abbcccc&quot;</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">5</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The possible strings are: <code>&quot;abbcccc&quot;</code>, <code>&quot;abbccc&quot;</code>, <code>&quot;abbcc&quot;</code>, <code>&quot;abbc&quot;</code>, and <code>&quot;abcccc&quot;</code>.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;abcd&quot;</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The only possible string is <code>&quot;abcd&quot;</code>.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;aaaa&quot;</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">4</span></p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= word.length &lt;= 100</code></li>
-	<li><code>word</code> consists only of lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Alice is attempting to type a specific string on her computer. However, she tends to be clumsy and **may** press a key for too long, resulting in a character being typed **multiple** times.
+  
+  Although Alice tried to focus on her typing, she is aware that she may still have done this **at most** *once*.
+  
+  You are given a string word, which represents the **final** output displayed on Alice&#39;s screen.
+  
+  Return the total number of *possible* original strings that Alice *might* have intended to type.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** word = &quot;abbcccc&quot;
+  
+  **Output:** 5
+  
+  **Explanation:**
+  
+  The possible strings are: &quot;abbcccc&quot;, &quot;abbccc&quot;, &quot;abbcc&quot;, &quot;abbc&quot;, and &quot;abcccc&quot;.
+  
+  Example 2:
+  
+  **Input:** word = &quot;abcd&quot;
+  
+  **Output:** 1
+  
+  **Explanation:**
+  
+  The only possible string is &quot;abcd&quot;.
+  
+  Example 3:
+  
+  **Input:** word = &quot;aaaa&quot;
+  
+  **Output:** 4
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= word.length &lt;= 100
+  	word consists only of lowercase English letters.
 ---
 
 ```python

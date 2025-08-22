@@ -1,39 +1,47 @@
 ---
-title: "./1207 Delete Nodes And Return Forest"
+title: "1207 Delete Nodes And Return Forest"
 date: "2024-07-17T06:28:16+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/delete-nodes-and-return-forest">Delete Nodes And Return Forest</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given the <code>root</code> of a binary tree, each node in the tree has a distinct value.</p>
-
-<p>After deleting all nodes with a value in <code>to_delete</code>, we are left with a forest (a disjoint union of trees).</p>
-
-<p>Return the roots of the trees in the remaining forest. You may return the result in any order.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-53836-pm.png" style="width: 237px; height: 150px;" />
-<pre>
-<strong>Input:</strong> root = [1,2,3,4,5,6,7], to_delete = [3,5]
-<strong>Output:</strong> [[1,2,null,4],[6],[7]]
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> root = [1,2,4,null,3], to_delete = [3]
-<strong>Output:</strong> [[1,2,4]]
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li>The number of nodes in the given tree is at most <code>1000</code>.</li>
-	<li>Each node has a distinct value between <code>1</code> and <code>1000</code>.</li>
-	<li><code>to_delete.length &lt;= 1000</code></li>
-	<li><code>to_delete</code> contains distinct values between <code>1</code> and <code>1000</code>.</li>
-</ul>"
+problem_statement: |
+  ## [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given the root of a binary tree, each node in the tree has a distinct value.
+  
+  After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).
+  
+  Return the roots of the trees in the remaining forest. You may return the result in any order.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ![image](https://assets.leetcode.com/uploads/2019/07/01/screen-shot-2019-07-01-at-53836-pm.png)
+  ```
+  
+  **Input:** root = [1,2,3,4,5,6,7], to_delete = [3,5]
+  **Output:** [[1,2,null,4],[6],[7]]
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** root = [1,2,4,null,3], to_delete = [3]
+  **Output:** [[1,2,4]]
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	The number of nodes in the given tree is at most 1000.
+  	Each node has a distinct value between 1 and 1000.
+  	to_delete.length &lt;= 1000
+  	to_delete contains distinct values between 1 and 1000.
 ---
 
 ```python

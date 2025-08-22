@@ -1,33 +1,41 @@
 ---
-title: "./515 Find Largest Value In Each Tree Row"
+title: "515 Find Largest Value In Each Tree Row"
 date: "2024-12-25T07:57:04+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-largest-value-in-each-tree-row">Find Largest Value in Each Tree Row</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given the <code>root</code> of a binary tree, return <em>an array of the largest value in each row</em> of the tree <strong>(0-indexed)</strong>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2020/08/21/largest_e1.jpg" style="width: 300px; height: 172px;" />
-<pre>
-<strong>Input:</strong> root = [1,3,2,5,3,null,9]
-<strong>Output:</strong> [1,3,9]
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> root = [1,2,3]
-<strong>Output:</strong> [1,3]
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li>The number of nodes in the tree will be in the range <code>[0, 10<sup>4</sup>]</code>.</li>
-	<li><code>-2<sup>31</sup> &lt;= Node.val &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>"
+problem_statement: |
+  ## [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given the root of a binary tree, return *an array of the largest value in each row* of the tree **(0-indexed)**.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ![image](https://assets.leetcode.com/uploads/2020/08/21/largest_e1.jpg)
+  ```
+  
+  **Input:** root = [1,3,2,5,3,null,9]
+  **Output:** [1,3,9]
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** root = [1,2,3]
+  **Output:** [1,3]
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	The number of nodes in the tree will be in the range [0, 104].
+  	-231 &lt;= Node.val &lt;= 231 - 1
 ---
 
 ```python

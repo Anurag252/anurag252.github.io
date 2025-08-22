@@ -1,48 +1,55 @@
 ---
-title: "./2691 Count Vowel Strings In Ranges"
+title: "2691 Count Vowel Strings In Ranges"
 date: "2025-01-02T08:21:31+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/count-vowel-strings-in-ranges">Count Vowel Strings in Ranges</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> array of strings <code>words</code> and a 2D array of integers <code>queries</code>.</p>
-
-<p>Each query <code>queries[i] = [l<sub>i</sub>, r<sub>i</sub>]</code> asks us to find the number of strings present in the range <code>l<sub>i</sub></code> to <code>r<sub>i</sub></code> (both <strong>inclusive</strong>) of <code>words</code> that start and end with a vowel.</p>
-
-<p>Return <em>an array </em><code>ans</code><em> of size </em><code>queries.length</code><em>, where </em><code>ans[i]</code><em> is the answer to the </em><code>i</code><sup>th</sup><em> query</em>.</p>
-
-<p><strong>Note</strong> that the vowel letters are <code>&#39;a&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;i&#39;</code>, <code>&#39;o&#39;</code>, and <code>&#39;u&#39;</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> words = [&quot;aba&quot;,&quot;bcb&quot;,&quot;ece&quot;,&quot;aa&quot;,&quot;e&quot;], queries = [[0,2],[1,4],[1,1]]
-<strong>Output:</strong> [2,3,0]
-<strong>Explanation:</strong> The strings starting and ending with a vowel are &quot;aba&quot;, &quot;ece&quot;, &quot;aa&quot; and &quot;e&quot;.
-The answer to the query [0,2] is 2 (strings &quot;aba&quot; and &quot;ece&quot;).
-to query [1,4] is 3 (strings &quot;ece&quot;, &quot;aa&quot;, &quot;e&quot;).
-to query [1,1] is 0.
-We return [2,3,0].
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> words = [&quot;a&quot;,&quot;e&quot;,&quot;i&quot;], queries = [[0,2],[0,1],[2,2]]
-<strong>Output:</strong> [3,2,1]
-<strong>Explanation:</strong> Every string satisfies the conditions, so we return [3,2,1].</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= words.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= words[i].length &lt;= 40</code></li>
-	<li><code>words[i]</code> consists only of lowercase English letters.</li>
-	<li><code>sum(words[i].length) &lt;= 3 * 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= queries.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= l<sub>i</sub> &lt;= r<sub>i</sub> &lt;&nbsp;words.length</code></li>
-</ul>"
+problem_statement: |
+  ## [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a **0-indexed** array of strings words and a 2D array of integers queries.
+  
+  Each query queries[i] = [li, ri] asks us to find the number of strings present in the range li to ri (both **inclusive**) of words that start and end with a vowel.
+  
+  Return *an array *ans* of size *queries.length*, where *ans[i]* is the answer to the *ith* query*.
+  
+  **Note** that the vowel letters are &#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, and &#39;u&#39;.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** words = [\"aba\",\"bcb\",\"ece\",\"aa\",\"e\"], queries = [[0,2],[1,4],[1,1]]
+  **Output:** [2,3,0]
+  **Explanation:** The strings starting and ending with a vowel are \"aba\", \"ece\", \"aa\" and \"e\".
+  The answer to the query [0,2] is 2 (strings \"aba\" and \"ece\").
+  to query [1,4] is 3 (strings \"ece\", \"aa\", \"e\").
+  to query [1,1] is 0.
+  We return [2,3,0].
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** words = [\"a\",\"e\",\"i\"], queries = [[0,2],[0,1],[2,2]]
+  **Output:** [3,2,1]
+  **Explanation:** Every string satisfies the conditions, so we return [3,2,1].
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= words.length &lt;= 105
+  	1 &lt;= words[i].length &lt;= 40
+  	words[i] consists only of lowercase English letters.
+  	sum(words[i].length) &lt;= 3 * 105
+  	1 &lt;= queries.length &lt;= 105
+  	0 &lt;= li &lt;= ri &lt;&nbsp;words.length
 ---
 
 ```python

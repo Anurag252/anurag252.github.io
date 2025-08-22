@@ -1,53 +1,58 @@
 ---
-title: "./2764 Maximum Number Of Fish In A Grid"
+title: "2764 Maximum Number Of Fish In A Grid"
 date: "2025-01-28T21:31:30+01:00"
 categories: ["leetcode"]
 tags: [go]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-number-of-fish-in-a-grid">Maximum Number of Fish in a Grid</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> 2D matrix <code>grid</code> of size <code>m x n</code>, where <code>(r, c)</code> represents:</p>
-
-<ul>
-	<li>A <strong>land</strong> cell if <code>grid[r][c] = 0</code>, or</li>
-	<li>A <strong>water</strong> cell containing <code>grid[r][c]</code> fish, if <code>grid[r][c] &gt; 0</code>.</li>
-</ul>
-
-<p>A fisher can start at any <strong>water</strong> cell <code>(r, c)</code> and can do the following operations any number of times:</p>
-
-<ul>
-	<li>Catch all the fish at cell <code>(r, c)</code>, or</li>
-	<li>Move to any adjacent <strong>water</strong> cell.</li>
-</ul>
-
-<p>Return <em>the <strong>maximum</strong> number of fish the fisher can catch if he chooses his starting cell optimally, or </em><code>0</code> if no water cell exists.</p>
-
-<p>An <strong>adjacent</strong> cell of the cell <code>(r, c)</code>, is one of the cells <code>(r, c + 1)</code>, <code>(r, c - 1)</code>, <code>(r + 1, c)</code> or <code>(r - 1, c)</code> if it exists.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2023/03/29/example.png" style="width: 241px; height: 161px;" />
-<pre>
-<strong>Input:</strong> grid = [[0,2,1,0],[4,0,0,3],[1,0,0,4],[0,3,2,0]]
-<strong>Output:</strong> 7
-<strong>Explanation:</strong> The fisher can start at cell <code>(1,3)</code> and collect 3 fish, then move to cell <code>(2,3)</code>&nbsp;and collect 4 fish.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2023/03/29/example2.png" />
-<pre>
-<strong>Input:</strong> grid = [[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,1]]
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The fisher can start at cells (0,0) or (3,3) and collect a single fish. 
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>m == grid.length</code></li>
-	<li><code>n == grid[i].length</code></li>
-	<li><code>1 &lt;= m, n &lt;= 10</code></li>
-	<li><code>0 &lt;= grid[i][j] &lt;= 10</code></li>
-</ul>"
+problem_statement: |
+  ## [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a **0-indexed** 2D matrix grid of size m x n, where (r, c) represents:
+  
+  	A **land** cell if grid[r][c] = 0, or
+  	A **water** cell containing grid[r][c] fish, if grid[r][c] &gt; 0.
+  
+  A fisher can start at any **water** cell (r, c) and can do the following operations any number of times:
+  
+  	Catch all the fish at cell (r, c), or
+  	Move to any adjacent **water** cell.
+  
+  Return *the **maximum** number of fish the fisher can catch if he chooses his starting cell optimally, or *0 if no water cell exists.
+  
+  An **adjacent** cell of the cell (r, c), is one of the cells (r, c + 1), (r, c - 1), (r + 1, c) or (r - 1, c) if it exists.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ![image](https://assets.leetcode.com/uploads/2023/03/29/example.png)
+  ```
+  
+  **Input:** grid = [[0,2,1,0],[4,0,0,3],[1,0,0,4],[0,3,2,0]]
+  **Output:** 7
+  **Explanation:** The fisher can start at cell (1,3) and collect 3 fish, then move to cell (2,3) and collect 4 fish.
+  
+  ```
+  
+  Example 2:
+  
+  ![image](https://assets.leetcode.com/uploads/2023/03/29/example2.png)
+  ```
+  
+  **Input:** grid = [[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,1]]
+  **Output:** 1
+  **Explanation:** The fisher can start at cells (0,0) or (3,3) and collect a single fish. 
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	m == grid.length
+  	n == grid[i].length
+  	1 &lt;= m, n &lt;= 10
+  	0 &lt;= grid[i][j] &lt;= 10
 ---
 
 ```go

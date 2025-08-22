@@ -1,50 +1,57 @@
 ---
-title: "./2588 Maximum Number Of Points From Grid Queries"
+title: "2588 Maximum Number Of Points From Grid Queries"
 date: "2025-03-29T07:59:38+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-number-of-points-from-grid-queries">Maximum Number of Points From Grid Queries</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given an <code>m x n</code> integer matrix <code>grid</code> and an array <code>queries</code> of size <code>k</code>.</p>
-
-<p>Find an array <code>answer</code> of size <code>k</code> such that for each integer <code>queries[i]</code> you start in the <strong>top left</strong> cell of the matrix and repeat the following process:</p>
-
-<ul>
-	<li>If <code>queries[i]</code> is <strong>strictly</strong> greater than the value of the current cell that you are in, then you get one point if it is your first time visiting this cell, and you can move to any <strong>adjacent</strong> cell in all <code>4</code> directions: up, down, left, and right.</li>
-	<li>Otherwise, you do not get any points, and you end this process.</li>
-</ul>
-
-<p>After the process, <code>answer[i]</code> is the <strong>maximum</strong> number of points you can get. <strong>Note</strong> that for each query you are allowed to visit the same cell <strong>multiple</strong> times.</p>
-
-<p>Return <em>the resulting array</em> <code>answer</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2025/03/15/image1.png" style="width: 571px; height: 152px;" />
-<pre>
-<strong>Input:</strong> grid = [[1,2,3],[2,5,7],[3,5,1]], queries = [5,6,2]
-<strong>Output:</strong> [5,8,1]
-<strong>Explanation:</strong> The diagrams above show which cells we visit to get points for each query.</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2022/10/20/yetgriddrawio-2.png" />
-<pre>
-<strong>Input:</strong> grid = [[5,2,1],[1,1,2]], queries = [3]
-<strong>Output:</strong> [0]
-<strong>Explanation:</strong> We can not get any points because the value of the top left cell is already greater than or equal to 3.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>m == grid.length</code></li>
-	<li><code>n == grid[i].length</code></li>
-	<li><code>2 &lt;= m, n &lt;= 1000</code></li>
-	<li><code>4 &lt;= m * n &lt;= 10<sup>5</sup></code></li>
-	<li><code>k == queries.length</code></li>
-	<li><code>1 &lt;= k &lt;= 10<sup>4</sup></code></li>
-	<li><code>1 &lt;= grid[i][j], queries[i] &lt;= 10<sup>6</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  You are given an m x n integer matrix grid and an array queries of size k.
+  
+  Find an array answer of size k such that for each integer queries[i] you start in the **top left** cell of the matrix and repeat the following process:
+  
+  	If queries[i] is **strictly** greater than the value of the current cell that you are in, then you get one point if it is your first time visiting this cell, and you can move to any **adjacent** cell in all 4 directions: up, down, left, and right.
+  	Otherwise, you do not get any points, and you end this process.
+  
+  After the process, answer[i] is the **maximum** number of points you can get. **Note** that for each query you are allowed to visit the same cell **multiple** times.
+  
+  Return *the resulting array* answer.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ![image](https://assets.leetcode.com/uploads/2025/03/15/image1.png)
+  ```
+  
+  **Input:** grid = [[1,2,3],[2,5,7],[3,5,1]], queries = [5,6,2]
+  **Output:** [5,8,1]
+  **Explanation:** The diagrams above show which cells we visit to get points for each query.
+  ```
+  
+  Example 2:
+  
+  ![image](https://assets.leetcode.com/uploads/2022/10/20/yetgriddrawio-2.png)
+  ```
+  
+  **Input:** grid = [[5,2,1],[1,1,2]], queries = [3]
+  **Output:** [0]
+  **Explanation:** We can not get any points because the value of the top left cell is already greater than or equal to 3.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	m == grid.length
+  	n == grid[i].length
+  	2 &lt;= m, n &lt;= 1000
+  	4 &lt;= m * n &lt;= 105
+  	k == queries.length
+  	1 &lt;= k &lt;= 104
+  	1 &lt;= grid[i][j], queries[i] &lt;= 106
 ---
 
 ```python

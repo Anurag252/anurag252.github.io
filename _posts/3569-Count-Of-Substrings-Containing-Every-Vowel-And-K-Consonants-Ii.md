@@ -1,64 +1,59 @@
 ---
-title: "./3569 Count Of Substrings Containing Every Vowel And K Consonants Ii"
+title: "3569 Count Of Substrings Containing Every Vowel And K Consonants Ii"
 date: "2025-03-10T13:44:42+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii">Count of Substrings Containing Every Vowel and K Consonants II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>word</code> and a <strong>non-negative</strong> integer <code>k</code>.</p>
-
-<p>Return the total number of <span data-keyword="substring-nonempty">substrings</span> of <code>word</code> that contain every vowel (<code>&#39;a&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;i&#39;</code>, <code>&#39;o&#39;</code>, and <code>&#39;u&#39;</code>) <strong>at least</strong> once and <strong>exactly</strong> <code>k</code> consonants.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;aeioqq&quot;, k = 1</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">0</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>There is no substring with every vowel.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;aeiou&quot;, k = 0</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The only substring with every vowel and zero consonants is <code>word[0..4]</code>, which is <code>&quot;aeiou&quot;</code>.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;</span>ieaouqqieaouqq<span class="example-io">&quot;, k = 1</span></p>
-
-<p><strong>Output:</strong> 3</p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The substrings with every vowel and one consonant are:</p>
-
-<ul>
-	<li><code>word[0..5]</code>, which is <code>&quot;ieaouq&quot;</code>.</li>
-	<li><code>word[6..11]</code>, which is <code>&quot;qieaou&quot;</code>.</li>
-	<li><code>word[7..12]</code>, which is <code>&quot;ieaouq&quot;</code>.</li>
-</ul>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>5 &lt;= word.length &lt;= 2 * 10<sup>5</sup></code></li>
-	<li><code>word</code> consists only of lowercase English letters.</li>
-	<li><code>0 &lt;= k &lt;= word.length - 5</code></li>
-</ul>"
+problem_statement: |
+  ## [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a string word and a **non-negative** integer k.
+  
+  Return the total number of substrings of word that contain every vowel (&#39;a&#39;, &#39;e&#39;, &#39;i&#39;, &#39;o&#39;, and &#39;u&#39;) **at least** once and **exactly** k consonants.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** word = &quot;aeioqq&quot;, k = 1
+  
+  **Output:** 0
+  
+  **Explanation:**
+  
+  There is no substring with every vowel.
+  
+  Example 2:
+  
+  **Input:** word = &quot;aeiou&quot;, k = 0
+  
+  **Output:** 1
+  
+  **Explanation:**
+  
+  The only substring with every vowel and zero consonants is word[0..4], which is &quot;aeiou&quot;.
+  
+  Example 3:
+  
+  **Input:** word = &quot;ieaouqqieaouqq&quot;, k = 1
+  
+  **Output:** 3
+  
+  **Explanation:**
+  
+  The substrings with every vowel and one consonant are:
+  
+  	word[0..5], which is &quot;ieaouq&quot;.
+  	word[6..11], which is &quot;qieaou&quot;.
+  	word[7..12], which is &quot;ieaouq&quot;.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	5 &lt;= word.length &lt;= 2 * 105
+  	word consists only of lowercase English letters.
+  	0 &lt;= k &lt;= word.length - 5
 ---
 
 ```python

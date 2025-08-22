@@ -1,37 +1,44 @@
 ---
-title: "./3201 Distribute Candies Among Children Ii"
+title: "3201 Distribute Candies Among Children Ii"
 date: "2025-06-01T14:49:21+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/distribute-candies-among-children-ii">Distribute Candies Among Children II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given two positive integers <code>n</code> and <code>limit</code>.</p>
-
-<p>Return <em>the <strong>total number</strong> of ways to distribute </em><code>n</code> <em>candies among </em><code>3</code><em> children such that no child gets more than </em><code>limit</code><em> candies.</em></p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 5, limit = 2
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> There are 3 ways to distribute 5 candies such that no child gets more than 2 candies: (1, 2, 2), (2, 1, 2) and (2, 2, 1).
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 3, limit = 3
-<strong>Output:</strong> 10
-<strong>Explanation:</strong> There are 10 ways to distribute 3 candies such that no child gets more than 3 candies: (0, 0, 3), (0, 1, 2), (0, 2, 1), (0, 3, 0), (1, 0, 2), (1, 1, 1), (1, 2, 0), (2, 0, 1), (2, 1, 0) and (3, 0, 0).
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n &lt;= 10<sup>6</sup></code></li>
-	<li><code>1 &lt;= limit &lt;= 10<sup>6</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given two positive integers n and limit.
+  
+  Return *the **total number** of ways to distribute *n *candies among *3* children such that no child gets more than *limit* candies.*
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** n = 5, limit = 2
+  **Output:** 3
+  **Explanation:** There are 3 ways to distribute 5 candies such that no child gets more than 2 candies: (1, 2, 2), (2, 1, 2) and (2, 2, 1).
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** n = 3, limit = 3
+  **Output:** 10
+  **Explanation:** There are 10 ways to distribute 3 candies such that no child gets more than 3 candies: (0, 0, 3), (0, 1, 2), (0, 2, 1), (0, 3, 0), (1, 0, 2), (1, 1, 1), (1, 2, 0), (2, 0, 1), (2, 1, 0) and (3, 0, 0).
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n &lt;= 106
+  	1 &lt;= limit &lt;= 106
 ---
 
 ```python

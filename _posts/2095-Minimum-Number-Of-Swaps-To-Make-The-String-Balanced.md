@@ -1,62 +1,69 @@
 ---
-title: "./2095 Minimum Number Of Swaps To Make The String Balanced"
+title: "2095 Minimum Number Of Swaps To Make The String Balanced"
 date: "2024-10-08T08:49:36+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced">Minimum Number of Swaps to Make the String Balanced</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> string <code>s</code> of <strong>even</strong> length <code>n</code>. The string consists of <strong>exactly</strong> <code>n / 2</code> opening brackets <code>&#39;[&#39;</code> and <code>n / 2</code> closing brackets <code>&#39;]&#39;</code>.</p>
-
-<p>A string is called <strong>balanced</strong> if and only if:</p>
-
-<ul>
-	<li>It is the empty string, or</li>
-	<li>It can be written as <code>AB</code>, where both <code>A</code> and <code>B</code> are <strong>balanced</strong> strings, or</li>
-	<li>It can be written as <code>[C]</code>, where <code>C</code> is a <strong>balanced</strong> string.</li>
-</ul>
-
-<p>You may swap the brackets at <strong>any</strong> two indices <strong>any</strong> number of times.</p>
-
-<p>Return <em>the <strong>minimum</strong> number of swaps to make </em><code>s</code> <em><strong>balanced</strong></em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;][][&quot;
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> You can make the string balanced by swapping index 0 with index 3.
-The resulting string is &quot;[[]]&quot;.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;]]][[[&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> You can do the following to make the string balanced:
-- Swap index 0 with index 4. s = &quot;[]][][&quot;.
-- Swap index 1 with index 5. s = &quot;[[][]]&quot;.
-The resulting string is &quot;[[][]]&quot;.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;[]&quot;
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> The string is already balanced.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>n == s.length</code></li>
-	<li><code>2 &lt;= n &lt;= 10<sup>6</sup></code></li>
-	<li><code>n</code> is even.</li>
-	<li><code>s[i]</code> is either <code>&#39;[&#39; </code>or <code>&#39;]&#39;</code>.</li>
-	<li>The number of opening brackets <code>&#39;[&#39;</code> equals <code>n / 2</code>, and the number of closing brackets <code>&#39;]&#39;</code> equals <code>n / 2</code>.</li>
-</ul>"
+problem_statement: |
+  ## [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a **0-indexed** string s of **even** length n. The string consists of **exactly** n / 2 opening brackets &#39;[&#39; and n / 2 closing brackets &#39;]&#39;.
+  
+  A string is called **balanced** if and only if:
+  
+  	It is the empty string, or
+  	It can be written as AB, where both A and B are **balanced** strings, or
+  	It can be written as [C], where C is a **balanced** string.
+  
+  You may swap the brackets at **any** two indices **any** number of times.
+  
+  Return *the **minimum** number of swaps to make *s ***balanced***.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** s = \"][][\"
+  **Output:** 1
+  **Explanation:** You can make the string balanced by swapping index 0 with index 3.
+  The resulting string is \"[[]]\".
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** s = \"]]][[[\"
+  **Output:** 2
+  **Explanation:** You can do the following to make the string balanced:
+  - Swap index 0 with index 4. s = \"[]][][\".
+  - Swap index 1 with index 5. s = \"[[][]]\".
+  The resulting string is \"[[][]]\".
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** s = \"[]\"
+  **Output:** 0
+  **Explanation:** The string is already balanced.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	n == s.length
+  	2 &lt;= n &lt;= 106
+  	n is even.
+  	s[i] is either &#39;[&#39; or &#39;]&#39;.
+  	The number of opening brackets &#39;[&#39; equals n / 2, and the number of closing brackets &#39;]&#39; equals n / 2.
 ---
 
 ```python

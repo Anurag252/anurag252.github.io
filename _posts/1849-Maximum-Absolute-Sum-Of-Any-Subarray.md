@@ -1,44 +1,49 @@
 ---
-title: "./1849 Maximum Absolute Sum Of Any Subarray"
+title: "1849 Maximum Absolute Sum Of Any Subarray"
 date: "2025-02-26T07:13:44+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray">Maximum Absolute Sum of Any Subarray</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer array <code>nums</code>. The <strong>absolute sum</strong> of a subarray <code>[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]</code> is <code>abs(nums<sub>l</sub> + nums<sub>l+1</sub> + ... + nums<sub>r-1</sub> + nums<sub>r</sub>)</code>.</p>
-
-<p>Return <em>the <strong>maximum</strong> absolute sum of any <strong>(possibly empty)</strong> subarray of </em><code>nums</code>.</p>
-
-<p>Note that <code>abs(x)</code> is defined as follows:</p>
-
-<ul>
-	<li>If <code>x</code> is a negative integer, then <code>abs(x) = -x</code>.</li>
-	<li>If <code>x</code> is a non-negative integer, then <code>abs(x) = x</code>.</li>
-</ul>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,-3,2,3,-4]
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> The subarray [2,3] has absolute sum = abs(2+3) = abs(5) = 5.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,-5,1,-4,3,-2]
-<strong>Output:</strong> 8
-<strong>Explanation:</strong> The subarray [-5,1,-4] has absolute sum = abs(-5+1-4) = abs(-8) = 8.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an integer array nums. The **absolute sum** of a subarray [numsl, numsl+1, ..., numsr-1, numsr] is abs(numsl + numsl+1 + ... + numsr-1 + numsr).
+  
+  Return *the **maximum** absolute sum of any **(possibly empty)** subarray of *nums.
+  
+  Note that abs(x) is defined as follows:
+  
+  	If x is a negative integer, then abs(x) = -x.
+  	If x is a non-negative integer, then abs(x) = x.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [1,-3,2,3,-4]
+  **Output:** 5
+  **Explanation:** The subarray [2,3] has absolute sum = abs(2+3) = abs(5) = 5.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [2,-5,1,-4,3,-2]
+  **Output:** 8
+  **Explanation:** The subarray [-5,1,-4] has absolute sum = abs(-5+1-4) = abs(-8) = 8.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	-104 &lt;= nums[i] &lt;= 104
 ---
 
 ```python

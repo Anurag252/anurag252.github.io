@@ -1,43 +1,48 @@
 ---
-title: "./650 2 Keys Keyboard"
+title: "650 2 Keys Keyboard"
 date: "2024-08-19T08:15:28+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/2-keys-keyboard">2 Keys Keyboard</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>There is only one character <code>&#39;A&#39;</code> on the screen of a notepad. You can perform one of two operations on this notepad for each step:</p>
-
-<ul>
-	<li>Copy All: You can copy all the characters present on the screen (a partial copy is not allowed).</li>
-	<li>Paste: You can paste the characters which are copied last time.</li>
-</ul>
-
-<p>Given an integer <code>n</code>, return <em>the minimum number of operations to get the character</em> <code>&#39;A&#39;</code> <em>exactly</em> <code>n</code> <em>times on the screen</em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 3
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> Initially, we have one character &#39;A&#39;.
-In step 1, we use Copy All operation.
-In step 2, we use Paste operation to get &#39;AA&#39;.
-In step 3, we use Paste operation to get &#39;AAA&#39;.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 1
-<strong>Output:</strong> 0
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n &lt;= 1000</code></li>
-</ul>"
+problem_statement: |
+  ## [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  There is only one character &#39;A&#39; on the screen of a notepad. You can perform one of two operations on this notepad for each step:
+  
+  	Copy All: You can copy all the characters present on the screen (a partial copy is not allowed).
+  	Paste: You can paste the characters which are copied last time.
+  
+  Given an integer n, return *the minimum number of operations to get the character* &#39;A&#39; *exactly* n *times on the screen*.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** n = 3
+  **Output:** 3
+  **Explanation:** Initially, we have one character 'A'.
+  In step 1, we use Copy All operation.
+  In step 2, we use Paste operation to get 'AA'.
+  In step 3, we use Paste operation to get 'AAA'.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** n = 1
+  **Output:** 0
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n &lt;= 1000
 ---
 
 ```python

@@ -1,63 +1,55 @@
 ---
-title: "./3451 String Compression Iii"
+title: "3451 String Compression Iii"
 date: "2024-11-04T12:31:51+05:30"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/string-compression-iii">String Compression III</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a string <code>word</code>, compress it using the following algorithm:</p>
-
-<ul>
-	<li>Begin with an empty string <code>comp</code>. While <code>word</code> is <strong>not</strong> empty, use the following operation:
-
-	<ul>
-		<li>Remove a maximum length prefix of <code>word</code> made of a <em>single character</em> <code>c</code> repeating <strong>at most</strong> 9 times.</li>
-		<li>Append the length of the prefix followed by <code>c</code> to <code>comp</code>.</li>
-	</ul>
-	</li>
-</ul>
-
-<p>Return the string <code>comp</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;abcde&quot;</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">&quot;1a1b1c1d1e&quot;</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>Initially, <code>comp = &quot;&quot;</code>. Apply the operation 5 times, choosing <code>&quot;a&quot;</code>, <code>&quot;b&quot;</code>, <code>&quot;c&quot;</code>, <code>&quot;d&quot;</code>, and <code>&quot;e&quot;</code> as the prefix in each operation.</p>
-
-<p>For each prefix, append <code>&quot;1&quot;</code> followed by the character to <code>comp</code>.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;aaaaaaaaaaaaaabb&quot;</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">&quot;9a5a2b&quot;</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>Initially, <code>comp = &quot;&quot;</code>. Apply the operation 3 times, choosing <code>&quot;aaaaaaaaa&quot;</code>, <code>&quot;aaaaa&quot;</code>, and <code>&quot;bb&quot;</code> as the prefix in each operation.</p>
-
-<ul>
-	<li>For prefix <code>&quot;aaaaaaaaa&quot;</code>, append <code>&quot;9&quot;</code> followed by <code>&quot;a&quot;</code> to <code>comp</code>.</li>
-	<li>For prefix <code>&quot;aaaaa&quot;</code>, append <code>&quot;5&quot;</code> followed by <code>&quot;a&quot;</code> to <code>comp</code>.</li>
-	<li>For prefix <code>&quot;bb&quot;</code>, append <code>&quot;2&quot;</code> followed by <code>&quot;b&quot;</code> to <code>comp</code>.</li>
-</ul>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= word.length &lt;= 2 * 10<sup>5</sup></code></li>
-	<li><code>word</code> consists only of lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [String Compression III](https://leetcode.com/problems/string-compression-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given a string word, compress it using the following algorithm:
+  
+  	Begin with an empty string comp. While word is **not** empty, use the following operation:
+  
+  		Remove a maximum length prefix of word made of a *single character* c repeating **at most** 9 times.
+  		Append the length of the prefix followed by c to comp.
+  
+  Return the string comp.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** word = &quot;abcde&quot;
+  
+  **Output:** &quot;1a1b1c1d1e&quot;
+  
+  **Explanation:**
+  
+  Initially, comp = &quot;&quot;. Apply the operation 5 times, choosing &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, and &quot;e&quot; as the prefix in each operation.
+  
+  For each prefix, append &quot;1&quot; followed by the character to comp.
+  
+  Example 2:
+  
+  **Input:** word = &quot;aaaaaaaaaaaaaabb&quot;
+  
+  **Output:** &quot;9a5a2b&quot;
+  
+  **Explanation:**
+  
+  Initially, comp = &quot;&quot;. Apply the operation 3 times, choosing &quot;aaaaaaaaa&quot;, &quot;aaaaa&quot;, and &quot;bb&quot; as the prefix in each operation.
+  
+  	For prefix &quot;aaaaaaaaa&quot;, append &quot;9&quot; followed by &quot;a&quot; to comp.
+  	For prefix &quot;aaaaa&quot;, append &quot;5&quot; followed by &quot;a&quot; to comp.
+  	For prefix &quot;bb&quot;, append &quot;2&quot; followed by &quot;b&quot; to comp.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= word.length &lt;= 2 * 105
+  	word consists only of lowercase English letters.
 ---
 
 ```python

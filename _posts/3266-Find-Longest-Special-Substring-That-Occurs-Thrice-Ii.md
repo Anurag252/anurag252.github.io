@@ -1,51 +1,60 @@
 ---
-title: "./3266 Find Longest Special Substring That Occurs Thrice Ii"
+title: "3266 Find Longest Special Substring That Occurs Thrice Ii"
 date: "2024-12-11T16:37:48+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii">Find Longest Special Substring That Occurs Thrice II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> that consists of lowercase English letters.</p>
-
-<p>A string is called <strong>special</strong> if it is made up of only a single character. For example, the string <code>&quot;abc&quot;</code> is not special, whereas the strings <code>&quot;ddd&quot;</code>, <code>&quot;zz&quot;</code>, and <code>&quot;f&quot;</code> are special.</p>
-
-<p>Return <em>the length of the <strong>longest special substring</strong> of </em><code>s</code> <em>which occurs <strong>at least thrice</strong></em>, <em>or </em><code>-1</code><em> if no special substring occurs at least thrice</em>.</p>
-
-<p>A <strong>substring</strong> is a contiguous <strong>non-empty</strong> sequence of characters within a string.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;aaaa&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The longest special substring which occurs thrice is &quot;aa&quot;: substrings &quot;<u><strong>aa</strong></u>aa&quot;, &quot;a<u><strong>aa</strong></u>a&quot;, and &quot;aa<u><strong>aa</strong></u>&quot;.
-It can be shown that the maximum length achievable is 2.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;abcdef&quot;
-<strong>Output:</strong> -1
-<strong>Explanation:</strong> There exists no special substring which occurs at least thrice. Hence return -1.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;abcaba&quot;
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The longest special substring which occurs thrice is &quot;a&quot;: substrings &quot;<u><strong>a</strong></u>bcaba&quot;, &quot;abc<u><strong>a</strong></u>ba&quot;, and &quot;abcab<u><strong>a</strong></u>&quot;.
-It can be shown that the maximum length achievable is 1.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>3 &lt;= s.length &lt;= 5 * 10<sup>5</sup></code></li>
-	<li><code>s</code> consists of only lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a string s that consists of lowercase English letters.
+  
+  A string is called **special** if it is made up of only a single character. For example, the string &quot;abc&quot; is not special, whereas the strings &quot;ddd&quot;, &quot;zz&quot;, and &quot;f&quot; are special.
+  
+  Return *the length of the **longest special substring** of *s *which occurs **at least thrice***, *or *-1* if no special substring occurs at least thrice*.
+  
+  A **substring** is a contiguous **non-empty** sequence of characters within a string.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** s = \"aaaa\"
+  **Output:** 2
+  **Explanation:** The longest special substring which occurs thrice is \"aa\": substrings \"**aa**aa\", \"a**aa**a\", and \"aa**aa**\".
+  It can be shown that the maximum length achievable is 2.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** s = \"abcdef\"
+  **Output:** -1
+  **Explanation:** There exists no special substring which occurs at least thrice. Hence return -1.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** s = \"abcaba\"
+  **Output:** 1
+  **Explanation:** The longest special substring which occurs thrice is \"a\": substrings \"**a**bcaba\", \"abc**a**ba\", and \"abcab**a**\".
+  It can be shown that the maximum length achievable is 1.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	3 &lt;= s.length &lt;= 5 * 105
+  	s consists of only lowercase English letters.
 ---
 
 ```python

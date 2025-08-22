@@ -1,44 +1,43 @@
 ---
-title: "./3394 Minimum Array End"
+title: "3394 Minimum Array End"
 date: "2024-11-09T09:04:30+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/minimum-array-end">Minimum Array End</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given two integers <code>n</code> and <code>x</code>. You have to construct an array of <strong>positive</strong> integers <code>nums</code> of size <code>n</code> where for every <code>0 &lt;= i &lt; n - 1</code>, <code>nums[i + 1]</code> is <strong>greater than</strong> <code>nums[i]</code>, and the result of the bitwise <code>AND</code> operation between all elements of <code>nums</code> is <code>x</code>.</p>
-
-<p>Return the <strong>minimum</strong> possible value of <code>nums[n - 1]</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 3, x = 4</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">6</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p><code>nums</code> can be <code>[4,5,6]</code> and its last element is 6.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 2, x = 7</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">15</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p><code>nums</code> can be <code>[7,15]</code> and its last element is 15.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n, x &lt;= 10<sup>8</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Minimum Array End](https://leetcode.com/problems/minimum-array-end) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given two integers n and x. You have to construct an array of **positive** integers nums of size n where for every 0 &lt;= i &lt; n - 1, nums[i + 1] is **greater than** nums[i], and the result of the bitwise AND operation between all elements of nums is x.
+  
+  Return the **minimum** possible value of nums[n - 1].
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** n = 3, x = 4
+  
+  **Output:** 6
+  
+  **Explanation:**
+  
+  nums can be [4,5,6] and its last element is 6.
+  
+  Example 2:
+  
+  **Input:** n = 2, x = 7
+  
+  **Output:** 15
+  
+  **Explanation:**
+  
+  nums can be [7,15] and its last element is 15.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n, x &lt;= 108
 ---
 
 ```python

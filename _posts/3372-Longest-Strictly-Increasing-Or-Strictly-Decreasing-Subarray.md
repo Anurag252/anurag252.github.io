@@ -1,67 +1,64 @@
 ---
-title: "./3372 Longest Strictly Increasing Or Strictly Decreasing Subarray"
+title: "3372 Longest Strictly Increasing Or Strictly Decreasing Subarray"
 date: "2025-02-03T07:25:23+01:00"
 categories: ["leetcode"]
 tags: [go]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray">Longest Strictly Increasing or Strictly Decreasing Subarray</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an array of integers <code>nums</code>. Return <em>the length of the <strong>longest</strong> <span data-keyword="subarray-nonempty">subarray</span> of </em><code>nums</code><em> which is either <strong><span data-keyword="strictly-increasing-array">strictly increasing</span></strong> or <strong><span data-keyword="strictly-decreasing-array">strictly decreasing</span></strong></em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,4,3,3,2]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">2</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The strictly increasing subarrays of <code>nums</code> are <code>[1]</code>, <code>[2]</code>, <code>[3]</code>, <code>[3]</code>, <code>[4]</code>, and <code>[1,4]</code>.</p>
-
-<p>The strictly decreasing subarrays of <code>nums</code> are <code>[1]</code>, <code>[2]</code>, <code>[3]</code>, <code>[3]</code>, <code>[4]</code>, <code>[3,2]</code>, and <code>[4,3]</code>.</p>
-
-<p>Hence, we return <code>2</code>.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [3,3,3,3]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The strictly increasing subarrays of <code>nums</code> are <code>[3]</code>, <code>[3]</code>, <code>[3]</code>, and <code>[3]</code>.</p>
-
-<p>The strictly decreasing subarrays of <code>nums</code> are <code>[3]</code>, <code>[3]</code>, <code>[3]</code>, and <code>[3]</code>.</p>
-
-<p>Hence, we return <code>1</code>.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [3,2,1]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">3</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The strictly increasing subarrays of <code>nums</code> are <code>[3]</code>, <code>[2]</code>, and <code>[1]</code>.</p>
-
-<p>The strictly decreasing subarrays of <code>nums</code> are <code>[3]</code>, <code>[2]</code>, <code>[1]</code>, <code>[3,2]</code>, <code>[2,1]</code>, and <code>[3,2,1]</code>.</p>
-
-<p>Hence, we return <code>3</code>.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 50</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 50</code></li>
-</ul>"
+problem_statement: |
+  ## [Longest Strictly Increasing or Strictly Decreasing Subarray](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  You are given an array of integers nums. Return *the length of the **longest** subarray of *nums* which is either **strictly increasing** or **strictly decreasing***.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1,4,3,3,2]
+  
+  **Output:** 2
+  
+  **Explanation:**
+  
+  The strictly increasing subarrays of nums are [1], [2], [3], [3], [4], and [1,4].
+  
+  The strictly decreasing subarrays of nums are [1], [2], [3], [3], [4], [3,2], and [4,3].
+  
+  Hence, we return 2.
+  
+  Example 2:
+  
+  **Input:** nums = [3,3,3,3]
+  
+  **Output:** 1
+  
+  **Explanation:**
+  
+  The strictly increasing subarrays of nums are [3], [3], [3], and [3].
+  
+  The strictly decreasing subarrays of nums are [3], [3], [3], and [3].
+  
+  Hence, we return 1.
+  
+  Example 3:
+  
+  **Input:** nums = [3,2,1]
+  
+  **Output:** 3
+  
+  **Explanation:**
+  
+  The strictly increasing subarrays of nums are [3], [2], and [1].
+  
+  The strictly decreasing subarrays of nums are [3], [2], [1], [3,2], [2,1], and [3,2,1].
+  
+  Hence, we return 3.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 50
+  	1 &lt;= nums[i] &lt;= 50
 ---
 
 ```go

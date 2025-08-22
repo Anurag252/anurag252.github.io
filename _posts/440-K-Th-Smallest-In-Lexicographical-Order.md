@@ -1,33 +1,40 @@
 ---
-title: "./440 K Th Smallest In Lexicographical Order"
+title: "440 K Th Smallest In Lexicographical Order"
 date: "2024-09-22T10:23:44+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/k-th-smallest-in-lexicographical-order">K-th Smallest in Lexicographical Order</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given two integers <code>n</code> and <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>lexicographically smallest integer in the range</em> <code>[1, n]</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 13, k = 2
-<strong>Output:</strong> 10
-<strong>Explanation:</strong> The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the second smallest number is 10.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 1, k = 1
-<strong>Output:</strong> 1
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= k &lt;= n &lt;= 10<sup>9</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  Given two integers n and k, return *the* kth *lexicographically smallest integer in the range* [1, n].
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** n = 13, k = 2
+  **Output:** 10
+  **Explanation:** The lexicographical order is [1, 10, 11, 12, 13, 2, 3, 4, 5, 6, 7, 8, 9], so the second smallest number is 10.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** n = 1, k = 1
+  **Output:** 1
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= k &lt;= n &lt;= 109
 ---
 
 ```python

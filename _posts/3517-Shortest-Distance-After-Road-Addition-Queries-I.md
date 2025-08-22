@@ -1,69 +1,68 @@
 ---
-title: "./3517 Shortest Distance After Road Addition Queries I"
+title: "3517 Shortest Distance After Road Addition Queries I"
 date: "2024-11-27T09:08:43+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i">Shortest Distance After Road Addition Queries I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer <code>n</code> and a 2D integer array <code>queries</code>.</p>
-
-<p>There are <code>n</code> cities numbered from <code>0</code> to <code>n - 1</code>. Initially, there is a <strong>unidirectional</strong> road from city <code>i</code> to city <code>i + 1</code> for all <code>0 &lt;= i &lt; n - 1</code>.</p>
-
-<p><code>queries[i] = [u<sub>i</sub>, v<sub>i</sub>]</code> represents the addition of a new <strong>unidirectional</strong> road from city <code>u<sub>i</sub></code> to city <code>v<sub>i</sub></code>. After each query, you need to find the <strong>length</strong> of the <strong>shortest path</strong> from city <code>0</code> to city <code>n - 1</code>.</p>
-
-<p>Return an array <code>answer</code> where for each <code>i</code> in the range <code>[0, queries.length - 1]</code>, <code>answer[i]</code> is the <em>length of the shortest path</em> from city <code>0</code> to city <code>n - 1</code> after processing the <strong>first </strong><code>i + 1</code> queries.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 5, queries = [[2,4],[0,2],[0,4]]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[3,2,1]</span></p>
-
-<p><strong>Explanation: </strong></p>
-
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/06/28/image8.jpg" style="width: 350px; height: 60px;" /></p>
-
-<p>After the addition of the road from 2 to 4, the length of the shortest path from 0 to 4 is 3.</p>
-
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/06/28/image9.jpg" style="width: 350px; height: 60px;" /></p>
-
-<p>After the addition of the road from 0 to 2, the length of the shortest path from 0 to 4 is 2.</p>
-
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/06/28/image10.jpg" style="width: 350px; height: 96px;" /></p>
-
-<p>After the addition of the road from 0 to 4, the length of the shortest path from 0 to 4 is 1.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 4, queries = [[0,3],[0,2]]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[1,1]</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/06/28/image11.jpg" style="width: 300px; height: 70px;" /></p>
-
-<p>After the addition of the road from 0 to 3, the length of the shortest path from 0 to 3 is 1.</p>
-
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/06/28/image12.jpg" style="width: 300px; height: 70px;" /></p>
-
-<p>After the addition of the road from 0 to 2, the length of the shortest path remains 1.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>3 &lt;= n &lt;= 500</code></li>
-	<li><code>1 &lt;= queries.length &lt;= 500</code></li>
-	<li><code>queries[i].length == 2</code></li>
-	<li><code>0 &lt;= queries[i][0] &lt; queries[i][1] &lt; n</code></li>
-	<li><code>1 &lt; queries[i][1] - queries[i][0]</code></li>
-	<li>There are no repeated roads among the queries.</li>
-</ul>"
+problem_statement: |
+  ## [Shortest Distance After Road Addition Queries I](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an integer n and a 2D integer array queries.
+  
+  There are n cities numbered from 0 to n - 1. Initially, there is a **unidirectional** road from city i to city i + 1 for all 0 &lt;= i &lt; n - 1.
+  
+  queries[i] = [ui, vi] represents the addition of a new **unidirectional** road from city ui to city vi. After each query, you need to find the **length** of the **shortest path** from city 0 to city n - 1.
+  
+  Return an array answer where for each i in the range [0, queries.length - 1], answer[i] is the *length of the shortest path* from city 0 to city n - 1 after processing the **first **i + 1 queries.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** n = 5, queries = [[2,4],[0,2],[0,4]]
+  
+  **Output:** [3,2,1]
+  
+  **Explanation: **
+  
+  ![image](https://assets.leetcode.com/uploads/2024/06/28/image8.jpg)
+  
+  After the addition of the road from 2 to 4, the length of the shortest path from 0 to 4 is 3.
+  
+  ![image](https://assets.leetcode.com/uploads/2024/06/28/image9.jpg)
+  
+  After the addition of the road from 0 to 2, the length of the shortest path from 0 to 4 is 2.
+  
+  ![image](https://assets.leetcode.com/uploads/2024/06/28/image10.jpg)
+  
+  After the addition of the road from 0 to 4, the length of the shortest path from 0 to 4 is 1.
+  
+  Example 2:
+  
+  **Input:** n = 4, queries = [[0,3],[0,2]]
+  
+  **Output:** [1,1]
+  
+  **Explanation:**
+  
+  ![image](https://assets.leetcode.com/uploads/2024/06/28/image11.jpg)
+  
+  After the addition of the road from 0 to 3, the length of the shortest path from 0 to 3 is 1.
+  
+  ![image](https://assets.leetcode.com/uploads/2024/06/28/image12.jpg)
+  
+  After the addition of the road from 0 to 2, the length of the shortest path remains 1.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	3 &lt;= n &lt;= 500
+  	1 &lt;= queries.length &lt;= 500
+  	queries[i].length == 2
+  	0 &lt;= queries[i][0] &lt; queries[i][1] &lt; n
+  	1 &lt; queries[i][1] - queries[i][0]
+  	There are no repeated roads among the queries.
 ---
 
 ```python

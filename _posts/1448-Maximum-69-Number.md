@@ -1,50 +1,59 @@
 ---
-title: "./1448 Maximum 69 Number"
+title: "1448 Maximum 69 Number"
 date: "2025-08-16T22:42:03+02:00"
 categories: ["leetcode"]
 tags: [rust]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-69-number">Maximum 69 Number</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a positive integer <code>num</code> consisting only of digits <code>6</code> and <code>9</code>.</p>
-
-<p>Return <em>the maximum number you can get by changing <strong>at most</strong> one digit (</em><code>6</code><em> becomes </em><code>9</code><em>, and </em><code>9</code><em> becomes </em><code>6</code><em>)</em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> num = 9669
-<strong>Output:</strong> 9969
-<strong>Explanation:</strong> 
-Changing the first digit results in 6669.
-Changing the second digit results in 9969.
-Changing the third digit results in 9699.
-Changing the fourth digit results in 9666.
-The maximum number is 9969.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> num = 9996
-<strong>Output:</strong> 9999
-<strong>Explanation:</strong> Changing the last digit 6 to 9 results in the maximum number.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> num = 9999
-<strong>Output:</strong> 9999
-<strong>Explanation:</strong> It is better not to apply any change.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= num &lt;= 10<sup>4</sup></code></li>
-	<li><code>num</code>&nbsp;consists of only <code>6</code> and <code>9</code> digits.</li>
-</ul>"
+problem_statement: |
+  ## [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  You are given a positive integer num consisting only of digits 6 and 9.
+  
+  Return *the maximum number you can get by changing **at most** one digit (*6* becomes *9*, and *9* becomes *6*)*.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** num = 9669
+  **Output:** 9969
+  **Explanation:** 
+  Changing the first digit results in 6669.
+  Changing the second digit results in 9969.
+  Changing the third digit results in 9699.
+  Changing the fourth digit results in 9666.
+  The maximum number is 9969.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** num = 9996
+  **Output:** 9999
+  **Explanation:** Changing the last digit 6 to 9 results in the maximum number.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** num = 9999
+  **Output:** 9999
+  **Explanation:** It is better not to apply any change.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= num &lt;= 104
+  	num&nbsp;consists of only 6 and 9 digits.
 ---
 
 ```rust

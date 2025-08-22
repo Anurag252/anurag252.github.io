@@ -1,54 +1,59 @@
 ---
-title: "./2394 Count Subarrays With Score Less Than K"
+title: "2394 Count Subarrays With Score Less Than K"
 date: "2025-04-29T08:28:40+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/count-subarrays-with-score-less-than-k">Count Subarrays With Score Less Than K</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>The <strong>score</strong> of an array is defined as the <strong>product</strong> of its sum and its length.</p>
-
-<ul>
-	<li>For example, the score of <code>[1, 2, 3, 4, 5]</code> is <code>(1 + 2 + 3 + 4 + 5) * 5 = 75</code>.</li>
-</ul>
-
-<p>Given a positive integer array <code>nums</code> and an integer <code>k</code>, return <em>the <strong>number of non-empty subarrays</strong> of</em> <code>nums</code> <em>whose score is <strong>strictly less</strong> than</em> <code>k</code>.</p>
-
-<p>A <strong>subarray</strong> is a contiguous sequence of elements within an array.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,1,4,3,5], k = 10
-<strong>Output:</strong> 6
-<strong>Explanation:</strong>
-The 6 subarrays having scores less than 10 are:
-- [2] with score 2 * 1 = 2.
-- [1] with score 1 * 1 = 1.
-- [4] with score 4 * 1 = 4.
-- [3] with score 3 * 1 = 3. 
-- [5] with score 5 * 1 = 5.
-- [2,1] with score (2 + 1) * 2 = 6.
-Note that subarrays such as [1,4] and [4,3,5] are not considered because their scores are 10 and 36 respectively, while we need scores strictly less than 10.</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,1,1], k = 5
-<strong>Output:</strong> 5
-<strong>Explanation:</strong>
-Every subarray except [1,1,1] has a score less than 5.
-[1,1,1] has a score (1 + 1 + 1) * 3 = 9, which is greater than 5.
-Thus, there are 5 subarrays having scores less than 5.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= k &lt;= 10<sup>15</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Count Subarrays With Score Less Than K](https://leetcode.com/problems/count-subarrays-with-score-less-than-k) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  The **score** of an array is defined as the **product** of its sum and its length.
+  
+  	For example, the score of [1, 2, 3, 4, 5] is (1 + 2 + 3 + 4 + 5) * 5 = 75.
+  
+  Given a positive integer array nums and an integer k, return *the **number of non-empty subarrays** of* nums *whose score is **strictly less** than* k.
+  
+  A **subarray** is a contiguous sequence of elements within an array.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [2,1,4,3,5], k = 10
+  **Output:** 6
+  **Explanation:**
+  The 6 subarrays having scores less than 10 are:
+  - [2] with score 2 * 1 = 2.
+  - [1] with score 1 * 1 = 1.
+  - [4] with score 4 * 1 = 4.
+  - [3] with score 3 * 1 = 3. 
+  - [5] with score 5 * 1 = 5.
+  - [2,1] with score (2 + 1) * 2 = 6.
+  Note that subarrays such as [1,4] and [4,3,5] are not considered because their scores are 10 and 36 respectively, while we need scores strictly less than 10.
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [1,1,1], k = 5
+  **Output:** 5
+  **Explanation:**
+  Every subarray except [1,1,1] has a score less than 5.
+  [1,1,1] has a score (1 + 1 + 1) * 3 = 9, which is greater than 5.
+  Thus, there are 5 subarrays having scores less than 5.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	1 &lt;= nums[i] &lt;= 105
+  	1 &lt;= k &lt;= 1015
 ---
 
 ```python

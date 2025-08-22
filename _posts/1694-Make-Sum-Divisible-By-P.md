@@ -1,48 +1,57 @@
 ---
-title: "./1694 Make Sum Divisible By P"
+title: "1694 Make Sum Divisible By P"
 date: "2024-10-03T08:49:43+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/make-sum-divisible-by-p">Make Sum Divisible by P</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of positive integers <code>nums</code>, remove the <strong>smallest</strong> subarray (possibly <strong>empty</strong>) such that the <strong>sum</strong> of the remaining elements is divisible by <code>p</code>. It is <strong>not</strong> allowed to remove the whole array.</p>
-
-<p>Return <em>the length of the smallest subarray that you need to remove, or </em><code>-1</code><em> if it&#39;s impossible</em>.</p>
-
-<p>A <strong>subarray</strong> is defined as a contiguous block of elements in the array.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [3,1,4,2], p = 6
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The sum of the elements in nums is 10, which is not divisible by 6. We can remove the subarray [4], and the sum of the remaining elements is 6, which is divisible by 6.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [6,3,5,2], p = 9
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> We cannot remove a single element to get a sum divisible by 9. The best way is to remove the subarray [5,2], leaving us with [6,3] with sum 9.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,2,3], p = 3
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> Here the sum is 6. which is already divisible by 3. Thus we do not need to remove anything.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>1 &lt;= p &lt;= 10<sup>9</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given an array of positive integers nums, remove the **smallest** subarray (possibly **empty**) such that the **sum** of the remaining elements is divisible by p. It is **not** allowed to remove the whole array.
+  
+  Return *the length of the smallest subarray that you need to remove, or *-1* if it&#39;s impossible*.
+  
+  A **subarray** is defined as a contiguous block of elements in the array.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [3,1,4,2], p = 6
+  **Output:** 1
+  **Explanation:** The sum of the elements in nums is 10, which is not divisible by 6. We can remove the subarray [4], and the sum of the remaining elements is 6, which is divisible by 6.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [6,3,5,2], p = 9
+  **Output:** 2
+  **Explanation:** We cannot remove a single element to get a sum divisible by 9. The best way is to remove the subarray [5,2], leaving us with [6,3] with sum 9.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [1,2,3], p = 3
+  **Output:** 0
+  **Explanation:** Here the sum is 6. which is already divisible by 3. Thus we do not need to remove anything.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	1 &lt;= nums[i] &lt;= 109
+  	1 &lt;= p &lt;= 109
 ---
 
 ```python

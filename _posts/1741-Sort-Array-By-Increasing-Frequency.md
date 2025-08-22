@@ -1,43 +1,52 @@
 ---
-title: "./1741 Sort Array By Increasing Frequency"
+title: "1741 Sort Array By Increasing Frequency"
 date: "2024-07-23T21:34:05+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/sort-array-by-increasing-frequency">Sort Array by Increasing Frequency</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array of integers <code>nums</code>, sort the array in <strong>increasing</strong> order based on the frequency of the values. If multiple values have the same frequency, sort them in <strong>decreasing</strong> order.</p>
-
-<p>Return the <em>sorted array</em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,1,2,2,2,3]
-<strong>Output:</strong> [3,1,1,2,2,2]
-<strong>Explanation:</strong> &#39;3&#39; has a frequency of 1, &#39;1&#39; has a frequency of 2, and &#39;2&#39; has a frequency of 3.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,3,1,3,2]
-<strong>Output:</strong> [1,3,3,2,2]
-<strong>Explanation:</strong> &#39;2&#39; and &#39;3&#39; both have a frequency of 2, so they are sorted in decreasing order.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [-1,1,-6,4,5,-6,1,4,1]
-<strong>Output:</strong> [5,-1,4,4,-6,-6,1,1,1]</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
-	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
-</ul>"
+problem_statement: |
+  ## [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given an array of integers nums, sort the array in **increasing** order based on the frequency of the values. If multiple values have the same frequency, sort them in **decreasing** order.
+  
+  Return the *sorted array*.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [1,1,2,2,2,3]
+  **Output:** [3,1,1,2,2,2]
+  **Explanation:** '3' has a frequency of 1, '1' has a frequency of 2, and '2' has a frequency of 3.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [2,3,1,3,2]
+  **Output:** [1,3,3,2,2]
+  **Explanation:** '2' and '3' both have a frequency of 2, so they are sorted in decreasing order.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [-1,1,-6,4,5,-6,1,4,1]
+  **Output:** [5,-1,4,4,-6,-6,1,1,1]
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 100
+  	-100 &lt;= nums[i] &lt;= 100
 ---
 
 ```python

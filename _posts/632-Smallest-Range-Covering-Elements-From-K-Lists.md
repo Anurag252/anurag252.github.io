@@ -1,42 +1,49 @@
 ---
-title: "./632 Smallest Range Covering Elements From K Lists"
+title: "632 Smallest Range Covering Elements From K Lists"
 date: "2024-10-13T08:42:23+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists">Smallest Range Covering Elements from K Lists</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You have <code>k</code> lists of sorted integers in <strong>non-decreasing&nbsp;order</strong>. Find the <b>smallest</b> range that includes at least one number from each of the <code>k</code> lists.</p>
-
-<p>We define the range <code>[a, b]</code> is smaller than range <code>[c, d]</code> if <code>b - a &lt; d - c</code> <strong>or</strong> <code>a &lt; c</code> if <code>b - a == d - c</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [[4,10,15,24,26],[0,9,12,20],[5,18,22,30]]
-<strong>Output:</strong> [20,24]
-<strong>Explanation: </strong>
-List 1: [4, 10, 15, 24,26], 24 is in range [20,24].
-List 2: [0, 9, 12, 20], 20 is in range [20,24].
-List 3: [5, 18, 22, 30], 22 is in range [20,24].
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [[1,2,3],[1,2,3],[1,2,3]]
-<strong>Output:</strong> [1,1]
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>nums.length == k</code></li>
-	<li><code>1 &lt;= k &lt;= 3500</code></li>
-	<li><code>1 &lt;= nums[i].length &lt;= 50</code></li>
-	<li><code>-10<sup>5</sup> &lt;= nums[i][j] &lt;= 10<sup>5</sup></code></li>
-	<li><code>nums[i]</code>&nbsp;is sorted in <strong>non-decreasing</strong> order.</li>
-</ul>"
+problem_statement: |
+  ## [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  You have k lists of sorted integers in **non-decreasing&nbsp;order**. Find the **smallest** range that includes at least one number from each of the k lists.
+  
+  We define the range [a, b] is smaller than range [c, d] if b - a &lt; d - c **or** a &lt; c if b - a == d - c.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [[4,10,15,24,26],[0,9,12,20],[5,18,22,30]]
+  **Output:** [20,24]
+  **Explanation: **
+  List 1: [4, 10, 15, 24,26], 24 is in range [20,24].
+  List 2: [0, 9, 12, 20], 20 is in range [20,24].
+  List 3: [5, 18, 22, 30], 22 is in range [20,24].
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [[1,2,3],[1,2,3],[1,2,3]]
+  **Output:** [1,1]
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	nums.length == k
+  	1 &lt;= k &lt;= 3500
+  	1 &lt;= nums[i].length &lt;= 50
+  	-105 &lt;= nums[i][j] &lt;= 105
+  	nums[i]&nbsp;is sorted in **non-decreasing** order.
 ---
 
 ```python

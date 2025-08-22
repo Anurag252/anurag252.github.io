@@ -1,44 +1,51 @@
 ---
-title: "./2465 Shifting Letters Ii"
+title: "2465 Shifting Letters Ii"
 date: "2025-01-05T07:32:46+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/shifting-letters-ii">Shifting Letters II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> of lowercase English letters and a 2D integer array <code>shifts</code> where <code>shifts[i] = [start<sub>i</sub>, end<sub>i</sub>, direction<sub>i</sub>]</code>. For every <code>i</code>, <strong>shift</strong> the characters in <code>s</code> from the index <code>start<sub>i</sub></code> to the index <code>end<sub>i</sub></code> (<strong>inclusive</strong>) forward if <code>direction<sub>i</sub> = 1</code>, or shift the characters backward if <code>direction<sub>i</sub> = 0</code>.</p>
-
-<p>Shifting a character <strong>forward</strong> means replacing it with the <strong>next</strong> letter in the alphabet (wrapping around so that <code>&#39;z&#39;</code> becomes <code>&#39;a&#39;</code>). Similarly, shifting a character <strong>backward</strong> means replacing it with the <strong>previous</strong> letter in the alphabet (wrapping around so that <code>&#39;a&#39;</code> becomes <code>&#39;z&#39;</code>).</p>
-
-<p>Return <em>the final string after all such shifts to </em><code>s</code><em> are applied</em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;abc&quot;, shifts = [[0,1,0],[1,2,1],[0,2,1]]
-<strong>Output:</strong> &quot;ace&quot;
-<strong>Explanation:</strong> Firstly, shift the characters from index 0 to index 1 backward. Now s = &quot;zac&quot;.
-Secondly, shift the characters from index 1 to index 2 forward. Now s = &quot;zbd&quot;.
-Finally, shift the characters from index 0 to index 2 forward. Now s = &quot;ace&quot;.</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;dztz&quot;, shifts = [[0,0,0],[1,1,1]]
-<strong>Output:</strong> &quot;catz&quot;
-<strong>Explanation:</strong> Firstly, shift the characters from index 0 to index 0 backward. Now s = &quot;cztz&quot;.
-Finally, shift the characters from index 1 to index 1 forward. Now s = &quot;catz&quot;.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= s.length, shifts.length &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>shifts[i].length == 3</code></li>
-	<li><code>0 &lt;= start<sub>i</sub> &lt;= end<sub>i</sub> &lt; s.length</code></li>
-	<li><code>0 &lt;= direction<sub>i</sub> &lt;= 1</code></li>
-	<li><code>s</code> consists of lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a string s of lowercase English letters and a 2D integer array shifts where shifts[i] = [starti, endi, directioni]. For every i, **shift** the characters in s from the index starti to the index endi (**inclusive**) forward if directioni = 1, or shift the characters backward if directioni = 0.
+  
+  Shifting a character **forward** means replacing it with the **next** letter in the alphabet (wrapping around so that &#39;z&#39; becomes &#39;a&#39;). Similarly, shifting a character **backward** means replacing it with the **previous** letter in the alphabet (wrapping around so that &#39;a&#39; becomes &#39;z&#39;).
+  
+  Return *the final string after all such shifts to *s* are applied*.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** s = \"abc\", shifts = [[0,1,0],[1,2,1],[0,2,1]]
+  **Output:** \"ace\"
+  **Explanation:** Firstly, shift the characters from index 0 to index 1 backward. Now s = \"zac\".
+  Secondly, shift the characters from index 1 to index 2 forward. Now s = \"zbd\".
+  Finally, shift the characters from index 0 to index 2 forward. Now s = \"ace\".
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** s = \"dztz\", shifts = [[0,0,0],[1,1,1]]
+  **Output:** \"catz\"
+  **Explanation:** Firstly, shift the characters from index 0 to index 0 backward. Now s = \"cztz\".
+  Finally, shift the characters from index 1 to index 1 forward. Now s = \"catz\".
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= s.length, shifts.length &lt;= 5 * 104
+  	shifts[i].length == 3
+  	0 &lt;= starti &lt;= endi &lt; s.length
+  	0 &lt;= directioni &lt;= 1
+  	s consists of lowercase English letters.
 ---
 
 ```python

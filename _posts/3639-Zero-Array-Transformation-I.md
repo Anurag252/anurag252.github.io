@@ -1,79 +1,65 @@
 ---
-title: "./3639 Zero Array Transformation I"
+title: "3639 Zero Array Transformation I"
 date: "2025-05-21T07:59:04+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/zero-array-transformation-i">Zero Array Transformation I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer array <code>nums</code> of length <code>n</code> and a 2D array <code>queries</code>, where <code>queries[i] = [l<sub>i</sub>, r<sub>i</sub>]</code>.</p>
-
-<p>For each <code>queries[i]</code>:</p>
-
-<ul>
-	<li>Select a <span data-keyword="subset">subset</span> of indices within the range <code>[l<sub>i</sub>, r<sub>i</sub>]</code> in <code>nums</code>.</li>
-	<li>Decrement the values at the selected indices by 1.</li>
-</ul>
-
-<p>A <strong>Zero Array</strong> is an array where all elements are equal to 0.</p>
-
-<p>Return <code>true</code> if it is <em>possible</em> to transform <code>nums</code> into a <strong>Zero Array </strong>after processing all the queries sequentially, otherwise return <code>false</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,0,1], queries = [[0,2]]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<ul>
-	<li><strong>For i = 0:</strong>
-
-	<ul>
-		<li>Select the subset of indices as <code>[0, 2]</code> and decrement the values at these indices by 1.</li>
-		<li>The array will become <code>[0, 0, 0]</code>, which is a Zero Array.</li>
-	</ul>
-	</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [4,3,2,1], queries = [[1,3],[0,2]]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">false</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<ul>
-	<li><strong>For i = 0:</strong>
-
-	<ul>
-		<li>Select the subset of indices as <code>[1, 2, 3]</code> and decrement the values at these indices by 1.</li>
-		<li>The array will become <code>[4, 2, 1, 0]</code>.</li>
-	</ul>
-	</li>
-	<li><strong>For i = 1:</strong>
-	<ul>
-		<li>Select the subset of indices as <code>[0, 1, 2]</code> and decrement the values at these indices by 1.</li>
-		<li>The array will become <code>[3, 1, 0, 0]</code>, which is not a Zero Array.</li>
-	</ul>
-	</li>
-</ul>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= queries.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>queries[i].length == 2</code></li>
-	<li><code>0 &lt;= l<sub>i</sub> &lt;= r<sub>i</sub> &lt; nums.length</code></li>
-</ul>"
+problem_statement: |
+  ## [Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an integer array nums of length n and a 2D array queries, where queries[i] = [li, ri].
+  
+  For each queries[i]:
+  
+  	Select a subset of indices within the range [li, ri] in nums.
+  	Decrement the values at the selected indices by 1.
+  
+  A **Zero Array** is an array where all elements are equal to 0.
+  
+  Return true if it is *possible* to transform nums into a **Zero Array **after processing all the queries sequentially, otherwise return false.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1,0,1], queries = [[0,2]]
+  
+  **Output:** true
+  
+  **Explanation:**
+  
+  	**For i = 0:**
+  
+  		Select the subset of indices as [0, 2] and decrement the values at these indices by 1.
+  		The array will become [0, 0, 0], which is a Zero Array.
+  
+  Example 2:
+  
+  **Input:** nums = [4,3,2,1], queries = [[1,3],[0,2]]
+  
+  **Output:** false
+  
+  **Explanation:**
+  
+  	**For i = 0:**
+  
+  		Select the subset of indices as [1, 2, 3] and decrement the values at these indices by 1.
+  		The array will become [4, 2, 1, 0].
+  
+  	**For i = 1:**
+  
+  		Select the subset of indices as [0, 1, 2] and decrement the values at these indices by 1.
+  		The array will become [3, 1, 0, 0], which is not a Zero Array.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	0 &lt;= nums[i] &lt;= 105
+  	1 &lt;= queries.length &lt;= 105
+  	queries[i].length == 2
+  	0 &lt;= li &lt;= ri &lt; nums.length
 ---
 
 ```python

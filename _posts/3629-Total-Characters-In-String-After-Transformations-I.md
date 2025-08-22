@@ -1,88 +1,76 @@
 ---
-title: "./3629 Total Characters In String After Transformations I"
+title: "3629 Total Characters In String After Transformations I"
 date: "2025-05-13T23:00:56+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/total-characters-in-string-after-transformations-i">Total Characters in String After Transformations I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> and an integer <code>t</code>, representing the number of <strong>transformations</strong> to perform. In one <strong>transformation</strong>, every character in <code>s</code> is replaced according to the following rules:</p>
-
-<ul>
-	<li>If the character is <code>&#39;z&#39;</code>, replace it with the string <code>&quot;ab&quot;</code>.</li>
-	<li>Otherwise, replace it with the <strong>next</strong> character in the alphabet. For example, <code>&#39;a&#39;</code> is replaced with <code>&#39;b&#39;</code>, <code>&#39;b&#39;</code> is replaced with <code>&#39;c&#39;</code>, and so on.</li>
-</ul>
-
-<p>Return the <strong>length</strong> of the resulting string after <strong>exactly</strong> <code>t</code> transformations.</p>
-
-<p>Since the answer may be very large, return it <strong>modulo</strong><!-- notionvc: eb142f2b-b818-4064-8be5-e5a36b07557a --> <code>10<sup>9</sup> + 7</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;abcyy&quot;, t = 2</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">7</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<ul>
-	<li><strong>First Transformation (t = 1)</strong>:
-
-	<ul>
-		<li><code>&#39;a&#39;</code> becomes <code>&#39;b&#39;</code></li>
-		<li><code>&#39;b&#39;</code> becomes <code>&#39;c&#39;</code></li>
-		<li><code>&#39;c&#39;</code> becomes <code>&#39;d&#39;</code></li>
-		<li><code>&#39;y&#39;</code> becomes <code>&#39;z&#39;</code></li>
-		<li><code>&#39;y&#39;</code> becomes <code>&#39;z&#39;</code></li>
-		<li>String after the first transformation: <code>&quot;bcdzz&quot;</code></li>
-	</ul>
-	</li>
-	<li><strong>Second Transformation (t = 2)</strong>:
-	<ul>
-		<li><code>&#39;b&#39;</code> becomes <code>&#39;c&#39;</code></li>
-		<li><code>&#39;c&#39;</code> becomes <code>&#39;d&#39;</code></li>
-		<li><code>&#39;d&#39;</code> becomes <code>&#39;e&#39;</code></li>
-		<li><code>&#39;z&#39;</code> becomes <code>&quot;ab&quot;</code></li>
-		<li><code>&#39;z&#39;</code> becomes <code>&quot;ab&quot;</code></li>
-		<li>String after the second transformation: <code>&quot;cdeabab&quot;</code></li>
-	</ul>
-	</li>
-	<li><strong>Final Length of the string</strong>: The string is <code>&quot;cdeabab&quot;</code>, which has 7 characters.</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;azbk&quot;, t = 1</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">5</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<ul>
-	<li><strong>First Transformation (t = 1)</strong>:
-
-	<ul>
-		<li><code>&#39;a&#39;</code> becomes <code>&#39;b&#39;</code></li>
-		<li><code>&#39;z&#39;</code> becomes <code>&quot;ab&quot;</code></li>
-		<li><code>&#39;b&#39;</code> becomes <code>&#39;c&#39;</code></li>
-		<li><code>&#39;k&#39;</code> becomes <code>&#39;l&#39;</code></li>
-		<li>String after the first transformation: <code>&quot;babcl&quot;</code></li>
-	</ul>
-	</li>
-	<li><strong>Final Length of the string</strong>: The string is <code>&quot;babcl&quot;</code>, which has 5 characters.</li>
-</ul>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> consists only of lowercase English letters.</li>
-	<li><code>1 &lt;= t &lt;= 10<sup>5</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a string s and an integer t, representing the number of **transformations** to perform. In one **transformation**, every character in s is replaced according to the following rules:
+  
+  	If the character is &#39;z&#39;, replace it with the string &quot;ab&quot;.
+  	Otherwise, replace it with the **next** character in the alphabet. For example, &#39;a&#39; is replaced with &#39;b&#39;, &#39;b&#39; is replaced with &#39;c&#39;, and so on.
+  
+  Return the **length** of the resulting string after **exactly** t transformations.
+  
+  Since the answer may be very large, return it **modulo** 109 + 7.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** s = &quot;abcyy&quot;, t = 2
+  
+  **Output:** 7
+  
+  **Explanation:**
+  
+  	**First Transformation (t = 1)**:
+  
+  		&#39;a&#39; becomes &#39;b&#39;
+  		&#39;b&#39; becomes &#39;c&#39;
+  		&#39;c&#39; becomes &#39;d&#39;
+  		&#39;y&#39; becomes &#39;z&#39;
+  		&#39;y&#39; becomes &#39;z&#39;
+  		String after the first transformation: &quot;bcdzz&quot;
+  
+  	**Second Transformation (t = 2)**:
+  
+  		&#39;b&#39; becomes &#39;c&#39;
+  		&#39;c&#39; becomes &#39;d&#39;
+  		&#39;d&#39; becomes &#39;e&#39;
+  		&#39;z&#39; becomes &quot;ab&quot;
+  		&#39;z&#39; becomes &quot;ab&quot;
+  		String after the second transformation: &quot;cdeabab&quot;
+  
+  	**Final Length of the string**: The string is &quot;cdeabab&quot;, which has 7 characters.
+  
+  Example 2:
+  
+  **Input:** s = &quot;azbk&quot;, t = 1
+  
+  **Output:** 5
+  
+  **Explanation:**
+  
+  	**First Transformation (t = 1)**:
+  
+  		&#39;a&#39; becomes &#39;b&#39;
+  		&#39;z&#39; becomes &quot;ab&quot;
+  		&#39;b&#39; becomes &#39;c&#39;
+  		&#39;k&#39; becomes &#39;l&#39;
+  		String after the first transformation: &quot;babcl&quot;
+  
+  	**Final Length of the string**: The string is &quot;babcl&quot;, which has 5 characters.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= s.length &lt;= 105
+  	s consists only of lowercase English letters.
+  	1 &lt;= t &lt;= 105
 ---
 
 ```python

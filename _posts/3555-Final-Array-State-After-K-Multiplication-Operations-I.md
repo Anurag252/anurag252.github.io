@@ -1,100 +1,77 @@
 ---
-title: "./3555 Final Array State After K Multiplication Operations I"
+title: "3555 Final Array State After K Multiplication Operations I"
 date: "2024-12-16T08:02:44+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i">Final Array State After K Multiplication Operations I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code>, an integer <code>k</code>, and an integer <code>multiplier</code>.</p>
-
-<p>You need to perform <code>k</code> operations on <code>nums</code>. In each operation:</p>
-
-<ul>
-	<li>Find the <strong>minimum</strong> value <code>x</code> in <code>nums</code>. If there are multiple occurrences of the minimum value, select the one that appears <strong>first</strong>.</li>
-	<li>Replace the selected minimum value <code>x</code> with <code>x * multiplier</code>.</li>
-</ul>
-
-<p>Return an integer array denoting the <em>final state</em> of <code>nums</code> after performing all <code>k</code> operations.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,1,3,5,6], k = 5, multiplier = 2</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[8,4,6,5,6]</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<table>
-	<tbody>
-		<tr>
-			<th>Operation</th>
-			<th>Result</th>
-		</tr>
-		<tr>
-			<td>After operation 1</td>
-			<td>[2, 2, 3, 5, 6]</td>
-		</tr>
-		<tr>
-			<td>After operation 2</td>
-			<td>[4, 2, 3, 5, 6]</td>
-		</tr>
-		<tr>
-			<td>After operation 3</td>
-			<td>[4, 4, 3, 5, 6]</td>
-		</tr>
-		<tr>
-			<td>After operation 4</td>
-			<td>[4, 4, 6, 5, 6]</td>
-		</tr>
-		<tr>
-			<td>After operation 5</td>
-			<td>[8, 4, 6, 5, 6]</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2], k = 3, multiplier = 4</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[16,8]</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<table>
-	<tbody>
-		<tr>
-			<th>Operation</th>
-			<th>Result</th>
-		</tr>
-		<tr>
-			<td>After operation 1</td>
-			<td>[4, 2]</td>
-		</tr>
-		<tr>
-			<td>After operation 2</td>
-			<td>[4, 8]</td>
-		</tr>
-		<tr>
-			<td>After operation 3</td>
-			<td>[16, 8]</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
-	<li><code>1 &lt;= k &lt;= 10</code></li>
-	<li><code>1 &lt;= multiplier &lt;= 5</code></li>
-</ul>"
+problem_statement: |
+  ## [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  You are given an integer array nums, an integer k, and an integer multiplier.
+  
+  You need to perform k operations on nums. In each operation:
+  
+  	Find the **minimum** value x in nums. If there are multiple occurrences of the minimum value, select the one that appears **first**.
+  	Replace the selected minimum value x with x * multiplier.
+  
+  Return an integer array denoting the *final state* of nums after performing all k operations.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [2,1,3,5,6], k = 5, multiplier = 2
+  
+  **Output:** [8,4,6,5,6]
+  
+  **Explanation:**
+  
+  			Operation
+  			Result
+  
+  			After operation 1
+  			[2, 2, 3, 5, 6]
+  
+  			After operation 2
+  			[4, 2, 3, 5, 6]
+  
+  			After operation 3
+  			[4, 4, 3, 5, 6]
+  
+  			After operation 4
+  			[4, 4, 6, 5, 6]
+  
+  			After operation 5
+  			[8, 4, 6, 5, 6]
+  
+  Example 2:
+  
+  **Input:** nums = [1,2], k = 3, multiplier = 4
+  
+  **Output:** [16,8]
+  
+  **Explanation:**
+  
+  			Operation
+  			Result
+  
+  			After operation 1
+  			[4, 2]
+  
+  			After operation 2
+  			[4, 8]
+  
+  			After operation 3
+  			[16, 8]
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 100
+  	1 &lt;= nums[i] &lt;= 100
+  	1 &lt;= k &lt;= 10
+  	1 &lt;= multiplier &lt;= 5
 ---
 
 ```python

@@ -1,67 +1,62 @@
 ---
-title: "./3434 Find The Number Of Distinct Colors Among The Balls"
+title: "3434 Find The Number Of Distinct Colors Among The Balls"
 date: "2025-02-07T08:22:51+01:00"
 categories: ["leetcode"]
 tags: [go]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls">Find the Number of Distinct Colors Among the Balls</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer <code>limit</code> and a 2D array <code>queries</code> of size <code>n x 2</code>.</p>
-
-<p>There are <code>limit + 1</code> balls with <strong>distinct</strong> labels in the range <code>[0, limit]</code>. Initially, all balls are uncolored. For every query in <code>queries</code> that is of the form <code>[x, y]</code>, you mark ball <code>x</code> with the color <code>y</code>. After each query, you need to find the number of <strong>distinct</strong> colors among the balls.</p>
-
-<p>Return an array <code>result</code> of length <code>n</code>, where <code>result[i]</code> denotes the number of distinct colors <em>after</em> <code>i<sup>th</sup></code> query.</p>
-
-<p><strong>Note</strong> that when answering a query, lack of a color <em>will not</em> be considered as a color.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">limit = 4, queries = [[1,4],[2,5],[1,3],[3,4]]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[1,2,2,3]</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p><img alt="" src="https://assets.leetcode.com/uploads/2024/04/17/ezgifcom-crop.gif" style="width: 455px; height: 145px;" /></p>
-
-<ul>
-	<li>After query 0, ball 1 has color 4.</li>
-	<li>After query 1, ball 1 has color 4, and ball 2 has color 5.</li>
-	<li>After query 2, ball 1 has color 3, and ball 2 has color 5.</li>
-	<li>After query 3, ball 1 has color 3, ball 2 has color 5, and ball 3 has color 4.</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">limit = 4, queries = [[0,1],[1,2],[2,2],[3,4],[4,5]]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[1,2,2,3,4]</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2024/04/17/ezgifcom-crop2.gif" style="width: 457px; height: 144px;" /></strong></p>
-
-<ul>
-	<li>After query 0, ball 0 has color 1.</li>
-	<li>After query 1, ball 0 has color 1, and ball 1 has color 2.</li>
-	<li>After query 2, ball 0 has color 1, and balls 1 and 2 have color 2.</li>
-	<li>After query 3, ball 0 has color 1, balls 1 and 2 have color 2, and ball 3 has color 4.</li>
-	<li>After query 4, ball 0 has color 1, balls 1 and 2 have color 2, ball 3 has color 4, and ball 4 has color 5.</li>
-</ul>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= limit &lt;= 10<sup>9</sup></code></li>
-	<li><code>1 &lt;= n == queries.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>queries[i].length == 2</code></li>
-	<li><code>0 &lt;= queries[i][0] &lt;= limit</code></li>
-	<li><code>1 &lt;= queries[i][1] &lt;= 10<sup>9</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Find the Number of Distinct Colors Among the Balls](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an integer limit and a 2D array queries of size n x 2.
+  
+  There are limit + 1 balls with **distinct** labels in the range [0, limit]. Initially, all balls are uncolored. For every query in queries that is of the form [x, y], you mark ball x with the color y. After each query, you need to find the number of **distinct** colors among the balls.
+  
+  Return an array result of length n, where result[i] denotes the number of distinct colors *after* ith query.
+  
+  **Note** that when answering a query, lack of a color *will not* be considered as a color.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** limit = 4, queries = [[1,4],[2,5],[1,3],[3,4]]
+  
+  **Output:** [1,2,2,3]
+  
+  **Explanation:**
+  
+  ![image](https://assets.leetcode.com/uploads/2024/04/17/ezgifcom-crop.gif)
+  
+  	After query 0, ball 1 has color 4.
+  	After query 1, ball 1 has color 4, and ball 2 has color 5.
+  	After query 2, ball 1 has color 3, and ball 2 has color 5.
+  	After query 3, ball 1 has color 3, ball 2 has color 5, and ball 3 has color 4.
+  
+  Example 2:
+  
+  **Input:** limit = 4, queries = [[0,1],[1,2],[2,2],[3,4],[4,5]]
+  
+  **Output:** [1,2,2,3,4]
+  
+  **Explanation:**
+  
+  **![image](https://assets.leetcode.com/uploads/2024/04/17/ezgifcom-crop2.gif)**
+  
+  	After query 0, ball 0 has color 1.
+  	After query 1, ball 0 has color 1, and ball 1 has color 2.
+  	After query 2, ball 0 has color 1, and balls 1 and 2 have color 2.
+  	After query 3, ball 0 has color 1, balls 1 and 2 have color 2, and ball 3 has color 4.
+  	After query 4, ball 0 has color 1, balls 1 and 2 have color 2, ball 3 has color 4, and ball 4 has color 5.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= limit &lt;= 109
+  	1 &lt;= n == queries.length &lt;= 105
+  	queries[i].length == 2
+  	0 &lt;= queries[i][0] &lt;= limit
+  	1 &lt;= queries[i][1] &lt;= 109
 ---
 
 ```go

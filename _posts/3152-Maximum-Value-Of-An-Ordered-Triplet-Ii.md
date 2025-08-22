@@ -1,49 +1,58 @@
 ---
-title: "./3152 Maximum Value Of An Ordered Triplet Ii"
+title: "3152 Maximum Value Of An Ordered Triplet Ii"
 date: "2025-04-03T08:00:41+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii">Maximum Value of an Ordered Triplet II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code>.</p>
-
-<p>Return <em><strong>the maximum value over all triplets of indices</strong></em> <code>(i, j, k)</code> <em>such that</em> <code>i &lt; j &lt; k</code><em>. </em>If all such triplets have a negative value, return <code>0</code>.</p>
-
-<p>The <strong>value of a triplet of indices</strong> <code>(i, j, k)</code> is equal to <code>(nums[i] - nums[j]) * nums[k]</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [12,6,1,2,7]
-<strong>Output:</strong> 77
-<strong>Explanation:</strong> The value of the triplet (0, 2, 4) is (nums[0] - nums[2]) * nums[4] = 77.
-It can be shown that there are no ordered triplets of indices with a value greater than 77. 
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,10,3,4,19]
-<strong>Output:</strong> 133
-<strong>Explanation:</strong> The value of the triplet (1, 2, 4) is (nums[1] - nums[2]) * nums[4] = 133.
-It can be shown that there are no ordered triplets of indices with a value greater than 133.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,2,3]
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> The only ordered triplet of indices (0, 1, 2) has a negative value of (nums[0] - nums[1]) * nums[2] = -3. Hence, the answer would be 0.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>3 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a **0-indexed** integer array nums.
+  
+  Return ***the maximum value over all triplets of indices*** (i, j, k) *such that* i &lt; j &lt; k*. *If all such triplets have a negative value, return 0.
+  
+  The **value of a triplet of indices** (i, j, k) is equal to (nums[i] - nums[j]) * nums[k].
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [12,6,1,2,7]
+  **Output:** 77
+  **Explanation:** The value of the triplet (0, 2, 4) is (nums[0] - nums[2]) * nums[4] = 77.
+  It can be shown that there are no ordered triplets of indices with a value greater than 77. 
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [1,10,3,4,19]
+  **Output:** 133
+  **Explanation:** The value of the triplet (1, 2, 4) is (nums[1] - nums[2]) * nums[4] = 133.
+  It can be shown that there are no ordered triplets of indices with a value greater than 133.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [1,2,3]
+  **Output:** 0
+  **Explanation:** The only ordered triplet of indices (0, 1, 2) has a negative value of (nums[0] - nums[1]) * nums[2] = -3. Hence, the answer would be 0.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	3 &lt;= nums.length &lt;= 105
+  	1 &lt;= nums[i] &lt;= 106
 ---
 
 ```python

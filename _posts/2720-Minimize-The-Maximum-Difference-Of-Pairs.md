@@ -1,41 +1,48 @@
 ---
-title: "./2720 Minimize The Maximum Difference Of Pairs"
+title: "2720 Minimize The Maximum Difference Of Pairs"
 date: "2025-06-13T10:15:26+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs">Minimize the Maximum Difference of Pairs</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and an integer <code>p</code>. Find <code>p</code> pairs of indices of <code>nums</code> such that the <strong>maximum</strong> difference amongst all the pairs is <strong>minimized</strong>. Also, ensure no index appears more than once amongst the <code>p</code> pairs.</p>
-
-<p>Note that for a pair of elements at the index <code>i</code> and <code>j</code>, the difference of this pair is <code>|nums[i] - nums[j]|</code>, where <code>|x|</code> represents the <strong>absolute</strong> <strong>value</strong> of <code>x</code>.</p>
-
-<p>Return <em>the <strong>minimum</strong> <strong>maximum</strong> difference among all </em><code>p</code> <em>pairs.</em> We define the maximum of an empty set to be zero.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [10,1,2,7,1,3], p = 2
-<strong>Output:</strong> 1
-<strong>Explanation:</strong> The first pair is formed from the indices 1 and 4, and the second pair is formed from the indices 2 and 5. 
-The maximum difference is max(|nums[1] - nums[4]|, |nums[2] - nums[5]|) = max(0, 1) = 1. Therefore, we return 1.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [4,2,1,2], p = 1
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> Let the indices 1 and 3 form a pair. The difference of that pair is |2 - 2| = 0, which is the minimum we can attain.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>0 &lt;= p &lt;= (nums.length)/2</code></li>
-</ul>"
+problem_statement: |
+  ## [Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a **0-indexed** integer array nums and an integer p. Find p pairs of indices of nums such that the **maximum** difference amongst all the pairs is **minimized**. Also, ensure no index appears more than once amongst the p pairs.
+  
+  Note that for a pair of elements at the index i and j, the difference of this pair is |nums[i] - nums[j]|, where |x| represents the **absolute** **value** of x.
+  
+  Return *the **minimum** **maximum** difference among all *p *pairs.* We define the maximum of an empty set to be zero.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [10,1,2,7,1,3], p = 2
+  **Output:** 1
+  **Explanation:** The first pair is formed from the indices 1 and 4, and the second pair is formed from the indices 2 and 5. 
+  The maximum difference is max(|nums[1] - nums[4]|, |nums[2] - nums[5]|) = max(0, 1) = 1. Therefore, we return 1.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [4,2,1,2], p = 1
+  **Output:** 0
+  **Explanation:** Let the indices 1 and 3 form a pair. The difference of that pair is |2 - 2| = 0, which is the minimum we can attain.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	0 &lt;= nums[i] &lt;= 109
+  	0 &lt;= p &lt;= (nums.length)/2
 ---
 
 ```python

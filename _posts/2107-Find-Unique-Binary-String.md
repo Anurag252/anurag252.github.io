@@ -1,46 +1,55 @@
 ---
-title: "./2107 Find Unique Binary String"
+title: "2107 Find Unique Binary String"
 date: "2025-02-20T07:42:21+01:00"
 categories: ["leetcode"]
 tags: [go]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-unique-binary-string">Find Unique Binary String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of strings <code>nums</code> containing <code>n</code> <strong>unique</strong> binary strings each of length <code>n</code>, return <em>a binary string of length </em><code>n</code><em> that <strong>does not appear</strong> in </em><code>nums</code><em>. If there are multiple answers, you may return <strong>any</strong> of them</em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [&quot;01&quot;,&quot;10&quot;]
-<strong>Output:</strong> &quot;11&quot;
-<strong>Explanation:</strong> &quot;11&quot; does not appear in nums. &quot;00&quot; would also be correct.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [&quot;00&quot;,&quot;01&quot;]
-<strong>Output:</strong> &quot;11&quot;
-<strong>Explanation:</strong> &quot;11&quot; does not appear in nums. &quot;10&quot; would also be correct.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [&quot;111&quot;,&quot;011&quot;,&quot;001&quot;]
-<strong>Output:</strong> &quot;101&quot;
-<strong>Explanation:</strong> &quot;101&quot; does not appear in nums. &quot;000&quot;, &quot;010&quot;, &quot;100&quot;, and &quot;110&quot; would also be correct.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>n == nums.length</code></li>
-	<li><code>1 &lt;= n &lt;= 16</code></li>
-	<li><code>nums[i].length == n</code></li>
-	<li><code>nums[i] </code>is either <code>&#39;0&#39;</code> or <code>&#39;1&#39;</code>.</li>
-	<li>All the strings of <code>nums</code> are <strong>unique</strong>.</li>
-</ul>"
+problem_statement: |
+  ## [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given an array of strings nums containing n **unique** binary strings each of length n, return *a binary string of length *n* that **does not appear** in *nums*. If there are multiple answers, you may return **any** of them*.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [\"01\",\"10\"]
+  **Output:** \"11\"
+  **Explanation:** \"11\" does not appear in nums. \"00\" would also be correct.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [\"00\",\"01\"]
+  **Output:** \"11\"
+  **Explanation:** \"11\" does not appear in nums. \"10\" would also be correct.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [\"111\",\"011\",\"001\"]
+  **Output:** \"101\"
+  **Explanation:** \"101\" does not appear in nums. \"000\", \"010\", \"100\", and \"110\" would also be correct.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	n == nums.length
+  	1 &lt;= n &lt;= 16
+  	nums[i].length == n
+  	nums[i] is either &#39;0&#39; or &#39;1&#39;.
+  	All the strings of nums are **unique**.
 ---
 
 ```go

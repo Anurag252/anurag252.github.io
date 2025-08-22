@@ -1,53 +1,60 @@
 ---
-title: "./1350 Remove Sub Folders From The Filesystem"
+title: "1350 Remove Sub Folders From The Filesystem"
 date: "2025-07-19T10:38:27+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/remove-sub-folders-from-the-filesystem">Remove Sub-Folders from the Filesystem</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a list of folders <code>folder</code>, return <em>the folders after removing all <strong>sub-folders</strong> in those folders</em>. You may return the answer in <strong>any order</strong>.</p>
-
-<p>If a <code>folder[i]</code> is located within another <code>folder[j]</code>, it is called a <strong>sub-folder</strong> of it. A sub-folder of <code>folder[j]</code> must start with <code>folder[j]</code>, followed by a <code>&quot;/&quot;</code>. For example, <code>&quot;/a/b&quot;</code> is a sub-folder of <code>&quot;/a&quot;</code>, but <code>&quot;/b&quot;</code> is not a sub-folder of <code>&quot;/a/b/c&quot;</code>.</p>
-
-<p>The format of a path is one or more concatenated strings of the form: <code>&#39;/&#39;</code> followed by one or more lowercase English letters.</p>
-
-<ul>
-	<li>For example, <code>&quot;/leetcode&quot;</code> and <code>&quot;/leetcode/problems&quot;</code> are valid paths while an empty string and <code>&quot;/&quot;</code> are not.</li>
-</ul>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> folder = [&quot;/a&quot;,&quot;/a/b&quot;,&quot;/c/d&quot;,&quot;/c/d/e&quot;,&quot;/c/f&quot;]
-<strong>Output:</strong> [&quot;/a&quot;,&quot;/c/d&quot;,&quot;/c/f&quot;]
-<strong>Explanation:</strong> Folders &quot;/a/b&quot; is a subfolder of &quot;/a&quot; and &quot;/c/d/e&quot; is inside of folder &quot;/c/d&quot; in our filesystem.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> folder = [&quot;/a&quot;,&quot;/a/b/c&quot;,&quot;/a/b/d&quot;]
-<strong>Output:</strong> [&quot;/a&quot;]
-<strong>Explanation:</strong> Folders &quot;/a/b/c&quot; and &quot;/a/b/d&quot; will be removed because they are subfolders of &quot;/a&quot;.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> folder = [&quot;/a/b/c&quot;,&quot;/a/b/ca&quot;,&quot;/a/b/d&quot;]
-<strong>Output:</strong> [&quot;/a/b/c&quot;,&quot;/a/b/ca&quot;,&quot;/a/b/d&quot;]
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= folder.length &lt;= 4 * 10<sup>4</sup></code></li>
-	<li><code>2 &lt;= folder[i].length &lt;= 100</code></li>
-	<li><code>folder[i]</code> contains only lowercase letters and <code>&#39;/&#39;</code>.</li>
-	<li><code>folder[i]</code> always starts with the character <code>&#39;/&#39;</code>.</li>
-	<li>Each folder name is <strong>unique</strong>.</li>
-</ul>"
+problem_statement: |
+  ## [Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given a list of folders folder, return *the folders after removing all **sub-folders** in those folders*. You may return the answer in **any order**.
+  
+  If a folder[i] is located within another folder[j], it is called a **sub-folder** of it. A sub-folder of folder[j] must start with folder[j], followed by a &quot;/&quot;. For example, &quot;/a/b&quot; is a sub-folder of &quot;/a&quot;, but &quot;/b&quot; is not a sub-folder of &quot;/a/b/c&quot;.
+  
+  The format of a path is one or more concatenated strings of the form: &#39;/&#39; followed by one or more lowercase English letters.
+  
+  	For example, &quot;/leetcode&quot; and &quot;/leetcode/problems&quot; are valid paths while an empty string and &quot;/&quot; are not.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** folder = [\"/a\",\"/a/b\",\"/c/d\",\"/c/d/e\",\"/c/f\"]
+  **Output:** [\"/a\",\"/c/d\",\"/c/f\"]
+  **Explanation:** Folders \"/a/b\" is a subfolder of \"/a\" and \"/c/d/e\" is inside of folder \"/c/d\" in our filesystem.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** folder = [\"/a\",\"/a/b/c\",\"/a/b/d\"]
+  **Output:** [\"/a\"]
+  **Explanation:** Folders \"/a/b/c\" and \"/a/b/d\" will be removed because they are subfolders of \"/a\".
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** folder = [\"/a/b/c\",\"/a/b/ca\",\"/a/b/d\"]
+  **Output:** [\"/a/b/c\",\"/a/b/ca\",\"/a/b/d\"]
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= folder.length &lt;= 4 * 104
+  	2 &lt;= folder[i].length &lt;= 100
+  	folder[i] contains only lowercase letters and &#39;/&#39;.
+  	folder[i] always starts with the character &#39;/&#39;.
+  	Each folder name is **unique**.
 ---
 
 ```python

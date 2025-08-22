@@ -1,67 +1,60 @@
 ---
-title: "./3523 Find The Power Of K Size Subarrays Ii"
+title: "3523 Find The Power Of K Size Subarrays Ii"
 date: "2024-11-16T11:02:50+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii">Find the Power of K-Size Subarrays II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an array of integers <code>nums</code> of length <code>n</code> and a <em>positive</em> integer <code>k</code>.</p>
-
-<p>The <strong>power</strong> of an array is defined as:</p>
-
-<ul>
-	<li>Its <strong>maximum</strong> element if <em>all</em> of its elements are <strong>consecutive</strong> and <strong>sorted</strong> in <strong>ascending</strong> order.</li>
-	<li>-1 otherwise.</li>
-</ul>
-
-<p>You need to find the <strong>power</strong> of all <span data-keyword="subarray-nonempty">subarrays</span> of <code>nums</code> of size <code>k</code>.</p>
-
-<p>Return an integer array <code>results</code> of size <code>n - k + 1</code>, where <code>results[i]</code> is the <em>power</em> of <code>nums[i..(i + k - 1)]</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4,3,2,5], k = 3</span></p>
-
-<p><strong>Output:</strong> [3,4,-1,-1,-1]</p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>There are 5 subarrays of <code>nums</code> of size 3:</p>
-
-<ul>
-	<li><code>[1, 2, 3]</code> with the maximum element 3.</li>
-	<li><code>[2, 3, 4]</code> with the maximum element 4.</li>
-	<li><code>[3, 4, 3]</code> whose elements are <strong>not</strong> consecutive.</li>
-	<li><code>[4, 3, 2]</code> whose elements are <strong>not</strong> sorted.</li>
-	<li><code>[3, 2, 5]</code> whose elements are <strong>not</strong> consecutive.</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,2,2,2,2], k = 4</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[-1,-1]</span></p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [3,2,3,2,3,2], k = 2</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">[-1,3,-1,3,-1]</span></p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n == nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
-	<li><code>1 &lt;= k &lt;= n</code></li>
-</ul>"
+problem_statement: |
+  ## [Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an array of integers nums of length n and a *positive* integer k.
+  
+  The **power** of an array is defined as:
+  
+  	Its **maximum** element if *all* of its elements are **consecutive** and **sorted** in **ascending** order.
+  	-1 otherwise.
+  
+  You need to find the **power** of all subarrays of nums of size k.
+  
+  Return an integer array results of size n - k + 1, where results[i] is the *power* of nums[i..(i + k - 1)].
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1,2,3,4,3,2,5], k = 3
+  
+  **Output:** [3,4,-1,-1,-1]
+  
+  **Explanation:**
+  
+  There are 5 subarrays of nums of size 3:
+  
+  	[1, 2, 3] with the maximum element 3.
+  	[2, 3, 4] with the maximum element 4.
+  	[3, 4, 3] whose elements are **not** consecutive.
+  	[4, 3, 2] whose elements are **not** sorted.
+  	[3, 2, 5] whose elements are **not** consecutive.
+  
+  Example 2:
+  
+  **Input:** nums = [2,2,2,2,2], k = 4
+  
+  **Output:** [-1,-1]
+  
+  Example 3:
+  
+  **Input:** nums = [3,2,3,2,3,2], k = 2
+  
+  **Output:** [-1,3,-1,3,-1]
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n == nums.length &lt;= 105
+  	1 &lt;= nums[i] &lt;= 106
+  	1 &lt;= k &lt;= n
 ---
 
 ```python

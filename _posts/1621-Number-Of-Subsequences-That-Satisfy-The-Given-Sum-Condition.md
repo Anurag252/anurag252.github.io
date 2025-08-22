@@ -1,52 +1,61 @@
 ---
-title: "./1621 Number Of Subsequences That Satisfy The Given Sum Condition"
+title: "1621 Number Of Subsequences That Satisfy The Given Sum Condition"
 date: "2025-06-30T08:28:17+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition">Number of Subsequences That Satisfy the Given Sum Condition</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an array of integers <code>nums</code> and an integer <code>target</code>.</p>
-
-<p>Return <em>the number of <strong>non-empty</strong> subsequences of </em><code>nums</code><em> such that the sum of the minimum and maximum element on it is less or equal to </em><code>target</code>. Since the answer may be too large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [3,5,6,7], target = 9
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> There are 4 subsequences that satisfy the condition.
-[3] -&gt; Min value + max value &lt;= target (3 + 3 &lt;= 9)
-[3,5] -&gt; (3 + 5 &lt;= 9)
-[3,5,6] -&gt; (3 + 6 &lt;= 9)
-[3,6] -&gt; (3 + 6 &lt;= 9)
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [3,3,6,8], target = 10
-<strong>Output:</strong> 6
-<strong>Explanation:</strong> There are 6 subsequences that satisfy the condition. (nums can have repeated numbers).
-[3] , [3] , [3,3], [3,6] , [3,6] , [3,3,6]
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,3,3,4,6,7], target = 12
-<strong>Output:</strong> 61
-<strong>Explanation:</strong> There are 63 non-empty subsequences, two of them do not satisfy the condition ([6,7], [7]).
-Number of valid subsequences (63 - 2 = 61).
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
-	<li><code>1 &lt;= target &lt;= 10<sup>6</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an array of integers nums and an integer target.
+  
+  Return *the number of **non-empty** subsequences of *nums* such that the sum of the minimum and maximum element on it is less or equal to *target. Since the answer may be too large, return it **modulo** 109 + 7.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [3,5,6,7], target = 9
+  **Output:** 4
+  **Explanation:** There are 4 subsequences that satisfy the condition.
+  [3] -> Min value + max value <= target (3 + 3 <= 9)
+  [3,5] -> (3 + 5 <= 9)
+  [3,5,6] -> (3 + 6 <= 9)
+  [3,6] -> (3 + 6 <= 9)
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [3,3,6,8], target = 10
+  **Output:** 6
+  **Explanation:** There are 6 subsequences that satisfy the condition. (nums can have repeated numbers).
+  [3] , [3] , [3,3], [3,6] , [3,6] , [3,3,6]
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [2,3,3,4,6,7], target = 12
+  **Output:** 61
+  **Explanation:** There are 63 non-empty subsequences, two of them do not satisfy the condition ([6,7], [7]).
+  Number of valid subsequences (63 - 2 = 61).
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	1 &lt;= nums[i] &lt;= 106
+  	1 &lt;= target &lt;= 106
 ---
 
 ```python

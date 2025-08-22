@@ -1,41 +1,46 @@
 ---
-title: "./1468 Check If N And Its Double Exist"
+title: "1468 Check If N And Its Double Exist"
 date: "2024-12-01T10:44:02+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/check-if-n-and-its-double-exist">Check If N and Its Double Exist</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array <code>arr</code> of integers, check if there exist two indices <code>i</code> and <code>j</code> such that :</p>
-
-<ul>
-	<li><code>i != j</code></li>
-	<li><code>0 &lt;= i, j &lt; arr.length</code></li>
-	<li><code>arr[i] == 2 * arr[j]</code></li>
-</ul>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> arr = [10,2,5,3]
-<strong>Output:</strong> true
-<strong>Explanation:</strong> For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> arr = [3,1,7,11]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> There is no i and j that satisfy the conditions.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>2 &lt;= arr.length &lt;= 500</code></li>
-	<li><code>-10<sup>3</sup> &lt;= arr[i] &lt;= 10<sup>3</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given an array arr of integers, check if there exist two indices i and j such that :
+  
+  	i != j
+  	0 &lt;= i, j &lt; arr.length
+  	arr[i] == 2 * arr[j]
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** arr = [10,2,5,3]
+  **Output:** true
+  **Explanation:** For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** arr = [3,1,7,11]
+  **Output:** false
+  **Explanation:** There is no i and j that satisfy the conditions.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	2 &lt;= arr.length &lt;= 500
+  	-103 &lt;= arr[i] &lt;= 103
 ---
 
 ```python

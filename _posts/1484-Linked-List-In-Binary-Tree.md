@@ -1,51 +1,60 @@
 ---
-title: "./1484 Linked List In Binary Tree"
+title: "1484 Linked List In Binary Tree"
 date: "2024-09-07T21:58:45+02:00"
 categories: ["leetcode"]
 tags: [go]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/linked-list-in-binary-tree">Linked List in Binary Tree</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a binary tree <code>root</code> and a&nbsp;linked list with&nbsp;<code>head</code>&nbsp;as the first node.&nbsp;</p>
-
-<p>Return True if all the elements in the linked list starting from the <code>head</code> correspond to some <em>downward path</em> connected in the binary tree&nbsp;otherwise return False.</p>
-
-<p>In this context downward path means a path that starts at some node and goes downwards.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2020/02/12/sample_1_1720.png" style="width: 220px; height: 280px;" /></strong></p>
-
-<pre>
-<strong>Input:</strong> head = [4,2,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
-<strong>Output:</strong> true
-<strong>Explanation:</strong> Nodes in blue form a subpath in the binary Tree.  
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2020/02/12/sample_2_1720.png" style="width: 220px; height: 280px;" /></strong></p>
-
-<pre>
-<strong>Input:</strong> head = [1,4,2,6], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
-<strong>Output:</strong> true
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> head = [1,4,2,6,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
-<strong>Output:</strong> false
-<strong>Explanation:</strong> There is no path in the binary tree that contains all the elements of the linked list from <code>head</code>.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li>The number of nodes in the tree will be in the range <code>[1, 2500]</code>.</li>
-	<li>The number of nodes in the list will be in the range <code>[1, 100]</code>.</li>
-	<li><code>1 &lt;= Node.val&nbsp;&lt;= 100</code>&nbsp;for each node in the linked list and binary tree.</li>
-</ul>"
+problem_statement: |
+  ## [Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given a binary tree root and a&nbsp;linked list with&nbsp;head&nbsp;as the first node.&nbsp;
+  
+  Return True if all the elements in the linked list starting from the head correspond to some *downward path* connected in the binary tree&nbsp;otherwise return False.
+  
+  In this context downward path means a path that starts at some node and goes downwards.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **![image](https://assets.leetcode.com/uploads/2020/02/12/sample_1_1720.png)**
+  
+  ```
+  
+  **Input:** head = [4,2,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
+  **Output:** true
+  **Explanation:** Nodes in blue form a subpath in the binary Tree.  
+  
+  ```
+  
+  Example 2:
+  
+  **![image](https://assets.leetcode.com/uploads/2020/02/12/sample_2_1720.png)**
+  
+  ```
+  
+  **Input:** head = [1,4,2,6], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
+  **Output:** true
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** head = [1,4,2,6,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]
+  **Output:** false
+  **Explanation:** There is no path in the binary tree that contains all the elements of the linked list from head.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	The number of nodes in the tree will be in the range [1, 2500].
+  	The number of nodes in the list will be in the range [1, 100].
+  	1 &lt;= Node.val&nbsp;&lt;= 100&nbsp;for each node in the linked list and binary tree.
 ---
 
 ```go

@@ -1,48 +1,55 @@
 ---
-title: "./2320 Find All K Distant Indices In An Array"
+title: "2320 Find All K Distant Indices In An Array"
 date: "2025-06-24T13:23:19+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-all-k-distant-indices-in-an-array">Find All K-Distant Indices in an Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and two integers <code>key</code> and <code>k</code>. A <strong>k-distant index</strong> is an index <code>i</code> of <code>nums</code> for which there exists at least one index <code>j</code> such that <code>|i - j| &lt;= k</code> and <code>nums[j] == key</code>.</p>
-
-<p>Return <em>a list of all k-distant indices sorted in <strong>increasing order</strong></em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [3,4,9,1,3,9,5], key = 9, k = 1
-<strong>Output:</strong> [1,2,3,4,5,6]
-<strong>Explanation:</strong> Here, <code>nums[2] == key</code> and <code>nums[5] == key.
-- For index 0, |0 - 2| &gt; k and |0 - 5| &gt; k, so there is no j</code> where <code>|0 - j| &lt;= k</code> and <code>nums[j] == key. Thus, 0 is not a k-distant index.
-- For index 1, |1 - 2| &lt;= k and nums[2] == key, so 1 is a k-distant index.
-- For index 2, |2 - 2| &lt;= k and nums[2] == key, so 2 is a k-distant index.
-- For index 3, |3 - 2| &lt;= k and nums[2] == key, so 3 is a k-distant index.
-- For index 4, |4 - 5| &lt;= k and nums[5] == key, so 4 is a k-distant index.
-- For index 5, |5 - 5| &lt;= k and nums[5] == key, so 5 is a k-distant index.
-- For index 6, |6 - 5| &lt;= k and nums[5] == key, so 6 is a k-distant index.
-</code>Thus, we return [1,2,3,4,5,6] which is sorted in increasing order. 
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,2,2,2,2], key = 2, k = 2
-<strong>Output:</strong> [0,1,2,3,4]
-<strong>Explanation:</strong> For all indices i in nums, there exists some index j such that |i - j| &lt;= k and nums[j] == key, so every index is a k-distant index. 
-Hence, we return [0,1,2,3,4].
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 1000</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>
-	<li><code>key</code> is an integer from the array <code>nums</code>.</li>
-	<li><code>1 &lt;= k &lt;= nums.length</code></li>
-</ul>"
+problem_statement: |
+  ## [Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  You are given a **0-indexed** integer array nums and two integers key and k. A **k-distant index** is an index i of nums for which there exists at least one index j such that |i - j| &lt;= k and nums[j] == key.
+  
+  Return *a list of all k-distant indices sorted in **increasing order***.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [3,4,9,1,3,9,5], key = 9, k = 1
+  **Output:** [1,2,3,4,5,6]
+  **Explanation:** Here, nums[2] == key and nums[5] == key.
+  - For index 0, |0 - 2| > k and |0 - 5| > k, so there is no j where |0 - j|  and nums[j] == key. Thus, 0 is not a k-distant index.
+  - For index 1, |1 - 2| <= k and nums[2] == key, so 1 is a k-distant index.
+  - For index 2, |2 - 2| <= k and nums[2] == key, so 2 is a k-distant index.
+  - For index 3, |3 - 2| <= k and nums[2] == key, so 3 is a k-distant index.
+  - For index 4, |4 - 5| <= k and nums[5] == key, so 4 is a k-distant index.
+  - For index 5, |5 - 5| <= k and nums[5] == key, so 5 is a k-distant index.
+  - For index 6, |6 - 5| <= k and nums[5] == key, so 6 is a k-distant index.
+  Thus, we return [1,2,3,4,5,6] which is sorted in increasing order. 
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [2,2,2,2,2], key = 2, k = 2
+  **Output:** [0,1,2,3,4]
+  **Explanation:** For all indices i in nums, there exists some index j such that |i - j| <= k and nums[j] == key, so every index is a k-distant index. 
+  Hence, we return [0,1,2,3,4].
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 1000
+  	1 &lt;= nums[i] &lt;= 1000
+  	key is an integer from the array nums.
+  	1 &lt;= k &lt;= nums.length
 ---
 
 ```python

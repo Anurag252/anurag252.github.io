@@ -1,62 +1,69 @@
 ---
-title: "./2188 Minimized Maximum Of Products Distributed To Any Store"
+title: "2188 Minimized Maximum Of Products Distributed To Any Store"
 date: "2024-11-14T20:02:28+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store">Minimized Maximum of Products Distributed to Any Store</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer <code>n</code> indicating there are <code>n</code> specialty retail stores. There are <code>m</code> product types of varying amounts, which are given as a <strong>0-indexed</strong> integer array <code>quantities</code>, where <code>quantities[i]</code> represents the number of products of the <code>i<sup>th</sup></code> product type.</p>
-
-<p>You need to distribute <strong>all products</strong> to the retail stores following these rules:</p>
-
-<ul>
-	<li>A store can only be given <strong>at most one product type</strong> but can be given <strong>any</strong> amount of it.</li>
-	<li>After distribution, each store will have been given some number of products (possibly <code>0</code>). Let <code>x</code> represent the maximum number of products given to any store. You want <code>x</code> to be as small as possible, i.e., you want to <strong>minimize</strong> the <strong>maximum</strong> number of products that are given to any store.</li>
-</ul>
-
-<p>Return <em>the minimum possible</em> <code>x</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 6, quantities = [11,6]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> One optimal way is:
-- The 11 products of type 0 are distributed to the first four stores in these amounts: 2, 3, 3, 3
-- The 6 products of type 1 are distributed to the other two stores in these amounts: 3, 3
-The maximum number of products given to any store is max(2, 3, 3, 3, 3, 3) = 3.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 7, quantities = [15,10,10]
-<strong>Output:</strong> 5
-<strong>Explanation:</strong> One optimal way is:
-- The 15 products of type 0 are distributed to the first three stores in these amounts: 5, 5, 5
-- The 10 products of type 1 are distributed to the next two stores in these amounts: 5, 5
-- The 10 products of type 2 are distributed to the last two stores in these amounts: 5, 5
-The maximum number of products given to any store is max(5, 5, 5, 5, 5, 5, 5) = 5.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 1, quantities = [100000]
-<strong>Output:</strong> 100000
-<strong>Explanation:</strong> The only optimal way is:
-- The 100000 products of type 0 are distributed to the only store.
-The maximum number of products given to any store is max(100000) = 100000.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>m == quantities.length</code></li>
-	<li><code>1 &lt;= m &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= quantities[i] &lt;= 10<sup>5</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an integer n indicating there are n specialty retail stores. There are m product types of varying amounts, which are given as a **0-indexed** integer array quantities, where quantities[i] represents the number of products of the ith product type.
+  
+  You need to distribute **all products** to the retail stores following these rules:
+  
+  	A store can only be given **at most one product type** but can be given **any** amount of it.
+  	After distribution, each store will have been given some number of products (possibly 0). Let x represent the maximum number of products given to any store. You want x to be as small as possible, i.e., you want to **minimize** the **maximum** number of products that are given to any store.
+  
+  Return *the minimum possible* x.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** n = 6, quantities = [11,6]
+  **Output:** 3
+  **Explanation:** One optimal way is:
+  - The 11 products of type 0 are distributed to the first four stores in these amounts: 2, 3, 3, 3
+  - The 6 products of type 1 are distributed to the other two stores in these amounts: 3, 3
+  The maximum number of products given to any store is max(2, 3, 3, 3, 3, 3) = 3.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** n = 7, quantities = [15,10,10]
+  **Output:** 5
+  **Explanation:** One optimal way is:
+  - The 15 products of type 0 are distributed to the first three stores in these amounts: 5, 5, 5
+  - The 10 products of type 1 are distributed to the next two stores in these amounts: 5, 5
+  - The 10 products of type 2 are distributed to the last two stores in these amounts: 5, 5
+  The maximum number of products given to any store is max(5, 5, 5, 5, 5, 5, 5) = 5.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** n = 1, quantities = [100000]
+  **Output:** 100000
+  **Explanation:** The only optimal way is:
+  - The 100000 products of type 0 are distributed to the only store.
+  The maximum number of products given to any store is max(100000) = 100000.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	m == quantities.length
+  	1 &lt;= m &lt;= n &lt;= 105
+  	1 &lt;= quantities[i] &lt;= 105
 ---
 
 ```python

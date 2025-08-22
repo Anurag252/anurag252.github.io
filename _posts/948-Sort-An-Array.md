@@ -1,37 +1,44 @@
 ---
-title: "./948 Sort An Array"
+title: "948 Sort An Array"
 date: "2024-07-25T07:48:29+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/sort-an-array">Sort an Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of integers <code>nums</code>, sort the array in ascending order and return it.</p>
-
-<p>You must solve the problem <strong>without using any built-in</strong> functions in <code>O(nlog(n))</code> time complexity and with the smallest space complexity possible.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [5,2,3,1]
-<strong>Output:</strong> [1,2,3,5]
-<strong>Explanation:</strong> After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [5,1,1,2,0,0]
-<strong>Output:</strong> [0,0,1,1,2,5]
-<strong>Explanation:</strong> Note that the values of nums are not necessairly unique.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>-5 * 10<sup>4</sup> &lt;= nums[i] &lt;= 5 * 10<sup>4</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Sort an Array](https://leetcode.com/problems/sort-an-array) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given an array of integers nums, sort the array in ascending order and return it.
+  
+  You must solve the problem **without using any built-in** functions in O(nlog(n)) time complexity and with the smallest space complexity possible.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [5,2,3,1]
+  **Output:** [1,2,3,5]
+  **Explanation:** After sorting the array, the positions of some numbers are not changed (for example, 2 and 3), while the positions of other numbers are changed (for example, 1 and 5).
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [5,1,1,2,0,0]
+  **Output:** [0,0,1,1,2,5]
+  **Explanation:** Note that the values of nums are not necessairly unique.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 5 * 104
+  	-5 * 104 &lt;= nums[i] &lt;= 5 * 104
 ---
 
 ```python

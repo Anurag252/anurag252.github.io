@@ -1,52 +1,61 @@
 ---
-title: "./1302 Delete Characters To Make Fancy String"
+title: "1302 Delete Characters To Make Fancy String"
 date: "2024-11-01T19:23:18+05:30"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/delete-characters-to-make-fancy-string">Delete Characters to Make Fancy String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>A <strong>fancy string</strong> is a string where no <strong>three</strong> <strong>consecutive</strong> characters are equal.</p>
-
-<p>Given a string <code>s</code>, delete the <strong>minimum</strong> possible number of characters from <code>s</code> to make it <strong>fancy</strong>.</p>
-
-<p>Return <em>the final string after the deletion</em>. It can be shown that the answer will always be <strong>unique</strong>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;le<u>e</u>etcode&quot;
-<strong>Output:</strong> &quot;leetcode&quot;
-<strong>Explanation:</strong>
-Remove an &#39;e&#39; from the first group of &#39;e&#39;s to create &quot;leetcode&quot;.
-No three consecutive characters are equal, so return &quot;leetcode&quot;.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;<u>a</u>aab<u>aa</u>aa&quot;
-<strong>Output:</strong> &quot;aabaa&quot;
-<strong>Explanation:</strong>
-Remove an &#39;a&#39; from the first group of &#39;a&#39;s to create &quot;aabaaaa&quot;.
-Remove two &#39;a&#39;s from the second group of &#39;a&#39;s to create &quot;aabaa&quot;.
-No three consecutive characters are equal, so return &quot;aabaa&quot;.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;aab&quot;
-<strong>Output:</strong> &quot;aab&quot;
-<strong>Explanation:</strong> No three consecutive characters are equal, so return &quot;aab&quot;.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> consists only of lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  A **fancy string** is a string where no **three** **consecutive** characters are equal.
+  
+  Given a string s, delete the **minimum** possible number of characters from s to make it **fancy**.
+  
+  Return *the final string after the deletion*. It can be shown that the answer will always be **unique**.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** s = \"leeetcode\"
+  **Output:** \"leetcode\"
+  **Explanation:**
+  Remove an 'e' from the first group of 'e's to create \"leetcode\".
+  No three consecutive characters are equal, so return \"leetcode\".
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** s = \"aaabaaaa\"
+  **Output:** \"aabaa\"
+  **Explanation:**
+  Remove an 'a' from the first group of 'a's to create \"aabaaaa\".
+  Remove two 'a's from the second group of 'a's to create \"aabaa\".
+  No three consecutive characters are equal, so return \"aabaa\".
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** s = \"aab\"
+  **Output:** \"aab\"
+  **Explanation:** No three consecutive characters are equal, so return \"aab\".
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= s.length &lt;= 105
+  	s consists only of lowercase English letters.
 ---
 
 ```python

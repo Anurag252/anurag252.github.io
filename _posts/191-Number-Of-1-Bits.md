@@ -1,57 +1,55 @@
 ---
-title: "./191 Number Of 1 Bits"
+title: "191 Number Of 1 Bits"
 date: "2024-05-15T22:32:43+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/number-of-1-bits">Number of 1 Bits</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Write a function that takes the binary representation of a positive integer and returns the number of <span data-keyword="set-bit">set bits</span> it has (also known as the <a href="http://en.wikipedia.org/wiki/Hamming_weight" target="_blank">Hamming weight</a>).</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 11</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">3</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The input binary string <strong>1011</strong> has a total of three set bits.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 128</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The input binary string <strong>10000000</strong> has a total of one set bit.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 2147483645</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">30</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The input binary string <strong>1111111111111111111111111111101</strong> has a total of thirty set bits.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n&nbsp;&lt;= 2<sup>31</sup>&nbsp;- 1</code></li>
-</ul>
-
-<p>&nbsp;</p>
-<strong>Follow up:</strong> If this function is called many times, how would you optimize it?"
+problem_statement: |
+  ## [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Write a function that takes the binary representation of a positive integer and returns the number of set bits it has (also known as the [Hamming weight](http://en.wikipedia.org/wiki/Hamming_weight)).
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** n = 11
+  
+  **Output:** 3
+  
+  **Explanation:**
+  
+  The input binary string **1011** has a total of three set bits.
+  
+  Example 2:
+  
+  **Input:** n = 128
+  
+  **Output:** 1
+  
+  **Explanation:**
+  
+  The input binary string **10000000** has a total of one set bit.
+  
+  Example 3:
+  
+  **Input:** n = 2147483645
+  
+  **Output:** 30
+  
+  **Explanation:**
+  
+  The input binary string **1111111111111111111111111111101** has a total of thirty set bits.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n&nbsp;&lt;= 231&nbsp;- 1
+  
+  &nbsp;
+  
+  **Follow up:** If this function is called many times, how would you optimize it?
 ---
 
 ```python

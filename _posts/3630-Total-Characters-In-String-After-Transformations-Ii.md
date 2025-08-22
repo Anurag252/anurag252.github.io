@@ -1,98 +1,78 @@
 ---
-title: "./3630 Total Characters In String After Transformations Ii"
+title: "3630 Total Characters In String After Transformations Ii"
 date: "2025-05-14T07:19:33+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/total-characters-in-string-after-transformations-ii">Total Characters in String After Transformations II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given a string <code>s</code> consisting of lowercase English letters, an integer <code>t</code> representing the number of <strong>transformations</strong> to perform, and an array <code>nums</code> of size 26. In one <strong>transformation</strong>, every character in <code>s</code> is replaced according to the following rules:</p>
-
-<ul>
-	<li>Replace <code>s[i]</code> with the <strong>next</strong> <code>nums[s[i] - &#39;a&#39;]</code> consecutive characters in the alphabet. For example, if <code>s[i] = &#39;a&#39;</code> and <code>nums[0] = 3</code>, the character <code>&#39;a&#39;</code> transforms into the next 3 consecutive characters ahead of it, which results in <code>&quot;bcd&quot;</code>.</li>
-	<li>The transformation <strong>wraps</strong> around the alphabet if it exceeds <code>&#39;z&#39;</code>. For example, if <code>s[i] = &#39;y&#39;</code> and <code>nums[24] = 3</code>, the character <code>&#39;y&#39;</code> transforms into the next 3 consecutive characters ahead of it, which results in <code>&quot;zab&quot;</code>.</li>
-</ul>
-
-<p>Return the length of the resulting string after <strong>exactly</strong> <code>t</code> transformations.</p>
-
-<p>Since the answer may be very large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;abcyy&quot;, t = 2, nums = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">7</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<ul>
-	<li>
-	<p><strong>First Transformation (t = 1):</strong></p>
-
-	<ul>
-		<li><code>&#39;a&#39;</code> becomes <code>&#39;b&#39;</code> as <code>nums[0] == 1</code></li>
-		<li><code>&#39;b&#39;</code> becomes <code>&#39;c&#39;</code> as <code>nums[1] == 1</code></li>
-		<li><code>&#39;c&#39;</code> becomes <code>&#39;d&#39;</code> as <code>nums[2] == 1</code></li>
-		<li><code>&#39;y&#39;</code> becomes <code>&#39;z&#39;</code> as <code>nums[24] == 1</code></li>
-		<li><code>&#39;y&#39;</code> becomes <code>&#39;z&#39;</code> as <code>nums[24] == 1</code></li>
-		<li>String after the first transformation: <code>&quot;bcdzz&quot;</code></li>
-	</ul>
-	</li>
-	<li>
-	<p><strong>Second Transformation (t = 2):</strong></p>
-
-	<ul>
-		<li><code>&#39;b&#39;</code> becomes <code>&#39;c&#39;</code> as <code>nums[1] == 1</code></li>
-		<li><code>&#39;c&#39;</code> becomes <code>&#39;d&#39;</code> as <code>nums[2] == 1</code></li>
-		<li><code>&#39;d&#39;</code> becomes <code>&#39;e&#39;</code> as <code>nums[3] == 1</code></li>
-		<li><code>&#39;z&#39;</code> becomes <code>&#39;ab&#39;</code> as <code>nums[25] == 2</code></li>
-		<li><code>&#39;z&#39;</code> becomes <code>&#39;ab&#39;</code> as <code>nums[25] == 2</code></li>
-		<li>String after the second transformation: <code>&quot;cdeabab&quot;</code></li>
-	</ul>
-	</li>
-	<li>
-	<p><strong>Final Length of the string:</strong> The string is <code>&quot;cdeabab&quot;</code>, which has 7 characters.</p>
-	</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">s = &quot;azbk&quot;, t = 1, nums = [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">8</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<ul>
-	<li>
-	<p><strong>First Transformation (t = 1):</strong></p>
-
-	<ul>
-		<li><code>&#39;a&#39;</code> becomes <code>&#39;bc&#39;</code> as <code>nums[0] == 2</code></li>
-		<li><code>&#39;z&#39;</code> becomes <code>&#39;ab&#39;</code> as <code>nums[25] == 2</code></li>
-		<li><code>&#39;b&#39;</code> becomes <code>&#39;cd&#39;</code> as <code>nums[1] == 2</code></li>
-		<li><code>&#39;k&#39;</code> becomes <code>&#39;lm&#39;</code> as <code>nums[10] == 2</code></li>
-		<li>String after the first transformation: <code>&quot;bcabcdlm&quot;</code></li>
-	</ul>
-	</li>
-	<li>
-	<p><strong>Final Length of the string:</strong> The string is <code>&quot;bcabcdlm&quot;</code>, which has 8 characters.</p>
-	</li>
-</ul>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> consists only of lowercase English letters.</li>
-	<li><code>1 &lt;= t &lt;= 10<sup>9</sup></code></li>
-	<li><code><font face="monospace">nums.length == 26</font></code></li>
-	<li><code><font face="monospace">1 &lt;= nums[i] &lt;= 25</font></code></li>
-</ul>"
+problem_statement: |
+  ## [Total Characters in String After Transformations II](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  You are given a string s consisting of lowercase English letters, an integer t representing the number of **transformations** to perform, and an array nums of size 26. In one **transformation**, every character in s is replaced according to the following rules:
+  
+  	Replace s[i] with the **next** nums[s[i] - &#39;a&#39;] consecutive characters in the alphabet. For example, if s[i] = &#39;a&#39; and nums[0] = 3, the character &#39;a&#39; transforms into the next 3 consecutive characters ahead of it, which results in &quot;bcd&quot;.
+  	The transformation **wraps** around the alphabet if it exceeds &#39;z&#39;. For example, if s[i] = &#39;y&#39; and nums[24] = 3, the character &#39;y&#39; transforms into the next 3 consecutive characters ahead of it, which results in &quot;zab&quot;.
+  
+  Return the length of the resulting string after **exactly** t transformations.
+  
+  Since the answer may be very large, return it **modulo** 109 + 7.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** s = &quot;abcyy&quot;, t = 2, nums = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2]
+  
+  **Output:** 7
+  
+  **Explanation:**
+  
+  **First Transformation (t = 1):**
+  
+  		&#39;a&#39; becomes &#39;b&#39; as nums[0] == 1
+  		&#39;b&#39; becomes &#39;c&#39; as nums[1] == 1
+  		&#39;c&#39; becomes &#39;d&#39; as nums[2] == 1
+  		&#39;y&#39; becomes &#39;z&#39; as nums[24] == 1
+  		&#39;y&#39; becomes &#39;z&#39; as nums[24] == 1
+  		String after the first transformation: &quot;bcdzz&quot;
+  
+  **Second Transformation (t = 2):**
+  
+  		&#39;b&#39; becomes &#39;c&#39; as nums[1] == 1
+  		&#39;c&#39; becomes &#39;d&#39; as nums[2] == 1
+  		&#39;d&#39; becomes &#39;e&#39; as nums[3] == 1
+  		&#39;z&#39; becomes &#39;ab&#39; as nums[25] == 2
+  		&#39;z&#39; becomes &#39;ab&#39; as nums[25] == 2
+  		String after the second transformation: &quot;cdeabab&quot;
+  
+  **Final Length of the string:** The string is &quot;cdeabab&quot;, which has 7 characters.
+  
+  Example 2:
+  
+  **Input:** s = &quot;azbk&quot;, t = 1, nums = [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
+  
+  **Output:** 8
+  
+  **Explanation:**
+  
+  **First Transformation (t = 1):**
+  
+  		&#39;a&#39; becomes &#39;bc&#39; as nums[0] == 2
+  		&#39;z&#39; becomes &#39;ab&#39; as nums[25] == 2
+  		&#39;b&#39; becomes &#39;cd&#39; as nums[1] == 2
+  		&#39;k&#39; becomes &#39;lm&#39; as nums[10] == 2
+  		String after the first transformation: &quot;bcabcdlm&quot;
+  
+  **Final Length of the string:** The string is &quot;bcabcdlm&quot;, which has 8 characters.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= s.length &lt;= 105
+  	s consists only of lowercase English letters.
+  	1 &lt;= t &lt;= 109
+  	nums.length == 26
+  	1 &lt;= nums[i] &lt;= 25
 ---
 
 ```python

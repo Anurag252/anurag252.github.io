@@ -1,69 +1,62 @@
 ---
-title: "./3548 Find The Count Of Good Integers"
+title: "3548 Find The Count Of Good Integers"
 date: "2025-04-12T04:16:42+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-the-count-of-good-integers">Find the Count of Good Integers</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given two <strong>positive</strong> integers <code>n</code> and <code>k</code>.</p>
-
-<p>An integer <code>x</code> is called <strong>k-palindromic</strong> if:</p>
-
-<ul>
-	<li><code>x</code> is a <span data-keyword="palindrome-integer">palindrome</span>.</li>
-	<li><code>x</code> is divisible by <code>k</code>.</li>
-</ul>
-
-<p>An integer is called <strong>good</strong> if its digits can be <em>rearranged</em> to form a <strong>k-palindromic</strong> integer. For example, for <code>k = 2</code>, 2020 can be rearranged to form the <em>k-palindromic</em> integer 2002, whereas 1010 cannot be rearranged to form a <em>k-palindromic</em> integer.</p>
-
-<p>Return the count of <strong>good</strong> integers containing <code>n</code> digits.</p>
-
-<p><strong>Note</strong> that <em>any</em> integer must <strong>not</strong> have leading zeros, <strong>neither</strong> before <strong>nor</strong> after rearrangement. For example, 1010 <em>cannot</em> be rearranged to form 101.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 3, k = 5</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">27</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p><em>Some</em> of the good integers are:</p>
-
-<ul>
-	<li>551 because it can be rearranged to form 515.</li>
-	<li>525 because it is already k-palindromic.</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 1, k = 4</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">2</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The two good integers are 4 and 8.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">n = 5, k = 6</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">2468</span></p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n &lt;= 10</code></li>
-	<li><code>1 &lt;= k &lt;= 9</code></li>
-</ul>"
+problem_statement: |
+  ## [Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  You are given two **positive** integers n and k.
+  
+  An integer x is called **k-palindromic** if:
+  
+  	x is a palindrome.
+  	x is divisible by k.
+  
+  An integer is called **good** if its digits can be *rearranged* to form a **k-palindromic** integer. For example, for k = 2, 2020 can be rearranged to form the *k-palindromic* integer 2002, whereas 1010 cannot be rearranged to form a *k-palindromic* integer.
+  
+  Return the count of **good** integers containing n digits.
+  
+  **Note** that *any* integer must **not** have leading zeros, **neither** before **nor** after rearrangement. For example, 1010 *cannot* be rearranged to form 101.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** n = 3, k = 5
+  
+  **Output:** 27
+  
+  **Explanation:**
+  
+  *Some* of the good integers are:
+  
+  	551 because it can be rearranged to form 515.
+  	525 because it is already k-palindromic.
+  
+  Example 2:
+  
+  **Input:** n = 1, k = 4
+  
+  **Output:** 2
+  
+  **Explanation:**
+  
+  The two good integers are 4 and 8.
+  
+  Example 3:
+  
+  **Input:** n = 5, k = 6
+  
+  **Output:** 2468
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n &lt;= 10
+  	1 &lt;= k &lt;= 9
 ---
 
 ```python

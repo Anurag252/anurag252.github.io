@@ -1,36 +1,43 @@
 ---
-title: "./567 Permutation In String"
+title: "567 Permutation In String"
 date: "2024-10-05T08:30:07+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/permutation-in-string">Permutation in String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given two strings <code>s1</code> and <code>s2</code>, return <code>true</code> if <code>s2</code> contains a <span data-keyword="permutation-string">permutation</span> of <code>s1</code>, or <code>false</code> otherwise.</p>
-
-<p>In other words, return <code>true</code> if one of <code>s1</code>&#39;s permutations is the substring of <code>s2</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> s1 = &quot;ab&quot;, s2 = &quot;eidbaooo&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong> s2 contains one permutation of s1 (&quot;ba&quot;).
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s1 = &quot;ab&quot;, s2 = &quot;eidboaoo&quot;
-<strong>Output:</strong> false
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= s1.length, s2.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>s1</code> and <code>s2</code> consist of lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [Permutation in String](https://leetcode.com/problems/permutation-in-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.
+  
+  In other words, return true if one of s1&#39;s permutations is the substring of s2.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** s1 = \"ab\", s2 = \"eidbaooo\"
+  **Output:** true
+  **Explanation:** s2 contains one permutation of s1 (\"ba\").
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** s1 = \"ab\", s2 = \"eidboaoo\"
+  **Output:** false
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= s1.length, s2.length &lt;= 104
+  	s1 and s2 consist of lowercase English letters.
 ---
 
 ```python

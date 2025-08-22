@@ -1,33 +1,51 @@
 ---
-title: "./342 Power Of Four"
+title: "342 Power Of Four"
 date: "2025-08-15T20:03:56+02:00"
 categories: ["leetcode"]
 tags: [rust]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/power-of-four">Power of Four</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an integer <code>n</code>, return <em><code>true</code> if it is a power of four. Otherwise, return <code>false</code></em>.</p>
-
-<p>An integer <code>n</code> is a power of four, if there exists an integer <code>x</code> such that <code>n == 4<sup>x</sup></code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<pre><strong>Input:</strong> n = 16
-<strong>Output:</strong> true
-</pre><p><strong class="example">Example 2:</strong></p>
-<pre><strong>Input:</strong> n = 5
-<strong>Output:</strong> false
-</pre><p><strong class="example">Example 3:</strong></p>
-<pre><strong>Input:</strong> n = 1
-<strong>Output:</strong> true
-</pre>
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>-2<sup>31</sup> &lt;= n &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
-
-<p>&nbsp;</p>
-<strong>Follow up:</strong> Could you solve it without loops/recursion?"
+problem_statement: |
+  ## [Power of Four](https://leetcode.com/problems/power-of-four) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given an integer n, return *true if it is a power of four. Otherwise, return false*.
+  
+  An integer n is a power of four, if there exists an integer x such that n == 4x.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  **Input:** n = 16
+  **Output:** true
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  **Input:** n = 5
+  **Output:** false
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  **Input:** n = 1
+  **Output:** true
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	-231 &lt;= n &lt;= 231 - 1
+  
+  &nbsp;
+  
+  **Follow up:** Could you solve it without loops/recursion?
 ---
 
 ```rust

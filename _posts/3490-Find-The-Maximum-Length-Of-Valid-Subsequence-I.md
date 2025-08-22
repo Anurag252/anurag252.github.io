@@ -1,64 +1,58 @@
 ---
-title: "./3490 Find The Maximum Length Of Valid Subsequence I"
+title: "3490 Find The Maximum Length Of Valid Subsequence I"
 date: "2025-07-16T09:18:35+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i">Find the Maximum Length of Valid Subsequence I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr>You are given an integer array <code>nums</code>.
-<p>A <span data-keyword="subsequence-array">subsequence</span> <code>sub</code> of <code>nums</code> with length <code>x</code> is called <strong>valid</strong> if it satisfies:</p>
-
-<ul>
-	<li><code>(sub[0] + sub[1]) % 2 == (sub[1] + sub[2]) % 2 == ... == (sub[x - 2] + sub[x - 1]) % 2.</code></li>
-</ul>
-
-<p>Return the length of the <strong>longest</strong> <strong>valid</strong> subsequence of <code>nums</code>.</p>
-
-<p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">4</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The longest valid subsequence is <code>[1, 2, 3, 4]</code>.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,1,1,2,1,2]</span></p>
-
-<p><strong>Output:</strong> 6</p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The longest valid subsequence is <code>[1, 2, 1, 2, 1, 2]</code>.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,3]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">2</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The longest valid subsequence is <code>[1, 3]</code>.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>2 &lt;= nums.length &lt;= 2 * 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>7</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Find the Maximum Length of Valid Subsequence I](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)You are given an integer array nums.
+  
+  A subsequence sub of nums with length x is called **valid** if it satisfies:
+  
+  	(sub[0] + sub[1]) % 2 == (sub[1] + sub[2]) % 2 == ... == (sub[x - 2] + sub[x - 1]) % 2.
+  
+  Return the length of the **longest** **valid** subsequence of nums.
+  
+  A **subsequence** is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1,2,3,4]
+  
+  **Output:** 4
+  
+  **Explanation:**
+  
+  The longest valid subsequence is [1, 2, 3, 4].
+  
+  Example 2:
+  
+  **Input:** nums = [1,2,1,1,2,1,2]
+  
+  **Output:** 6
+  
+  **Explanation:**
+  
+  The longest valid subsequence is [1, 2, 1, 2, 1, 2].
+  
+  Example 3:
+  
+  **Input:** nums = [1,3]
+  
+  **Output:** 2
+  
+  **Explanation:**
+  
+  The longest valid subsequence is [1, 3].
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	2 &lt;= nums.length &lt;= 2 * 105
+  	1 &lt;= nums[i] &lt;= 107
 ---
 
 ```python

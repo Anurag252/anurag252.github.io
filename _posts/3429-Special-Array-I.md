@@ -1,57 +1,54 @@
 ---
-title: "./3429 Special Array I"
+title: "3429 Special Array I"
 date: "2025-02-01T10:17:47+01:00"
 categories: ["leetcode"]
 tags: [go]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/special-array-i">Special Array I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>An array is considered <strong>special</strong> if every pair of its adjacent elements contains two numbers with different parity.<!-- notionvc: e6bed0fa-c67d-43a7-81b4-99fb85b99e98 --></p>
-
-<p>You are given an array of integers <code>nums</code>. Return <code>true</code> if <code>nums</code> is a <strong>special</strong> array, otherwise, return <code>false</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>There is only one element. So the answer is <code>true</code>.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,1,4]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">true</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>There is only two pairs: <code>(2,1)</code> and <code>(1,4)</code>, and both of them contain numbers with different parity. So the answer is <code>true</code>.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [4,3,1,6]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">false</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p><code>nums[1]</code> and <code>nums[2]</code> are both odd. So the answer is <code>false</code>.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
-</ul>"
+problem_statement: |
+  ## [Special Array I](https://leetcode.com/problems/special-array-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  An array is considered **special** if every pair of its adjacent elements contains two numbers with different parity.
+  
+  You are given an array of integers nums. Return true if nums is a **special** array, otherwise, return false.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1]
+  
+  **Output:** true
+  
+  **Explanation:**
+  
+  There is only one element. So the answer is true.
+  
+  Example 2:
+  
+  **Input:** nums = [2,1,4]
+  
+  **Output:** true
+  
+  **Explanation:**
+  
+  There is only two pairs: (2,1) and (1,4), and both of them contain numbers with different parity. So the answer is true.
+  
+  Example 3:
+  
+  **Input:** nums = [4,3,1,6]
+  
+  **Output:** false
+  
+  **Explanation:**
+  
+  nums[1] and nums[2] are both odd. So the answer is false.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 100
+  	1 &lt;= nums[i] &lt;= 100
 ---
 
 ```go

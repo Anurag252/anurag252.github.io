@@ -1,27 +1,39 @@
 ---
-title: "./386 Lexicographical Numbers"
+title: "386 Lexicographical Numbers"
 date: "2025-06-08T18:06:30+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/lexicographical-numbers">Lexicographical Numbers</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer <code>n</code>, return all the numbers in the range <code>[1, n]</code> sorted in lexicographical order.</p>
-
-<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time and uses <code>O(1)</code> extra space.&nbsp;</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<pre><strong>Input:</strong> n = 13
-<strong>Output:</strong> [1,10,11,12,13,2,3,4,5,6,7,8,9]
-</pre><p><strong class="example">Example 2:</strong></p>
-<pre><strong>Input:</strong> n = 2
-<strong>Output:</strong> [1,2]
-</pre>
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given an integer n, return all the numbers in the range [1, n] sorted in lexicographical order.
+  
+  You must write an algorithm that runs in&nbsp;O(n)&nbsp;time and uses O(1) extra space.&nbsp;
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  **Input:** n = 13
+  **Output:** [1,10,11,12,13,2,3,4,5,6,7,8,9]
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  **Input:** n = 2
+  **Output:** [1,2]
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n &lt;= 5 * 104
 ---
 
 ```python

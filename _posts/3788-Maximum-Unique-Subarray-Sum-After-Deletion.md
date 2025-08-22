@@ -1,64 +1,59 @@
 ---
-title: "./3788 Maximum Unique Subarray Sum After Deletion"
+title: "3788 Maximum Unique Subarray Sum After Deletion"
 date: "2025-07-25T20:03:40+02:00"
 categories: ["leetcode"]
 tags: [rust]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion">Maximum Unique Subarray Sum After Deletion</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are given an integer array <code>nums</code>.</p>
-
-<p>You are allowed to delete any number of elements from <code>nums</code> without making it <strong>empty</strong>. After performing the deletions, select a <span data-keyword="subarray-nonempty">subarray</span> of <code>nums</code> such that:</p>
-
-<ol>
-	<li>All elements in the subarray are <strong>unique</strong>.</li>
-	<li>The sum of the elements in the subarray is <strong>maximized</strong>.</li>
-</ol>
-
-<p>Return the <strong>maximum sum</strong> of such a subarray.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3,4,5]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">15</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>Select the entire array without deleting any element to obtain the maximum sum.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,1,0,1,1]</span></p>
-
-<p><strong>Output:</strong> 1</p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>Delete the element <code>nums[0] == 1</code>, <code>nums[1] == 1</code>, <code>nums[2] == 0</code>, and <code>nums[3] == 1</code>. Select the entire array <code>[1]</code> to obtain the maximum sum.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,-1,-2,1,0,-1]</span></p>
-
-<p><strong>Output:</strong> 3</p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>Delete the elements <code>nums[2] == -1</code> and <code>nums[3] == -2</code>, and select the subarray <code>[2, 1]</code> from <code>[1, 2, 1, 0, -1]</code> to obtain the maximum sum.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
-	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
-</ul>"
+problem_statement: |
+  ## [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  You are given an integer array nums.
+  
+  You are allowed to delete any number of elements from nums without making it **empty**. After performing the deletions, select a subarray of nums such that:
+  
+  	All elements in the subarray are **unique**.
+  	The sum of the elements in the subarray is **maximized**.
+  
+  Return the **maximum sum** of such a subarray.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1,2,3,4,5]
+  
+  **Output:** 15
+  
+  **Explanation:**
+  
+  Select the entire array without deleting any element to obtain the maximum sum.
+  
+  Example 2:
+  
+  **Input:** nums = [1,1,0,1,1]
+  
+  **Output:** 1
+  
+  **Explanation:**
+  
+  Delete the element nums[0] == 1, nums[1] == 1, nums[2] == 0, and nums[3] == 1. Select the entire array [1] to obtain the maximum sum.
+  
+  Example 3:
+  
+  **Input:** nums = [1,2,-1,-2,1,0,-1]
+  
+  **Output:** 3
+  
+  **Explanation:**
+  
+  Delete the elements nums[2] == -1 and nums[3] == -2, and select the subarray [2, 1] from [1, 2, 1, 0, -1] to obtain the maximum sum.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 100
+  	-100 &lt;= nums[i] &lt;= 100
 ---
 
 ```rust

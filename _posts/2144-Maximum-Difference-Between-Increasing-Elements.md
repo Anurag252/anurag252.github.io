@@ -1,50 +1,59 @@
 ---
-title: "./2144 Maximum Difference Between Increasing Elements"
+title: "2144 Maximum Difference Between Increasing Elements"
 date: "2025-06-16T11:37:20+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-difference-between-increasing-elements">Maximum Difference Between Increasing Elements</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a <strong>0-indexed</strong> integer array <code>nums</code> of size <code>n</code>, find the <strong>maximum difference</strong> between <code>nums[i]</code> and <code>nums[j]</code> (i.e., <code>nums[j] - nums[i]</code>), such that <code>0 &lt;= i &lt; j &lt; n</code> and <code>nums[i] &lt; nums[j]</code>.</p>
-
-<p>Return <em>the <strong>maximum difference</strong>. </em>If no such <code>i</code> and <code>j</code> exists, return <code>-1</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [7,<strong><u>1</u></strong>,<strong><u>5</u></strong>,4]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong>
-The maximum difference occurs with i = 1 and j = 2, nums[j] - nums[i] = 5 - 1 = 4.
-Note that with i = 1 and j = 0, the difference nums[j] - nums[i] = 7 - 1 = 6, but i &gt; j, so it is not valid.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [9,4,3,2]
-<strong>Output:</strong> -1
-<strong>Explanation:</strong>
-There is no i and j such that i &lt; j and nums[i] &lt; nums[j].
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [<strong><u>1</u></strong>,5,2,<strong><u>10</u></strong>]
-<strong>Output:</strong> 9
-<strong>Explanation:</strong>
-The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 = 9.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>n == nums.length</code></li>
-	<li><code>2 &lt;= n &lt;= 1000</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given a **0-indexed** integer array nums of size n, find the **maximum difference** between nums[i] and nums[j] (i.e., nums[j] - nums[i]), such that 0 &lt;= i &lt; j &lt; n and nums[i] &lt; nums[j].
+  
+  Return *the **maximum difference**. *If no such i and j exists, return -1.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [7,**1**,**5**,4]
+  **Output:** 4
+  **Explanation:**
+  The maximum difference occurs with i = 1 and j = 2, nums[j] - nums[i] = 5 - 1 = 4.
+  Note that with i = 1 and j = 0, the difference nums[j] - nums[i] = 7 - 1 = 6, but i > j, so it is not valid.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [9,4,3,2]
+  **Output:** -1
+  **Explanation:**
+  There is no i and j such that i < j and nums[i] < nums[j].
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [**1**,5,2,**10**]
+  **Output:** 9
+  **Explanation:**
+  The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 = 9.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	n == nums.length
+  	2 &lt;= n &lt;= 1000
+  	1 &lt;= nums[i] &lt;= 109
 ---
 
 ```python

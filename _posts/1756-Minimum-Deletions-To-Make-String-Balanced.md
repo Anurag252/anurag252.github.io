@@ -1,41 +1,48 @@
 ---
-title: "./1756 Minimum Deletions To Make String Balanced"
+title: "1756 Minimum Deletions To Make String Balanced"
 date: "2024-07-30T06:38:18+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/minimum-deletions-to-make-string-balanced">Minimum Deletions to Make String Balanced</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code> consisting only of characters <code>&#39;a&#39;</code> and <code>&#39;b&#39;</code>​​​​.</p>
-
-<p>You can delete any number of characters in <code>s</code> to make <code>s</code> <strong>balanced</strong>. <code>s</code> is <strong>balanced</strong> if there is no pair of indices <code>(i,j)</code> such that <code>i &lt; j</code> and <code>s[i] = &#39;b&#39;</code> and <code>s[j]= &#39;a&#39;</code>.</p>
-
-<p>Return <em>the <strong>minimum</strong> number of deletions needed to make </em><code>s</code><em> <strong>balanced</strong></em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;aababbab&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> You can either:
-Delete the characters at 0-indexed positions 2 and 6 (&quot;aa<u>b</u>abb<u>a</u>b&quot; -&gt; &quot;aaabbb&quot;), or
-Delete the characters at 0-indexed positions 3 and 6 (&quot;aab<u>a</u>bb<u>a</u>b&quot; -&gt; &quot;aabbbb&quot;).
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> s = &quot;bbaaaaabb&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> The only solution is to delete the first two characters.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s[i]</code> is&nbsp;<code>&#39;a&#39;</code> or <code>&#39;b&#39;</code>​​.</li>
-</ul>"
+problem_statement: |
+  ## [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a string s consisting only of characters &#39;a&#39; and &#39;b&#39;​​​​.
+  
+  You can delete any number of characters in s to make s **balanced**. s is **balanced** if there is no pair of indices (i,j) such that i &lt; j and s[i] = &#39;b&#39; and s[j]= &#39;a&#39;.
+  
+  Return *the **minimum** number of deletions needed to make *s* **balanced***.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** s = \"aababbab\"
+  **Output:** 2
+  **Explanation:** You can either:
+  Delete the characters at 0-indexed positions 2 and 6 (\"aababbab\" -> \"aaabbb\"), or
+  Delete the characters at 0-indexed positions 3 and 6 (\"aababbab\" -> \"aabbbb\").
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** s = \"bbaaaaabb\"
+  **Output:** 2
+  **Explanation:** The only solution is to delete the first two characters.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= s.length &lt;= 105
+  	s[i] is&nbsp;&#39;a&#39; or &#39;b&#39;​​.
 ---
 
 ```python

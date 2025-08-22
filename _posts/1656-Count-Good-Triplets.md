@@ -1,49 +1,54 @@
 ---
-title: "./1656 Count Good Triplets"
+title: "1656 Count Good Triplets"
 date: "2025-04-14T07:12:03+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/count-good-triplets">Count Good Triplets</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array of integers <code>arr</code>, and three integers&nbsp;<code>a</code>,&nbsp;<code>b</code>&nbsp;and&nbsp;<code>c</code>. You need to find the number of good triplets.</p>
-
-<p>A triplet <code>(arr[i], arr[j], arr[k])</code>&nbsp;is <strong>good</strong> if the following conditions are true:</p>
-
-<ul>
-	<li><code>0 &lt;= i &lt; j &lt; k &lt;&nbsp;arr.length</code></li>
-	<li><code>|arr[i] - arr[j]| &lt;= a</code></li>
-	<li><code>|arr[j] - arr[k]| &lt;= b</code></li>
-	<li><code>|arr[i] - arr[k]| &lt;= c</code></li>
-</ul>
-
-<p>Where <code>|x|</code> denotes the absolute value of <code>x</code>.</p>
-
-<p>Return<em> the number of good triplets</em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> arr = [3,0,1,1,9,7], a = 7, b = 2, c = 3
-<strong>Output:</strong> 4
-<strong>Explanation:</strong>&nbsp;There are 4 good triplets: [(3,0,1), (3,0,1), (3,1,1), (0,1,1)].
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> arr = [1,1,2,2,3], a = 0, b = 0, c = 1
-<strong>Output:</strong> 0
-<strong>Explanation: </strong>No triplet satisfies all conditions.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>3 &lt;= arr.length &lt;= 100</code></li>
-	<li><code>0 &lt;= arr[i] &lt;= 1000</code></li>
-	<li><code>0 &lt;= a, b, c &lt;= 1000</code></li>
-</ul>"
+problem_statement: |
+  ## [Count Good Triplets](https://leetcode.com/problems/count-good-triplets) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given an array of integers arr, and three integers&nbsp;a,&nbsp;b&nbsp;and&nbsp;c. You need to find the number of good triplets.
+  
+  A triplet (arr[i], arr[j], arr[k])&nbsp;is **good** if the following conditions are true:
+  
+  	0 &lt;= i &lt; j &lt; k &lt;&nbsp;arr.length
+  	|arr[i] - arr[j]| &lt;= a
+  	|arr[j] - arr[k]| &lt;= b
+  	|arr[i] - arr[k]| &lt;= c
+  
+  Where |x| denotes the absolute value of x.
+  
+  Return* the number of good triplets*.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** arr = [3,0,1,1,9,7], a = 7, b = 2, c = 3
+  **Output:** 4
+  **Explanation:** There are 4 good triplets: [(3,0,1), (3,0,1), (3,1,1), (0,1,1)].
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** arr = [1,1,2,2,3], a = 0, b = 0, c = 1
+  **Output:** 0
+  **Explanation: **No triplet satisfies all conditions.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	3 &lt;= arr.length &lt;= 100
+  	0 &lt;= arr[i] &lt;= 1000
+  	0 &lt;= a, b, c &lt;= 1000
 ---
 
 ```python

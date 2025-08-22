@@ -1,10 +1,11 @@
 ---
-title: "./624 Maximum Distance In Arrays"
+title: "624 Maximum Distance In Arrays"
 date: "2024-08-16T07:29:23+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-distance-in-arrays">Maximum Distance in Arrays</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr>null"
+problem_statement: |
+  ## [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)null
 ---
 
 ```python

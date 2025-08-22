@@ -1,53 +1,61 @@
 ---
-title: "./2614 Maximum Count Of Positive Integer And Negative Integer"
+title: "2614 Maximum Count Of Positive Integer And Negative Integer"
 date: "2025-03-12T10:28:00+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer">Maximum Count of Positive Integer and Negative Integer</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an array <code>nums</code> sorted in <strong>non-decreasing</strong> order, return <em>the maximum between the number of positive integers and the number of negative integers.</em></p>
-
-<ul>
-	<li>In other words, if the number of positive integers in <code>nums</code> is <code>pos</code> and the number of negative integers is <code>neg</code>, then return the maximum of <code>pos</code> and <code>neg</code>.</li>
-</ul>
-
-<p><strong>Note</strong> that <code>0</code> is neither positive nor negative.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [-2,-1,-1,1,2,3]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> There are 3 positive integers and 3 negative integers. The maximum count among them is 3.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [-3,-2,-1,0,0,1,2]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> There are 2 positive integers and 3 negative integers. The maximum count among them is 3.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [5,20,66,1314]
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> There are 4 positive integers and 0 negative integers. The maximum count among them is 4.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 2000</code></li>
-	<li><code>-2000 &lt;= nums[i] &lt;= 2000</code></li>
-	<li><code>nums</code> is sorted in a <strong>non-decreasing order</strong>.</li>
-</ul>
-
-<p>&nbsp;</p>
-<p><strong>Follow up:</strong> Can you solve the problem in <code>O(log(n))</code> time complexity?</p>"
+problem_statement: |
+  ## [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given an array nums sorted in **non-decreasing** order, return *the maximum between the number of positive integers and the number of negative integers.*
+  
+  	In other words, if the number of positive integers in nums is pos and the number of negative integers is neg, then return the maximum of pos and neg.
+  
+  **Note** that 0 is neither positive nor negative.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [-2,-1,-1,1,2,3]
+  **Output:** 3
+  **Explanation:** There are 3 positive integers and 3 negative integers. The maximum count among them is 3.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [-3,-2,-1,0,0,1,2]
+  **Output:** 3
+  **Explanation:** There are 2 positive integers and 3 negative integers. The maximum count among them is 3.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [5,20,66,1314]
+  **Output:** 4
+  **Explanation:** There are 4 positive integers and 0 negative integers. The maximum count among them is 4.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 2000
+  	-2000 &lt;= nums[i] &lt;= 2000
+  	nums is sorted in a **non-decreasing order**.
+  
+  &nbsp;
+  
+  **Follow up:** Can you solve the problem in O(log(n)) time complexity?
 ---
 
 ```python

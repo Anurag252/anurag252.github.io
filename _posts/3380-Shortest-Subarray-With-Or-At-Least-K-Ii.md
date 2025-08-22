@@ -1,60 +1,57 @@
 ---
-title: "./3380 Shortest Subarray With Or At Least K Ii"
+title: "3380 Shortest Subarray With Or At Least K Ii"
 date: "2024-11-10T19:01:34+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii">Shortest Subarray With OR at Least K II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an array <code>nums</code> of <strong>non-negative</strong> integers and an integer <code>k</code>.</p>
-
-<p>An array is called <strong>special</strong> if the bitwise <code>OR</code> of all of its elements is <strong>at least</strong> <code>k</code>.</p>
-
-<p>Return <em>the length of the <strong>shortest</strong> <strong>special</strong> <strong>non-empty</strong> <span data-keyword="subarray-nonempty">subarray</span> of</em> <code>nums</code>, <em>or return</em> <code>-1</code> <em>if no special subarray exists</em>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,3], k = 2</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The subarray <code>[3]</code> has <code>OR</code> value of <code>3</code>. Hence, we return <code>1</code>.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [2,1,8], k = 10</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">3</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The subarray <code>[2,1,8]</code> has <code>OR</code> value of <code>11</code>. Hence, we return <code>3</code>.</p>
-</div>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2], k = 0</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">1</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The subarray <code>[1]</code> has <code>OR</code> value of <code>1</code>. Hence, we return <code>1</code>.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 2 * 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>0 &lt;= k &lt;= 10<sup>9</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an array nums of **non-negative** integers and an integer k.
+  
+  An array is called **special** if the bitwise OR of all of its elements is **at least** k.
+  
+  Return *the length of the **shortest** **special** **non-empty** subarray of* nums, *or return* -1 *if no special subarray exists*.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1,2,3], k = 2
+  
+  **Output:** 1
+  
+  **Explanation:**
+  
+  The subarray [3] has OR value of 3. Hence, we return 1.
+  
+  Example 2:
+  
+  **Input:** nums = [2,1,8], k = 10
+  
+  **Output:** 3
+  
+  **Explanation:**
+  
+  The subarray [2,1,8] has OR value of 11. Hence, we return 3.
+  
+  Example 3:
+  
+  **Input:** nums = [1,2], k = 0
+  
+  **Output:** 1
+  
+  **Explanation:**
+  
+  The subarray [1] has OR value of 1. Hence, we return 1.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 2 * 105
+  	0 &lt;= nums[i] &lt;= 109
+  	0 &lt;= k &lt;= 109
 ---
 
 ```python

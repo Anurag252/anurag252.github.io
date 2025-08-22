@@ -1,34 +1,40 @@
 ---
-title: "./1293 Three Consecutive Odds"
+title: "1293 Three Consecutive Odds"
 date: "2024-07-01T12:41:26+02:00"
 categories: ["leetcode"]
 tags: [c]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/three-consecutive-odds">Three Consecutive Odds</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr>Given an integer array <code>arr</code>, return <code>true</code>&nbsp;if there are three consecutive odd numbers in the array. Otherwise, return&nbsp;<code>false</code>.
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> arr = [2,6,4,1]
-<strong>Output:</strong> false
-<b>Explanation:</b> There are no three consecutive odds.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> arr = [1,2,34,3,4,5,7,23,12]
-<strong>Output:</strong> true
-<b>Explanation:</b> [5,7,23] are three consecutive odds.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= arr.length &lt;= 1000</code></li>
-	<li><code>1 &lt;= arr[i] &lt;= 1000</code></li>
-</ul>"
+problem_statement: |
+  ## [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)Given an integer array arr, return true&nbsp;if there are three consecutive odd numbers in the array. Otherwise, return&nbsp;false.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** arr = [2,6,4,1]
+  **Output:** false
+  **Explanation:** There are no three consecutive odds.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** arr = [1,2,34,3,4,5,7,23,12]
+  **Output:** true
+  **Explanation:** [5,7,23] are three consecutive odds.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= arr.length &lt;= 1000
+  	1 &lt;= arr[i] &lt;= 1000
 ---
 
 ```c

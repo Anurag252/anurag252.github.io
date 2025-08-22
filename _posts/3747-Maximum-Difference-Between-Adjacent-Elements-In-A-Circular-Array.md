@@ -1,45 +1,44 @@
 ---
-title: "./3747 Maximum Difference Between Adjacent Elements In A Circular Array"
+title: "3747 Maximum Difference Between Adjacent Elements In A Circular Array"
 date: "2025-06-12T22:03:13+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array">Maximum Difference Between Adjacent Elements in a Circular Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a <strong>circular</strong> array <code>nums</code>, find the <b>maximum</b> absolute difference between adjacent elements.</p>
-
-<p><strong>Note</strong>: In a circular array, the first and last elements are adjacent.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [1,2,4]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">3</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>Because <code>nums</code> is circular, <code>nums[0]</code> and <code>nums[2]</code> are adjacent. They have the maximum absolute difference of <code>|4 - 1| = 3</code>.</p>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">nums = [-5,-10,-5]</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">5</span></p>
-
-<p><strong>Explanation:</strong></p>
-
-<p>The adjacent elements <code>nums[0]</code> and <code>nums[1]</code> have the maximum absolute difference of <code>|-5 - (-10)| = 5</code>.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>2 &lt;= nums.length &lt;= 100</code></li>
-	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
-</ul>"
+problem_statement: |
+  ## [Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given a **circular** array nums, find the **maximum** absolute difference between adjacent elements.
+  
+  **Note**: In a circular array, the first and last elements are adjacent.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** nums = [1,2,4]
+  
+  **Output:** 3
+  
+  **Explanation:**
+  
+  Because nums is circular, nums[0] and nums[2] are adjacent. They have the maximum absolute difference of |4 - 1| = 3.
+  
+  Example 2:
+  
+  **Input:** nums = [-5,-10,-5]
+  
+  **Output:** 5
+  
+  **Explanation:**
+  
+  The adjacent elements nums[0] and nums[1] have the maximum absolute difference of |-5 - (-10)| = 5.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	2 &lt;= nums.length &lt;= 100
+  	-100 &lt;= nums[i] &lt;= 100
 ---
 
 ```python

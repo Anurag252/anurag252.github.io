@@ -1,48 +1,51 @@
 ---
-title: "./1766 Minimum Number Of Removals To Make Mountain Array"
+title: "1766 Minimum Number Of Removals To Make Mountain Array"
 date: "2024-10-30T14:22:18+05:30"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array">Minimum Number of Removals to Make Mountain Array</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You may recall that an array <code>arr</code> is a <strong>mountain array</strong> if and only if:</p>
-
-<ul>
-	<li><code>arr.length &gt;= 3</code></li>
-	<li>There exists some index <code>i</code> (<strong>0-indexed</strong>) with <code>0 &lt; i &lt; arr.length - 1</code> such that:
-	<ul>
-		<li><code>arr[0] &lt; arr[1] &lt; ... &lt; arr[i - 1] &lt; arr[i]</code></li>
-		<li><code>arr[i] &gt; arr[i + 1] &gt; ... &gt; arr[arr.length - 1]</code></li>
-	</ul>
-	</li>
-</ul>
-
-<p>Given an integer array <code>nums</code>​​​, return <em>the <strong>minimum</strong> number of elements to remove to make </em><code>nums<em>​​​</em></code><em> </em><em>a <strong>mountain array</strong>.</em></p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,3,1]
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> The array itself is a mountain array so we do not need to remove any elements.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,1,1,5,6,2,3,1]
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> One solution is to remove the elements at indices 0, 1, and 5, making the array nums = [1,5,6,3,1].
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>3 &lt;= nums.length &lt;= 1000</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li>It is guaranteed that you can make a mountain array out of <code>nums</code>.</li>
-</ul>"
+problem_statement: |
+  ## [Minimum Number of Removals to Make Mountain Array](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  You may recall that an array arr is a **mountain array** if and only if:
+  
+  	arr.length &gt;= 3
+  	There exists some index i (**0-indexed**) with 0 &lt; i &lt; arr.length - 1 such that:
+  
+  		arr[0] &lt; arr[1] &lt; ... &lt; arr[i - 1] &lt; arr[i]
+  		arr[i] &gt; arr[i + 1] &gt; ... &gt; arr[arr.length - 1]
+  
+  Given an integer array nums​​​, return *the **minimum** number of elements to remove to make *nums*​​​** **a **mountain array**.*
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [1,3,1]
+  **Output:** 0
+  **Explanation:** The array itself is a mountain array so we do not need to remove any elements.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [2,1,1,5,6,2,3,1]
+  **Output:** 3
+  **Explanation:** One solution is to remove the elements at indices 0, 1, and 5, making the array nums = [1,5,6,3,1].
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	3 &lt;= nums.length &lt;= 1000
+  	1 &lt;= nums[i] &lt;= 109
+  	It is guaranteed that you can make a mountain array out of nums.
 ---
 
 ```python

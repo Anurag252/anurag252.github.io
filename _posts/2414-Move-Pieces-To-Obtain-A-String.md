@@ -1,55 +1,62 @@
 ---
-title: "./2414 Move Pieces To Obtain A String"
+title: "2414 Move Pieces To Obtain A String"
 date: "2024-12-05T10:13:33+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/move-pieces-to-obtain-a-string">Move Pieces to Obtain a String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given two strings <code>start</code> and <code>target</code>, both of length <code>n</code>. Each string consists <strong>only</strong> of the characters <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;_&#39;</code> where:</p>
-
-<ul>
-	<li>The characters <code>&#39;L&#39;</code> and <code>&#39;R&#39;</code> represent pieces, where a piece <code>&#39;L&#39;</code> can move to the <strong>left</strong> only if there is a <strong>blank</strong> space directly to its left, and a piece <code>&#39;R&#39;</code> can move to the <strong>right</strong> only if there is a <strong>blank</strong> space directly to its right.</li>
-	<li>The character <code>&#39;_&#39;</code> represents a blank space that can be occupied by <strong>any</strong> of the <code>&#39;L&#39;</code> or <code>&#39;R&#39;</code> pieces.</li>
-</ul>
-
-<p>Return <code>true</code> <em>if it is possible to obtain the string</em> <code>target</code><em> by moving the pieces of the string </em><code>start</code><em> <strong>any</strong> number of times</em>. Otherwise, return <code>false</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> start = &quot;_L__R__R_&quot;, target = &quot;L______RR&quot;
-<strong>Output:</strong> true
-<strong>Explanation:</strong> We can obtain the string target from start by doing the following moves:
-- Move the first piece one step to the left, start becomes equal to &quot;<strong>L</strong>___R__R_&quot;.
-- Move the last piece one step to the right, start becomes equal to &quot;L___R___<strong>R</strong>&quot;.
-- Move the second piece three steps to the right, start becomes equal to &quot;L______<strong>R</strong>R&quot;.
-Since it is possible to get the string target from start, we return true.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> start = &quot;R_L_&quot;, target = &quot;__LR&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The &#39;R&#39; piece in the string start can move one step to the right to obtain &quot;_<strong>R</strong>L_&quot;.
-After that, no pieces can move anymore, so it is impossible to obtain the string target from start.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> start = &quot;_R&quot;, target = &quot;R_&quot;
-<strong>Output:</strong> false
-<strong>Explanation:</strong> The piece in the string start can move only to the right, so it is impossible to obtain the string target from start.</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>n == start.length == target.length</code></li>
-	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>start</code> and <code>target</code> consist of the characters <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;_&#39;</code>.</li>
-</ul>"
+problem_statement: |
+  ## [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given two strings start and target, both of length n. Each string consists **only** of the characters &#39;L&#39;, &#39;R&#39;, and &#39;_&#39; where:
+  
+  	The characters &#39;L&#39; and &#39;R&#39; represent pieces, where a piece &#39;L&#39; can move to the **left** only if there is a **blank** space directly to its left, and a piece &#39;R&#39; can move to the **right** only if there is a **blank** space directly to its right.
+  	The character &#39;_&#39; represents a blank space that can be occupied by **any** of the &#39;L&#39; or &#39;R&#39; pieces.
+  
+  Return true *if it is possible to obtain the string* target* by moving the pieces of the string *start* **any** number of times*. Otherwise, return false.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** start = \"_L__R__R_\", target = \"L______RR\"
+  **Output:** true
+  **Explanation:** We can obtain the string target from start by doing the following moves:
+  - Move the first piece one step to the left, start becomes equal to \"**L**___R__R_\".
+  - Move the last piece one step to the right, start becomes equal to \"L___R___**R**\".
+  - Move the second piece three steps to the right, start becomes equal to \"L______**R**R\".
+  Since it is possible to get the string target from start, we return true.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** start = \"R_L_\", target = \"__LR\"
+  **Output:** false
+  **Explanation:** The 'R' piece in the string start can move one step to the right to obtain \"_**R**L_\".
+  After that, no pieces can move anymore, so it is impossible to obtain the string target from start.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** start = \"_R\", target = \"R_\"
+  **Output:** false
+  **Explanation:** The piece in the string start can move only to the right, so it is impossible to obtain the string target from start.
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	n == start.length == target.length
+  	1 &lt;= n &lt;= 105
+  	start and target consist of the characters &#39;L&#39;, &#39;R&#39;, and &#39;_&#39;.
 ---
 
 ```python

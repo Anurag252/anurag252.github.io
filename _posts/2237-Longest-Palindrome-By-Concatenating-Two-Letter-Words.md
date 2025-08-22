@@ -1,53 +1,62 @@
 ---
-title: "./2237 Longest Palindrome By Concatenating Two Letter Words"
+title: "2237 Longest Palindrome By Concatenating Two Letter Words"
 date: "2025-05-25T22:25:06+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words">Longest Palindrome by Concatenating Two Letter Words</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an array of strings <code>words</code>. Each element of <code>words</code> consists of <strong>two</strong> lowercase English letters.</p>
-
-<p>Create the <strong>longest possible palindrome</strong> by selecting some elements from <code>words</code> and concatenating them in <strong>any order</strong>. Each element can be selected <strong>at most once</strong>.</p>
-
-<p>Return <em>the <strong>length</strong> of the longest palindrome that you can create</em>. If it is impossible to create any palindrome, return <code>0</code>.</p>
-
-<p>A <strong>palindrome</strong> is a string that reads the same forward and backward.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> words = [&quot;lc&quot;,&quot;cl&quot;,&quot;gg&quot;]
-<strong>Output:</strong> 6
-<strong>Explanation:</strong> One longest palindrome is &quot;lc&quot; + &quot;gg&quot; + &quot;cl&quot; = &quot;lcggcl&quot;, of length 6.
-Note that &quot;clgglc&quot; is another longest palindrome that can be created.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> words = [&quot;ab&quot;,&quot;ty&quot;,&quot;yt&quot;,&quot;lc&quot;,&quot;cl&quot;,&quot;ab&quot;]
-<strong>Output:</strong> 8
-<strong>Explanation:</strong> One longest palindrome is &quot;ty&quot; + &quot;lc&quot; + &quot;cl&quot; + &quot;yt&quot; = &quot;tylcclyt&quot;, of length 8.
-Note that &quot;lcyttycl&quot; is another longest palindrome that can be created.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> words = [&quot;cc&quot;,&quot;ll&quot;,&quot;xx&quot;]
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> One longest palindrome is &quot;cc&quot;, of length 2.
-Note that &quot;ll&quot; is another longest palindrome that can be created, and so is &quot;xx&quot;.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= words.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>words[i].length == 2</code></li>
-	<li><code>words[i]</code> consists of lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an array of strings words. Each element of words consists of **two** lowercase English letters.
+  
+  Create the **longest possible palindrome** by selecting some elements from words and concatenating them in **any order**. Each element can be selected **at most once**.
+  
+  Return *the **length** of the longest palindrome that you can create*. If it is impossible to create any palindrome, return 0.
+  
+  A **palindrome** is a string that reads the same forward and backward.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** words = [\"lc\",\"cl\",\"gg\"]
+  **Output:** 6
+  **Explanation:** One longest palindrome is \"lc\" + \"gg\" + \"cl\" = \"lcggcl\", of length 6.
+  Note that \"clgglc\" is another longest palindrome that can be created.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** words = [\"ab\",\"ty\",\"yt\",\"lc\",\"cl\",\"ab\"]
+  **Output:** 8
+  **Explanation:** One longest palindrome is \"ty\" + \"lc\" + \"cl\" + \"yt\" = \"tylcclyt\", of length 8.
+  Note that \"lcyttycl\" is another longest palindrome that can be created.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** words = [\"cc\",\"ll\",\"xx\"]
+  **Output:** 2
+  **Explanation:** One longest palindrome is \"cc\", of length 2.
+  Note that \"ll\" is another longest palindrome that can be created, and so is \"xx\".
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= words.length &lt;= 105
+  	words[i].length == 2
+  	words[i] consists of lowercase English letters.
 ---
 
 ```python

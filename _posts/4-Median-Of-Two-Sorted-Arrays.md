@@ -1,41 +1,48 @@
 ---
-title: "./4 Median Of Two Sorted Arrays"
+title: "4 Median Of Two Sorted Arrays"
 date: "2024-05-31T18:54:00+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/median-of-two-sorted-arrays">Median of Two Sorted Arrays</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given two sorted arrays <code>nums1</code> and <code>nums2</code> of size <code>m</code> and <code>n</code> respectively, return <strong>the median</strong> of the two sorted arrays.</p>
-
-<p>The overall run time complexity should be <code>O(log (m+n))</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums1 = [1,3], nums2 = [2]
-<strong>Output:</strong> 2.00000
-<strong>Explanation:</strong> merged array = [1,2,3] and median is 2.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums1 = [1,2], nums2 = [3,4]
-<strong>Output:</strong> 2.50000
-<strong>Explanation:</strong> merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>nums1.length == m</code></li>
-	<li><code>nums2.length == n</code></li>
-	<li><code>0 &lt;= m &lt;= 1000</code></li>
-	<li><code>0 &lt;= n &lt;= 1000</code></li>
-	<li><code>1 &lt;= m + n &lt;= 2000</code></li>
-	<li><code>-10<sup>6</sup> &lt;= nums1[i], nums2[i] &lt;= 10<sup>6</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+  
+  Given two sorted arrays nums1 and nums2 of size m and n respectively, return **the median** of the two sorted arrays.
+  
+  The overall run time complexity should be O(log (m+n)).
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums1 = [1,3], nums2 = [2]
+  **Output:** 2.00000
+  **Explanation:** merged array = [1,2,3] and median is 2.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums1 = [1,2], nums2 = [3,4]
+  **Output:** 2.50000
+  **Explanation:** merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	nums1.length == m
+  	nums2.length == n
+  	0 &lt;= m &lt;= 1000
+  	0 &lt;= n &lt;= 1000
+  	1 &lt;= m + n &lt;= 2000
+  	-106 &lt;= nums1[i], nums2[i] &lt;= 106
 ---
 
 ```python

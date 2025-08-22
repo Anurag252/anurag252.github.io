@@ -1,51 +1,60 @@
 ---
-title: "./2432 Number Of Zero Filled Subarrays"
+title: "2432 Number Of Zero Filled Subarrays"
 date: "2025-08-19T13:59:51+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/number-of-zero-filled-subarrays">Number of Zero-Filled Subarrays</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer array <code>nums</code>, return <em>the number of <strong>subarrays</strong> filled with </em><code>0</code>.</p>
-
-<p>A <strong>subarray</strong> is a contiguous non-empty sequence of elements within an array.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,3,0,0,2,0,0,4]
-<strong>Output:</strong> 6
-<strong>Explanation:</strong> 
-There are 4 occurrences of [0] as a subarray.
-There are 2 occurrences of [0,0] as a subarray.
-There is no occurrence of a subarray with a size more than 2 filled with 0. Therefore, we return 6.</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [0,0,0,2,0,0]
-<strong>Output:</strong> 9
-<strong>Explanation:
-</strong>There are 5 occurrences of [0] as a subarray.
-There are 3 occurrences of [0,0] as a subarray.
-There is 1 occurrence of [0,0,0] as a subarray.
-There is no occurrence of a subarray with a size more than 3 filled with 0. Therefore, we return 9.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,10,2019]
-<strong>Output:</strong> 0
-<strong>Explanation:</strong> There is no subarray filled with 0. Therefore, we return 0.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given an integer array nums, return *the number of **subarrays** filled with *0.
+  
+  A **subarray** is a contiguous non-empty sequence of elements within an array.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [1,3,0,0,2,0,0,4]
+  **Output:** 6
+  **Explanation:** 
+  There are 4 occurrences of [0] as a subarray.
+  There are 2 occurrences of [0,0] as a subarray.
+  There is no occurrence of a subarray with a size more than 2 filled with 0. Therefore, we return 6.
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [0,0,0,2,0,0]
+  **Output:** 9
+  Explanation:
+  There are 5 occurrences of [0] as a subarray.
+  There are 3 occurrences of [0,0] as a subarray.
+  There is 1 occurrence of [0,0,0] as a subarray.
+  There is no occurrence of a subarray with a size more than 3 filled with 0. Therefore, we return 9.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [2,10,2019]
+  **Output:** 0
+  **Explanation:** There is no subarray filled with 0. Therefore, we return 0.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	-109 &lt;= nums[i] &lt;= 109
 ---
 
 ```python

@@ -1,59 +1,54 @@
 ---
-title: "./3683 Find The Lexicographically Largest String From The Box I"
+title: "3683 Find The Lexicographically Largest String From The Box I"
 date: "2025-06-04T22:35:29+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i">Find the Lexicographically Largest String From the Box I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>word</code>, and an integer <code>numFriends</code>.</p>
-
-<p>Alice is organizing a game for her <code>numFriends</code> friends. There are multiple rounds in the game, where in each round:</p>
-
-<ul>
-	<li><code>word</code> is split into <code>numFriends</code> <strong>non-empty</strong> strings, such that no previous round has had the <strong>exact</strong> same split.</li>
-	<li>All the split words are put into a box.</li>
-</ul>
-
-<p>Find the <span data-keyword="lexicographically-smaller-string">lexicographically largest</span> string from the box after all the rounds are finished.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;dbca&quot;, numFriends = 2</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">&quot;dbc&quot;</span></p>
-
-<p><strong>Explanation:</strong>&nbsp;</p>
-
-<p>All possible splits are:</p>
-
-<ul>
-	<li><code>&quot;d&quot;</code> and <code>&quot;bca&quot;</code>.</li>
-	<li><code>&quot;db&quot;</code> and <code>&quot;ca&quot;</code>.</li>
-	<li><code>&quot;dbc&quot;</code> and <code>&quot;a&quot;</code>.</li>
-</ul>
-</div>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<div class="example-block">
-<p><strong>Input:</strong> <span class="example-io">word = &quot;gggg&quot;, numFriends = 4</span></p>
-
-<p><strong>Output:</strong> <span class="example-io">&quot;g&quot;</span></p>
-
-<p><strong>Explanation:</strong>&nbsp;</p>
-
-<p>The only possible split is: <code>&quot;g&quot;</code>, <code>&quot;g&quot;</code>, <code>&quot;g&quot;</code>, and <code>&quot;g&quot;</code>.</p>
-</div>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= word.length &lt;= 5&nbsp;* 10<sup>3</sup></code></li>
-	<li><code>word</code> consists only of lowercase English letters.</li>
-	<li><code>1 &lt;= numFriends &lt;= word.length</code></li>
-</ul>"
+problem_statement: |
+  ## [Find the Lexicographically Largest String From the Box I](https://leetcode.com/problems/find-the-lexicographically-largest-string-from-the-box-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given a string word, and an integer numFriends.
+  
+  Alice is organizing a game for her numFriends friends. There are multiple rounds in the game, where in each round:
+  
+  	word is split into numFriends **non-empty** strings, such that no previous round has had the **exact** same split.
+  	All the split words are put into a box.
+  
+  Find the lexicographically largest string from the box after all the rounds are finished.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  **Input:** word = &quot;dbca&quot;, numFriends = 2
+  
+  **Output:** &quot;dbc&quot;
+  
+  **Explanation:**&nbsp;
+  
+  All possible splits are:
+  
+  	&quot;d&quot; and &quot;bca&quot;.
+  	&quot;db&quot; and &quot;ca&quot;.
+  	&quot;dbc&quot; and &quot;a&quot;.
+  
+  Example 2:
+  
+  **Input:** word = &quot;gggg&quot;, numFriends = 4
+  
+  **Output:** &quot;g&quot;
+  
+  **Explanation:**&nbsp;
+  
+  The only possible split is: &quot;g&quot;, &quot;g&quot;, &quot;g&quot;, and &quot;g&quot;.
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= word.length &lt;= 5&nbsp;* 103
+  	word consists only of lowercase English letters.
+  	1 &lt;= numFriends &lt;= word.length
 ---
 
 ```python

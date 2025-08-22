@@ -1,43 +1,52 @@
 ---
-title: "./1889 Check If Number Is A Sum Of Powers Of Three"
+title: "1889 Check If Number Is A Sum Of Powers Of Three"
 date: "2025-03-04T15:05:55+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three">Check if Number is a Sum of Powers of Three</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer <code>n</code>, return <code>true</code> <em>if it is possible to represent </em><code>n</code><em> as the sum of distinct powers of three.</em> Otherwise, return <code>false</code>.</p>
-
-<p>An integer <code>y</code> is a power of three if there exists an integer <code>x</code> such that <code>y == 3<sup>x</sup></code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 12
-<strong>Output:</strong> true
-<strong>Explanation:</strong> 12 = 3<sup>1</sup> + 3<sup>2</sup>
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 91
-<strong>Output:</strong> true
-<strong>Explanation:</strong> 91 = 3<sup>0</sup> + 3<sup>2</sup> + 3<sup>4</sup>
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> n = 21
-<strong>Output:</strong> false
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n &lt;= 10<sup>7</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given an integer n, return true *if it is possible to represent *n* as the sum of distinct powers of three.* Otherwise, return false.
+  
+  An integer y is a power of three if there exists an integer x such that y == 3x.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** n = 12
+  **Output:** true
+  **Explanation:** 12 = 31 + 32
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** n = 91
+  **Output:** true
+  **Explanation:** 91 = 30 + 32 + 34
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** n = 21
+  **Output:** false
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= n &lt;= 107
 ---
 
 ```python

@@ -1,49 +1,58 @@
 ---
-title: "./1566 Check If A Word Occurs As A Prefix Of Any Word In A Sentence"
+title: "1566 Check If A Word Occurs As A Prefix Of Any Word In A Sentence"
 date: "2024-12-02T08:53:25+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence">Check If a Word Occurs As a Prefix of Any Word in a Sentence</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a <code>sentence</code> that consists of some words separated by a <strong>single space</strong>, and a <code>searchWord</code>, check if <code>searchWord</code> is a prefix of any word in <code>sentence</code>.</p>
-
-<p>Return <em>the index of the word in </em><code>sentence</code><em> (<strong>1-indexed</strong>) where </em><code>searchWord</code><em> is a prefix of this word</em>. If <code>searchWord</code> is a prefix of more than one word, return the index of the first word <strong>(minimum index)</strong>. If there is no such word return <code>-1</code>.</p>
-
-<p>A <strong>prefix</strong> of a string <code>s</code> is any leading contiguous substring of <code>s</code>.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> sentence = &quot;i love eating burger&quot;, searchWord = &quot;burg&quot;
-<strong>Output:</strong> 4
-<strong>Explanation:</strong> &quot;burg&quot; is prefix of &quot;burger&quot; which is the 4th word in the sentence.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> sentence = &quot;this problem is an easy problem&quot;, searchWord = &quot;pro&quot;
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> &quot;pro&quot; is prefix of &quot;problem&quot; which is the 2nd and the 6th word in the sentence, but we return 2 as it&#39;s the minimal index.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> sentence = &quot;i am tired&quot;, searchWord = &quot;you&quot;
-<strong>Output:</strong> -1
-<strong>Explanation:</strong> &quot;you&quot; is not a prefix of any word in the sentence.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= sentence.length &lt;= 100</code></li>
-	<li><code>1 &lt;= searchWord.length &lt;= 10</code></li>
-	<li><code>sentence</code> consists of lowercase English letters and spaces.</li>
-	<li><code>searchWord</code> consists of lowercase English letters.</li>
-</ul>"
+problem_statement: |
+  ## [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given a sentence that consists of some words separated by a **single space**, and a searchWord, check if searchWord is a prefix of any word in sentence.
+  
+  Return *the index of the word in *sentence* (**1-indexed**) where *searchWord* is a prefix of this word*. If searchWord is a prefix of more than one word, return the index of the first word **(minimum index)**. If there is no such word return -1.
+  
+  A **prefix** of a string s is any leading contiguous substring of s.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** sentence = \"i love eating burger\", searchWord = \"burg\"
+  **Output:** 4
+  **Explanation:** \"burg\" is prefix of \"burger\" which is the 4th word in the sentence.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** sentence = \"this problem is an easy problem\", searchWord = \"pro\"
+  **Output:** 2
+  **Explanation:** \"pro\" is prefix of \"problem\" which is the 2nd and the 6th word in the sentence, but we return 2 as it's the minimal index.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** sentence = \"i am tired\", searchWord = \"you\"
+  **Output:** -1
+  **Explanation:** \"you\" is not a prefix of any word in the sentence.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= sentence.length &lt;= 100
+  	1 &lt;= searchWord.length &lt;= 10
+  	sentence consists of lowercase English letters and spaces.
+  	searchWord consists of lowercase English letters.
 ---
 
 ```python

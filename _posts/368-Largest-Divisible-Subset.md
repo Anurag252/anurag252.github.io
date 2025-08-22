@@ -1,42 +1,47 @@
 ---
-title: "./368 Largest Divisible Subset"
+title: "368 Largest Divisible Subset"
 date: "2025-04-06T07:01:53+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/largest-divisible-subset">Largest Divisible Subset</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a set of <strong>distinct</strong> positive integers <code>nums</code>, return the largest subset <code>answer</code> such that every pair <code>(answer[i], answer[j])</code> of elements in this subset satisfies:</p>
-
-<ul>
-	<li><code>answer[i] % answer[j] == 0</code>, or</li>
-	<li><code>answer[j] % answer[i] == 0</code></li>
-</ul>
-
-<p>If there are multiple solutions, return any of them.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,2,3]
-<strong>Output:</strong> [1,2]
-<strong>Explanation:</strong> [1,3] is also accepted.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,2,4,8]
-<strong>Output:</strong> [1,2,4,8]
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 1000</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 2 * 10<sup>9</sup></code></li>
-	<li>All the integers in <code>nums</code> are <strong>unique</strong>.</li>
-</ul>"
+problem_statement: |
+  ## [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given a set of **distinct** positive integers nums, return the largest subset answer such that every pair (answer[i], answer[j]) of elements in this subset satisfies:
+  
+  	answer[i] % answer[j] == 0, or
+  	answer[j] % answer[i] == 0
+  
+  If there are multiple solutions, return any of them.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [1,2,3]
+  **Output:** [1,2]
+  **Explanation:** [1,3] is also accepted.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [1,2,4,8]
+  **Output:** [1,2,4,8]
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 1000
+  	1 &lt;= nums[i] &lt;= 2 * 109
+  	All the integers in nums are **unique**.
 ---
 
 ```python

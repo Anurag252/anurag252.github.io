@@ -1,61 +1,70 @@
 ---
-title: "./2387 Partition Array Such That Maximum Difference Is K"
+title: "2387 Partition Array Such That Maximum Difference Is K"
 date: "2025-06-19T07:24:12+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k">Partition Array Such That Maximum Difference Is K</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an integer array <code>nums</code> and an integer <code>k</code>. You may partition <code>nums</code> into one or more <strong>subsequences</strong> such that each element in <code>nums</code> appears in <strong>exactly</strong> one of the subsequences.</p>
-
-<p>Return <em>the <strong>minimum </strong>number of subsequences needed such that the difference between the maximum and minimum values in each subsequence is <strong>at most</strong> </em><code>k</code><em>.</em></p>
-
-<p>A <strong>subsequence</strong> is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [3,6,1,2,5], k = 2
-<strong>Output:</strong> 2
-<strong>Explanation:</strong>
-We can partition nums into the two subsequences [3,1,2] and [6,5].
-The difference between the maximum and minimum value in the first subsequence is 3 - 1 = 2.
-The difference between the maximum and minimum value in the second subsequence is 6 - 5 = 1.
-Since two subsequences were created, we return 2. It can be shown that 2 is the minimum number of subsequences needed.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [1,2,3], k = 1
-<strong>Output:</strong> 2
-<strong>Explanation:</strong>
-We can partition nums into the two subsequences [1,2] and [3].
-The difference between the maximum and minimum value in the first subsequence is 2 - 1 = 1.
-The difference between the maximum and minimum value in the second subsequence is 3 - 3 = 0.
-Since two subsequences were created, we return 2. Note that another optimal solution is to partition nums into the two subsequences [1] and [2,3].
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> nums = [2,2,4,5], k = 0
-<strong>Output:</strong> 3
-<strong>Explanation:</strong>
-We can partition nums into the three subsequences [2,2], [4], and [5].
-The difference between the maximum and minimum value in the first subsequences is 2 - 2 = 0.
-The difference between the maximum and minimum value in the second subsequences is 4 - 4 = 0.
-The difference between the maximum and minimum value in the third subsequences is 5 - 5 = 0.
-Since three subsequences were created, we return 3. It can be shown that 3 is the minimum number of subsequences needed.
-</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= k &lt;= 10<sup>5</sup></code></li>
-</ul>"
+problem_statement: |
+  ## [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  You are given an integer array nums and an integer k. You may partition nums into one or more **subsequences** such that each element in nums appears in **exactly** one of the subsequences.
+  
+  Return *the **minimum **number of subsequences needed such that the difference between the maximum and minimum values in each subsequence is **at most** *k*.*
+  
+  A **subsequence** is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [3,6,1,2,5], k = 2
+  **Output:** 2
+  **Explanation:**
+  We can partition nums into the two subsequences [3,1,2] and [6,5].
+  The difference between the maximum and minimum value in the first subsequence is 3 - 1 = 2.
+  The difference between the maximum and minimum value in the second subsequence is 6 - 5 = 1.
+  Since two subsequences were created, we return 2. It can be shown that 2 is the minimum number of subsequences needed.
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [1,2,3], k = 1
+  **Output:** 2
+  **Explanation:**
+  We can partition nums into the two subsequences [1,2] and [3].
+  The difference between the maximum and minimum value in the first subsequence is 2 - 1 = 1.
+  The difference between the maximum and minimum value in the second subsequence is 3 - 3 = 0.
+  Since two subsequences were created, we return 2. Note that another optimal solution is to partition nums into the two subsequences [1] and [2,3].
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [2,2,4,5], k = 0
+  **Output:** 3
+  **Explanation:**
+  We can partition nums into the three subsequences [2,2], [4], and [5].
+  The difference between the maximum and minimum value in the first subsequences is 2 - 2 = 0.
+  The difference between the maximum and minimum value in the second subsequences is 4 - 4 = 0.
+  The difference between the maximum and minimum value in the third subsequences is 5 - 5 = 0.
+  Since three subsequences were created, we return 3. It can be shown that 3 is the minimum number of subsequences needed.
+  
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= nums.length &lt;= 105
+  	0 &lt;= nums[i] &lt;= 105
+  	0 &lt;= k &lt;= 105
 ---
 
 ```python

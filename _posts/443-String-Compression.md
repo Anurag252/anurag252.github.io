@@ -1,55 +1,62 @@
 ---
-title: "./443 String Compression"
+title: "443 String Compression"
 date: "2024-05-13T23:34:20+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: "<h2><a href="https://leetcode.com/problems/string-compression">String Compression</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of characters <code>chars</code>, compress it using the following algorithm:</p>
-
-<p>Begin with an empty string <code>s</code>. For each group of <strong>consecutive repeating characters</strong> in <code>chars</code>:</p>
-
-<ul>
-	<li>If the group&#39;s length is <code>1</code>, append the character to <code>s</code>.</li>
-	<li>Otherwise, append the character followed by the group&#39;s length.</li>
-</ul>
-
-<p>The compressed string <code>s</code> <strong>should not be returned separately</strong>, but instead, be stored <strong>in the input character array <code>chars</code></strong>. Note that group lengths that are <code>10</code> or longer will be split into multiple characters in <code>chars</code>.</p>
-
-<p>After you are done <strong>modifying the input array,</strong> return <em>the new length of the array</em>.</p>
-
-<p>You must write an algorithm that uses only constant extra space.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-
-<pre>
-<strong>Input:</strong> chars = [&quot;a&quot;,&quot;a&quot;,&quot;b&quot;,&quot;b&quot;,&quot;c&quot;,&quot;c&quot;,&quot;c&quot;]
-<strong>Output:</strong> Return 6, and the first 6 characters of the input array should be: [&quot;a&quot;,&quot;2&quot;,&quot;b&quot;,&quot;2&quot;,&quot;c&quot;,&quot;3&quot;]
-<strong>Explanation:</strong> The groups are &quot;aa&quot;, &quot;bb&quot;, and &quot;ccc&quot;. This compresses to &quot;a2b2c3&quot;.
-</pre>
-
-<p><strong class="example">Example 2:</strong></p>
-
-<pre>
-<strong>Input:</strong> chars = [&quot;a&quot;]
-<strong>Output:</strong> Return 1, and the first character of the input array should be: [&quot;a&quot;]
-<strong>Explanation:</strong> The only group is &quot;a&quot;, which remains uncompressed since it&#39;s a single character.
-</pre>
-
-<p><strong class="example">Example 3:</strong></p>
-
-<pre>
-<strong>Input:</strong> chars = [&quot;a&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;,&quot;b&quot;]
-<strong>Output:</strong> Return 4, and the first 4 characters of the input array should be: [&quot;a&quot;,&quot;b&quot;,&quot;1&quot;,&quot;2&quot;].
-<strong>Explanation:</strong> The groups are &quot;a&quot; and &quot;bbbbbbbbbbbb&quot;. This compresses to &quot;ab12&quot;.</pre>
-
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= chars.length &lt;= 2000</code></li>
-	<li><code>chars[i]</code> is a lowercase English letter, uppercase English letter, digit, or symbol.</li>
-</ul>"
+problem_statement: |
+  ## [String Compression](https://leetcode.com/problems/string-compression) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+  
+  Given an array of characters chars, compress it using the following algorithm:
+  
+  Begin with an empty string s. For each group of **consecutive repeating characters** in chars:
+  
+  	If the group&#39;s length is 1, append the character to s.
+  	Otherwise, append the character followed by the group&#39;s length.
+  
+  The compressed string s **should not be returned separately**, but instead, be stored **in the input character array chars**. Note that group lengths that are 10 or longer will be split into multiple characters in chars.
+  
+  After you are done **modifying the input array,** return *the new length of the array*.
+  
+  You must write an algorithm that uses only constant extra space.
+  
+  &nbsp;
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** chars = [\"a\",\"a\",\"b\",\"b\",\"c\",\"c\",\"c\"]
+  **Output:** Return 6, and the first 6 characters of the input array should be: [\"a\",\"2\",\"b\",\"2\",\"c\",\"3\"]
+  **Explanation:** The groups are \"aa\", \"bb\", and \"ccc\". This compresses to \"a2b2c3\".
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** chars = [\"a\"]
+  **Output:** Return 1, and the first character of the input array should be: [\"a\"]
+  **Explanation:** The only group is \"a\", which remains uncompressed since it's a single character.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** chars = [\"a\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\",\"b\"]
+  **Output:** Return 4, and the first 4 characters of the input array should be: [\"a\",\"b\",\"1\",\"2\"].
+  **Explanation:** The groups are \"a\" and \"bbbbbbbbbbbb\". This compresses to \"ab12\".
+  ```
+  
+  &nbsp;
+  
+  **Constraints:**
+  
+  	1 &lt;= chars.length &lt;= 2000
+  	chars[i] is a lowercase English letter, uppercase English letter, digit, or symbol.
 ---
 
 ```python
