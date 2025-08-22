@@ -37,7 +37,7 @@ Example 2:
 **Output:** 3
 **Explanation:** The second column becomes fully painted at arr[3].
 
-
+```
 
 
 
