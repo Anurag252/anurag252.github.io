@@ -1,0 +1,79 @@
+---
+title: "1878 Check If Array Is Sorted And Rotated"
+date: "2025-02-02T10:38:58+01:00"
+categories: ["leetcode"]
+tags: [python]
+layout: post
+problem_statement: |
+  ## [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+  
+  Given an array nums, return true* if the array was originally sorted in non-decreasing order, then rotated **some** number of positions (including zero)*. Otherwise, return false.
+  
+  There may be **duplicates** in the original array.
+  
+  **Note:** An array A rotated by x positions results in an array B of the same length such that A[i] == B[(i+x) % A.length], where % is the modulo operation.
+  
+   
+  
+  Example 1:
+  
+  ```
+  
+  **Input:** nums = [3,4,5,1,2]
+  **Output:** true
+  **Explanation:** [1,2,3,4,5] is the original sorted array.
+  You can rotate the array by x = 3 positions to begin on the the element of value 3: [3,4,5,1,2].
+  
+  ```
+  
+  Example 2:
+  
+  ```
+  
+  **Input:** nums = [2,1,3,4]
+  **Output:** false
+  **Explanation:** There is no sorted array once rotated that can make nums.
+  
+  ```
+  
+  Example 3:
+  
+  ```
+  
+  **Input:** nums = [1,2,3]
+  **Output:** true
+  **Explanation:** [1,2,3] is the original sorted array.
+  You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
+  
+  ```
+  
+   
+  
+  **Constraints:**
+  
+  	1 <= nums.length <= 100
+  	1 <= nums[i] <= 100
+---
+
+```python
+class Solution:
+    def check(self, nums: List[int]) -> bool:
+        inflextion = False
+        for idx, k in enumerate(nums):
+            if idx == 0:
+                continue
+            if k < nums[idx-1] and  inflextion:
+                return False
+            if k >= nums[idx-1] and not inflextion:
+                continue
+            else :
+                inflextion = True
+
+        if inflextion and nums[-1] > nums[0]:
+            return False
+        return True
+
+
+
+        
+```
