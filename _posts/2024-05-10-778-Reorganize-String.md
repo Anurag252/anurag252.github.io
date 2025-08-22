@@ -4,38 +4,38 @@ date: "2024-05-10T20:43:10+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: |
-  ## [Reorganize String](https://leetcode.com/problems/reorganize-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
-  
-  Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
-  
-  Return *any possible rearrangement of* s *or return* \"\" *if not possible*.
-  
-   
-  
-  Example 1:
-  
-  ```
-  **Input:** s = \"aab\"
-  **Output:** \"aba\"
-  
-  ```
-  
-  Example 2:
-  
-  ```
-  **Input:** s = \"aaab\"
-  **Output:** \"\"
-  
-  ```
-  
-   
-  
-  **Constraints:**
-  
-  	1 <= s.length <= 500
-  	s consists of lowercase English letters.
 ---
+
+## [Reorganize String](https://leetcode.com/problems/reorganize-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
+
+Return *any possible rearrangement of* s *or return* "" *if not possible*.
+
+ 
+
+Example 1:
+
+```
+**Input:** s = "aab"
+**Output:** "aba"
+
+```
+
+Example 2:
+
+```
+**Input:** s = "aaab"
+**Output:** ""
+
+```
+
+ 
+
+**Constraints:**
+
+	1 <= s.length <= 500
+	s consists of lowercase English letters.
 
 ```python
 class Solution:

@@ -4,9 +4,9 @@ date: "2024-08-16T07:29:23+02:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: |
-  ## [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)null
 ---
+
+## [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)null
 
 ```python
 class Solution:

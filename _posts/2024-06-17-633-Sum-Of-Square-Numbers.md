@@ -4,38 +4,38 @@ date: "2024-06-17T14:46:55+02:00"
 categories: ["leetcode"]
 tags: [c]
 layout: post
-problem_statement: |
-  ## [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
-  
-  Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
-  
-   
-  
-  Example 1:
-  
-  ```
-  
-  **Input:** c = 5
-  **Output:** true
-  **Explanation:** 1 * 1 + 2 * 2 = 5
-  
-  ```
-  
-  Example 2:
-  
-  ```
-  
-  **Input:** c = 3
-  **Output:** false
-  
-  ```
-  
-   
-  
-  **Constraints:**
-  
-  	0 <= c <= 231 - 1
 ---
+
+## [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
+
+ 
+
+Example 1:
+
+```
+
+**Input:** c = 5
+**Output:** true
+**Explanation:** 1 * 1 + 2 * 2 = 5
+
+```
+
+Example 2:
+
+```
+
+**Input:** c = 3
+**Output:** false
+
+```
+
+ 
+
+**Constraints:**
+
+	0 <= c <= 231 - 1
 
 ```c
 bool judgeSquareSum(int c) {

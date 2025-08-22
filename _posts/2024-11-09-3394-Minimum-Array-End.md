@@ -4,41 +4,41 @@ date: "2024-11-09T09:04:30+01:00"
 categories: ["leetcode"]
 tags: [python]
 layout: post
-problem_statement: |
-  ## [Minimum Array End](https://leetcode.com/problems/minimum-array-end) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
-  
-  You are given two integers n and x. You have to construct an array of **positive** integers nums of size n where for every 0 <= i < n - 1, nums[i + 1] is **greater than** nums[i], and the result of the bitwise AND operation between all elements of nums is x.
-  
-  Return the **minimum** possible value of nums[n - 1].
-  
-   
-  
-  Example 1:
-  
-  **Input:** n = 3, x = 4
-  
-  **Output:** 6
-  
-  **Explanation:**
-  
-  nums can be [4,5,6] and its last element is 6.
-  
-  Example 2:
-  
-  **Input:** n = 2, x = 7
-  
-  **Output:** 15
-  
-  **Explanation:**
-  
-  nums can be [7,15] and its last element is 15.
-  
-   
-  
-  **Constraints:**
-  
-  	1 <= n, x <= 108
 ---
+
+## [Minimum Array End](https://leetcode.com/problems/minimum-array-end) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+You are given two integers n and x. You have to construct an array of **positive** integers nums of size n where for every 0 <= i < n - 1, nums[i + 1] is **greater than** nums[i], and the result of the bitwise AND operation between all elements of nums is x.
+
+Return the **minimum** possible value of nums[n - 1].
+
+ 
+
+Example 1:
+
+**Input:** n = 3, x = 4
+
+**Output:** 6
+
+**Explanation:**
+
+nums can be [4,5,6] and its last element is 6.
+
+Example 2:
+
+**Input:** n = 2, x = 7
+
+**Output:** 15
+
+**Explanation:**
+
+nums can be [7,15] and its last element is 15.
+
+ 
+
+**Constraints:**
+
+	1 <= n, x <= 108
 
 ```python
 class Solution:
