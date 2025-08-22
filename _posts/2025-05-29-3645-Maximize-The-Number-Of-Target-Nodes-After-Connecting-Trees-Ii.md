@@ -65,7 +65,7 @@ For every i, connect node i of the first tree with any node of the second tree.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -103,3 +103,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -64,7 +64,7 @@ Student number 1 does not have enough chalk, so they will have to replace it.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -99,3 +99,4 @@ class Solution:
 
 
 {% endraw %}
+```

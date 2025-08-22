@@ -68,7 +68,7 @@ Hence, the answer to the query is 0.
 {% raw %}
 
 
-````python
+```python
 
 
 from typing import List
@@ -106,3 +106,4 @@ class Solution:
 
 
 {% endraw %}
+```

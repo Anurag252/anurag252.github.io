@@ -57,7 +57,7 @@ Example 3:
 {% raw %}
 
 
-````rust
+```rust
 
 
 impl Solution {
@@ -78,3 +78,4 @@ impl Solution {
 
 
 {% endraw %}
+```

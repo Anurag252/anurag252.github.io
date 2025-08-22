@@ -62,7 +62,7 @@ There is no way to divide the players into teams such that the total skill of ea
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -105,3 +105,4 @@ class Solution:
 
 
 {% endraw %}
+```

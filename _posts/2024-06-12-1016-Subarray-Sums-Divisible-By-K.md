@@ -45,7 +45,7 @@ Example 2:
 {% raw %}
 
 
-````c
+```c
 
 
 int subarraysDivByK(int* nums, int numsSize, int k) {
@@ -88,3 +88,4 @@ int subarraysDivByK(int* nums, int numsSize, int k) {
 
 
 {% endraw %}
+```

@@ -67,7 +67,7 @@ We return 0 - 15 = -15 as the answer.
 {% raw %}
 
 
-````rust
+```rust
 
 
 impl Solution {
@@ -86,3 +86,4 @@ impl Solution {
 
 
 {% endraw %}
+```

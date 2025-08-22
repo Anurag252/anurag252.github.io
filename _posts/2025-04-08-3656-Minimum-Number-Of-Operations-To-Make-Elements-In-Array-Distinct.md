@@ -62,7 +62,7 @@ The array already contains distinct elements. Therefore, the answer is 0.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -93,3 +93,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -68,7 +68,7 @@ In total they collect 1 + 1 + 1 + 1 = 4 fruits.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -102,3 +102,4 @@ class Solution:
 
 
 {% endraw %}
+```

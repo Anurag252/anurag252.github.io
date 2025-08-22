@@ -49,7 +49,7 @@ Example 2:
 {% raw %}
 
 
-````go
+```go
 
 
 func tupleSameProduct(nums []int) int {
@@ -89,3 +89,4 @@ func tupleSameProduct(nums []int) int {
 
 
 {% endraw %}
+```

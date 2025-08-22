@@ -62,7 +62,7 @@ Example 2:
 {% raw %}
 
 
-````go
+```go
 
 
 func queryResults(limit int, queries [][]int) []int {
@@ -104,3 +104,4 @@ func queryResults(limit int, queries [][]int) []int {
 
 
 {% endraw %}
+```

@@ -52,7 +52,7 @@ Example 4:
 {% raw %}
 
 
-````javascript
+```javascript
 
 
 /**
@@ -83,3 +83,4 @@ let isValid = (testString) => {
 
 
 {% endraw %}
+```

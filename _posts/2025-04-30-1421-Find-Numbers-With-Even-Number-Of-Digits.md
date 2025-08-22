@@ -49,7 +49,7 @@ Only 1771 contains an even number of digits.
 {% raw %}
 
 
-````rust
+```rust
 
 
 impl Solution {
@@ -69,3 +69,4 @@ impl Solution {
 
 
 {% endraw %}
+```

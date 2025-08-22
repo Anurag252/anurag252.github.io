@@ -63,7 +63,7 @@ Example 3:
 {% raw %}
 
 
-````c
+```c
 
 
 
@@ -217,3 +217,4 @@ Stack CreateStack(void)
 
 
 {% endraw %}
+```

@@ -54,7 +54,7 @@ nums[1] and nums[2] are both odd. So the answer is false.
 {% raw %}
 
 
-````go
+```go
 
 
 func isArraySpecial(nums []int) bool {
@@ -85,3 +85,4 @@ func isArraySpecial(nums []int) bool {
 
 
 {% endraw %}
+```

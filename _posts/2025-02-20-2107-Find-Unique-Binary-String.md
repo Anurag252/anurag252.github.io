@@ -55,7 +55,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 func findDifferentBinaryString(nums []string) string {
@@ -103,3 +103,4 @@ func calc(arr []string, n int, prev []string, mp map[string]bool) string {
 
 
 {% endraw %}
+```

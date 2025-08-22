@@ -65,7 +65,7 @@ All indices match.
 {% raw %}
 
 
-````c
+```c
 
 
 
@@ -101,3 +101,4 @@ int comp (const void * elem1, const void * elem2)
 
 
 {% endraw %}
+```

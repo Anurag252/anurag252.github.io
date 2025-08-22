@@ -59,7 +59,7 @@ So the average waiting time = (2 + 6 + 4 + 1) / 4 = 3.25.
 {% raw %}
 
 
-````c
+```c
 
 
 double averageWaitingTime(int** customers, int customersSize, int* customersColSize) {
@@ -87,3 +87,4 @@ double averageWaitingTime(int** customers, int customersSize, int* customersColS
 
 
 {% endraw %}
+```

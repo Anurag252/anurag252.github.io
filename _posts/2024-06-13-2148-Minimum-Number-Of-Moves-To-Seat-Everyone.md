@@ -76,7 +76,7 @@ In total, 1 + 3 + 0 + 0 = 4 moves were used.
 {% raw %}
 
 
-````c
+```c
 
 
 int cmpfunc (const void * a, const void * b) {
@@ -100,3 +100,4 @@ int minMovesToSeat(int* seats, int seatsSize, int* students, int studentsSize) {
 
 
 {% endraw %}
+```

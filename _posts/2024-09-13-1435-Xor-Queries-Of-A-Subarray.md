@@ -57,7 +57,7 @@ Example 2:
 {% raw %}
 
 
-````c
+```c
 
 
 /**
@@ -83,3 +83,4 @@ int* xorQueries(int* arr, int arrSize, int** queries, int queriesSize, int* quer
 
 
 {% endraw %}
+```

@@ -67,7 +67,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 import "slices"
@@ -150,3 +150,4 @@ func lexicographicallySmallestArray(nums []int, limit int) []int {
 
 
 {% endraw %}
+```

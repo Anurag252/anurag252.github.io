@@ -53,7 +53,7 @@ As all the sides are of different lengths, it will form a scalene triangle.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -73,3 +73,4 @@ class Solution:
 
 
 {% endraw %}
+```

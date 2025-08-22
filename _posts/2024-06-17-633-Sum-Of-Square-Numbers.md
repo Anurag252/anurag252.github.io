@@ -40,7 +40,7 @@ Example 2:
 {% raw %}
 
 
-````c
+```c
 
 
 bool judgeSquareSum(int c) {
@@ -60,3 +60,4 @@ bool judgeSquareSum(int c) {
 
 
 {% endraw %}
+```

@@ -44,7 +44,7 @@ Example 2:
 {% raw %}
 
 
-````c
+```c
 
 
 /**
@@ -125,3 +125,4 @@ int compar (const void* p1, const void* p2) {
 
 
 {% endraw %}
+```

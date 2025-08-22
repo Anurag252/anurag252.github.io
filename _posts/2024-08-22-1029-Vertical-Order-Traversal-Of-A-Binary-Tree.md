@@ -73,7 +73,7 @@ Note that the solution remains the same since 5 and 6 are in the same location a
 {% raw %}
 
 
-````python
+```python
 
 
 # Definition for a binary tree node.
@@ -132,3 +132,4 @@ class Solution:
 
 
 {% endraw %}
+```

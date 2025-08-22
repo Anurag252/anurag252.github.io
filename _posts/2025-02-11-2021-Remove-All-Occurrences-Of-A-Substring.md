@@ -58,7 +58,7 @@ Now s has no occurrences of "xy".
 {% raw %}
 
 
-````go
+```go
 
 
 import (
@@ -112,3 +112,4 @@ func removeOccurrences(s string, part string) string {
 
 
 {% endraw %}
+```

@@ -60,7 +60,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 /**
@@ -117,3 +117,4 @@ func check(head *ListNode, root *TreeNode) bool {
 
 
 {% endraw %}
+```

@@ -61,7 +61,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 //import "sort"
@@ -96,3 +96,4 @@ func calc(str []string, n int) []string {
 
 
 {% endraw %}
+```

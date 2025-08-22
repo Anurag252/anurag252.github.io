@@ -66,7 +66,7 @@ Could you solve this problem in linear time with constant space?
 {% raw %}
 
 
-````c
+```c
 
 
 int findTheWinner(int n, int k) {
@@ -84,3 +84,4 @@ int findTheWinner(int n, int k) {
 
 
 {% endraw %}
+```

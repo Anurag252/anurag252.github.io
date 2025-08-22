@@ -64,7 +64,7 @@ Hence, we return 3.
 {% raw %}
 
 
-````go
+```go
 
 
 func longestMonotonicSubarray(nums []int) int {
@@ -102,3 +102,4 @@ func longestMonotonicSubarray(nums []int) int {
 
 
 {% endraw %}
+```

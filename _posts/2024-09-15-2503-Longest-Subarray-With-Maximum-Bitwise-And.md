@@ -56,7 +56,7 @@ The longest subarray with that value is [4], so we return 1.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -77,3 +77,4 @@ class Solution:
 
 
 {% endraw %}
+```

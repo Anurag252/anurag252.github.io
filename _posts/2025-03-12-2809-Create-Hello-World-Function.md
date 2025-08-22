@@ -47,7 +47,7 @@ Any arguments could be passed to the function but it should still always return 
 {% raw %}
 
 
-````javascript
+```javascript
 
 
 /**
@@ -67,3 +67,4 @@ var createHelloWorld = function() {
 
 
 {% endraw %}
+```

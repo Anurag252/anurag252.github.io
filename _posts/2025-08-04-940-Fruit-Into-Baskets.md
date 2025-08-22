@@ -62,7 +62,7 @@ If we had started at the first tree, we would only pick from trees [1,2].
 {% raw %}
 
 
-````python
+```python
 
 
 from collections import defaultdict
@@ -88,3 +88,4 @@ class Solution:
 
 
 {% endraw %}
+```

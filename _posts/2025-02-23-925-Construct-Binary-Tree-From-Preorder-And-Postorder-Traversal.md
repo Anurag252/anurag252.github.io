@@ -48,7 +48,7 @@ Example 2:
 {% raw %}
 
 
-````go
+```go
 
 
 /**
@@ -106,3 +106,4 @@ func recurse(root **TreeNode, preorder []int, postorder []int) {
 
 
 {% endraw %}
+```

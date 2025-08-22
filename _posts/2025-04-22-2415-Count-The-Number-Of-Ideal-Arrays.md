@@ -62,7 +62,7 @@ There are a total of 9 + 1 + 1 = 11 distinct ideal arrays.
 {% raw %}
 
 
-````python
+```python
 
 
 MOD = 10**9 + 7
@@ -109,3 +109,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -63,7 +63,7 @@ For ans[i] == -1, It can be shown that there is no building where Alice and Bob 
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -107,3 +107,4 @@ class Solution:
 
 
 {% endraw %}
+```

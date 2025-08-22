@@ -53,7 +53,7 @@ In this case, it is not possible to rotate the dominoes to make one row of value
 {% raw %}
 
 
-````rust
+```rust
 
 
 use std::collections::HashMap;
@@ -111,3 +111,4 @@ impl Solution {
 
 
 {% endraw %}
+```

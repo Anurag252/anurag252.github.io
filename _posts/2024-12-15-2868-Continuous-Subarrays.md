@@ -60,7 +60,7 @@ Total continuous subarrays = 3 + 2 + 1 = 6.
 {% raw %}
 
 
-````python
+```python
 
 
 
@@ -106,3 +106,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -55,7 +55,7 @@ Hence, the punishment number of 37 is 1 + 81 + 100 + 1296 = 1478
 {% raw %}
 
 
-````go
+```go
 
 
 func punishmentNumber(n int) int {
@@ -108,3 +108,4 @@ func recurse(n int, init int, sum int) bool {
 
 
 {% endraw %}
+```

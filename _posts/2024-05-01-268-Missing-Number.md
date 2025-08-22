@@ -58,7 +58,7 @@ Example 3:
 {% raw %}
 
 
-````c
+```c
 
 
 int missingNumber(int* nums, int numsSize) {
@@ -74,3 +74,4 @@ int missingNumber(int* nums, int numsSize) {
 
 
 {% endraw %}
+```

@@ -69,7 +69,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 func getLucky(s string, k int) int {
@@ -98,3 +98,4 @@ func getLucky(s string, k int) int {
 
 
 {% endraw %}
+```

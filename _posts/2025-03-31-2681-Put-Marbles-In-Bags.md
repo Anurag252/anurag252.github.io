@@ -56,7 +56,7 @@ Since both the maximal and minimal score are the same, we return 0.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -77,3 +77,4 @@ class Solution:
 
 
 {% endraw %}
+```

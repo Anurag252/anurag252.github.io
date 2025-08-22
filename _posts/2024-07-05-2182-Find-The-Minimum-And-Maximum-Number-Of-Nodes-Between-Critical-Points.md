@@ -73,7 +73,7 @@ Note that the last node is not considered a local maxima because it does not hav
 {% raw %}
 
 
-````c
+```c
 
 
 /**
@@ -131,3 +131,4 @@ int* nodesBetweenCriticalPoints(struct ListNode* head, int* returnSize) {
 
 
 {% endraw %}
+```

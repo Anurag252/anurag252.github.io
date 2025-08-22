@@ -50,7 +50,7 @@ Example 2:
 {% raw %}
 
 
-````go
+```go
 
 
 package main
@@ -106,3 +106,4 @@ func recurse(arr []int, used []bool, n, index int, result *[]int) bool {
 
 
 {% endraw %}
+```

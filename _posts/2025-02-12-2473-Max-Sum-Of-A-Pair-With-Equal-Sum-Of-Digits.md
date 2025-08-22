@@ -47,7 +47,7 @@ Example 2:
 {% raw %}
 
 
-````go
+```go
 
 
 
@@ -96,3 +96,4 @@ func maximumSum(nums []int) int {
 
 
 {% endraw %}
+```

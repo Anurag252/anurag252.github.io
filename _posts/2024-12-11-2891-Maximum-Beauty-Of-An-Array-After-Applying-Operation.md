@@ -60,7 +60,7 @@ The beauty of the array nums is 4 (whole array).
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -93,3 +93,4 @@ class Solution:
 
 
 {% endraw %}
+```

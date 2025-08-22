@@ -63,7 +63,7 @@ It can be shown that no other valid split has more than 3 connected components.
 {% raw %}
 
 
-````python
+```python
 
 
 class Tree:
@@ -131,3 +131,4 @@ class Solution:
 
 
 {% endraw %}
+```

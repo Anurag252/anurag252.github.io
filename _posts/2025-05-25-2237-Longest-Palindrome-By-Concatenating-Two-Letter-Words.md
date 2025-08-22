@@ -62,7 +62,7 @@ Note that "ll" is another longest palindrome that can be created, and so is "xx"
 {% raw %}
 
 
-````python
+```python
 
 
 from collections import Counter
@@ -92,3 +92,4 @@ class Solution:
 
 
 {% endraw %}
+```

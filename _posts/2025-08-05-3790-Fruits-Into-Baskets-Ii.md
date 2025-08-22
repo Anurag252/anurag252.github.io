@@ -59,7 +59,7 @@ Since all fruits are successfully placed, we return 0.
 {% raw %}
 
 
-````rust
+```rust
 
 
 impl Solution {
@@ -93,3 +93,4 @@ impl Solution {
 
 
 {% endraw %}
+```

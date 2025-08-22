@@ -53,7 +53,7 @@ We cannot perform any operations, so we return the length of the original string
 {% raw %}
 
 
-````go
+```go
 
 
 func minimumLength(s string) int {
@@ -89,3 +89,4 @@ func minimumLength(s string) int {
 
 
 {% endraw %}
+```

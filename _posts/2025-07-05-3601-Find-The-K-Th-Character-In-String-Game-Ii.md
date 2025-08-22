@@ -64,7 +64,7 @@ Initially, word == "a". Alice performs the four operations as follows:
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -81,3 +81,4 @@ class Solution:
 
 
 {% endraw %}
+```

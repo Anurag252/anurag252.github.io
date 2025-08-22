@@ -66,7 +66,7 @@ There is no way to make them compete in any other round.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -115,3 +115,4 @@ class Solution:
 
 
 {% endraw %}
+```

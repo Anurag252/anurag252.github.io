@@ -60,7 +60,7 @@ Total number of squares = 6 + 1 = **7**.
 {% raw %}
 
 
-````python
+```python
 
 
 from typing import List
@@ -92,3 +92,4 @@ class Solution:
 
 
 {% endraw %}
+```

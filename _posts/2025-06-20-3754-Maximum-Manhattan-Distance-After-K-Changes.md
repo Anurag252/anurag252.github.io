@@ -83,7 +83,7 @@ The maximum Manhattan distance from the origin that can be achieved is 6. Hence,
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -117,3 +117,4 @@ class Solution:
 
 
 {% endraw %}
+```

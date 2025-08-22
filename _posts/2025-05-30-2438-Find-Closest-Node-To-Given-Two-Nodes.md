@@ -57,7 +57,7 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 {% raw %}
 
 
-````python
+```python
 
 
 from typing import List
@@ -94,3 +94,4 @@ class Solution:
 
 
 {% endraw %}
+```

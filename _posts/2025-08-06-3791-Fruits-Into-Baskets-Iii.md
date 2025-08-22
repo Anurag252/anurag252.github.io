@@ -59,7 +59,7 @@ Since all fruits are successfully placed, we return 0.
 {% raw %}
 
 
-````rust
+```rust
 
 
 use std::cmp::max;
@@ -108,3 +108,4 @@ impl Solution {
 
 
 {% endraw %}
+```

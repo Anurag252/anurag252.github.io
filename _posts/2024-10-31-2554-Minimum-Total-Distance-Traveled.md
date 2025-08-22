@@ -74,7 +74,7 @@ The total distance is |2 - 1| + |(-2) - (-1)| = 2. It can be shown that we canno
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -114,3 +114,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -50,7 +50,7 @@ Thus, one possible nums3 array is [2,5,1,6].
 {% raw %}
 
 
-````go
+```go
 
 
 func xorAllNums(nums1 []int, nums2 []int) int {
@@ -88,3 +88,4 @@ func xorAllNums(nums1 []int, nums2 []int) int {
 
 
 {% endraw %}
+```

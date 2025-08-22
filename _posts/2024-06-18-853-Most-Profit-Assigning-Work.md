@@ -53,7 +53,7 @@ Example 2:
 {% raw %}
 
 
-````c
+```c
 
 
 
@@ -124,3 +124,4 @@ int maxProfitAssignment(int* difficulty, int difficultySize, int* profit, int pr
 
 
 {% endraw %}
+```

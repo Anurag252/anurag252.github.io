@@ -43,7 +43,7 @@ Example 2:
 {% raw %}
 
 
-````c
+```c
 
 
 /**
@@ -80,3 +80,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
 
 
 {% endraw %}
+```

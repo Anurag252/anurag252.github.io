@@ -62,7 +62,7 @@ No node has value 5.
 {% raw %}
 
 
-````go
+```go
 
 
 /**
@@ -125,3 +125,4 @@ func binSearch(arr []int, val int) bool {
 
 
 {% endraw %}
+```

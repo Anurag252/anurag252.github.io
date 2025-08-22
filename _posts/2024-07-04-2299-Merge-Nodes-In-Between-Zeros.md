@@ -57,7 +57,7 @@ The above figure represents the given linked list. The modified list contains
 {% raw %}
 
 
-````c
+```c
 
 
 /**
@@ -136,3 +136,4 @@ struct ListNode* mergeNodes(struct ListNode* head) {
 
 
 {% endraw %}
+```

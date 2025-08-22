@@ -72,7 +72,7 @@ Example 3:
 {% raw %}
 
 
-````python
+```python
 
 
 # Definition for a binary tree node.
@@ -140,3 +140,4 @@ class Solution:
 
 
 {% endraw %}
+```

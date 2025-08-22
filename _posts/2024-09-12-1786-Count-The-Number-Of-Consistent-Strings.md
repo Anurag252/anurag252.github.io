@@ -57,7 +57,7 @@ Example 3:
 {% raw %}
 
 
-````c
+```c
 
 
 
@@ -95,3 +95,4 @@ int countConsistentStrings(char * allowed, char ** words, int wordsSize){
 
 
 {% endraw %}
+```

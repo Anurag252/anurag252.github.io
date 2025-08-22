@@ -62,7 +62,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 
@@ -146,3 +146,4 @@ func countServers(grid [][]int) int {
 
 
 {% endraw %}
+```

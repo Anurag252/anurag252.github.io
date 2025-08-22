@@ -57,7 +57,7 @@ Example 2:
 {% raw %}
 
 
-````python
+```python
 
 
 from queue import PriorityQueue
@@ -118,3 +118,4 @@ class Solution:
 
 
 {% endraw %}
+```

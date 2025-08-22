@@ -65,7 +65,7 @@ So the total probability of A becoming empty first plus half the probability tha
 {% raw %}
 
 
-````rust
+```rust
 
 
 impl Solution {
@@ -126,3 +126,4 @@ impl Solution {
 
 
 {% endraw %}
+```

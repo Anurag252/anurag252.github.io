@@ -52,7 +52,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 func numTilePossibilities(tiles string) int {
@@ -110,3 +110,4 @@ func Perm(s string, prev string, mp map[string]bool) {
 
 
 {% endraw %}
+```

@@ -61,7 +61,7 @@ Example 3:
 {% raw %}
 
 
-````rust
+```rust
 
 
 use std::collections::HashMap;
@@ -102,3 +102,4 @@ impl Solution {
 
 
 {% endraw %}
+```

@@ -56,7 +56,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 func maxAscendingSum(nums []int) int {
@@ -80,3 +80,4 @@ func maxAscendingSum(nums []int) int {
 
 
 {% endraw %}
+```

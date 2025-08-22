@@ -47,7 +47,7 @@ Example 2:
 {% raw %}
 
 
-````python
+```python
 
 
 class Trie:
@@ -93,3 +93,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -52,7 +52,7 @@ However, splitting into [1, 0], [2], [3], [4] is the highest number of chunks po
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -86,3 +86,4 @@ class Solution:
 
 
 {% endraw %}
+```

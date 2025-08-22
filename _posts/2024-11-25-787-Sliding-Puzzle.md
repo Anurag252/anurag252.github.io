@@ -68,7 +68,7 @@ After move 5: [[1,2,3],[4,5,0]]
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -125,3 +125,4 @@ class Solution:
 
 
 {% endraw %}
+```

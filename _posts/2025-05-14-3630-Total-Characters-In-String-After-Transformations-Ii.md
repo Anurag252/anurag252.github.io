@@ -78,7 +78,7 @@ Example 2:
 {% raw %}
 
 
-````python
+```python
 
 
 MOD = 10**9 + 7
@@ -148,3 +148,4 @@ class Solution:
 
 
 {% endraw %}
+```

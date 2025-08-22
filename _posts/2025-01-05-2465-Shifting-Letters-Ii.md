@@ -51,7 +51,7 @@ Finally, shift the characters from index 1 to index 1 forward. Now s = "catz".
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -99,3 +99,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -57,7 +57,7 @@ The relative ordering of the elements less than and greater than pivot is also m
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -94,3 +94,4 @@ class Solution:
 
 
 {% endraw %}
+```

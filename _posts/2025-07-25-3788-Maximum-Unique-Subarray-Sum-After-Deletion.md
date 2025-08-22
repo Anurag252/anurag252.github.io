@@ -59,7 +59,7 @@ Delete the elements nums[2] == -1 and nums[3] == -2, and select the subarray [2,
 {% raw %}
 
 
-````rust
+```rust
 
 
 use std::collections::HashSet;
@@ -98,3 +98,4 @@ impl Solution {
 
 
 {% endraw %}
+```

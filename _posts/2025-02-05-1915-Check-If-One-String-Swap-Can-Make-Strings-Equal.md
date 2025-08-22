@@ -55,7 +55,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 func areAlmostEqual(s1 string, s2 string) bool {
@@ -85,3 +85,4 @@ func areAlmostEqual(s1 string, s2 string) bool {
 
 
 {% endraw %}
+```

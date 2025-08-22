@@ -69,7 +69,7 @@ Example 3:
 {% raw %}
 
 
-````go
+```go
 
 
 func doesValidArrayExist(derived []int) bool {
@@ -134,3 +134,4 @@ func doesValidArrayExist(derived []int) bool {
 
 
 {% endraw %}
+```

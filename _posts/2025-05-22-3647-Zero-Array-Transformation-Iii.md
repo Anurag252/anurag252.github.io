@@ -67,7 +67,7 @@ nums cannot be converted to a zero array even after using all the queries.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -91,3 +91,4 @@ class Solution:
 
 
 {% endraw %}
+```

@@ -59,7 +59,7 @@ Our score is 1 + 2 + 2 = 5.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -84,3 +84,4 @@ class Solution:
 
 
 {% endraw %}
+```

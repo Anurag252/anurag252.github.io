@@ -43,7 +43,7 @@ nums can be [7,15] and its last element is 15.
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -72,3 +72,4 @@ class Solution:
 
 
 {% endraw %}
+```

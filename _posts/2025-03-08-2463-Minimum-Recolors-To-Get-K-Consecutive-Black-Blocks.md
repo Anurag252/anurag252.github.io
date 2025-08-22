@@ -56,7 +56,7 @@ Therefore, we return 0.
 {% raw %}
 
 
-````go
+```go
 
 
 func minimumRecolors(blocks string, k int) int {
@@ -102,3 +102,4 @@ func minimumRecolors(blocks string, k int) int {
 
 
 {% endraw %}
+```

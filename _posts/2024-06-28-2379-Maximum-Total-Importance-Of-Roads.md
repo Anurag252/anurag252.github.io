@@ -67,7 +67,7 @@ It can be shown that we cannot obtain a greater total importance than 20.
 {% raw %}
 
 
-````c
+```c
 
 
 struct couple {
@@ -124,3 +124,4 @@ long long maximumImportance(int n, int** roads, int roadsSize, int* roadsColSize
 
 
 {% endraw %}
+```

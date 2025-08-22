@@ -47,7 +47,7 @@ Example 2:
 {% raw %}
 
 
-````go
+```go
 
 
 type Cell struct {
@@ -150,3 +150,4 @@ func trapRainWater(heightMap [][]int) int {
 
 
 {% endraw %}
+```

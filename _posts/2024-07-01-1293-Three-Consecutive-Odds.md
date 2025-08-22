@@ -40,7 +40,7 @@ Example 2:
 {% raw %}
 
 
-````c
+```c
 
 
 
@@ -64,3 +64,4 @@ bool threeConsecutiveOdds(int* arr, int arrSize) {
 
 
 {% endraw %}
+```

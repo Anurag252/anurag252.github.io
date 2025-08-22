@@ -69,7 +69,7 @@ We cannot make two horizontal or two vertical cuts that satisfy the conditions. 
 {% raw %}
 
 
-````python
+```python
 
 
 class Solution:
@@ -117,3 +117,4 @@ class Solution:
 
 
 {% endraw %}
+```
