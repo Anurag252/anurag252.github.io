@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given two strings s and part, perform the following operation on s until **all** occurrences of the substring part are removed:
 
@@ -56,9 +55,9 @@ Now s has no occurrences of "xy".
 	1 <= part.length <= 1000
 	s​​​​​​ and part consists of lowercase English letters.
 
-            {% raw %}
-            ```go
-            import (
+{% raw %}
+```go
+import (
     "strings"
     "fmt"
     "hash/fnv"
@@ -106,5 +105,4 @@ func removeOccurrences(s string, part string) string {
 
 
 }
-            {% endraw %}
-            
+{% endraw %}

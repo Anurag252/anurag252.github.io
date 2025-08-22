@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an array nums consisting of **positive** integers.
 
@@ -48,9 +47,9 @@ Example 2:
 	1 <= nums.length <= 1000
 	1 <= nums[i] <= 2000
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def countCompleteSubarrays(self, nums: List[int]) -> int:
         s = set(nums)
         unique = len(s)
@@ -68,5 +67,4 @@ Example 2:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

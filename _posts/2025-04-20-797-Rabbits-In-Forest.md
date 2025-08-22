@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [cpp]
             layout: post
-            ---
+---
             
-
-            ## [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is a forest with an unknown number of rabbits. We asked n rabbits **"How many rabbits have the same color as you?"** and collected the answers in an integer array answers where answers[i] is the answer of the ith rabbit.
 
@@ -46,9 +45,9 @@ Example 2:
 	1 <= answers.length <= 1000
 	0 <= answers[i] < 1000
 
-            {% raw %}
-            ```cpp
-            class Solution {
+{% raw %}
+```cpp
+class Solution {
 public:
     int numRabbits(vector<int>& nums, int total = 0) {
         unordered_map <int,int> mpp;
@@ -59,5 +58,4 @@ public:
         return total;
     }
 };
-            {% endraw %}
-            
+{% endraw %}

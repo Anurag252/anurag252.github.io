@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array nums of length n.
 
@@ -55,9 +54,9 @@ There are two valid splits in nums:
 	2 <= nums.length <= 105
 	-105 <= nums[i] <= 105
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def waysToSplitArray(self, nums: List[int]) -> int:
         s = sum(nums)
         res = 0
@@ -68,5 +67,4 @@ There are two valid splits in nums:
                 res += 1
         return res
         
-            {% endraw %}
-            
+{% endraw %}

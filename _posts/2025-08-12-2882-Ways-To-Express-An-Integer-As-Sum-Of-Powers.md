@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [rust]
             layout: post
-            ---
+---
             
-
-            ## [Ways to Express an Integer as Sum of Powers](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Ways to Express an Integer as Sum of Powers](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given two **positive** integers n and x.
 
@@ -49,9 +48,9 @@ Example 2:
 	1 <= n <= 300
 	1 <= x <= 5
 
-            {% raw %}
-            ```rust
-            use std::collections::HashMap;
+{% raw %}
+```rust
+use std::collections::HashMap;
 
 
 
@@ -107,5 +106,4 @@ impl Solution {
     }
 }
 
-            {% endraw %}
-            
+{% endraw %}

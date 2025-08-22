@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array arr of integers, check if there exist two indices i and j such that :
 
@@ -44,9 +43,9 @@ Example 2:
 	2 <= arr.length <= 500
 	-103 <= arr[i] <= 103
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
         dic = set()
 
@@ -67,5 +66,4 @@ Example 2:
             
 
         
-            {% endraw %}
-            
+{% endraw %}

@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [cpp]
             layout: post
-            ---
+---
             
-
-            ## [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given the root of a binary tree, replace the value of each node in the tree with the **sum of all its cousins' values**.
 
@@ -57,9 +56,9 @@ Example 2:
 	The number of nodes in the tree is in the range [1, 105].
 	1 <= Node.val <= 104
 
-            {% raw %}
-            ```cpp
-            class Solution {
+{% raw %}
+```cpp
+class Solution {
 public:
     TreeNode* replaceValueInTree(TreeNode* root) {
         if (!root) return root;
@@ -112,5 +111,4 @@ public:
         return root;
     }
 };
-            {% endraw %}
-            
+{% endraw %}

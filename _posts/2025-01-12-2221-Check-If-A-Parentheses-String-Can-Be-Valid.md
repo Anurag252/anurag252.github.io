@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 A parentheses string is a **non-empty** string consisting only of '(' and ')'. It is valid if **any** of the following conditions is **true**:
 
@@ -65,9 +64,9 @@ Changing s[0] to either '(' or ')' will not make s valid.
 	s[i] is either '(' or ')'.
 	locked[i] is either '0' or '1'.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def canBeValid(self, s: str, locked: str) -> bool:
         length = len(s)
         # If length of string is odd, return false.
@@ -109,5 +108,4 @@ Changing s[0] to either '(' or ')' will not make s valid.
             return False
 
         return True
-            {% endraw %}
-            
+{% endraw %}

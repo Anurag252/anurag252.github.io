@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Total Characters in String After Transformations II](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Total Characters in String After Transformations II](https://leetcode.com/problems/total-characters-in-string-after-transformations-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a string s consisting of lowercase English letters, an integer t representing the number of **transformations** to perform, and an array nums of size 26. In one **transformation**, every character in s is replaced according to the following rules:
 
@@ -76,9 +75,9 @@ Example 2:
 	nums.length == 26
 	1 <= nums[i] <= 25
 
-            {% raw %}
-            ```python
-            MOD = 10**9 + 7
+{% raw %}
+```python
+MOD = 10**9 + 7
 L = 26
 
 
@@ -142,5 +141,4 @@ class Solution:
                 ans = (ans + res.a[i][j] * f[j]) % MOD
 
         return ans
-            {% endraw %}
-            
+{% endraw %}

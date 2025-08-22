@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array of string words, return *all strings in *words* that is a **substring** of another word*. You can return the answer in **any order**.
 
@@ -55,9 +54,9 @@ Example 3:
 	words[i] contains only lowercase English letters.
 	All the strings of words are **unique**.
 
-            {% raw %}
-            ```python
-            class Trie:
+{% raw %}
+```python
+class Trie:
     def __init__(self):
         self.dict = {}
 
@@ -104,5 +103,4 @@ class Solution:
                 t.insert(k[i:])
         return res
         
-            {% endraw %}
-            
+{% endraw %}

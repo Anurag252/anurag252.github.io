@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [rust]
             layout: post
-            ---
+---
             
-
-            ## [Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a positive integer n, there exists a **0-indexed** array called powers, composed of the **minimum** number of powers of 2 that sum to n. The array is sorted in **non-decreasing** order, and there is **only one** way to form the array.
 
@@ -52,9 +51,9 @@ The answer to the only query is powers[0] = 2. The answer modulo 109 + 7 is the 
 	1 <= queries.length <= 105
 	0 <= starti <= endi < powers.length
 
-            {% raw %}
-            ```rust
-            impl Solution {
+{% raw %}
+```rust
+impl Solution {
     pub fn product_queries(n: i32, queries: Vec<Vec<i32>>) -> Vec<i32> {
         const MOD: i64 = 1_000_000_007;
 
@@ -109,5 +108,4 @@ The answer to the only query is powers[0] = 2. The answer modulo 109 + 7 is the 
     }
 }
 
-            {% endraw %}
-            
+{% endraw %}

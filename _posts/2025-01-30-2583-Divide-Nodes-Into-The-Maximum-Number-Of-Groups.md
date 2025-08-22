@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a positive integer n representing the number of nodes in an **undirected** graph. The nodes are labeled from 1 to n.
 
@@ -61,9 +60,9 @@ It can be shown that no grouping is possible.
 	ai != bi
 	There is at most one edge between any pair of vertices.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
 
     # Main function to calculate the maximum number of magnificent sets
     def magnificentSets(self, n, edges):
@@ -166,5 +165,4 @@ It can be shown that no grouping is possible.
                 ),
             )
         return max_number_of_groups
-            {% endraw %}
-            
+{% endraw %}

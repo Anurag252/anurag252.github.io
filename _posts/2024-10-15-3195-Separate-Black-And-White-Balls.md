@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There are n balls on a table, each ball has a color black or white.
 
@@ -60,9 +59,9 @@ Example 3:
 	1 <= n == s.length <= 105
 	s[i] is either '0' or '1'.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minimumSteps(self, s: str) -> int:
 
         arr = list(map(int, s))
@@ -114,5 +113,4 @@ Example 3:
         110 -> 101, 011
         '''
         
-            {% endraw %}
-            
+{% endraw %}

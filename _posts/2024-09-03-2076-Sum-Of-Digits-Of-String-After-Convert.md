@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a string s consisting of lowercase English letters, and an integer k.
 
@@ -67,9 +66,9 @@ Example 3:
 	1 <= k <= 10
 	s consists of lowercase English letters.
 
-            {% raw %}
-            ```go
-            func getLucky(s string, k int) int {
+{% raw %}
+```go
+func getLucky(s string, k int) int {
     result := ""
     for _,m := range s{
         i := int(m - 96)
@@ -92,5 +91,4 @@ Example 3:
     return ans
     
 }
-            {% endraw %}
-            
+{% endraw %}

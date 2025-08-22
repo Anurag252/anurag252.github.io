@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [rust]
             layout: post
-            ---
+---
             
-
-            ## [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums of size n.
 
@@ -54,9 +53,9 @@ The longest subarray with that value is [4], so we return 1.
 	1 <= nums.length <= 105
 	1 <= nums[i] <= 106
 
-            {% raw %}
-            ```rust
-            
+{% raw %}
+```rust
+
  use std::cmp::max;
  impl Solution {
     pub fn longest_subarray(nums: Vec<i32>) -> i32 {
@@ -90,5 +89,4 @@ The longest subarray with that value is [4], so we return 1.
 
     }
 }
-            {% endraw %}
-            
+{% endraw %}

@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Take Gifts From the Richest Pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer array gifts denoting the number of gifts in various piles. Every second, you do the following:
 
@@ -56,9 +55,9 @@ So, the total gifts remaining are 4.
 	1 <= gifts[i] <= 109
 	1 <= k <= 103
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def pickGifts(self, gifts: List[int], k: int) -> int:
         q = []
         for m in gifts:
@@ -71,5 +70,4 @@ So, the total gifts remaining are 4.
         return -sum(q)
 
         
-            {% endraw %}
-            
+{% endraw %}

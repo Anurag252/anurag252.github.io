@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a 2D integer grid of size m x n and an integer x. In one operation, you can **add** x to or **subtract** x from any element in the grid.
 
@@ -64,9 +63,9 @@ Example 3:
 	1 <= m * n <= 105
 	1 <= x, grid[i][j] <= 104
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minOperations(self, grid: List[List[int]], x: int) -> int:
         # brute force one can easly apply change on one element and recurse on others
         # grid is not needed, it could be one array
@@ -109,5 +108,4 @@ Example 3:
 
         return result
         
-            {% endraw %}
-            
+{% endraw %}

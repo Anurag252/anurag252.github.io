@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is a dungeon with n x m rooms arranged as a grid.
 
@@ -60,9 +59,9 @@ Example 3:
 	2 <= m == moveTime[i].length <= 50
 	0 <= moveTime[i][j] <= 109
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minTimeToReach(self, moveTime: List[List[int]]) -> int:
         # idea is that start at end
         # from end look for top and left
@@ -141,5 +140,4 @@ Example 3:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given a sentence that consists of some words separated by a **single space**, and a searchWord, check if searchWord is a prefix of any word in sentence.
 
@@ -56,9 +55,9 @@ Example 3:
 	sentence consists of lowercase English letters and spaces.
 	searchWord consists of lowercase English letters.
 
-            {% raw %}
-            ```python
-            class Node:
+{% raw %}
+```python
+class Node:
     def __init__(self):
         self.end = False
         self.mp = {}
@@ -125,5 +124,4 @@ class Solution:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

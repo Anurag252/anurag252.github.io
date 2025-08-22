@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array nums. A pair of indices (i, j) is a **bad pair** if i < j and j - i != nums[j] - nums[i].
 
@@ -47,9 +46,9 @@ Example 2:
 	1 <= nums.length <= 105
 	1 <= nums[i] <= 109
 
-            {% raw %}
-            ```go
-            func countBadPairs(nums []int) int64 {
+{% raw %}
+```go
+func countBadPairs(nums []int) int64 {
 
     // consecutive numbers must lie at indexes
     // we could count the number of consecutive numbers but 
@@ -82,5 +81,4 @@ Example 2:
     return totalPairs - goodPairs
 
 }
-            {% endraw %}
-            
+{% endraw %}

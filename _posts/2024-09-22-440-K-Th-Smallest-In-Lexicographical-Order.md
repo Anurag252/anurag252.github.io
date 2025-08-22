@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Given two integers n and k, return *the* kth *lexicographically smallest integer in the range* [1, n].
 
@@ -38,9 +37,9 @@ Example 2:
 
 	1 <= k <= n <= 109
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def findKthNumber(self, n: int, k: int) -> int:
         # Function to count the numbers under the prefix `m`
         def count_prefix(m, n):
@@ -72,5 +71,4 @@ Example 2:
 
         return current
 
-            {% endraw %}
-            
+{% endraw %}

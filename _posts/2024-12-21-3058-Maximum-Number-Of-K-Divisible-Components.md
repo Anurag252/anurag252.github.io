@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Maximum Number of K-Divisible Components](https://leetcode.com/problems/maximum-number-of-k-divisible-components) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 There is an undirected tree with n nodes labeled from 0 to n - 1. You are given the integer n and a 2D integer array edges of length n - 1, where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.
 
@@ -61,9 +60,9 @@ It can be shown that no other valid split has more than 3 connected components.
 	Sum of values is divisible by k.
 	The input is generated such that edges represents a valid tree.
 
-            {% raw %}
-            ```python
-            class Tree:
+{% raw %}
+```python
+class Tree:
     def __init__(self, root):
         self.root = root
 
@@ -125,5 +124,4 @@ class Solution:
         
 
 
-            {% endraw %}
-            
+{% endraw %}

@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Zero Array Transformation I](https://leetcode.com/problems/zero-array-transformation-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums of length n and a 2D array queries, where queries[i] = [li, ri].
 
@@ -63,9 +62,9 @@ Example 2:
 	queries[i].length == 2
 	0 <= li <= ri < nums.length
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def isZeroArray(self, nums: List[int], queries: List[List[int]]) -> bool:
         """
         every element has x numbers of reductions 
@@ -96,5 +95,4 @@ Example 2:
         return True
             
 
-            {% endraw %}
-            
+{% endraw %}

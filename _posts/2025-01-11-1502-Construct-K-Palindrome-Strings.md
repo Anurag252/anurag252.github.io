@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Construct K Palindrome Strings](https://leetcode.com/problems/construct-k-palindrome-strings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a string s and an integer k, return true *if you can use all the characters in *s* to construct *k* palindrome strings or *false* otherwise*.
 
@@ -52,9 +51,9 @@ Example 3:
 	s consists of lowercase English letters.
 	1 <= k <= 105
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def canConstruct(self, s: str, k: int) -> bool:
 
         dt = {}
@@ -73,5 +72,4 @@ Example 3:
         return True
 
         
-            {% endraw %}
-            
+{% endraw %}

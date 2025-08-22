@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [c]
             layout: post
-            ---
+---
             
-
-            ## [Palindrome Number](https://leetcode.com/problems/palindrome-number) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Palindrome Number](https://leetcode.com/problems/palindrome-number) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an integer x, return true* if *x* is a ****palindrome****, and *false* otherwise*.
 
@@ -53,9 +52,9 @@ Example 3:
 
 **Follow up:** Could you solve it without converting the integer to a string?
 
-            {% raw %}
-            ```c
-            bool isPalindrome(int x) {
+{% raw %}
+```c
+bool isPalindrome(int x) {
     int k = 1;
     while(x/k >= 10){
         k = k * 10;
@@ -78,5 +77,4 @@ Example 3:
     return false;
 
 }
-            {% endraw %}
-            
+{% endraw %}

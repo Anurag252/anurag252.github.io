@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** array of **positive** integers nums and a **positive** integer limit.
 
@@ -65,9 +64,9 @@ Example 3:
 	1 <= nums[i] <= 109
 	1 <= limit <= 109
 
-            {% raw %}
-            ```go
-            import "slices"
+{% raw %}
+```go
+import "slices"
 
 func lexicographicallySmallestArray(nums []int, limit int) []int {
 
@@ -144,5 +143,4 @@ func lexicographicallySmallestArray(nums []int, limit int) []int {
     //fmt.Println(temp, arr, mp)
     return nums
 }
-            {% endraw %}
-            
+{% endraw %}

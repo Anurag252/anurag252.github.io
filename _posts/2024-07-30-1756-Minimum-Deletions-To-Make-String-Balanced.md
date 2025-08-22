@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s consisting only of characters 'a' and 'b'​​​​.
 
@@ -46,9 +45,9 @@ Example 2:
 	1 <= s.length <= 105
 	s[i] is 'a' or 'b'​​.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minimumDeletions(self, s: str) -> int:
         la = [0] * len(s)
         lb = [0] * len(s)
@@ -84,5 +83,4 @@ Example 2:
         #0,0,b,1,b,b,3,0
         #a,a,2,a,1,1,a,0
         
-            {% endraw %}
-            
+{% endraw %}

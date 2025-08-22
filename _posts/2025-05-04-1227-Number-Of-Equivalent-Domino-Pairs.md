@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [rust]
             layout: post
-            ---
+---
             
-
-            ## [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given a list of dominoes, dominoes[i] = [a, b] is **equivalent to** dominoes[j] = [c, d] if and only if either (a == c and b == d), or (a == d and b == c) - that is, one domino can be rotated to be equal to another domino.
 
@@ -41,9 +40,9 @@ Example 2:
 	dominoes[i].length == 2
 	1 <= dominoes[i][j] <= 9
 
-            {% raw %}
-            ```rust
-            use std::collections::HashMap ;
+{% raw %}
+```rust
+use std::collections::HashMap ;
 use std::cmp::max;
 
 impl Solution {
@@ -69,5 +68,4 @@ impl Solution {
         return res 
     }
 }
-            {% endraw %}
-            
+{% endraw %}

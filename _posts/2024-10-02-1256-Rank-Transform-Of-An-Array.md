@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array of integers arr, replace each element with its rank.
 
@@ -54,9 +53,9 @@ Example 3:
 	0 <= arr.length <= 105
 	-109 <= arr[i] <= 109
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
         arr_cpy = arr.copy()
         arr.sort()
@@ -82,5 +81,4 @@ Example 3:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

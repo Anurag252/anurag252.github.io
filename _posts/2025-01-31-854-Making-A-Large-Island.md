@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Making A Large Island](https://leetcode.com/problems/making-a-large-island) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Making A Large Island](https://leetcode.com/problems/making-a-large-island) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given an n x n binary matrix grid. You are allowed to change **at most one** 0 to be 1.
 
@@ -55,9 +54,9 @@ Example 3:
 	1 <= n <= 500
 	grid[i][j] is either 0 or 1.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def largestIsland(self, grid: List[List[int]]) -> int:
         island_sizes = {}
         island_id = 2
@@ -169,5 +168,4 @@ Example 3:
                 grid, island_id, current_row, current_column - 1
             )
         )
-            {% endraw %}
-            
+{% endraw %}

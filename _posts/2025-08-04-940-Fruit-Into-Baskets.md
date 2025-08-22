@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the **type** of fruit the ith tree produces.
 
@@ -60,9 +59,9 @@ If we had started at the first tree, we would only pick from trees [1,2].
 	1 <= fruits.length <= 105
 	0 <= fruits[i] < fruits.length
 
-            {% raw %}
-            ```python
-            from collections import defaultdict
+{% raw %}
+```python
+from collections import defaultdict
 
 class Solution:
     def totalFruit(self, fruits: list[int]) -> int:
@@ -82,5 +81,4 @@ class Solution:
             max_len = max(max_len, end - start + 1)
 
         return max_len
-            {% endraw %}
-            
+{% endraw %}

@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s and two integers x and y. You can perform two types of operations any number of times.
 
@@ -54,9 +53,9 @@ Example 2:
 	1 <= x, y <= 104
 	s consists of lowercase English letters.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def maximumGain(self, s: str, x: int, y: int) -> int:
         i = 0
         first = ""
@@ -103,5 +102,4 @@ Example 2:
 
         
         
-            {% endraw %}
-            
+{% endraw %}

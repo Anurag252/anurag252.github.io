@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Count and Say](https://leetcode.com/problems/count-and-say) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Count and Say](https://leetcode.com/problems/count-and-say) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 The **count-and-say** sequence is a sequence of digit strings defined by the recursive formula:
 
@@ -57,9 +56,9 @@ This is the base case.
 
 **Follow up:** Could you solve it iteratively?
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def countAndSay(self, n: int) -> str:
         
         def t(n):
@@ -91,5 +90,4 @@ This is the base case.
 
 
 
-            {% endraw %}
-            
+{% endraw %}

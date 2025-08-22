@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [c]
             layout: post
-            ---
+---
             
-
-            ## [Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Most Profit Assigning Work](https://leetcode.com/problems/most-profit-assigning-work) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You have n jobs and m workers. You are given three arrays: difficulty, profit, and worker where:
 
@@ -51,9 +50,9 @@ Example 2:
 	1 <= n, m <= 104
 	1 <= difficulty[i], profit[i], worker[i] <= 105
 
-            {% raw %}
-            ```c
-            
+{% raw %}
+```c
+
 struct CombinedValues {
     int diff;
     int profit;
@@ -118,5 +117,4 @@ int maxProfitAssignment(int* difficulty, int difficultySize, int* profit, int pr
 }
 
  
-            {% endraw %}
-            
+{% endraw %}

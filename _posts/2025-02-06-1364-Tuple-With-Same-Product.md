@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an array nums of **distinct** positive integers, return *the number of tuples *(a, b, c, d)* such that *a * b = c * d* where *a*, *b*, *c*, and *d* are elements of *nums*, and *a != b != c != d*.*
 
@@ -47,9 +46,9 @@ Example 2:
 	1 <= nums[i] <= 104
 	All elements in nums are **distinct**.
 
-            {% raw %}
-            ```go
-            func tupleSameProduct(nums []int) int {
+{% raw %}
+```go
+func tupleSameProduct(nums []int) int {
     mp := make(map[int]int)
 
     for _, k1 := range nums {
@@ -83,5 +82,4 @@ Example 2:
     return res
 
 }
-            {% endraw %}
-            
+{% endraw %}

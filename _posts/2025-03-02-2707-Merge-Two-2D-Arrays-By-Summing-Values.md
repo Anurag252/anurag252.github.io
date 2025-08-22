@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given two **2D** integer arrays nums1 and nums2.
 
@@ -59,9 +58,9 @@ Example 2:
 	Both arrays contain unique ids.
 	Both arrays are in strictly ascending order by id.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def mergeArrays(self, nums1: List[List[int]], nums2: List[List[int]]) -> List[List[int]]:
         mp = {}
 
@@ -86,5 +85,4 @@ Example 2:
         return res
 
 
-            {% endraw %}
-            
+{% endraw %}

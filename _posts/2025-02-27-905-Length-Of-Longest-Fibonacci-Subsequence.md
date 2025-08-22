@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 A sequence x1, x2, ..., xn is *Fibonacci-like* if:
 
@@ -45,9 +44,9 @@ Example 2:
 	3 <= arr.length <= 1000
 	1 <= arr[i] < arr[i + 1] <= 109
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
         """
         so T[n] = means longest subsequence till n
@@ -110,5 +109,4 @@ Example 2:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

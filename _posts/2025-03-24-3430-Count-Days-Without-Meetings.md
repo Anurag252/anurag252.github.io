@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Count Days Without Meetings](https://leetcode.com/problems/count-days-without-meetings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a positive integer days representing the total number of days an employee is available for work (starting from day 1). You are also given a 2D array meetings of size n where, meetings[i] = [start_i, end_i] represents the starting and ending days of meeting i (inclusive).
 
@@ -56,9 +55,9 @@ Meetings are scheduled for all working days.
 	meetings[i].length == 2
 	1 <= meetings[i][0] <= meetings[i][1] <= days
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def countDays(self, days: int, meetings: List[List[int]]) -> int:
 
         meetings.sort(key=lambda x : (x[0], x[1]))
@@ -79,5 +78,4 @@ Meetings are scheduled for all working days.
         count += (end - start + 1)
         return days - count
         
-            {% endraw %}
-            
+{% endraw %}

@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a string s consisting of lowercase English letters. 
 
@@ -50,9 +49,9 @@ Example 2:
 	s consists only of lowercase English letters.
 	s contains at least one character with an odd frequency and one with an even frequency.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def maxDifference(self, s: str) -> int:
         mp = {}
 
@@ -70,5 +69,4 @@ Example 2:
         return odd - even
 
         
-            {% endraw %}
-            
+{% endraw %}

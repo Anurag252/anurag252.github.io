@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array of positive integers nums, return the *maximum possible sum of an **ascending** subarray in *nums.
 
@@ -54,9 +53,9 @@ Example 3:
 	1 <= nums.length <= 100
 	1 <= nums[i] <= 100
 
-            {% raw %}
-            ```go
-            func maxAscendingSum(nums []int) int {
+{% raw %}
+```go
+func maxAscendingSum(nums []int) int {
     s := 0
     prev := -1
     res := 0
@@ -74,5 +73,4 @@ Example 3:
      res = max(res, s)
      return res
 }
-            {% endraw %}
-            
+{% endraw %}

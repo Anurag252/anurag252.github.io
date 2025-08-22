@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Final Array State After K Multiplication Operations I](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer array nums, an integer k, and an integer multiplier.
 
@@ -75,9 +74,9 @@ Example 2:
 	1 <= k <= 10
 	1 <= multiplier <= 5
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def getFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:
         h = []
 
@@ -93,5 +92,4 @@ Example 2:
         
 
         
-            {% endraw %}
-            
+{% endraw %}

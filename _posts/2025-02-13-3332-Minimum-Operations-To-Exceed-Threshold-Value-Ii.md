@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Minimum Operations to Exceed Threshold Value II](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array nums, and an integer k.
 
@@ -59,9 +58,9 @@ It can be shown that 4 is the minimum number of operations needed so that all el
 	1 <= k <= 109
 	The input is generated such that an answer always exists. That is, there exists some sequence of operations after which all elements of the array are greater than or equal to k.
 
-            {% raw %}
-            ```go
-            import pq "github.com/emirpasic/gods/queues/priorityqueue"
+{% raw %}
+```go
+import pq "github.com/emirpasic/gods/queues/priorityqueue"
 
 
 type Element struct {
@@ -112,5 +111,4 @@ func minOperations(nums []int, k int) int {
     //fmt.Println(q.Values())
     return res
 }
-            {% endraw %}
-            
+{% endraw %}

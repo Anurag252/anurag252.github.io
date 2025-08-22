@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given the root of a binary tree with **unique values**.
 
@@ -70,9 +69,9 @@ Example 3:
 	1 <= Node.val <= 105
 	All the values of the tree are **unique**.
 
-            {% raw %}
-            ```python
-            # Definition for a binary tree node.
+{% raw %}
+```python
+# Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -134,5 +133,4 @@ class Solution:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

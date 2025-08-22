@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 A **happy string** is a string that:
 
@@ -59,9 +58,9 @@ Example 3:
 	1 <= n <= 10
 	1 <= k <= 100
 
-            {% raw %}
-            ```go
-            //import "sort"
+{% raw %}
+```go
+//import "sort"
 func getHappyString(n int, k int) string {
     str := []string{"a", "b", "c"}
     // list of n is a appended to n-1 list with restrictions
@@ -90,5 +89,4 @@ func calc(str []string, n int) []string {
     }
     return newRes
 }
-            {% endraw %}
-            
+{% endraw %}

@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [go]
             layout: post
-            ---
+---
             
-
-            ## [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is a directed graph of n nodes with each node labeled from 0 to n - 1. The graph is represented by a **0-indexed** 2D integer array graph where graph[i] is an integer array of nodes adjacent to node i, meaning there is an edge from node i to each node in graph[i].
 
@@ -52,9 +51,9 @@ Only node 4 is a terminal node, and every path starting at node 4 leads to node 
 	The graph may contain self-loops.
 	The number of edges in the graph will be in the range [1, 4 * 104].
 
-            {% raw %}
-            ```go
-            func eventualSafeNodes(graph [][]int) []int {
+{% raw %}
+```go
+func eventualSafeNodes(graph [][]int) []int {
     // we could do a dfs from each node and find if it is safe n2
     // terminal nodes have no outgoing edges
     // so directly pointing to terminal node from another node is needed for this work 
@@ -157,5 +156,4 @@ func dfs(source int , graph [][]int, safe map[int]bool, visited map[int]bool, un
     delete(visited, source)
     return true
 }
-            {% endraw %}
-            
+{% endraw %}

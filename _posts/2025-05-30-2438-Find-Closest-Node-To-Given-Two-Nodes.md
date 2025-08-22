@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **directed** graph of n nodes numbered from 0 to n - 1, where each node has **at most one** outgoing edge.
 
@@ -55,9 +54,9 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 	edges[i] != i
 	0 <= node1, node2 < n
 
-            {% raw %}
-            ```python
-            from typing import List
+{% raw %}
+```python
+from typing import List
 
 class Solution:
     def closestMeetingNode(self, edges: List[int], node1: int, node2: int) -> int:
@@ -88,5 +87,4 @@ class Solution:
                     result = i
         return result
 
-            {% endraw %}
-            
+{% endraw %}

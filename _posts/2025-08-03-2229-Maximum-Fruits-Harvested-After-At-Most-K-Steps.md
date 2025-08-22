@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Maximum Fruits Harvested After at Most K Steps](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Fruits are available at some positions on an infinite x-axis. You are given a 2D integer array fruits where fruits[i] = [positioni, amounti] depicts amounti fruits at the position positioni. fruits is already **sorted** by positioni in **ascending order**, and each positioni is **unique**.
 
@@ -73,9 +72,9 @@ You can move at most k = 2 steps and cannot reach any position with fruits.
 	1 <= amounti <= 104
 	0 <= k <= 2 * 105
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def maxTotalFruits(
         self, fruits: List[List[int]], startPos: int, k: int
     ) -> int:
@@ -106,5 +105,4 @@ You can move at most k = 2 steps and cannot reach any position with fruits.
             ans = max(ans, sum_[end] - sum_[start])
 
         return ans
-            {% endraw %}
-            
+{% endraw %}

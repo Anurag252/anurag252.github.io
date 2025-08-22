@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Find Score of an Array After Marking All Elements](https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an array nums consisting of positive integers.
 
@@ -57,9 +56,9 @@ Our score is 1 + 2 + 2 = 5.
 	1 <= nums.length <= 105
 	1 <= nums[i] <= 106
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def findScore(self, nums: List[int]) -> int:
         s = set()
 
@@ -78,5 +77,4 @@ Our score is 1 + 2 + 2 = 5.
         return score
 
         
-            {% endraw %}
-            
+{% endraw %}

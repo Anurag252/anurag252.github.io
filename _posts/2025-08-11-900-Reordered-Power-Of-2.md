@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer n. We reorder the digits in any order (including the original order) such that the leading digit is not zero.
 
@@ -39,9 +38,9 @@ Example 2:
 
 	1 <= n <= 109
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def reorderedPowerOf2(self, n: int) -> bool:
         l = list(str(n))
         res = []
@@ -94,5 +93,4 @@ Example 2:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

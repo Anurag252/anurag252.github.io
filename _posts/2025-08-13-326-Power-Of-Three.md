@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [rust]
             layout: post
-            ---
+---
             
-
-            ## [Power of Three](https://leetcode.com/problems/power-of-three) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Power of Three](https://leetcode.com/problems/power-of-three) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an integer n, return *true if it is a power of three. Otherwise, return false*.
 
@@ -55,9 +54,9 @@ Example 3:
 
 **Follow up:** Could you solve it without loops/recursion?
 
-            {% raw %}
-            ```rust
-            impl Solution {
+{% raw %}
+```rust
+impl Solution {
     pub fn is_power_of_three(n: i32) -> bool {
 
         if n == 1 {
@@ -72,5 +71,4 @@ Example 3:
         return Self::is_power_of_three(n / 3)
     }
 }
-            {% endraw %}
-            
+{% endraw %}

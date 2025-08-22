@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [c]
             layout: post
-            ---
+---
             
-
-            ## [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an integer array nums and an integer k, return *the number of non-empty **subarrays** that have a sum divisible by *k.
 
@@ -43,9 +42,9 @@ Example 2:
 	-104 <= nums[i] <= 104
 	2 <= k <= 104
 
-            {% raw %}
-            ```c
-            int subarraysDivByK(int* nums, int numsSize, int k) {
+{% raw %}
+```c
+int subarraysDivByK(int* nums, int numsSize, int k) {
     if (numsSize == 0) {
         return 0;
     }
@@ -82,5 +81,4 @@ Example 2:
 }
 
 
-            {% endraw %}
-            
+{% endraw %}

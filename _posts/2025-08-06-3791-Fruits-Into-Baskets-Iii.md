@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [rust]
             layout: post
-            ---
+---
             
-
-            ## [Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two arrays of integers, fruits and baskets, each of length n, where fruits[i] represents the **quantity** of the ith type of fruit, and baskets[j] represents the **capacity** of the jth basket.
 
@@ -57,9 +56,9 @@ Since all fruits are successfully placed, we return 0.
 	1 <= n <= 105
 	1 <= fruits[i], baskets[i] <= 109
 
-            {% raw %}
-            ```rust
-            use std::cmp::max;
+{% raw %}
+```rust
+use std::cmp::max;
 
 impl Solution {
     pub fn num_of_unplaced_fruits(fruits: Vec<i32>, baskets: Vec<i32>) -> i32 {
@@ -102,5 +101,4 @@ impl Solution {
         count
     }
 }
-            {% endraw %}
-            
+{% endraw %}

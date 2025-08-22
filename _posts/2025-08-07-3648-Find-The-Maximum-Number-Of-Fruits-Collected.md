@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Find the Maximum Number of Fruits Collected](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Find the Maximum Number of Fruits Collected](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 There is a game dungeon comprised of n x n rooms arranged in a grid.
 
@@ -66,9 +65,9 @@ In total they collect 1 + 1 + 1 + 1 = 4 fruits.
 	2 <= n == fruits.length == fruits[i].length <= 1000
 	0 <= fruits[i][j] <= 1000
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def maxCollectedFruits(self, fruits):
         n = len(fruits)
         ans = sum(fruits[i][i] for i in range(n))
@@ -96,5 +95,4 @@ In total they collect 1 + 1 + 1 + 1 = 4 fruits.
 
         ans += dp()
         return ans
-            {% endraw %}
-            
+{% endraw %}

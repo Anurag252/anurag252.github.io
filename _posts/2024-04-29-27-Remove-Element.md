@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [c]
             layout: post
-            ---
+---
             
-
-            ## [Remove Element](https://leetcode.com/problems/remove-element) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Remove Element](https://leetcode.com/problems/remove-element) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an integer array nums and an integer val, remove all occurrences of val in nums [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm). The order of the elements may be changed. Then return *the number of elements in *nums* which are not equal to *val.
 
@@ -72,9 +71,9 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 	0 <= nums[i] <= 50
 	0 <= val <= 100
 
-            {% raw %}
-            ```c
-            int removeElement(int* nums, int numsSize, int val) {
+{% raw %}
+```c
+int removeElement(int* nums, int numsSize, int val) {
 
     int result = 0;
    
@@ -111,5 +110,4 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 
 }
-            {% endraw %}
-            
+{% endraw %}

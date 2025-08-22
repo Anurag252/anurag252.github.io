@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array players, where players[i] represents the **ability** of the ith player. You are also given a **0-indexed** integer array trainers, where trainers[j] represents the **training capacity **of the jth trainer.
 
@@ -54,9 +53,9 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
 
 **Note:** This question is the same as [ 445: Assign Cookies.](https://leetcode.com/problems/assign-cookies/description/)
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
         """
         there can be multiple possibilities to match, one of these will lead to max
@@ -91,5 +90,4 @@ Each player can only be matched with one trainer, so the maximum answer is 1.
             
 
 
-            {% endraw %}
-            
+{% endraw %}

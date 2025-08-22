@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a m x n matrix grid consisting of **non-negative** integers where grid[row][col] represents the **minimum** time required to be able to visit the cell (row, col), which means you can visit the cell (row, col) only when the time you visit it is greater than or equal to grid[row][col].
 
@@ -63,9 +62,9 @@ Example 2:
 
  
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minimumTime(self, grid: List[List[int]]) -> int:
         # If both initial moves require more than 1 second, impossible to proceed
         if grid[0][1] > 1 and grid[1][0] > 1:
@@ -111,5 +110,4 @@ Example 2:
     # Checks if given cell coordinates are valid and unvisited
     def _is_valid(self, visited, row, col, rows, cols):
         return 0 <= row < rows and 0 <= col < cols and (row, col) not in visited
-            {% endraw %}
-            
+{% endraw %}

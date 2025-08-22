@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array nums.
 
@@ -56,9 +55,9 @@ Example 3:
 	3 <= nums.length <= 105
 	1 <= nums[i] <= 106
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def maximumTripletValue(self, nums: List[int]) -> int:
         mx , diff , prod = 0, 0, 0
         
@@ -70,5 +69,4 @@ Example 3:
         return prod
 
         
-            {% endraw %}
-            
+{% endraw %}

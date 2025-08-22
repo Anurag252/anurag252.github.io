@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Given two strings s and t of lengths m and n respectively, return *the **minimum window*** ***substring**** of *s* such that every character in *t* (**including duplicates**) is included in the window*. If there is no such substring, return *the empty string *"".
 
@@ -59,9 +58,9 @@ Since the largest window of s only has one 'a', return empty string.
 
 **Follow up:** Could you find an algorithm that runs in O(m + n) time?
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if not t or not s:
             return ""
@@ -148,5 +147,4 @@ Since the largest window of s only has one 'a', return empty string.
         return True
 
         
-            {% endraw %}
-            
+{% endraw %}

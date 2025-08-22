@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)Given a **0-indexed** integer array nums of length n and an integer k, return *the **number of pairs*** (i, j) *where* 0 <= i < j < n, *such that* nums[i] == nums[j] *and* (i * j) *is divisible by* k.
+## [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)Given a **0-indexed** integer array nums of length n and an integer k, return *the **number of pairs*** (i, j) *where* 0 <= i < j < n, *such that* nums[i] == nums[j] *and* (i * j) *is divisible by* k.
 
  
 
@@ -43,9 +42,9 @@ Example 2:
 	1 <= nums.length <= 100
 	1 <= nums[i], k <= 100
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def countPairs(self, nums: List[int], k: int) -> int:
         n = len(nums)
         res = 0  # number of pairs meeting the requirements
@@ -54,5 +53,4 @@ Example 2:
                 if (i * j) % k == 0 and nums[i] == nums[j]:
                     res += 1
         return res
-            {% endraw %}
-            
+{% endraw %}

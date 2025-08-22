@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Lexicographically Minimum String After Removing Stars](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s. It may contain any number of '*' characters. Your task is to remove all '*' characters.
 
@@ -47,9 +46,9 @@ There is no '*' in the string.
 	s consists only of lowercase English letters and '*'.
 	The input is generated such that it is possible to delete all '*' characters.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def clearStars(self, s: str) -> str:
         arr = [0] * 26
         mp = {}
@@ -87,5 +86,4 @@ There is no '*' in the string.
 
 
         
-            {% endraw %}
-            
+{% endraw %}

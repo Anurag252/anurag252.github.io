@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums of size n where n is a multiple of 3 and a positive integer k.
 
@@ -64,9 +63,9 @@ The difference between any two elements in each array is less than or equal to 1
 	1 <= nums[i] <= 105
 	1 <= k <= 105
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def divideArray(self, nums: List[int], k: int) -> List[List[int]]:
         """
         a sorted array will be most closely fit
@@ -87,5 +86,4 @@ The difference between any two elements in each array is less than or equal to 1
         return res
 
         
-            {% endraw %}
-            
+{% endraw %}

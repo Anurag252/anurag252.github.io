@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Find the Original Typed String I](https://leetcode.com/problems/find-the-original-typed-string-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Alice is attempting to type a specific string on her computer. However, she tends to be clumsy and **may** press a key for too long, resulting in a character being typed **multiple** times.
 
@@ -52,9 +51,9 @@ Example 3:
 	1 <= word.length <= 100
 	word consists only of lowercase English letters.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def possibleStringCount(self, word: str) -> int:
         possibility = 1
         for i, k in enumerate(word):
@@ -64,5 +63,4 @@ Example 3:
         return possibility
 
         
-            {% endraw %}
-            
+{% endraw %}

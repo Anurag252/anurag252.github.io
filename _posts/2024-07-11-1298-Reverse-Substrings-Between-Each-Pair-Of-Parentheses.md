@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s that consists of lower case English letters and brackets.
 
@@ -54,9 +53,9 @@ Example 3:
 	s only contains lower case English characters and parentheses.
 	It is guaranteed that all parentheses are balanced.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def reverseParentheses(self, s: str) -> str:
         stack = deque()
         for k in s:
@@ -78,5 +77,4 @@ Example 3:
         return ''.join(stack)
 
 
-            {% endraw %}
-            
+{% endraw %}

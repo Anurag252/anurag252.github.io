@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Minimum Index of a Valid Split](https://leetcode.com/problems/minimum-index-of-a-valid-split) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 An element x of an integer array arr of length m is **dominant** if **more than half** the elements of arr have a value of x.
 
@@ -68,9 +67,9 @@ Example 3:
 	1 <= nums[i] <= 109
 	nums has exactly one dominant element.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minimumIndex(self, nums: List[int]) -> int:
         dominant = -1
         count = -1
@@ -95,5 +94,4 @@ Example 3:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

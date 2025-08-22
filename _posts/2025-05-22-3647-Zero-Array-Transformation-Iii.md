@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Zero Array Transformation III](https://leetcode.com/problems/zero-array-transformation-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Zero Array Transformation III](https://leetcode.com/problems/zero-array-transformation-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums of length n and a 2D array queries where queries[i] = [li, ri].
 
@@ -65,9 +64,9 @@ nums cannot be converted to a zero array even after using all the queries.
 	queries[i].length == 2
 	0 <= li <= ri < nums.length
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def maxRemoval(self, nums: List[int], queries: List[List[int]]) -> int:
         queries.sort(key=lambda x: x[0])
         heap = []
@@ -85,5 +84,4 @@ nums cannot be converted to a zero array even after using all the queries.
             if operations < num:
                 return -1
         return len(heap)
-            {% endraw %}
-            
+{% endraw %}

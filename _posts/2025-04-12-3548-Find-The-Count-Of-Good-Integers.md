@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+## [Find the Count of Good Integers](https://leetcode.com/problems/find-the-count-of-good-integers) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given two **positive** integers n and k.
 
@@ -60,9 +59,9 @@ Example 3:
 	1 <= n <= 10
 	1 <= k <= 9
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def countGoodIntegers(self, n: int, k: int) -> int:
         dictionary = set()
         base = 10 ** ((n - 1) // 2)
@@ -90,5 +89,4 @@ Example 3:
             ans += tot
 
         return ans
-            {% endraw %}
-            
+{% endraw %}

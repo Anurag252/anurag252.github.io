@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Flip Columns For Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an m x n binary matrix matrix.
 
@@ -56,9 +55,9 @@ Example 3:
 	1 <= m, n <= 300
 	matrix[i][j] is either 0 or 1.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
         # let's say there is a row that is good, flipping it will make it bad
         # two rows become good after flips if rows are equal or complimentary
@@ -91,5 +90,4 @@ Example 3:
 
 
         
-            {% endraw %}
-            
+{% endraw %}

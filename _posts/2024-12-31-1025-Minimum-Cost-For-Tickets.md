@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You have planned some train traveling one year in advance. The days of the year in which you will travel are given as an integer array days. Each day is an integer from 1 to 365.
 
@@ -62,9 +61,9 @@ In total, you spent $17 and covered all the days of your travel.
 	costs.length == 3
 	1 <= costs[i] <= 1000
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         """
         T[i] = min(T[i-1] + a, T[i-7] + b,T[i-30] + c,T[i]) if i in days 
@@ -105,5 +104,4 @@ In total, you spent $17 and covered all the days of your travel.
         return recurse(0, days[0])
 
         
-            {% endraw %}
-            
+{% endraw %}

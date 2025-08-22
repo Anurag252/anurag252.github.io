@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given two integers a and b, return *the sum of the two integers without using the operators* + *and* -.
 
@@ -35,9 +34,9 @@ Example 2:
 
 	-1000 <= a, b <= 1000
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def getSum(self, a: int, b: int) -> int:
         if a < 0 or b < 0:
             return a + b
@@ -87,5 +86,4 @@ Example 2:
         carry_bit = ((a & b) | (a & c_in) | (b & c_in))
 
         return sum_bit, carry_bit
-            {% endraw %}
-            
+{% endraw %}

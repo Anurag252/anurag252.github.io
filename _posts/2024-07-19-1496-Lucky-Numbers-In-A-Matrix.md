@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+## [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an m x n matrix of **distinct **numbers, return *all **lucky numbers** in the matrix in **any **order*.
 
@@ -55,9 +54,9 @@ Example 3:
 	1 <= matrix[i][j] <= 105.
 	All elements in the matrix are distinct.
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
         result =[]
         d = set()
@@ -76,5 +75,4 @@ Example 3:
             
 
         
-            {% endraw %}
-            
+{% endraw %}

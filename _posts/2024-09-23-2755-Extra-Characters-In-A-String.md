@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** string s and a dictionary of words dictionary. You have to break s into one or more **non-overlapping** substrings such that each substring is present in dictionary. There may be some **extra characters** in s which are not present in any of the substrings.
 
@@ -45,9 +44,9 @@ Example 2:
 	dictionary[i] and s consists of only lowercase English letters
 	dictionary contains distinct words
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def minExtraChar(self, s: str, dictionary: List[str]) -> int:
         n, dictionary_set = len(s), set(dictionary)
         @cache
@@ -64,5 +63,4 @@ Example 2:
             return ans
             
         return dp(0)
-            {% endraw %}
-            
+{% endraw %}

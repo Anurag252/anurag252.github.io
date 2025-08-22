@@ -4,10 +4,9 @@
             categories: ["leetcode"]
             tags: [python]
             layout: post
-            ---
+---
             
-
-            ## [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+## [Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There is a forest with an unknown number of rabbits. We asked n rabbits **"How many rabbits have the same color as you?"** and collected the answers in an integer array answers where answers[i] is the answer of the ith rabbit.
 
@@ -46,9 +45,9 @@ Example 2:
 	1 <= answers.length <= 1000
 	0 <= answers[i] < 1000
 
-            {% raw %}
-            ```python
-            class Solution:
+{% raw %}
+```python
+class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         # if all different then just sum all plus one each
         # if two same - then same ones can be of same color 
@@ -73,5 +72,4 @@ Example 2:
         return res
 
         
-            {% endraw %}
-            
+{% endraw %}
