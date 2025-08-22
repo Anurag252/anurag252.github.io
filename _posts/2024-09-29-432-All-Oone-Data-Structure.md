@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Design a data structure to store the strings' count with the ability to return the strings with minimum and maximum counts.
 
@@ -53,8 +54,9 @@ allOne.getMinKey(); // return "leet"
 	It is guaranteed that for each call to dec, key is existing in the data structure.
 	At most 5 * 104 calls will be made to inc, dec, getMaxKey, and getMinKey.
 
-```python
-class Node:
+                            {% raw %}
+                            ```python
+                            class Node:
     def __init__(self, count=0):
         self.next = None
         self.prev = None
@@ -157,4 +159,5 @@ class AllOne:
             return ""
         return next(iter(self.dll.head.next.elem))
 
-```
+                            {% endraw %}
+                            

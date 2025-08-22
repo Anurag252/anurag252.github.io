@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [The Earliest and Latest Rounds Where Players Compete](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [The Earliest and Latest Rounds Where Players Compete](https://leetcode.com/problems/the-earliest-and-latest-rounds-where-players-compete) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 There is a tournament where n players are participating. The players are standing in a single row and are numbered from 1 to n based on their **initial** standing position (player 1 is the first player in the row, player 2 is the second player in the row, etc.).
 
@@ -63,8 +64,9 @@ There is no way to make them compete in any other round.
 	2 <= n <= 28
 	1 <= firstPlayer < secondPlayer <= n
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def earliestAndLatest(
         self, n: int, firstPlayer: int, secondPlayer: int
     ) -> List[int]:
@@ -107,4 +109,5 @@ class Solution:
         earliest, latest = dp(n, firstPlayer, secondPlayer)
         dp.cache_clear()
         return [earliest, latest]
-```
+                            {% endraw %}
+                            

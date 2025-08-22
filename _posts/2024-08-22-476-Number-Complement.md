@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Number Complement](https://leetcode.com/problems/number-complement) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Number Complement](https://leetcode.com/problems/number-complement) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 The **complement** of an integer is the integer you get when you flip all the 0's to 1's and all the 1's to 0's in its binary representation.
 
@@ -46,8 +47,9 @@ Example 2:
 
 **Note:** This question is the same as 1009: [https://leetcode.com/problems/complement-of-base-10-integer/](https://leetcode.com/problems/complement-of-base-10-integer/)
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def findComplement(self, num: int) -> int:
         result = 0
         i = 0
@@ -63,4 +65,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

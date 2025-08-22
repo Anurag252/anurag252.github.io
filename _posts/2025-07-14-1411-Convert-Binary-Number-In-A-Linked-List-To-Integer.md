@@ -6,7 +6,8 @@ tags: [rust]
 layout: post
 ---
 
-## [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given head which is a reference node to a singly-linked list. The value of each node in the linked list is either 0 or 1. The linked list holds the binary representation of a number.
 
@@ -44,8 +45,9 @@ Example 2:
 	Number of nodes will not exceed 30.
 	Each node's value is either 0 or 1.
 
-```rust
-// Definition for singly-linked list.
+                            {% raw %}
+                            ```rust
+                            // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
 //   pub val: i32,
@@ -73,4 +75,5 @@ impl Solution {
 
     }
 }
-```
+                            {% endraw %}
+                            

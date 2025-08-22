@@ -6,7 +6,8 @@ tags: [go]
 layout: post
 ---
 
-## [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [First Completely Painted Row or Column](https://leetcode.com/problems/first-completely-painted-row-or-column) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array arr, and an m x n integer **matrix** mat. arr and mat both contain **all** the integers in the range [1, m * n].
 
@@ -51,8 +52,9 @@ Example 2:
 	All the integers of arr are **unique**.
 	All the integers of mat are **unique**.
 
-```go
-func firstCompleteIndex(arr []int, mat [][]int) int {
+                            {% raw %}
+                            ```go
+                            func firstCompleteIndex(arr []int, mat [][]int) int {
     // cache row and col for all elements from mat
     // maintain another arr of row , and col sizes and initialize each element to col and row 
     // read the arr and reduce each row and col , when you reach till 0 return
@@ -94,4 +96,5 @@ func firstCompleteIndex(arr []int, mat [][]int) int {
 
     return -1
 }
-```
+                            {% endraw %}
+                            

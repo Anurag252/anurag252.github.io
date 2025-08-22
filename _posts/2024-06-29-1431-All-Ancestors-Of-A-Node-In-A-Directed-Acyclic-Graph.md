@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a positive integer n representing the number of nodes of a **Directed Acyclic Graph** (DAG). The nodes are numbered from 0 to n - 1 (**inclusive**).
 
@@ -65,8 +66,9 @@ The above diagram represents the input graph.
 	There are no duplicate edges.
 	The graph is **directed** and **acyclic**.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def getAncestors(self, n: int, edges: List[List[int]]) -> List[List[int]]:
         graph = [[] for _ in range(n)]
         inDeg = [0] * n
@@ -96,4 +98,5 @@ class Solution:
             ans[i] = sorted(list(ancestors[i]))
         
         return ans
-```
+                            {% endraw %}
+                            

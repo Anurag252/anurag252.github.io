@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 There are some robots and factories on the X-axis. You are given an integer array robot where robot[i] is the position of the ith robot. You are also given a 2D integer array factory where factory[j] = [positionj, limitj] indicates that positionj is the position of the jth factory and that the jth factory can repair at most limitj robots.
 
@@ -71,8 +72,9 @@ The total distance is |2 - 1| + |(-2) - (-1)| = 2. It can be shown that we canno
 	0 <= limitj <= robot.length
 	The input will be generated such that it is always possible to repair every robot.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minimumTotalDistance(
         self, robot: List[int], factory: List[List[int]]
     ) -> int:
@@ -106,4 +108,5 @@ class Solution:
             return dp[robot_idx][factory_idx]
 
         return _calculate_min_distance(0, 0)
-```
+                            {% endraw %}
+                            

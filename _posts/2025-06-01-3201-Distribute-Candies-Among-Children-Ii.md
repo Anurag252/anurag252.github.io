@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Distribute Candies Among Children II](https://leetcode.com/problems/distribute-candies-among-children-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two positive integers n and limit.
 
@@ -41,8 +42,9 @@ Example 2:
 	1 <= n <= 106
 	1 <= limit <= 106
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:
 
 
@@ -100,4 +102,5 @@ class Solution:
             
 
         
-```
+                            {% endraw %}
+                            

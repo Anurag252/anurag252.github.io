@@ -6,7 +6,8 @@ tags: [c]
 layout: post
 ---
 
-## [Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Minimum Difference Between Largest and Smallest Value in Three Moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums.
 
@@ -65,8 +66,9 @@ After performing 3 moves, the difference between the minimum and maximum is 7 - 
 	1 <= nums.length <= 105
 	-109 <= nums[i] <= 109
 
-```c
-int compare(void* a, void* b){
+                            {% raw %}
+                            ```c
+                            int compare(void* a, void* b){
    int k1 =  *((int*)(a));
    int k2 = *((int*)(b));
    return k2-k1;
@@ -93,4 +95,5 @@ int minDifference(int* nums, int numsSize) {
     
 }
 //95,82,81,75,20
-```
+                            {% endraw %}
+                            

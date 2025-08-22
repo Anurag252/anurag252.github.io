@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array of integers nums, sort the array in **increasing** order based on the frequency of the values. If multiple values have the same frequency, sort them in **decreasing** order.
 
@@ -49,8 +50,9 @@ Example 3:
 	1 <= nums.length <= 100
 	-100 <= nums[i] <= 100
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def frequencySort(self, nums: List[int]) -> List[int]:
         h = {}
         for k in nums:
@@ -74,4 +76,5 @@ class Solution:
             
         
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Maximum Beauty of an Array After Applying Operation](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** array nums and a **non-negative** integer k.
 
@@ -57,8 +58,9 @@ The beauty of the array nums is 4 (whole array).
 	1 <= nums.length <= 105
 	0 <= nums[i], k <= 105
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maximumBeauty(self, nums: List[int], k: int) -> int:
 
         arr = []
@@ -85,4 +87,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

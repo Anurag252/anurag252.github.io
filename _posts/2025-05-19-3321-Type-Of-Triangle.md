@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Type of Triangle](https://leetcode.com/problems/type-of-triangle) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Type of Triangle](https://leetcode.com/problems/type-of-triangle) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given a **0-indexed** integer array nums of size 3 which can form the sides of a triangle.
 
@@ -50,8 +51,9 @@ As all the sides are of different lengths, it will form a scalene triangle.
 	nums.length == 3
 	1 <= nums[i] <= 100
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def triangleType(self, nums: List[int]) -> str:
         nums.sort()
         if nums[0] + nums[1] <= nums[2]:
@@ -65,4 +67,5 @@ class Solution:
 
         return "scalene"
         
-```
+                            {% endraw %}
+                            

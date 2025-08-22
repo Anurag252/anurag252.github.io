@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two strings sentence1 and sentence2, each representing a **sentence** composed of words. A sentence is a list of **words** that are separated by a **single** space with no leading or trailing spaces. Each word consists of only uppercase and lowercase English characters.
 
@@ -59,8 +60,9 @@ sentence2 can be turned to sentence1 by inserting "right now" at the end of the 
 	sentence1 and sentence2 consist of lowercase and uppercase English letters and spaces.
 	The words in sentence1 and sentence2 are separated by a single space.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def areSentencesSimilar(self, sentence1: str, sentence2: str) -> bool:
         s1 = sentence1.split(' ')
         s2 = sentence2.split(' ')
@@ -87,4 +89,5 @@ class Solution:
             
 
         
-```
+                            {% endraw %}
+                            

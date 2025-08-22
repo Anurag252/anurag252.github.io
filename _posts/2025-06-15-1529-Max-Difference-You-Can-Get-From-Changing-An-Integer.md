@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Max Difference You Can Get From Changing an Integer](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer num. You will apply the following steps to num **two** separate times:
 
@@ -52,8 +53,9 @@ We have now a = 9 and b = 1 and max difference = 8
 
 	1 <= num <= 108
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxDiff(self, num: int) -> int:
         l = list(str(num))
         first = 0
@@ -85,4 +87,5 @@ class Solution:
         return int("".join(high)) - int("".join(low))
         
         
-```
+                            {% endraw %}
+                            

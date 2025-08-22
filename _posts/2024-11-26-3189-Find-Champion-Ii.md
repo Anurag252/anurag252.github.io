@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Find Champion II](https://leetcode.com/problems/find-champion-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find Champion II](https://leetcode.com/problems/find-champion-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There are n teams numbered from 0 to n - 1 in a tournament; each team is also a node in a **DAG**.
 
@@ -62,8 +63,9 @@ Example 2:
 	The input is generated such that if team a is stronger than team b, team b is not stronger than team a.
 	The input is generated such that if team a is stronger than team b and team b is stronger than team c, then team a is stronger than team c.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def findChampion(self, n: int, edges: List[List[int]]) -> int:
         teams = [0] * n
 
@@ -82,4 +84,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** 2D integer array questions where questions[i] = [pointsi, brainpoweri].
 
@@ -58,8 +59,9 @@ Total points earned: 2 + 5 = 7. There is no other way to earn 7 or more points.
 	questions[i].length == 2
 	1 <= pointsi, brainpoweri <= 105
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def mostPoints(self, questions: List[List[int]]) -> int:
         n = len(questions)
         dp = [0] * (n + 1)  # dp[i] = max points starting from i
@@ -72,4 +74,5 @@ class Solution:
 
         return dp[0]
 
-```
+                            {% endraw %}
+                            

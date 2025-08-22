@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an array nums of **non-negative** integers and an integer k.
 
@@ -54,8 +55,9 @@ The subarray [1] has OR value of 1. Hence, we return 1.
 	0 <= nums[i] <= 109
 	0 <= k <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minimumSubarrayLength(self, nums: List[int], k: int) -> int:
         min_length = float("inf")
         window_start = window_end = 0
@@ -97,4 +99,5 @@ class Solution:
             if bit_counts[pos]:
                 result |= 1 << pos
         return result
-```
+                            {% endraw %}
+                            

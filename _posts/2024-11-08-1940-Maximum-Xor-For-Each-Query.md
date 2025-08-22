@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **sorted** array nums of n non-negative integers and an integer maximumBit. You want to perform the following query n **times**:
 
@@ -64,8 +65,9 @@ Example 3:
 	0 <= nums[i] < 2maximumBit
 	nums​​​ is sorted in **ascending** order.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def getMaximumXor(self, nums: List[int], maximumBit: int) -> List[int]:
         largestnum = 2 ** maximumBit - 1
         res = []
@@ -85,4 +87,5 @@ class Solution:
         return res
 
 
-```
+                            {% endraw %}
+                            

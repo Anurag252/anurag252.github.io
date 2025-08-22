@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an integer array nums, return the number of subarrays of length 3 such that the sum of the first and third numbers equals *exactly* half of the second number.
 
@@ -39,8 +40,9 @@ Example 2:
 	3 <= nums.length <= 100
 	-100 <= nums[i] <= 100
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def countSubarrays(self, nums: List[int]) -> int:
         left = 0
         right = 2
@@ -54,4 +56,5 @@ class Solution:
         return res
 
         
-```
+                            {% endraw %}
+                            

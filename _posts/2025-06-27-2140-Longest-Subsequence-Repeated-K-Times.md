@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a string s of length n, and an integer k. You are tasked to find the **longest subsequence repeated** k times in string s.
 
@@ -61,8 +62,9 @@ Example 3:
 	2 <= n < k * 8
 	s consists of lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def longestSubsequenceRepeatedK(self, s: str, k: int) -> str:
         ans = ""
         candidate = sorted(
@@ -80,4 +82,5 @@ class Solution:
                 if all(ch in it for ch in nxt * k):
                     q.append(nxt)
         return ans
-```
+                            {% endraw %}
+                            

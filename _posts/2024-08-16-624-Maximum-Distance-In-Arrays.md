@@ -6,10 +6,12 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)null
 
-```python
-class Solution:
+                            ## [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)null
+
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxDistance(self, arrays: List[List[int]]) -> int:
         start_elem = []
         end_elem = []
@@ -41,4 +43,5 @@ class Solution:
         return 0
             
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given two positive integers left and right, find the two integers num1 and num2 such that:
 
@@ -48,8 +49,9 @@ Example 2:
 
  
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def closestPrimes(self, left: int, right: int) -> List[int]:
         
         last = -1
@@ -101,4 +103,5 @@ class Solution:
         
         
         
-```
+                            {% endraw %}
+                            

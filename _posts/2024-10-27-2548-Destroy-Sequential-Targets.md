@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** array nums consisting of positive integers, representing targets on a number line. You are also given an integer space.
 
@@ -58,8 +59,9 @@ Example 3:
 	1 <= nums[i] <= 109
 	1 <= space <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def destroyTargets(self, nums: List[int], space: int) -> int:
         remainder_count = {}
         # Dictionary to store minimum number for each remainder
@@ -80,4 +82,5 @@ class Solution:
                 min_seed = min(min_seed, min_number[r])
         
         return min_seed
-```
+                            {% endraw %}
+                            

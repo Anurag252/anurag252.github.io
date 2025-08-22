@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Minimum Number of Operations to Make Elements in Array Distinct](https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer array nums. You need to ensure that the elements in the array are **distinct**. To achieve this, you can perform the following operation any number of times:
 
@@ -59,8 +60,9 @@ The array already contains distinct elements. Therefore, the answer is 0.
 	1 <= nums.length <= 100
 	1 <= nums[i] <= 100
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
         arr = [0] * 101
 
@@ -85,4 +87,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

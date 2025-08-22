@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Count Good Triplets](https://leetcode.com/problems/count-good-triplets) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Count Good Triplets](https://leetcode.com/problems/count-good-triplets) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array of integers arr, and three integers a, b and c. You need to find the number of good triplets.
 
@@ -51,8 +52,9 @@ Example 2:
 	0 <= arr[i] <= 1000
 	0 <= a, b, c <= 1000
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def countGoodTriplets(self, arr: List[int], a: int, b: int, c: int) -> int:
         res = []
         for i, k in enumerate(arr):
@@ -72,4 +74,5 @@ class Solution:
         print(res)
 
         
-```
+                            {% endraw %}
+                            

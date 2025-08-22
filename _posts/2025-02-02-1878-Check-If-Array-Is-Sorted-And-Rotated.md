@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an array nums, return true* if the array was originally sorted in non-decreasing order, then rotated **some** number of positions (including zero)*. Otherwise, return false.
 
@@ -55,8 +56,9 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 	1 <= nums.length <= 100
 	1 <= nums[i] <= 100
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def check(self, nums: List[int]) -> bool:
         inflextion = False
         for idx, k in enumerate(nums):
@@ -76,4 +78,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

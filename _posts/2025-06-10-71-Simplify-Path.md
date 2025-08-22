@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Simplify Path](https://leetcode.com/problems/simplify-path) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Simplify Path](https://leetcode.com/problems/simplify-path) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an *absolute* path for a Unix-style file system, which always begins with a slash '/'. Your task is to transform this absolute path into its **simplified canonical path**.
 
@@ -86,8 +87,9 @@ Example 5:
 	path consists of English letters, digits, period '.', slash '/' or '_'.
 	path is a valid absolute Unix path.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def simplifyPath(self, path: str) -> str:
         arr = path.split('/')
         st = [""]
@@ -109,4 +111,5 @@ class Solution:
         return "/".join(st) if len(st) > 0  else "/"
             
         
-```
+                            {% endraw %}
+                            

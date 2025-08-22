@@ -6,7 +6,8 @@ tags: [cpp]
 layout: post
 ---
 
-## [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 For a binary tree **T**, we can define a **flip operation** as follows: choose any node, and swap the left and right child subtrees.
 
@@ -52,8 +53,9 @@ Example 3:
 	The number of nodes in each tree is in the range [0, 100].
 	Each tree will have **unique node values** in the range [0, 99].
 
-```cpp
-class Solution {
+                            {% raw %}
+                            ```cpp
+                            class Solution {
 public:
     bool flipEquiv(TreeNode* root1, TreeNode* root2) {
         // Both trees are empty
@@ -79,4 +81,5 @@ public:
         return swap || noSwap;
     }
 };
-```
+                            {% endraw %}
+                            

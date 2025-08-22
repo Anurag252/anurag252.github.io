@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Array End](https://leetcode.com/problems/minimum-array-end) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Minimum Array End](https://leetcode.com/problems/minimum-array-end) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two integers n and x. You have to construct an array of **positive** integers nums of size n where for every 0 <= i < n - 1, nums[i + 1] is **greater than** nums[i], and the result of the bitwise AND operation between all elements of nums is x.
 
@@ -40,8 +41,9 @@ nums can be [7,15] and its last element is 15.
 
 	1 <= n, x <= 108
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minEnd(self, n: int, x: int) -> int:
         # Identify positions of zero bits in `x`
         zero_positions = []
@@ -64,4 +66,5 @@ class Solution:
 
         return result
 
-```
+                            {% endraw %}
+                            

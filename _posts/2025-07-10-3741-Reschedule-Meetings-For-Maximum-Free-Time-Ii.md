@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer eventTime denoting the duration of an event. You are also given two integer arrays startTime and endTime, each of length n.
 
@@ -78,8 +79,9 @@ There is no time during the event not occupied by meetings.
 	0 <= startTime[i] < endTime[i] <= eventTime
 	endTime[i] <= startTime[i + 1] where i lies in the range [0, n - 2].
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxFreeTime(
         self, eventTime: int, startTime: list[int], endTime: list[int]
     ) -> int:
@@ -109,4 +111,5 @@ class Solution:
             else:
                 res = max(res, right - left - (endTime[i] - startTime[i]))
         return res
-```
+                            {% endraw %}
+                            

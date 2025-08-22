@@ -6,7 +6,8 @@ tags: [c]
 layout: post
 ---
 
-## [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There are n friends that are playing a game. The friends are sitting in a circle and are numbered from 1 to n in **clockwise order**. More formally, moving clockwise from the ith friend brings you to the (i+1)th friend for 1 <= i < n, and moving clockwise from the nth friend brings you to the 1st friend.
 
@@ -63,8 +64,9 @@ Example 2:
 
 Could you solve this problem in linear time with constant space?
 
-```c
-int findTheWinner(int n, int k) {
+                            {% raw %}
+                            ```c
+                            int findTheWinner(int n, int k) {
     
     int ans = 0;
         for (int i = 2; i <= n; i++) {
@@ -76,4 +78,5 @@ int findTheWinner(int n, int k) {
     // k % n , 2k % (n) , 3k % (n-1), nk % (n-k)
    //n - (1 + ... + n)k % n
 }
-```
+                            {% endraw %}
+                            

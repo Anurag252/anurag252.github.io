@@ -6,7 +6,8 @@ tags: [rust]
 layout: post
 ---
 
-## [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer array nums.
 
@@ -56,8 +57,9 @@ Delete the elements nums[2] == -1 and nums[3] == -2, and select the subarray [2,
 	1 <= nums.length <= 100
 	-100 <= nums[i] <= 100
 
-```rust
-use std::collections::HashSet;
+                            {% raw %}
+                            ```rust
+                            use std::collections::HashSet;
 use libc::abs;
 
 impl Solution {
@@ -90,4 +92,5 @@ impl Solution {
        res
     }
 }
-```
+                            {% endraw %}
+                            

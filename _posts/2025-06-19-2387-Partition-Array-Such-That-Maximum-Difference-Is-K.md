@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums and an integer k. You may partition nums into one or more **subsequences** such that each element in nums appears in **exactly** one of the subsequences.
 
@@ -67,8 +68,9 @@ Since three subsequences were created, we return 3. It can be shown that 3 is th
 	0 <= nums[i] <= 105
 	0 <= k <= 105
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def partitionArray(self, nums: List[int], k: int) -> int:
         """
         what if we went greedy, for every subsequence keep taking all
@@ -105,4 +107,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

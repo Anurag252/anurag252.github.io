@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)Given a list of 24-hour clock time points in **"HH:MM"** format, return *the minimum **minutes** difference between any two time-points in the list*.
+
+                            ## [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)Given a list of 24-hour clock time points in **"HH:MM"** format, return *the minimum **minutes** difference between any two time-points in the list*.
 
  
 
@@ -33,8 +34,9 @@ Example 2:
 	2 <= timePoints.length <= 2 * 104
 	timePoints[i] is in the format **"HH:MM"**.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
         result = []
         for k in timePoints:
@@ -55,4 +57,5 @@ class Solution:
         return diff
 
         
-```
+                            {% endraw %}
+                            

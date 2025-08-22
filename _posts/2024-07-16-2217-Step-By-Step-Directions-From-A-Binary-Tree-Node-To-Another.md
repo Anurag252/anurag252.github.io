@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given the root of a **binary tree** with n nodes. Each node is uniquely assigned a value from 1 to n. You are also given an integer startValue representing the value of the start node s, and a different integer destValue representing the value of the destination node t.
 
@@ -53,8 +54,9 @@ Example 2:
 	1 <= startValue, destValue <= n
 	startValue != destValue
 
-```python
-# Definition for a binary tree node.
+                            {% raw %}
+                            ```python
+                            # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -123,4 +125,5 @@ class Solution:
 
         
         
-```
+                            {% endraw %}
+                            

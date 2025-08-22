@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 The **XOR total** of an array is defined as the bitwise XOR of** all its elements**, or 0 if the array is** empty**.
 
@@ -71,8 +72,9 @@ Example 3:
 	1 <= nums.length <= 12
 	1 <= nums[i] <= 20
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
         # xor -> 0 if same else 1
         t = 0
@@ -98,4 +100,5 @@ class Solution:
         return m
 
         
-```
+                            {% endraw %}
+                            

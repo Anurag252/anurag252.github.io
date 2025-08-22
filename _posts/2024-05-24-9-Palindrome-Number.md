@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Palindrome Number](https://leetcode.com/problems/palindrome-number) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Palindrome Number](https://leetcode.com/problems/palindrome-number) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given an integer x, return true* if *x* is a ****palindrome****, and *false* otherwise*.
 
@@ -52,8 +53,9 @@ Example 3:
 
 **Follow up:** Could you solve it without converting the integer to a string?
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0 or x != ceil(x):
             return False
@@ -76,4 +78,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

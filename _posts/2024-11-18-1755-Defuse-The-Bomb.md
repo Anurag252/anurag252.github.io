@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You have a bomb to defuse, and your time is running out! Your informer will provide you with a **circular** array code of length of n and a key k.
 
@@ -61,8 +62,9 @@ Example 3:
 	1 <= code[i] <= 100
 	-(n - 1) <= k <= n - 1
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def decrypt(self, code: List[int], k: int) -> List[int]:
         q = []
         res = []
@@ -104,4 +106,5 @@ class Solution:
 
 
 
-```
+                            {% endraw %}
+                            

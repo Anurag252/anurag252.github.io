@@ -6,7 +6,8 @@ tags: [go]
 layout: post
 ---
 
-## [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a map of a server center, represented as a m * n integer matrix grid, where 1 means that on that cell there is a server and 0 means that it is no server. Two servers are said to communicate if they are on the same row or on the same column.
 
@@ -59,8 +60,9 @@ Example 3:
 	1 <= n <= 250
 	grid[i][j] == 0 or 1
 
-```go
-
+                            {% raw %}
+                            ```go
+                            
 func dfs_row(row int, col int, grid [][]int, found bool) (int ) {
     res := 0
     
@@ -138,4 +140,5 @@ func countServers(grid [][]int) int {
     
     return len(res)
 }
-```
+                            {% endraw %}
+                            

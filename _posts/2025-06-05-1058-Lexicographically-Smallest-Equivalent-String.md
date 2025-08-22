@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given two strings of the same length s1 and s2 and a string baseStr.
 
@@ -67,8 +68,9 @@ Example 3:
 	s1.length == s2.length
 	s1, s2, and baseStr consist of lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def smallestEquivalentString(self, s1: str, s2: str, baseStr: str) -> str:
         mp = {}
 
@@ -112,4 +114,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

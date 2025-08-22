@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an array of integers nums and an integer target.
 
@@ -58,8 +59,9 @@ Number of valid subsequences (63 - 2 = 61).
 	1 <= nums[i] <= 106
 	1 <= target <= 106
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:
         """
         I conclude that sorting works and order does not matter 
@@ -85,4 +87,5 @@ class Solution:
             
 
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find the Minimum Area to Cover All Ones I](https://leetcode.com/problems/find-the-minimum-area-to-cover-all-ones-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a 2D **binary** array grid. Find a rectangle with horizontal and vertical sides with the** smallest** area, such that all the 1's in grid lie inside this rectangle.
 
@@ -46,8 +47,9 @@ The smallest rectangle has both height and width 1, so its area is 1 * 1 = 1.
 	grid[i][j] is either 0 or 1.
 	The input is generated such that there is at least one 1 in grid.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minimumArea(self, grid: List[List[int]]) -> int:
         """
         traverse rows and find first row with 1 and last row with 1
@@ -72,4 +74,5 @@ class Solution:
         return (last_row- first_row + 1) * (last_col - first_col + 1)
 
         
-```
+                            {% endraw %}
+                            

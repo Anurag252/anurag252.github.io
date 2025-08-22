@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an integer array nums, return *the number of **subarrays** filled with *0.
 
@@ -57,8 +58,9 @@ Example 3:
 	1 <= nums.length <= 105
 	-109 <= nums[i] <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
         """
         count the number of contiguous 0s
@@ -86,4 +88,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

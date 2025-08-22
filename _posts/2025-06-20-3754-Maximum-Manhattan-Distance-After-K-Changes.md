@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Maximum Manhattan Distance After K Changes](https://leetcode.com/problems/maximum-manhattan-distance-after-k-changes) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s consisting of the characters 'N', 'S', 'E', and 'W', where s[i] indicates movements in an infinite grid:
 
@@ -80,8 +81,9 @@ The maximum Manhattan distance from the origin that can be achieved is 6. Hence,
 	0 <= k <= s.length
 	s consists of only 'N', 'S', 'E', and 'W'.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxDistance(self, s: str, k: int) -> int:
         ans = 0
         north = south = east = west = 0
@@ -109,4 +111,5 @@ class Solution:
         return (
             abs(drt1 - drt2) + times * 2
         )  # Calculate modified Manhattan distance
-```
+                            {% endraw %}
+                            

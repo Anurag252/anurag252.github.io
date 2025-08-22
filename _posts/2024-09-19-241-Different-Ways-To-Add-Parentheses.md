@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a string expression of numbers and operators, return *all possible results from computing all the different possible ways to group numbers and operators*. You may return the answer in **any order**.
 
@@ -50,8 +51,9 @@ Example 2:
 	All the integer values in the input expression are in the range [0, 99].
 	The integer values in the input expression do not have a leading '-' or '+' denoting the sign.
 
-```python
-from typing import List
+                            {% raw %}
+                            ```python
+                            from typing import List
 
 class Solution:
     def __init__(self):
@@ -90,4 +92,5 @@ class Solution:
         self.cache[expression] = res
         return res
 
-```
+                            {% endraw %}
+                            

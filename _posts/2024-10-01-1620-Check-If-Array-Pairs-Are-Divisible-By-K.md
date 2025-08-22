@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an array of integers arr of even length n and an integer k.
 
@@ -56,8 +57,9 @@ Example 3:
 	-109 <= arr[i] <= 109
 	1 <= k <= 105
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def canArrange(self, arr: List[int], k: int) -> bool:
         dic = {}
         for m in arr:
@@ -79,4 +81,5 @@ class Solution:
             
 
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given two positive integers n and k, the binary string Sn is formed as follows:
 
@@ -55,8 +56,9 @@ The 11th bit is "1".
 	1 <= n <= 20
 	1 <= k <= 2n - 1
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def findKthBit(self, n: int, k: int) -> str:
 
 
@@ -86,4 +88,5 @@ class Solution:
         
 
         
-```
+                            {% endraw %}
+                            

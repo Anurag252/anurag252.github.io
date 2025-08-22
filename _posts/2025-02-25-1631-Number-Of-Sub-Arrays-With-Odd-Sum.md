@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an array of integers arr, return *the number of subarrays with an **odd** sum*.
 
@@ -54,8 +55,9 @@ Example 3:
 	1 <= arr.length <= 105
 	1 <= arr[i] <= 100
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def numOfSubarrays(self, arr: List[int]) -> int:
         # odd sum is odd + even, but odd + odd is even
         # prefix sum can give sum till n
@@ -97,4 +99,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

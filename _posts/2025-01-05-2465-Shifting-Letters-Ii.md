@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s of lowercase English letters and a 2D integer array shifts where shifts[i] = [starti, endi, directioni]. For every i, **shift** the characters in s from the index starti to the index endi (**inclusive**) forward if directioni = 1, or shift the characters backward if directioni = 0.
 
@@ -48,8 +49,9 @@ Finally, shift the characters from index 1 to index 1 forward. Now s = "catz".
 	0 <= directioni <= 1
 	s consists of lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
         arr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
@@ -91,4 +93,5 @@ class Solution:
             
 
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Special Array II](https://leetcode.com/problems/special-array-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Special Array II](https://leetcode.com/problems/special-array-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 An array is considered **special** if every pair of its adjacent elements contains two numbers with different parity.
 
@@ -47,8 +48,9 @@ Example 2:
 	queries[i].length == 2
 	0 <= queries[i][0] <= queries[i][1] <= nums.length - 1
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def isArraySpecial(self, nums: List[int], queries: List[List[int]]) -> List[bool]:
         arr = []
 
@@ -82,4 +84,5 @@ class Solution:
         1,0,1,0,0,1,0,1,0
           1,1,1,0,1,1,1,1
           """
-```
+                            {% endraw %}
+                            

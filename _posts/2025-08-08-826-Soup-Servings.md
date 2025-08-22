@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Soup Servings](https://leetcode.com/problems/soup-servings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Soup Servings](https://leetcode.com/problems/soup-servings) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You have two soups, **A** and **B**, each starting with n mL. On every turn, one of the following four serving operations is chosen *at random*, each with probability 0.25 **independent** of all previous turns:
 
@@ -62,8 +63,9 @@ So the total probability of A becoming empty first plus half the probability tha
 
 	0 <= n <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def soupServings(self, n: int) -> float:
         m = ceil(n / 25)
         dp = {}
@@ -83,4 +85,5 @@ class Solution:
             if dp[k][k] > 1 - 1e-5:
                 return 1
         return dp[m][m]
-```
+                            {% endraw %}
+                            

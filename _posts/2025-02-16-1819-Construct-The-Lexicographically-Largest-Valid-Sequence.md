@@ -6,7 +6,8 @@ tags: [go]
 layout: post
 ---
 
-## [Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Construct the Lexicographically Largest Valid Sequence](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an integer n, find a sequence that satisfies all of the following:
 
@@ -47,8 +48,9 @@ Example 2:
 
 	1 <= n <= 20
 
-```go
-package main
+                            {% raw %}
+                            ```go
+                            package main
 
 import "fmt"
 
@@ -98,4 +100,5 @@ func recurse(arr []int, used []bool, n, index int, result *[]int) bool {
 
 
 
-```
+                            {% endraw %}
+                            

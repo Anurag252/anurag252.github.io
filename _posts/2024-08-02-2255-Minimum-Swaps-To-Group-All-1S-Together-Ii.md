@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 A **swap** is defined as taking two **distinct** positions in an array and swapping the values in them.
 
@@ -63,8 +64,9 @@ Thus, the minimum number of swaps required is 0.
 	1 <= nums.length <= 105
 	nums[i] is either 0 or 1.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minSwaps(self, nums: List[int]) -> int:
         op1 = self.min_swaps_helper(nums, 0)  # Grouping all 0s together
         op2 = self.min_swaps_helper(nums, 1)  # Grouping all 1s together
@@ -100,4 +102,5 @@ class Solution:
             )
             minimum_swaps = min(minimum_swaps, required_swaps)
         return minimum_swaps
-```
+                            {% endraw %}
+                            

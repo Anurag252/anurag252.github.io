@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Most Beautiful Item for Each Query](https://leetcode.com/problems/most-beautiful-item-for-each-query) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a 2D integer array items where items[i] = [pricei, beautyi] denotes the **price** and **beauty** of an item respectively.
 
@@ -65,8 +66,9 @@ Hence, the answer to the query is 0.
 	items[i].length == 2
 	1 <= pricei, beautyi, queries[j] <= 109
 
-```python
-from typing import List
+                            {% raw %}
+                            ```python
+                            from typing import List
 
 class Solution:
     def maximumBeauty(self, items: List[List[int]], queries: List[int]) -> List[int]:
@@ -98,4 +100,5 @@ class Solution:
         
         return ans
 
-```
+                            {% endraw %}
+                            

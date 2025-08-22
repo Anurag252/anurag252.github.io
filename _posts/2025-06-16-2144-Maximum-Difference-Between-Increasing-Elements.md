@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given a **0-indexed** integer array nums of size n, find the **maximum difference** between nums[i] and nums[j] (i.e., nums[j] - nums[i]), such that 0 <= i < j < n and nums[i] < nums[j].
 
@@ -56,8 +57,9 @@ The maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 =
 	2 <= n <= 1000
 	1 <= nums[i] <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maximumDifference(self, nums: List[int]) -> int:
         min_arr =[]
         max_arr = []
@@ -80,4 +82,5 @@ class Solution:
         return ans
 
 
-```
+                            {% endraw %}
+                            

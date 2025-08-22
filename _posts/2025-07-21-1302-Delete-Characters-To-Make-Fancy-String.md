@@ -6,7 +6,8 @@ tags: [rust]
 layout: post
 ---
 
-## [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 A **fancy string** is a string where no **three** **consecutive** characters are equal.
 
@@ -58,8 +59,9 @@ Example 3:
 	1 <= s.length <= 105
 	s consists only of lowercase English letters.
 
-```rust
-use std::collections::HashMap;
+                            {% raw %}
+                            ```rust
+                            use std::collections::HashMap;
 impl Solution {
     pub fn make_fancy_string(s: String) -> String {
         let mut left : usize = 0;
@@ -94,4 +96,5 @@ impl Solution {
 
     }
 }
-```
+                            {% endraw %}
+                            

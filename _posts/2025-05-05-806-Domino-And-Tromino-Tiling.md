@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You have two types of tiles: a 2 x 1 domino shape and a tromino shape. You may rotate these shapes.
 
@@ -44,8 +45,9 @@ Example 2:
 
 	1 <= n <= 1000
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def numTilings(self, n: int) -> int:
         MOD = 10**9 + 7
         dp = [0] * (n + 1)
@@ -60,4 +62,5 @@ class Solution:
 
         return dp[n]
 
-```
+                            {% endraw %}
+                            

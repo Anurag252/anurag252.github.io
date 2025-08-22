@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given an array nums of n positive integers and an integer k.
 
@@ -60,8 +61,9 @@ It can be proven that 4788 is the highest score one can obtain.
 	1 <= nums[i] <= 105
 	1 <= k <= min(n * (n + 1) / 2, 109)
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     MOD = 10**9 + 7
 
     def maximumScore(self, nums, k):
@@ -161,4 +163,5 @@ class Solution:
             k -= operations
 
         return score
-```
+                            {% endraw %}
+                            

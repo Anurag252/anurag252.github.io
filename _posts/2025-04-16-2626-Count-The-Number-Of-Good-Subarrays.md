@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an integer array nums and an integer k, return *the number of **good** subarrays of* nums.
 
@@ -47,8 +48,9 @@ Example 2:
 	1 <= nums.length <= 105
 	1 <= nums[i], k <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def countGood(self, nums: List[int], k: int) -> int:
         n = len(nums)
         same, right = 0, -1
@@ -64,4 +66,5 @@ class Solution:
             cnt[nums[left]] -= 1
             same -= cnt[nums[left]]
         return ans
-```
+                            {% endraw %}
+                            

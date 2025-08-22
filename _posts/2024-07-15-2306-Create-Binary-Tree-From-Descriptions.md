@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a 2D integer array descriptions where descriptions[i] = [parenti, childi, isLefti] indicates that parenti is the **parent** of childi in a **binary** tree of **unique** values. Furthermore,
 
@@ -53,8 +54,9 @@ The resulting binary tree is shown in the diagram.
 	0 <= isLefti <= 1
 	The binary tree described by descriptions is valid.
 
-```python
-# Definition for a binary tree node.
+                            {% raw %}
+                            ```python
+                            # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -106,4 +108,5 @@ class Solution:
         return recurse(r)
 
         
-```
+                            {% endraw %}
+                            

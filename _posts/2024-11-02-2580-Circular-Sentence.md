@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Circular Sentence](https://leetcode.com/problems/circular-sentence) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Circular Sentence](https://leetcode.com/problems/circular-sentence) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 A **sentence** is a list of words that are separated by a** single** space with no leading or trailing spaces.
 
@@ -70,8 +71,9 @@ The sentence is **not** circular.
 	The words in sentence are separated by a single space.
 	There are no leading or trailing spaces.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def isCircularSentence(self, s: str) -> bool:
 
         arr = s.split(' ')
@@ -86,4 +88,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

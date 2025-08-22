@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Minimum Score After Removals on a Tree](https://leetcode.com/problems/minimum-score-after-removals-on-a-tree) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 There is an undirected connected tree with n nodes labeled from 0 to n - 1 and n - 1 edges.
 
@@ -68,8 +69,9 @@ We cannot obtain a smaller score than 0.
 	ai != bi
 	edges represents a valid tree.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def calc(self, part1: int, part2: int, part3: int) -> int:
         return max(part1, part2, part3) - min(part1, part2, part3)
 
@@ -111,4 +113,5 @@ class Solution:
 
         dfs(0, -1)
         return res
-```
+                            {% endraw %}
+                            

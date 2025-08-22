@@ -6,7 +6,8 @@ tags: [rust]
 layout: post
 ---
 
-## [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given positive integers n and m.
 
@@ -64,8 +65,9 @@ We return 0 - 15 = -15 as the answer.
 
 	1 <= n, m <= 1000
 
-```rust
-impl Solution {
+                            {% raw %}
+                            ```rust
+                            impl Solution {
     pub fn difference_of_sums(n: i32, m: i32) -> i32 {
         let mut sum1 = 0;
         let mut sum2 = 0;
@@ -78,4 +80,5 @@ impl Solution {
         return sum2 - 2*sum1;
     }
 }
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 A company is organizing a meeting and has a list of n employees, waiting to be invited. They have arranged for a large **circular** table, capable of seating **any number** of employees.
 
@@ -71,8 +72,9 @@ The maximum number of employees that can be invited to the meeting is 4.
 	0 <= favorite[i] <= n - 1
 	favorite[i] != i
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maximumInvitations(self, favorite: List[int]) -> int:
         # Calculate the maximum distance from a given start node
         def _bfs(
@@ -141,4 +143,5 @@ class Solution:
                     current_person = next_person
 
         return max(longest_cycle, two_cycle_invitations)
-```
+                            {% endraw %}
+                            

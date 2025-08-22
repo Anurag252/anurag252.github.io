@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 A parentheses string is valid if and only if:
 
@@ -47,8 +48,9 @@ Example 2:
 	1 <= s.length <= 1000
 	s[i] is either '(' or ')'.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minAddToMakeValid(self, s: str) -> int:
         arr = []
         for k in s:
@@ -61,4 +63,5 @@ class Solution:
 
     #"()))(("
 
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [c]
 layout: post
 ---
 
-## [Height Checker](https://leetcode.com/problems/height-checker) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Height Checker](https://leetcode.com/problems/height-checker) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 A school is trying to take an annual photo of all the students. The students are asked to stand in a single file line in **non-decreasing order** by height. Let this ordering be represented by the integer array expected where expected[i] is the expected height of the ith student in line.
 
@@ -62,8 +63,9 @@ All indices match.
 	1 <= heights.length <= 100
 	1 <= heights[i] <= 100
 
-```c
-
+                            {% raw %}
+                            ```c
+                            
 int comp (const void * elem1, const void * elem2) ;
 int heightChecker(int* heights, int heightsSize) {
     int new_height[heightsSize];// = malloc(heightsSize*sizeof(int));
@@ -93,4 +95,5 @@ int comp (const void * elem1, const void * elem2)
     if (f < s) return -1;
     return 0;
 }
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Maximum Difference Between Adjacent Elements in a Circular Array](https://leetcode.com/problems/maximum-difference-between-adjacent-elements-in-a-circular-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 Given a **circular** array nums, find the **maximum** absolute difference between adjacent elements.
 
@@ -41,8 +42,9 @@ The adjacent elements nums[0] and nums[1] have the maximum absolute difference o
 	2 <= nums.length <= 100
 	-100 <= nums[i] <= 100
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxAdjacentDistance(self, nums: List[int]) -> int:
         diff = 0
         for i, k in enumerate(nums):
@@ -50,4 +52,5 @@ class Solution:
         return diff
 
 
-```
+                            {% endraw %}
+                            

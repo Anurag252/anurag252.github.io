@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** array of strings words and a 2D array of integers queries.
 
@@ -52,8 +53,9 @@ Example 2:
 	1 <= queries.length <= 105
 	0 <= li <= ri < words.length
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:
         pref = []
         temp = 0
@@ -72,4 +74,5 @@ class Solution:
                 t = pref[q[1]] - pref[q[0]] + 1 if pref[q[0]] == 1 else pref[q[1]]
                 res.append(t)
         return res
-```
+                            {% endraw %}
+                            

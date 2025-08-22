@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Smallest Range I](https://leetcode.com/problems/smallest-range-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Smallest Range I](https://leetcode.com/problems/smallest-range-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer array nums and an integer k.
 
@@ -56,8 +57,9 @@ Example 3:
 	0 <= nums[i] <= 104
 	0 <= k <= 104
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def smallestRangeI(self, nums: List[int], k: int) -> int:
         min_num = min(nums)
         max_num = max(nums)
@@ -69,4 +71,5 @@ class Solution:
 
 
 
-```
+                            {% endraw %}
+                            

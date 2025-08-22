@@ -6,7 +6,8 @@ tags: [go]
 layout: post
 ---
 
-## [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given two integer arrays, preorder and postorder where preorder is the preorder traversal of a binary tree of **distinct** values and postorder is the postorder traversal of the same tree, reconstruct and return *the binary tree*.
 
@@ -45,8 +46,9 @@ Example 2:
 	All the values of postorder are **unique**.
 	It is guaranteed that preorder and postorder are the preorder traversal and postorder traversal of the same binary tree.
 
-```go
-/**
+                            {% raw %}
+                            ```go
+                            /**
  * Definition for a binary tree node.
  * type TreeNode struct {
  *     Val int
@@ -98,4 +100,5 @@ func recurse(root **TreeNode, preorder []int, postorder []int) {
         }
     }
 }
-```
+                            {% endraw %}
+                            

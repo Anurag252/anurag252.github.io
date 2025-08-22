@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 On an 2 x 3 board, there are five tiles labeled from 1 to 5, and an empty square represented by 0. A **move** consists of choosing 0 and a 4-directionally adjacent number and swapping it.
 
@@ -65,8 +66,9 @@ After move 5: [[1,2,3],[4,5,0]]
 	0 <= board[i][j] <= 5
 	Each value board[i][j] is **unique**.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def slidingPuzzle(self, board: List[List[int]]) -> int:
         s = {}
         a = 0
@@ -117,4 +119,5 @@ class Solution:
             
 
             
-```
+                            {% endraw %}
+                            

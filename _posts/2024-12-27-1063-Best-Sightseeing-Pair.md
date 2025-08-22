@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array values where values[i] represents the value of the ith sightseeing spot. Two sightseeing spots i and j have a **distance** j - i between them.
 
@@ -42,8 +43,9 @@ Example 2:
 	2 <= values.length <= 5 * 104
 	1 <= values[i] <= 1000
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxScoreSightseeingPair(self, values: List[int]) -> int:
         # maximize the value and minimize the gap
         # closest one and has largest value preferably/not necessarily larger than itself
@@ -88,4 +90,5 @@ class Solution:
 
 
 
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s and an integer repeatLimit. Construct a new string repeatLimitedString using the characters of s such that no letter appears **more than** repeatLimit times **in a row**. You do **not** have to use all characters from s.
 
@@ -54,8 +55,9 @@ Note that the string "bbabaaa" is lexicographically larger but the letter 'a' ap
 	1 <= repeatLimit <= s.length <= 105
 	s consists of lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def repeatLimitedString(self, s: str, repeatLimit: int) -> str:
         freq = {}
         h = []
@@ -106,4 +108,5 @@ class Solution:
         
 
         
-```
+                            {% endraw %}
+                            

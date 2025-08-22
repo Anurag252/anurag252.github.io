@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [String Compression III](https://leetcode.com/problems/string-compression-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [String Compression III](https://leetcode.com/problems/string-compression-iii) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a string word, compress it using the following algorithm:
 
@@ -52,8 +53,9 @@ Initially, comp = "". Apply the operation 3 times, choosing "aaaaaaaaa", "aaaaa"
 	1 <= word.length <= 2 * 105
 	word consists only of lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def compressedString(self, word: str) -> str:
         
         curr = word[0]
@@ -82,4 +84,5 @@ class Solution:
 
                 
 
-```
+                            {% endraw %}
+                            

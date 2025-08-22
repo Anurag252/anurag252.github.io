@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given an array of events where events[i] = [startDayi, endDayi, valuei]. The ith event starts at startDayi and ends at endDayi, and if you attend this event, you will receive a value of valuei. You are also given an integer k which represents the maximum number of events you can attend.
 
@@ -59,8 +60,9 @@ Example 3:
 	1 <= startDayi <= endDayi <= 109
 	1 <= valuei <= 106
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxValue(self, events: List[List[int]], k: int) -> int:        
         events.sort()
         n = len(events)
@@ -80,4 +82,5 @@ class Solution:
             return dp[count][cur_index]
         
         return dfs(0, k)
-```
+                            {% endraw %}
+                            

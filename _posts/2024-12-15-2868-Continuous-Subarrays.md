@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array nums. A subarray of nums is called **continuous** if:
 
@@ -57,8 +58,9 @@ Total continuous subarrays = 3 + 2 + 1 = 6.
 	1 <= nums.length <= 105
 	1 <= nums[i] <= 109
 
-```python
-
+                            {% raw %}
+                            ```python
+                            
 class Solution:
     def continuousSubarrays(self, nums: List[int]) -> int:
         
@@ -98,4 +100,5 @@ class Solution:
         #print(arr, left, right)
         #result += add(right - left)
         return result
-```
+                            {% endraw %}
+                            

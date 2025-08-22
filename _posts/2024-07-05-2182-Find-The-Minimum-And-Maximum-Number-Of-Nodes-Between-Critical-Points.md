@@ -6,7 +6,8 @@ tags: [c]
 layout: post
 ---
 
-## [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 A **critical point** in a linked list is defined as **either** a **local maxima** or a **local minima**.
 
@@ -70,8 +71,9 @@ Note that the last node is not considered a local maxima because it does not hav
 	The number of nodes in the list is in the range [2, 105].
 	1 <= Node.val <= 105
 
-```c
-/**
+                            {% raw %}
+                            ```c
+                            /**
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -123,4 +125,5 @@ int* nodesBetweenCriticalPoints(struct ListNode* head, int* returnSize) {
     return arr1;
 
 }
-```
+                            {% endraw %}
+                            

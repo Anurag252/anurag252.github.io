@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Check if Grid can be Cut into Sections](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Check if Grid can be Cut into Sections](https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer n representing the dimensions of an n x n grid, with the origin at the bottom-left corner of the grid. You are also given a 2D array of coordinates rectangles, where rectangles[i] is in the form [startx, starty, endx, endy], representing a rectangle on the grid. Each rectangle is defined as follows:
 
@@ -66,8 +67,9 @@ We cannot make two horizontal or two vertical cuts that satisfy the conditions. 
 	0 <= rectangles[i][1] < rectangles[i][3] <= n
 	No two rectangles overlap.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def checkValidCuts(self, n: int, rectangles: List[List[int]]) -> bool:
         # find at least 3 non overlapping rectangles
         # [0,2] , [2,4], [2,3], [4,5]
@@ -109,4 +111,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a **0-indexed** 2D integer array grid of size m x n. Each cell has one of two values:
 
@@ -54,8 +55,9 @@ Example 2:
 	grid[i][j] is either 0 **or** 1.
 	grid[0][0] == grid[m - 1][n - 1] == 0
 
-```python
-from heapq import heappush, heappop
+                            {% raw %}
+                            ```python
+                            from heapq import heappush, heappop
 from typing import List
 
 class Solution:
@@ -86,4 +88,5 @@ class Solution:
         # If the target is unreachable (edge case)
         return -1
 
-```
+                            {% endraw %}
+                            

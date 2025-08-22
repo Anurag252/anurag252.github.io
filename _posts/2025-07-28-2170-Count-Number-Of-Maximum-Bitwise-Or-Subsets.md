@@ -6,7 +6,8 @@ tags: [rust]
 layout: post
 ---
 
-## [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given an integer array nums, find the **maximum** possible **bitwise OR** of a subset of nums and return *the **number of different non-empty subsets** with the maximum bitwise OR*.
 
@@ -60,8 +61,9 @@ Example 3:
 	1 <= nums.length <= 16
 	1 <= nums[i] <= 105
 
-```rust
-impl Solution {
+                            {% raw %}
+                            ```rust
+                            impl Solution {
     pub fn count_max_or_subsets(nums: Vec<i32>) -> i32 {
         // bitwise or is max if done for all elements ?
         //length is 16 
@@ -101,4 +103,5 @@ impl Solution {
         return result;
     }
 }
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 You are given an integer num. You know that Bob will sneakily **remap** one of the 10 possible digits (0 to 9) to another digit.
 
@@ -51,8 +52,9 @@ Thus, we return 99.
 
 	1 <= num <= 108
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minMaxDifference(self, num: int) -> int:
         first = 0
         last = 0
@@ -83,4 +85,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given an integer n. There are n rooms numbered from 0 to n - 1.
 
@@ -69,8 +70,9 @@ Room 0 held 1 meeting while rooms 1 and 2 each held 2 meetings, so we return 1.
 	0 <= starti < endi <= 5 * 105
 	All the values of starti are **unique**.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
         room_availability_time = [0] * n
         meeting_count = [0] * n
@@ -92,4 +94,5 @@ class Solution:
                 meeting_count[min_available_time_room] += 1
 
         return meeting_count.index(max(meeting_count))
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [go]
 layout: post
 ---
 
-## [Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s.
 
@@ -50,8 +51,9 @@ We cannot perform any operations, so we return the length of the original string
 	1 <= s.length <= 2 * 105
 	s consists only of lowercase English letters.
 
-```go
-func minimumLength(s string) int {
+                            {% raw %}
+                            ```go
+                            func minimumLength(s string) int {
     // if there are 3 chars then 2 can be removed 1 is left 
     // if there are 4 - then also 2 can be removed 2 is left 
     // if there are 5 then 2 can be removed then 3 are left 
@@ -81,4 +83,5 @@ func minimumLength(s string) int {
     return len(s) - reduced
     
 }
-```
+                            {% endraw %}
+                            

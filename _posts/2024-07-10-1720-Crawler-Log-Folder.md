@@ -6,7 +6,8 @@ tags: [c]
 layout: post
 ---
 
-## [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Crawler Log Folder](https://leetcode.com/problems/crawler-log-folder) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 The Leetcode file system keeps a log each time some user performs a *change folder* operation.
 
@@ -66,8 +67,9 @@ Example 3:
 	logs[i] follows the format described in the statement.
 	Folder names consist of lowercase English letters and digits.
 
-```c
-int minOperations(char** logs, int logsSize) {
+                            {% raw %}
+                            ```c
+                            int minOperations(char** logs, int logsSize) {
 
     int level = 0;
     for (int i = 0 ; i < logsSize; i ++) {
@@ -88,4 +90,5 @@ int minOperations(char** logs, int logsSize) {
     }
     return level ;
 }
-```
+                            {% endraw %}
+                            

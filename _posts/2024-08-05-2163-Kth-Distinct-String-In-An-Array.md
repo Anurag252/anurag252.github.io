@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 A **distinct string** is a string that is present only **once** in an array.
 
@@ -60,8 +61,9 @@ The only distinct string is "b". Since there are fewer than 3 distinct strings, 
 	1 <= arr[i].length <= 5
 	arr[i] consists of lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def kthDistinct(self, arr: List[str], n: int) -> str:
         mp = {}
         nmp = {}
@@ -77,4 +79,5 @@ class Solution:
         a.sort(reverse=False, key=lambda x : x[1])
         return "" if n - 1 >= len(a) else a[n-1][0]
         
-```
+                            {% endraw %}
+                            

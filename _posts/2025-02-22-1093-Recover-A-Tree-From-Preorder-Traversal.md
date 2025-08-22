@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 We run a preorder depth-first search (DFS) on the root of a binary tree.
 
@@ -55,8 +56,9 @@ Example 3:
 	The number of nodes in the original tree is in the range [1, 1000].
 	1 <= Node.val <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def __init__(self):
         self.index = 0
 
@@ -94,4 +96,5 @@ class Solution:
         node.right = self.helper(traversal, depth + 1)
 
         return node
-```
+                            {% endraw %}
+                            

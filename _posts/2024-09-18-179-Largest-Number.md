@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Largest Number](https://leetcode.com/problems/largest-number) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Largest Number](https://leetcode.com/problems/largest-number) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.
 
@@ -39,8 +40,9 @@ Example 2:
 	1 <= nums.length <= 100
 	0 <= nums[i] <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     from functools import cmp_to_key
 
     def largestNumber(self, nums: List[int]) -> str:
@@ -56,4 +58,5 @@ class Solution:
             i += 1
         return "0"
 
-```
+                            {% endraw %}
+                            

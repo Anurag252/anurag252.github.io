@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 Given two sorted arrays nums1 and nums2 of size m and n respectively, return **the median** of the two sorted arrays.
 
@@ -45,8 +46,9 @@ Example 2:
 	1 <= m + n <= 2000
 	-106 <= nums1[i], nums2[i] <= 106
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         i = 0
         j = 0
@@ -83,4 +85,5 @@ class Solution:
 
 
 
-```
+                            {% endraw %}
+                            

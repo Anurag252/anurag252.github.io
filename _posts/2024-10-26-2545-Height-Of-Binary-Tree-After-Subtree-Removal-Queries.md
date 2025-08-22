@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given the root of a **binary tree** with n nodes. Each node is assigned a unique value from 1 to n. You are also given an array queries of size m.
 
@@ -63,8 +64,9 @@ Example 2:
 	1 <= queries[i] <= n
 	queries[i] != root.val
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def treeQueries(
         self, root: Optional[TreeNode], queries: List[int]
     ) -> List[int]:
@@ -111,4 +113,5 @@ class Solution:
 
         # Process queries and build the result list
         return [max_height_after_removal[q] for q in queries]
-```
+                            {% endraw %}
+                            

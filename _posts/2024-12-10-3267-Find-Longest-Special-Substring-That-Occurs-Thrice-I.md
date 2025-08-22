@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find Longest Special Substring That Occurs Thrice I](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s that consists of lowercase English letters.
 
@@ -57,8 +58,9 @@ It can be shown that the maximum length achievable is 1.
 	3 <= s.length <= 50
 	s consists of only lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maximumLength(self, s: str) -> int:
         freq = [0] * 26
         for k in s:
@@ -114,4 +116,5 @@ class Solution:
         return ans 
 
     #aaaa
-```
+                            {% endraw %}
+                            

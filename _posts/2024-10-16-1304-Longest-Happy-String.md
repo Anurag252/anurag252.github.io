@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Longest Happy String](https://leetcode.com/problems/longest-happy-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Longest Happy String](https://leetcode.com/problems/longest-happy-string) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 A string s is called **happy** if it satisfies the following conditions:
 
@@ -49,8 +50,9 @@ Example 2:
 	0 <= a, b, c <= 100
 	a + b + c > 0
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def longestDiverseString(self, a: int, b: int, c: int) -> str:
 
 
@@ -99,4 +101,5 @@ class Solution:
         aabaccbcb
         '''
         
-```
+                            {% endraw %}
+                            

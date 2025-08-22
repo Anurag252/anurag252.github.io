@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given an array words of size n consisting of **non-empty** strings.
 
@@ -62,8 +63,9 @@ Each prefix has a score of one, so the total is answer[0] = 1 + 1 + 1 + 1 = 4.
 	1 <= words[i].length <= 1000
 	words[i] consists of lowercase English letters.
 
-```python
-class TrieNode:
+                            {% raw %}
+                            ```python
+                            class TrieNode:
     def __init__(self):
         self.umc = {}
         self.is_end = False
@@ -120,4 +122,5 @@ class Solution:
 
         
         
-```
+                            {% endraw %}
+                            

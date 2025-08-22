@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 In the universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls and needs to distribute the balls into the baskets such that the **minimum magnetic force** between any two balls is **maximum**.
 
@@ -47,8 +48,9 @@ Example 2:
 	All integers in position are **distinct**.
 	2 <= m <= position.length
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def maxDistance(self, position: List[int], m: int) -> int:
         n = len(position)
         position.sort()
@@ -69,4 +71,5 @@ class Solution:
             else:
                 r = mid - 1
         return l
-```
+                            {% endraw %}
+                            

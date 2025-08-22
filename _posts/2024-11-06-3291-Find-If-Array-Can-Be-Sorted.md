@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** array of **positive** integers nums.
 
@@ -60,8 +61,9 @@ Example 3:
 	1 <= nums.length <= 100
 	1 <= nums[i] <= 28
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def canSortArray(self, nums: List[int]) -> bool:
         num = copy.deepcopy(nums)
         i = 0 
@@ -102,4 +104,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 There are n soldiers standing in a line. Each soldier is assigned a **unique** rating value.
 
@@ -57,8 +58,9 @@ Example 3:
 	1 <= rating[i] <= 105
 	All the integers in rating are **unique**.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def numTeams(self, rating: List[int]) -> int:
         n = len(rating)
         teams = 0
@@ -142,4 +144,5 @@ class Solution:
         # Cache and return the result
         decreasing_cache[current_index][team_size] = valid_teams
         return valid_teams
-```
+                            {% endraw %}
+                            

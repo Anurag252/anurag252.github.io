@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
+
+                            ## [Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary) ![image](https://img.shields.io/badge/Difficulty-Hard-red)
 
 You are given a list of strings of the **same length** words and a string target.
 
@@ -63,8 +64,9 @@ Example 2:
 	1 <= target.length <= 1000
 	words[i] and target contain only lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def numWays(self, words: List[str], target: str) -> int:
         
         freq = {}
@@ -116,4 +118,5 @@ class Solution:
                 i += 1
             return result
         return recurse(0,target, 1) % (10 ** 9 + 7)
-```
+                            {% endraw %}
+                            

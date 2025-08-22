@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a **0-indexed** integer array nums, an integer modulo, and an integer k.
 
@@ -66,8 +67,9 @@ It can be shown that there are no other interesting subarrays. So, the answer is
 	1 <= modulo <= 109
 	0 <= k < modulo
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def countInterestingSubarrays(self, nums: List[int], modulo: int, k: int) -> int:
         # in a subarr, find all indexes where % is k
         # then if the number of such elements i multiple of k -> interesting
@@ -115,4 +117,5 @@ class Solution:
         
 
         
-```
+                            {% endraw %}
+                            

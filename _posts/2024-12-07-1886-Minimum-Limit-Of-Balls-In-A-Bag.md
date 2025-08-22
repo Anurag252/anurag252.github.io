@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Minimum Limit of Balls in a Bag](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an integer array nums where the ith bag contains nums[i] balls. You are also given an integer maxOperations.
 
@@ -57,8 +58,9 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
 	1 <= nums.length <= 105
 	1 <= maxOperations, nums[i] <= 109
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def minimumSize(self, nums, max_operations):
         # Binary search bounds
         left = 1
@@ -95,4 +97,5 @@ class Solution:
 
         # We can split the balls within the allowed operations, return True
         return True
-```
+                            {% endraw %}
+                            

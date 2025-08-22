@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Total Characters in String After Transformations I](https://leetcode.com/problems/total-characters-in-string-after-transformations-i) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given a string s and an integer t, representing the number of **transformations** to perform. In one **transformation**, every character in s is replaced according to the following rules:
 
@@ -73,8 +74,9 @@ Example 2:
 	s consists only of lowercase English letters.
 	1 <= t <= 105
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def lengthAfterTransformations(self, s: str, t: int) -> int:
         mod = 10**9 + 7
         cnt = [0] * 26
@@ -89,4 +91,5 @@ class Solution:
             cnt = nxt
         ans = sum(cnt) % mod
         return ans
-```
+                            {% endraw %}
+                            

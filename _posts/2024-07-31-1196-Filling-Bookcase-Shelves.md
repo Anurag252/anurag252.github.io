@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You are given an array books where books[i] = [thicknessi, heighti] indicates the thickness and height of the ith book. You are also given an integer shelfWidth.
 
@@ -52,8 +53,9 @@ Example 2:
 	1 <= thicknessi <= shelfWidth <= 1000
 	1 <= heighti <= 1000
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def __init__(self):
         self.a = {}
     def minHeightShelves(self, books: List[List[int]], shelfWidth: int) -> int:
@@ -82,4 +84,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

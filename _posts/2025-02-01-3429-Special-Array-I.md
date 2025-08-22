@@ -6,7 +6,8 @@ tags: [go]
 layout: post
 ---
 
-## [Special Array I](https://leetcode.com/problems/special-array-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Special Array I](https://leetcode.com/problems/special-array-i) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 An array is considered **special** if every pair of its adjacent elements contains two numbers with different parity.
 
@@ -51,8 +52,9 @@ nums[1] and nums[2] are both odd. So the answer is false.
 	1 <= nums.length <= 100
 	1 <= nums[i] <= 100
 
-```go
-func isArraySpecial(nums []int) bool {
+                            {% raw %}
+                            ```go
+                            func isArraySpecial(nums []int) bool {
     t := nums[0]
     isEven := false // odd
 
@@ -77,4 +79,5 @@ func isArraySpecial(nums []int) bool {
     }
     return true
 }
-```
+                            {% endraw %}
+                            

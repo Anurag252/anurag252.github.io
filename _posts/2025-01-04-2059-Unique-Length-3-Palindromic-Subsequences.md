@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given a string s, return *the number of **unique palindromes of length three** that are a **subsequence** of *s.
 
@@ -64,8 +65,9 @@ Example 3:
 	3 <= s.length <= 105
 	s consists of only lowercase English letters.
 
-```python
-class Solution:
+                            {% raw %}
+                            ```python
+                            class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
         arr = [(-1,-1)] * 26
         #suff.reverse()
@@ -88,4 +90,5 @@ class Solution:
 
 
         
-```
+                            {% endraw %}
+                            

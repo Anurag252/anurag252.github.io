@@ -6,7 +6,8 @@ tags: [python]
 layout: post
 ---
 
-## [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 Given the root of a binary tree, return *an array of the largest value in each row* of the tree **(0-indexed)**.
 
@@ -38,8 +39,9 @@ Example 2:
 	The number of nodes in the tree will be in the range [0, 104].
 	-231 <= Node.val <= 231 - 1
 
-```python
-# Definition for a binary tree node.
+                            {% raw %}
+                            ```python
+                            # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
 #         self.val = val
@@ -69,4 +71,5 @@ class Solution:
         if root != None:
             recurse([root], res)
         return res
-```
+                            {% endraw %}
+                            

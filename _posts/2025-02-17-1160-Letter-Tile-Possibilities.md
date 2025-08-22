@@ -6,7 +6,8 @@ tags: [go]
 layout: post
 ---
 
-## [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
+
+                            ## [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities) ![image](https://img.shields.io/badge/Difficulty-Medium-orange)
 
 You have n  tiles, where each tile has one letter tiles[i] printed on it.
 
@@ -49,8 +50,9 @@ Example 3:
 	1 <= tiles.length <= 7
 	tiles consists of uppercase English letters.
 
-```go
-func numTilePossibilities(tiles string) int {
+                            {% raw %}
+                            ```go
+                            func numTilePossibilities(tiles string) int {
     // ABCD
     // A,B,C,D
     // AB,AC,AD
@@ -102,4 +104,5 @@ func Perm(s string, prev string, mp map[string]bool) {
     }
 }
 
-```
+                            {% endraw %}
+                            

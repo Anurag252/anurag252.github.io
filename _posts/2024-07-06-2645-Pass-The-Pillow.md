@@ -6,7 +6,8 @@ tags: [c]
 layout: post
 ---
 
-## [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+
+                            ## [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow) ![image](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
 
 There are n people standing in a line labeled from 1 to n. The first person in the line is holding a pillow initially. Every second, the person holding the pillow passes it to the next person standing in the line. Once the pillow reaches the end of the line, the direction changes, and people continue passing the pillow in the opposite direction.
 
@@ -45,8 +46,9 @@ After two seconds, the 3rd person is holding the pillow.
 	2 <= n <= 1000
 	1 <= time <= 1000
 
-```c
-int passThePillow(int n, int time) {
+                            {% raw %}
+                            ```c
+                            int passThePillow(int n, int time) {
 
 
     if (((time / (n-1)) % 2) == 1) {
@@ -60,4 +62,5 @@ int passThePillow(int n, int time) {
 }
 
 // 2
-```
+                            {% endraw %}
+                            
