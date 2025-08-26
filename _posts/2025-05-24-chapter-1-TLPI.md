@@ -41,11 +41,11 @@ It also has - group id - Home directory - Login shell
 
 password is generally stored in separate file called shadow password file
 
-![alt text](image.png)
+![alt text](../image.png)
 
 - group
   each group is identified by a line in `/etc/group`
-  ![alt text](image-1.png)
+  ![alt text](../image-1.png)
   each line contains - group name - group id - user list as csv
 
 - superuser
