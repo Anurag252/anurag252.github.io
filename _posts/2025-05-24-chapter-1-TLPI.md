@@ -173,7 +173,6 @@ password is generally stored in separate file called shadow password file
   - each thread has its own stack but shares heap, data and is executing same program
   - they share virtual memeory
   - threads can also communicate with each other with IPCs
-  -
 - jobs
 
   - a shell feature where each process is placed in a new process group
@@ -181,7 +180,6 @@ password is generally stored in separate file called shadow password file
 
 - session
   - session is a collection of groups(jobs)
-  -
 - psuedoterminaal
 
   - a device that acts terminal and controls another system
