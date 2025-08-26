@@ -53,7 +53,6 @@ password is generally stored in separate file called shadow password file
   - bypasses all system checks
   - has user id as 0
   - login name as root
-  -
 
 - Hierarchy
 
@@ -78,13 +77,11 @@ password is generally stored in separate file called shadow password file
 
   - must be less than 255 chars
   - may not have / and \0 chars
-  -
 
 - file ownership
 
   - each file has a userid and group id which defines to whom does this file belongs
   - with 3 groups - owner, group and everyone else and 3 permission bits `read`, `write`, `execute` . we have total of 9 bits
-  -
 
 - I/O models
   - all types of files support `read`, `write`, `close` etc
@@ -95,7 +92,6 @@ password is generally stored in separate file called shadow password file
     - stdin 0
     - stdout 1
     - stderr 2
-  -
 
 - Process
   - each process has
@@ -107,7 +103,6 @@ password is generally stored in separate file called shadow password file
 
   - can be used to spawn a new process,
   - child gets copies of parent's data, stack and heap.
-  -
 
 - execve
 
@@ -141,7 +136,6 @@ password is generally stored in separate file called shadow password file
   - each process has a a softlimit and hard limit.
   - `setrlimit` is used to set soft limit and hard limit
   - an unpriviledged process can only change softlimit to hardlimit values or lower its hard limit
-  -
 
 - memory mappping
 
