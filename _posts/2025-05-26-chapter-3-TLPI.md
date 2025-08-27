@@ -54,13 +54,11 @@ int main() {
 }
 ```
 
+and output
+
 ```bash
 Anurag252 ➜ /workspaces/codespaces-blank $ gcc main.c ; ./a.out
 version number :- 2.39
-```
-
-```rust
-
 ```
 
 ## error handling from syscall and library functions
