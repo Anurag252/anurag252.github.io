@@ -1,8 +1,8 @@
 ---
             title: "Chapter 4 File I/O"
-            date: "2025-01-22T08:46:14+01:00"
-            categories: ["leetcode"]
-            tags: [go]
+             date: "2025-08-28T08:03:26+01:00"
+            categories: ["TLPI"]
+            tags: [c,rust,tlpi,linux]
             layout: post
 ---
 
