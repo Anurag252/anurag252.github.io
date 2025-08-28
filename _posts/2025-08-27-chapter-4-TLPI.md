@@ -8,7 +8,7 @@ layout: post
 
 # File I/O
 
-- 6 types of files
+- 6 types of files.
 - 4 types of file syscall
 
   - open
