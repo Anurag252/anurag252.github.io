@@ -16,9 +16,7 @@ layout: post
   - write
   - close
 
-- A program to copy a file
-
-{% raw %}
+### A program to copy a file
 
 ```C
 #include <stdio.h>
@@ -95,8 +93,6 @@ int main(int argc, char *argv[]) {
 
    return 0;
 }
-
-{% endraw %}
 
 ```
 
