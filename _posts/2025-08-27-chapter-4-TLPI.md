@@ -18,7 +18,7 @@ layout: post
 
 ### A program to copy a file
 
-```C
+```c
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -123,3 +123,5 @@ The space in between the previous end of the file and the newly written bytes is
 
 - writing to holes increases disk size but not file size
 - holes do not consume disk space but appear in file size
+
+- `ioctl` can be used to write control bytes to a device or file when its not possible using `read` and `write`
