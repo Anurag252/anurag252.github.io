@@ -99,3 +99,31 @@ int main(int argc, char *argv[]) {
 {% endraw %}
 
 ```
+
+- SUSv3 specifies that if open() succeeds, it is guaranteed to use the lowest-numbered unused file descriptor for the process.
+
+- `O_DIRECT` flag Allow file I/O to bypass the buffer cache. This feature is described in Sec- tion 13.6. The \_GNU_SOURCE feature test macro must be defined in order to make this constant definition available from <fcntl.h>.
+
+- `creat()` syscall is old syscall wgen `O_CREATE` could not be passed to `open`
+
+- `read` does not add `'\0'` char at the end explicitly
+
+- For a disk file, possible reasons for such a partial write are that the disk was filled or that the process resource limit on file sizes was reached. (The rele- vant limit is RLIMIT_FSIZE
+
+- close FD so that we do not run out of FDs
+
+- `lseek` moves the offset to read and write by a specified number. It does not work for
+  - pipes
+  - sockets
+  - FIFO
+  - terminal
+
+but works for tapes and disks
+
+## file holes
+
+e. Somewhat surprisingly, it is possible to write bytes at an arbitrary point past the end of the file.
+The space in between the previous end of the file and the newly written bytes is referred to as a file hole. From a programming point of view, the bytes in a hole exist, and reading from the hole returns a buffer of bytes containing 0 (null bytes).
+
+- writing to holes increases disk size but not file size
+- holes do not consume disk space but appear in file size
